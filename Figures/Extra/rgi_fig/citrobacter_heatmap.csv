@@ -1,0 +1,46 @@
+gene,LK458.rgi,LK494.rgi,LK704.rgi
+Trimethoprim-resistant dihydrofolate reductase DfrA42,1,1,1
+baeR,1,1,1
+emrR,1,1,1
+Escherichia coli mdfA,1,1,1
+Klebsiella pneumoniae KpnF,2,1,1
+rsmA,1,1,1
+CRP,1,1,1
+Haemophilus influenzae PBP3 conferring resistance to beta-lactam antibiotics,1,1,1
+mdtC,1,1,1
+acrD,1,1,1
+Klebsiella pneumoniae KpnE,1,1,1
+Escherichia coli EF-Tu mutants conferring resistance to Pulvomycin,1,1,1
+Escherichia coli marR mutant conferring antibiotic resistance,1,1,1
+mdtB,1,1,1
+msbA,1,1,1
+pmrF,1,1,1
+marA,1,1,1
+Escherichia coli ampH,1,1,1
+acrB,1,1,1
+H-NS,0,1,1
+cpxA,0,1,1
+Escherichia coli soxS with mutation conferring antibiotic resistance,0,1,1
+bacA,0,1,1
+mdtN,0,1,1
+kdpE,0,1,1
+Escherichia coli GlpT with mutation conferring resistance to fosfomycin,0,1,1
+emrA,0,1,1
+Escherichia coli acrA,0,1,1
+mdtG,0,1,1
+CMY-97,0,2,2
+arnA,0,1,1
+mdtM,0,1,1
+LptD,2,0,0
+SHV-11,2,0,0
+OmpA,1,0,0
+Klebsiella pneumoniae acrA,1,0,0
+FosA6,1,0,0
+Klebsiella pneumoniae OmpK37,1,0,0
+oqxA,1,0,0
+Klebsiella pneumoniae KpnG,1,0,0
+eptB,1,0,0
+ArnT,1,0,0
+oqxB,1,0,0
+Escherichia coli UhpT with mutation conferring resistance to fosfomycin,1,1,1
+Klebsiella pneumoniae KpnH,1,1,1

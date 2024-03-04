@@ -1,0 +1,982 @@
+Source_Name,Strain_ID,Other_ID,Host_ID,Host_Category,Location,bioassay completed(Y/N),included in bioassay analysis (Y/N),genome sequenced (Y/N),genome dereplicated,Genus,species,Taxonomy_Notes,,Initial_Isolation_Date,Isolation_Method,Isolation_Media,Pure_Culture_Media,Isolation_Notes,Analysis_Type,spacer_2,Cryo_Storage_Date,Cryo_Storage_Type,Cryo_Storage_Creator,Freezer_Number,Rack_Number,Box_Number,Vial_Position,Storage_Notes,spacer_1,PMID,DOI,Notes,Record_Date,Record_Creator
+Skin Microbiome Study,LK1188,p3-SID1156,KHID89,Healthy Skin,Alar crease,Y,Y,Y,Y,Aestuariimicrobium,,GTDB-tk by RS on 3/9/22,,2019-09-19,10^0,BT,BHI + Tween,,,,2019-12-16,,SAS,,,15,59,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1127,p3-SID1463,KHID124,Healthy Skin,Volar forearm,Y,Y,N,N,Bacillus,,,,2019-09-16,10^0,BD,BHI + Tween,,,,2019-12-10,,SAS,,,14,79,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK429,p3-SID722,KHID39,Healthy Skin,Antecubital fossa,Y,Y,N,N,Bacillus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BT,BHI,,,,2019-08-01,,IKL,,,6,29,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK585,p3-SID848,KHID79,Healthy Skin,Antecubital fossa,Y,Y,N,N,Bacillus,,16s by SAS 9/26/19,,2019-07-29,10^-1,BT,BHI,,,,2019-08-06,,IKL,,,8,23,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK597,p3-SID669,KHID60,Healthy Skin,Occiput,Y,Y,N,N,Bacillus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BT,BHI,,,,2019-08-29,,IKL,,,8,35,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK603,p3-SID873,KHID56,Healthy Skin,Umbilicus,Y,Y,N,N,Bacillus,,16s by SAS 9/26/19,,2019-07-29,10^-2,BH,BHI,,,,2019-08-29,,IKL,,,8,41,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK660,p3-SID708,KHID29,Healthy Skin,Back,Y,Y,N,N,Bacillus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BT,BHI,,,,2019-08-12,,IKL,,,9,17,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK681,p3-SID755,KHID31,Healthy Skin,Antecubital fossa,Y,Y,N,N,Bacillus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BT,BHI,,,,2019-08-12,,IKL,,,9,38,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK692,p3-SID757,KHID31,Healthy Skin,Antecubital fossa,Y,Y,N,N,Bacillus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BH,BHI,,,,2019-08-12,,IKL,,,9,49,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK696,p3-SID623,KHID62,Healthy Skin,Volar forearm,Y,Y,N,N,Bacillus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BL,BHI,,,,2019-08-12,,IKL,,,9,53,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK722,p3-SID787,KHID74,Healthy Skin,Alar crease,Y,Y,N,N,Bacillus,,16s by SAS 9/26/19,,2019-07-29,10^-1,BL,BHI,,,,2019-08-12,,IKL,,,9,79,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK864,p3-SID1204,KHID104,Healthy Skin,Alar crease,Y,Y,N,N,Bacillus,,,,2019-09-19,10^0,BD,BHI,,,,2019-10-28,,SAS,,,11,59,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1085,p3-SID1565,KHID140,Healthy Skin,Volar forearm,Y,Y,Y,Y,Brachybacterium,,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-10,,SAS,,,14,37,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1183,p3-SID950,KHID94,Healthy Skin,Antecubital fossa,Y,Y,N,N,Brachybacterium,,,,2019-09-19,10^0,BT,BHI + Tween,,,,2019-12-16,,SAS,,,15,54,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1352,p3-SID957,KHID89,Healthy Skin,Alar crease,Y,Y,Y,Y,Brachybacterium,,GTDB-tk by RS on 3/9/22,,2019-09-19,10^0,BD,BHI + Tween,,,,2019-12-29,,SAS,,,17,61,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1024,p3-SID1365,KHID144,Healthy Skin,Alar crease,Y,Y,Y,Y,Brachybacterium,muris,GTDB-tk by RS on 3/9/22,,2019-09-16,10^0,B,BHI + Tween,,,,2019-11-23,,SAS,,,13,57,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1045,p3-SID1369,KHID144,Healthy Skin,Alar crease,Y,Y,Y,Y,Brachybacterium,muris,GTDB-tk by RS on 3/9/22,,2019-09-16,10^0,B,BHI + Tween,,,,2019-11-27,,SAS,,,13,78,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1350,p3-SID1171,KHID86,Healthy Skin,Antecubital fossa,Y,Y,Y,Y,Brachybacterium,muris,GTDB-tk by RS on 3/9/22,,2019-09-19,10^0,BD,BHI + Tween,,,,2019-12-29,,SAS,,,17,59,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1404,p3-SID2535,KHID75,Healthy Skin,Nares,Y,Y,Y,Y,Brachybacterium,muris,GTDB-tk by RS on 3/9/22,,2020-02-26,10^0,BD,BHI + Tween,,,,2020-03-13,,MHS,,,18,32,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK630,p3-SID772,KHID77,Healthy Skin,Back,Y,Y,Y,Y,Brachybacterium,muris,GTDB-tk by RS on 3/9/22,,2019-07-29,10^-1,BL,BHI,,,,2019-08-29,,IKL,,,8,68,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1337,p3-SID960,KHID89,Healthy Skin,Alar crease,Y,Y,Y,Y,Brevibacterium,,GTDB-tk by RS on 3/9/22,,2019-09-19,10^0,BD,BHI + Tween,,,,2019-12-29,,SAS,,,17,46,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK838,p3-SID1142,KHID92,Healthy Skin,Back,Y,Y,N,N,Brevibacterium,,,,2019-09-19,10^0,BD,BHI,,,,2019-10-28,,SAS,,,11,33,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK870,p3-SID1229,KHID111,Healthy Skin,Toe web space,Y,Y,N,N,Brevibacterium,,,,2019-09-19,10^0,B,BHI,,,,2019-10-28,,SAS,,,11,65,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1027,p3-SID1340,KHID143,Healthy Skin,Toe web space,Y,Y,Y,Y,Brevibacterium,casei,GTDB-tk by RS on 3/9/22,,2019-09-16,10^0,B,BHI + Tween,,,,2019-11-23,,SAS,,,13,60,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1094,p3-SID1519,KHID143,Healthy Skin,Toe web space,Y,Y,Y,N,Brevibacterium,casei,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-10,,SAS,,,14,46,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1363,p3-SID1059,KHID119,Healthy Skin,Toe web space,Y,Y,Y,Y,Brevibacterium,casei,GTDB-tk by RS on 3/9/22,,2019-09-19,10^0,B,BHI + Tween,,,,2019-12-29,,SAS,,,17,72,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK978,p3-SID1381,KHID143,Healthy Skin,Toe web space,Y,Y,Y,N,Brevibacterium,casei,GTDB-tk by RS on 3/9/22,,2019-09-16,10^0,BT,BHI + Tween,,,,2019-11-23,,SAS,,,13,11,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1174,p3-SID1902,KHID147,Healthy Skin,Back,Y,Y,N,N,Citricoccus,,,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-16,,SAS,,,15,45,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK822,p3-SID1068,KHID119,Healthy Skin,Toe web space,Y,Y,N,N,Citricoccus,,,,2019-09-19,10^0,BD,BHI+0.1%Tween 80,,,,2019-10-25,,SAS,,,11,17,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK912,p3-SID1248,KHID112,Healthy Skin,Alar crease,Y,Y,N,N,Citricoccus,,,,2019-09-19,10^0,BD,BHI,,,,2019-11-15,,IKL,,,12,26,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1176,p3-SID1598,KHID151,Healthy Skin,Toe web space,Y,Y,Y,Y,Citricoccus,terreus,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,BT,BHI + Tween,,,,2019-12-16,,SAS,,,15,47,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK494,p3-SID762,KHID35,Healthy Skin,Nares,Y,Y,Y,Y,Citrobacter,freundii,GTDB-tk by RS on 3/9/22,,2019-07-29,10^-2,BL,BHI,,,,2019-08-06,,IKL,,,7,13,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK704,p3-SID761,KHID35,Healthy Skin,Nares,Y,Y,Y,N,Citrobacter,freundii,GTDB-tk by RS on 3/9/22,,2019-07-29,10^-2,BL,BHI,,,,2019-08-12,,IKL,,,9,61,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1084,p3-SID1564,KHID140,Healthy Skin,Volar forearm,Y,Y,N,N,Corynebacterium,,,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-10,,SAS,,,14,36,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1289,p3-SID1241,KHID103,Healthy Skin,Toe web space,Y,Y,Y,Y,Corynebacterium,,GTDB-tk by RS on 3/9/22,,2019-09-19,10^0,BD,BHI + Tween,,,,2019-12-24,,SAS,,,16,79,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1340,p3-SID972,KHID94,Healthy Skin,Antecubital fossa,Y,Y,N,N,Corynebacterium,,,,2019-09-19,10^0,B,BHI + Tween,,,,2019-12-29,,SAS,,,17,49,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1349,p3-SID1172,KHID86,Healthy Skin,Antecubital fossa,Y,Y,N,N,Corynebacterium,,,,2019-09-19,10^0,BD,BHI + Tween,,,,2019-12-29,,SAS,,,17,58,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1359,p3-SID1025,KHID115,Healthy Skin,Back,Y,Y,N,N,Corynebacterium,,,,2019-09-19,10^0,BD,BHI + Tween,,,,2019-12-29,,SAS,,,17,68,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1365,p3-SID1018,KHID116,Healthy Skin,Volar forearm,Y,Y,N,N,Corynebacterium,,,,2019-09-19,10^0,BD,BHI + Tween,,,,2019-12-29,,SAS,,,17,74,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1387,p3-SID2518,KHID48,Healthy Skin,Umbilicus,Y,Y,N,N,Corynebacterium,,,,2020-02-26,10^0,B,BHI + Tween,,,,2020-03-11,,MHS,,,18,15,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1388,p3-SID2519,KHID75,Healthy Skin,Nares,Y,Y,N,N,Corynebacterium,,,,2020-02-26,10^0,BD,BHI + Tween,,,,2020-03-11,,MHS,,,18,16,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK820,p3-SID1021,KHID116,Healthy Skin,Volar forearm,Y,Y,N,N,Corynebacterium,,,,2019-09-19,10^0,BD,BHI+0.1%Tween 80,,,,2019-10-25,,SAS,,,11,15,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK821,p3-SID1014,KHID115,Healthy Skin,Back,Y,Y,N,N,Corynebacterium,,,,2019-09-19,10^0,B,BHI+0.1%Tween 80,,,,2019-10-25,,SAS,,,11,16,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK827,p3-SID1300,KHID117,Healthy Skin,Antecubital fossa,Y,Y,N,N,Corynebacterium,,,,2019-09-19,10^0,BD,BHI,,,,2019-10-28,,SAS,,,11,22,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK855,p3-SID1149,KHID89,Healthy Skin,Alar crease,Y,Y,N,N,Corynebacterium,,,,2019-09-19,10^0,B,BHI,,,,2019-10-28,,SAS,,,11,50,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK856,p3-SID1212,KHID112,Healthy Skin,Alar crease,Y,Y,N,N,Corynebacterium,,,,2019-09-19,10^0,B,BHI,,,,2019-10-28,,SAS,,,11,51,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK872,p3-SID1005,KHID116,Healthy Skin,Volar forearm,Y,Y,N,N,Corynebacterium,,,,2019-09-19,10^0,B,BHI+0.1%Tween 80,,,,2019-10-28,,SAS,,,11,67,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK876,p3-SID1148,KHID89,Healthy Skin,Alar crease,Y,Y,N,N,Corynebacterium,,,,2019-09-19,10^0,B,BHI+0.1%Tween 80,,,,2019-10-28,,SAS,,,11,71,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK877,p3-SID1130,KHID105,Healthy Skin,Nares,Y,Y,N,N,Corynebacterium,,,,2019-09-19,10^0,BD,BHI+0.1%Tween 80,,,,2019-10-28,,SAS,,,11,72,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK931,p3-SID1140,KHID92,Healthy Skin,Back,Y,Y,Y,N,Corynebacterium,,GTDB-tk by RS on 3/9/22,,2019-09-19,10^0,BT,BHI,,,,2019-11-18,,SAS,,,12,45,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK434,p3-SID879,KHID48,Healthy Skin,Umbilicus,Y,Y,Y,Y,Corynebacterium,amycolatum,GTDB-tk by RS on 3/9/22,,2019-07-29,10^0,BH,BHI,,,,2019-08-01,,IKL,,,6,34,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK444,p3-SID751,KHID32,Healthy Skin,Umbilicus,Y,Y,Y,Y,Corynebacterium,amycolatum,GTDB-tk by RS on 3/9/22,,2019-07-26,10^-1,BH,BHI,,,,2019-08-01,,IKL,,,6,44,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1348,p3-SID973,KHID94,Healthy Skin,Antecubital fossa,Y,Y,Y,Y,Corynebacterium,appendicis,GTDB-tk by RS on 3/9/22,,2019-09-19,10^0,B,BHI + Tween,,,,2019-12-29,,SAS,,,17,57,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK488,p3-SID752,KHID32,Healthy Skin,Umbilicus,Y,Y,Y,Y,Corynebacterium,glucuronolyticum,GTDB-tk by RS on 3/9/22,,2019-07-26,10^-1,BH,BHI,,,,2019-08-01,,IKL,,,7,7,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK935,p3-SID1263,KHID102,Healthy Skin,Umbilicus,Y,Y,Y,Y,Corynebacterium,glucuronolyticum,GTDB-tk by RS on 3/9/22,,2019-09-19,10^0,BD,BHI,,,,2019-11-18,,SAS,,,12,49,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK561,p3-SID581,KHID67,Healthy Skin,Nares,Y,Y,Y,Y,Corynebacterium,propinquum,GTDB-tk by RS on 3/9/22,,2019-07-26,10^-1,BL,BHI,,,,2019-08-06,,IKL,,,7,80,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK465,p3-SID764,KHID75,Healthy Skin,Nares,Y,Y,Y,N,Corynebacterium,pseudodiphtheriticum,GTDB-tk by RS on 3/9/22,,2019-07-29,10^-1,BL,BHI,,,,2019-08-01,,IKL,,,6,65,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK466,p3-SID763,KHID75,Healthy Skin,Nares,Y,Y,Y,Y,Corynebacterium,pseudodiphtheriticum,GTDB-tk by RS on 3/9/22,,2019-07-29,10^-1,BL,BHI,,,,2019-08-01,,IKL,,,6,66,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1030,p3-SID1430,KHID136,Healthy Skin,Alar crease,Y,Y,Y,Y,Corynebacterium,sanguinis,GTDB-tk by RS on 3/9/22,,2019-09-16,10^0,B,BHI + Tween,,,,2019-11-23,,SAS,,,13,63,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1041,p3-SID1427,KHID133,Healthy Skin,Antecubital fossa,Y,Y,Y,Y,Corynebacterium,sanguinis,GTDB-tk by RS on 3/9/22,,2019-09-16,10^0,B,BHI + Tween,,,,2019-11-27,,SAS,,,13,74,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1059,p3-SID1347,KHID143,Healthy Skin,Toe web space,Y,Y,Y,Y,Corynebacterium,sanguinis,GTDB-tk by RS on 3/9/22,,2019-09-16,10^0,B,BHI + Tween,,,,2019-11-27,,SAS,,,14,11,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1239,p3-SID1042,KHID118,Healthy Skin,Umbilicus,Y,Y,Y,Y,Corynebacterium,sanguinis,GTDB-tk by RS on 3/9/22,,2019-09-19,10^0,BD,BHI + Tween,,,,2019-12-24,,SAS,,,16,29,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1269,p3-SID1772,KHID135,Healthy Skin,Toe web space,Y,Y,Y,N,Corynebacterium,sanguinis,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-24,,SAS,,,16,59,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1272,p3-SID1776,KHID135,Healthy Skin,Toe web space,Y,Y,Y,N,Corynebacterium,sanguinis,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-24,,SAS,,,16,62,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1346,p3-SID982,KHID85,Healthy Skin,Volar forearm,Y,Y,Y,Y,Corynebacterium,sanguinis,GTDB-tk by RS on 3/9/22,,2019-09-19,10^0,BT,BHI + Tween,,,,2019-12-29,,SAS,,,17,55,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1366,p3-SID1019,KHID116,Healthy Skin,Volar forearm,Y,Y,Y,Y,Corynebacterium,sanguinis,GTDB-tk by RS on 3/9/22,,2019-09-19,10^0,BD,BHI + Tween,,,,2019-12-29,,SAS,,,17,75,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1367,p3-SID1026,KHID115,Healthy Skin,Back,Y,Y,Y,N,Corynebacterium,sanguinis,GTDB-tk by RS on 3/9/22,,2019-09-19,10^0,BD,BHI + Tween,,,,2019-12-29,,SAS,,,17,76,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK411,p3-SID870,KHID70,Healthy Skin,Volar forearm,Y,Y,Y,Y,Corynebacterium,sanguinis,GTDB-tk by RS on 3/9/22,,2019-07-29,10^0,BL,BHI,,,,2019-08-01,,IKL,,,6,11,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK432,p3-SID792,KHID74,Healthy Skin,Alar crease,Y,Y,Y,N,Corynebacterium,sanguinis,GTDB-tk by RS on 3/9/22,,2019-07-29,10^-1,BL,BHI,,,,2019-08-01,,IKL,,,6,32,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK519,p3-SID766,KHID78,Healthy Skin,Volar forearm,Y,Y,Y,Y,Corynebacterium,sanguinis,GTDB-tk by RS on 3/9/22,,2019-07-29,10^-1,BH,BHI,,,,2019-08-06,,IKL,,,7,38,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK586,p3-SID921,KHID74,Healthy Skin,Alar crease,Y,Y,Y,N,Corynebacterium,sanguinis,GTDB-tk by RS on 3/9/22,,2019-07-31,10^-1,BH,BHI,,,,2019-08-06,,IKL,,,8,24,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK672,p3-SID845,KHID79,Healthy Skin,Antecubital fossa,Y,Y,Y,Y,Corynebacterium,sanguinis,GTDB-tk by RS on 3/9/22,,2019-07-29,10^-1,BH,BHI,,,,2019-08-12,,IKL,,,9,29,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK687,p3-SID798,KHID74,Healthy Skin,Alar crease,Y,Y,Y,Y,Corynebacterium,sanguinis,GTDB-tk by RS on 3/9/22,,2019-07-29,10^-1,BH,BHI,,,,2019-08-12,,IKL,,,9,44,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK871,p3-SID1306,KHID108,Healthy Skin,Volar forearm,Y,Y,Y,Y,Corynebacterium,sanguinis,GTDB-tk by RS on 3/9/22,,2019-09-19,10^0,B,BHI,,,,2019-10-28,,SAS,,,11,66,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK936,p3-SID1243,KHID112,Healthy Skin,Alar crease,Y,Y,Y,Y,Corynebacterium,sanguinis,GTDB-tk by RS on 3/9/22,,2019-09-19,10^0,BD,BHI,,,,2019-11-18,,SAS,,,12,50,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK942,p3-SID1246,KHID112,Healthy Skin,Alar crease,Y,Y,Y,Y,Corynebacterium,sanguinis,GTDB-tk by RS on 3/9/22,,2019-09-19,10^0,BD,BHI,,,,2019-11-18,,SAS,,,12,56,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK950,p3-SID1015,KHID115,Healthy Skin,Back,Y,Y,Y,Y,Corynebacterium,sanguinis,GTDB-tk by RS on 3/9/22,,2019-09-19,10^0,B,BHI,,,,2019-11-21,,MR,,,12,64,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK955,p3-SID1244,KHID112,Healthy Skin,Alar crease,Y,Y,Y,Y,Corynebacterium,sanguinis,GTDB-tk by RS on 3/9/22,,2019-09-19,10^0,BD,BHI,,,,2019-11-21,,MR,,,12,69,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK956,p3-SID1224,KHID117,Healthy Skin,Antecubital fossa,Y,Y,Y,Y,Corynebacterium,sanguinis,GTDB-tk by RS on 3/9/22,,2019-09-19,10^0,B,BHI,,,,2019-11-21,,MR,,,12,70,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1353,p3-SID1078,KHID84,Healthy Skin,Back,Y,Y,N,N,Dermabacter,,,,2019-09-19,10^0,B,BHI + Tween,,,,2019-12-29,,SAS,,,17,62,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1077,p3-SID1639,KHID136,Healthy Skin,Alar crease,Y,Y,Y,N,Dermabacter,hominis,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-10,,SAS,,,14,29,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1080,p3-SID1644,KHID136,Healthy Skin,Alar crease,Y,Y,Y,N,Dermabacter,hominis,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-10,,SAS,,,14,32,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1082,p3-SID1646,KHID137,Healthy Skin,Nares,Y,Y,Y,Y,Dermabacter,hominis,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-10,,SAS,,,14,34,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1245,p3-SID1680,KHID136,Healthy Skin,Alar crease,Y,Y,Y,N,Dermabacter,hominis,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-24,,SAS,,,16,35,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1252,p3-SID1727,KHID158,Healthy Skin,Umbilicus,Y,Y,Y,Y,Dermabacter,hominis,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-24,,SAS,,,16,42,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1351,p3-SID955,KHID90,Healthy Skin,Nares,Y,Y,Y,Y,Dermabacter,hominis,GTDB-tk by RS on 3/9/22,,2019-09-19,10^0,B,BHI + Tween,,,,2019-12-29,,SAS,,,17,60,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK522,p3-SID877,KHID64,Healthy Skin,Umbilicus,Y,Y,Y,Y,Dermabacter,hominis,GTDB-tk by RS on 3/9/22,,2019-07-29,10^-2,BL,BHI,,,,2019-08-06,,IKL,,,7,41,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK557,p3-SID715,KHID40,Healthy Skin,Umbilicus,Y,Y,Y,Y,Dermabacter,hominis,GTDB-tk by RS on 3/9/22,,2019-07-26,10^-1,BL,BHI,,,,2019-08-06,,IKL,,,7,76,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1257,p3-SID1716,KHID147,Healthy Skin,Back,Y,Y,Y,Y,Dermabacter,vaginalis,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-24,,SAS,,,16,47,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK836,p3-SID1314,KHID81,Healthy Skin,Alar crease,Y,Y,N,N,Dermacoccus,,,,2019-09-19,10^0,B,BHI,,,,2019-10-28,,SAS,,,11,31,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1386,p3-SID2517,KHID48,Healthy Skin,Umbilicus,Y,Y,Y,Y,Dermacoccus,abyssi,GTDB-tk by RS on 3/9/22,,2020-02-26,10^0,B,BHI + Tween,,,,2020-03-11,,MHS,,,18,14,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1128,p3-SID1508,KHID140,Healthy Skin,Volar forearm,Y,Y,Y,Y,Dermacoccus,nishinomiyaensis,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-10,,SAS,,,14,80,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1063,p3-SID1899,KHID147,Healthy Skin,Back,Y,Y,N,N,Dietzia,,,,2019-09-17,10^0,B,BHI + Tween,,,,2019-11-27,,SAS,,,14,15,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK823,p3-SID1258,KHID88,Healthy Skin,Toe web space,Y,Y,N,N,Dietzia,,,,2019-09-19,10^0,BD,BHI,,,,2019-10-28,,SAS,,,11,18,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK826,p3-SID1299,KHID117,Healthy Skin,Antecubital fossa,Y,Y,N,N,Dietzia,,,,2019-09-19,10^0,BD,BHI,,,,2019-10-28,,SAS,,,11,21,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK844,p3-SID1207,KHID112,Healthy Skin,Alar crease,Y,Y,N,N,Dietzia,,,,2019-09-19,10^0,B,BHI,,,,2019-10-28,,SAS,,,11,39,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK845,p3-SID1329,KHID81,Healthy Skin,Alar crease,Y,Y,N,N,Dietzia,,,,2019-09-19,10^0,BD,BHI,,,,2019-10-28,,SAS,,,11,40,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK951,p3-SID1062,KHID119,Healthy Skin,Toe web space,Y,Y,Y,Y,Dietzia,cercidiphylli,GTDB-tk by RS on 3/9/22,,2019-09-19,10^0,B,BHI,,,,2019-11-21,,MR,,,12,65,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1006,p3-SID1371,KHID144,Healthy Skin,Alar crease,Y,Y,Y,Y,Dietzia,cinnamea,GTDB-tk by RS on 3/9/22,,2019-09-16,10^0,B,BHI + Tween,,,,2019-11-23,,SAS,,,13,39,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1017,p3-SID1362,KHID144,Healthy Skin,Alar crease,Y,Y,Y,N,Dietzia,cinnamea,GTDB-tk by RS on 3/9/22,,2019-09-16,10^0,B,BHI + Tween,,,,2019-11-23,,SAS,,,13,50,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1031,p3-SID1363,KHID144,Healthy Skin,Alar crease,Y,Y,Y,Y,Dietzia,cinnamea,GTDB-tk by RS on 3/9/22,,2019-09-16,10^0,B,BHI + Tween,,,,2019-11-23,,SAS,,,13,64,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1046,p3-SID1900,KHID147,Healthy Skin,Back,Y,Y,Y,Y,Dietzia,cinnamea,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,B,BHI + Tween,,,,2019-11-27,,SAS,,,13,79,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1092,p3-SID1517,KHID143,Healthy Skin,Toe web space,Y,Y,Y,Y,Dietzia,cinnamea,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-10,,SAS,,,14,44,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1247,p3-SID1710,KHID147,Healthy Skin,Back,Y,Y,Y,N,Dietzia,cinnamea,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-24,,SAS,,,16,37,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1249,p3-SID1715,KHID147,Healthy Skin,Back,Y,Y,Y,N,Dietzia,cinnamea,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-24,,SAS,,,16,39,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1256,p3-SID1789,KHID149,Healthy Skin,Antecubital fossa,Y,Y,Y,N,Dietzia,cinnamea,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-24,,SAS,,,16,46,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1266,p3-SID1762,KHID145,Healthy Skin,Nares,Y,Y,Y,N,Dietzia,cinnamea,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-24,,SAS,,,16,56,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1267,p3-SID1766,KHID145,Healthy Skin,Nares,Y,Y,Y,N,Dietzia,cinnamea,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-24,,SAS,,,16,57,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1277,p3-SID1786,KHID148,Healthy Skin,Volar forearm,Y,Y,Y,Y,Dietzia,cinnamea,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-24,,SAS,,,16,67,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1278,p3-SID1796,KHID149,Healthy Skin,Antecubital fossa,Y,Y,Y,Y,Dietzia,cinnamea,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,BT,BHI + Tween,,,,2019-12-24,,SAS,,,16,68,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK439,p3-SID800,KHID74,Healthy Skin,Alar crease,Y,Y,Y,Y,Dietzia,cinnamea,GTDB-tk by RS on 3/9/22,,2019-07-29,10^-1,BH,BHI,,,,2019-08-01,,IKL,,,6,39,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK639,p3-SID826,KHID76,Healthy Skin,Occiput,Y,Y,Y,Y,Dietzia,cinnamea,GTDB-tk by RS on 3/9/22,,2019-07-29,10^-1,BH,BHI,,,,2019-08-29,,IKL,,,8,77,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK984,p3-SID1378,KHID144,Healthy Skin,Alar crease,Y,Y,Y,Y,Dietzia,cinnamea,GTDB-tk by RS on 3/9/22,,2019-09-16,10^0,B,BHI + Tween,,,,2019-11-23,,SAS,,,13,17,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK949,p3-SID1051,KHID119,Healthy Skin,Toe web space,Y,Y,Y,Y,Dietzia,maris,GTDB-tk by RS on 3/9/22,,2019-09-19,10^0,BT,BHI,,,,2019-11-21,,MR,,,12,63,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK591,p3-SID886,KHID50,Healthy Skin,Alar crease,Y,Y,Y,Y,Enterobacter,hormaechei,GTDB-tk by RS on 3/9/22,,2019-07-29,10^0,BH,BHI,,,,2019-08-29,,IKL,,,8,29,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK405,p3-SID896,KHID64,Healthy Skin,Umbilicus,Y,Y,Y,Y,Enterococcus,faecalis,GTDB-tk by RS on 3/9/22,,2019-07-29,10^-2,BH,BHI,,,,2019-08-01,,IKL,,,6,5,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1139,p3-SID1634,KHID136,Healthy Skin,Alar crease,Y,Y,Y,N,Escherichia,coli,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,BT,BHI + Tween,,,,2019-12-10,,SAS,,,15,10,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1140,p3-SID1636,KHID136,Healthy Skin,Alar crease,Y,Y,Y,N,Escherichia,coli,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,BT,BHI + Tween,,,,2019-12-10,,SAS,,,15,11,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1157,p3-SID1649,KHID137,Healthy Skin,Nares,Y,Y,Y,N,Escherichia,coli,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-10,,SAS,,,15,28,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1198,p3-SID1674,KHID136,Healthy Skin,Alar crease,Y,Y,Y,Y,Escherichia,coli,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-20,,SAS,,,15,69,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1232,p3-SID1807,KHID137,Healthy Skin,Nares,Y,Y,Y,N,Escherichia,coli,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,BT,BHI + Tween,,,,2019-12-20,,SAS,,,16,22,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1054,p3-SID1431,KHID137,Healthy Skin,Nares,Y,Y,Y,Y,Gordonia,sp002009645,GTDB-tk by RS on 3/9/22,,2019-09-16,10^0,B,BHI + Tween,,,,2019-11-27,,SAS,,,14,6,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1204,p3-SID1692,KHID146,Healthy Skin,Occiput,Y,Y,Y,Y,Granulicatella,adiacens,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-20,,SAS,,,15,75,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1403,p3-SID2534,KHID48,Healthy Skin,Umbilicus,Y,Y,Y,N,Helcococcus,kunzii,GTDB-tk by RS on 3/9/22,,2020-02-26,10^0,B,BHI + Tween,,,,2020-03-12,,MHS,,,18,31,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK617,p3-SID713,KHID48,Healthy Skin,Umbilicus,Y,Y,Y,Y,Helcococcus,kunzii,GTDB-tk by RS on 3/9/22,,2019-07-26,10^-1,BL,BHI,,,,2019-08-29,,IKL,,,8,55,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK538,p3-SID813,KHID77,Healthy Skin,Back,Y,Y,Y,Y,Janibacter,hoylei,GTDB-tk by RS on 3/9/22,,2019-07-29,10^-1,BH,BHI,,,,2019-08-06,,IKL,,,7,57,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK679,p3-SID812,KHID77,Healthy Skin,Back,Y,Y,Y,N,Janibacter,hoylei,GTDB-tk by RS on 3/9/22,,2019-07-29,10^-1,BH,BHI,,,,2019-08-12,,IKL,,,9,36,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK500,p3-SID599,KHID58,Healthy Skin,Alar crease,Y,Y,Y,N,Klebsiella,aerogenes,GTDB-tk by RS on 3/9/22,,2019-07-26,10^-1,BL,BHI,,,,2019-08-06,,IKL,,,7,19,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK501,p3-SID600,KHID58,Healthy Skin,Alar crease,Y,Y,Y,N,Klebsiella,aerogenes,GTDB-tk by RS on 3/9/22,,2019-07-26,10^-1,BL,BHI,,,,2019-08-06,,IKL,,,7,20,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK525,p3-SID597,KHID58,Healthy Skin,Alar crease,Y,Y,Y,N,Klebsiella,aerogenes,GTDB-tk by RS on 3/9/22,,2019-07-26,10^-1,BH,BHI,,,,2019-08-06,,IKL,,,7,44,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK526,p3-SID595,KHID58,Healthy Skin,Alar crease,Y,Y,Y,N,Klebsiella,aerogenes,GTDB-tk by RS on 3/9/22,,2019-07-26,10^-1,BH,BHI,,,,2019-08-06,,IKL,,,7,45,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK527,p3-SID596,KHID58,Healthy Skin,Alar crease,Y,Y,Y,N,Klebsiella,aerogenes,GTDB-tk by RS on 3/9/22,,2019-07-26,10^-1,BH,BHI,,,,2019-08-06,,IKL,,,7,46,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK442,p3-SID701,KHID43,Healthy Skin,Nares,Y,Y,Y,N,Klebsiella,pneumoniae,GTDB-tk by RS on 3/9/22,,2019-07-26,10^-1,BL,BHI,,,,2019-08-01,,IKL,,,6,42,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK458,p3-SID663,KHID59,Healthy Skin,Nares,Y,Y,Y,N,Klebsiella,pneumoniae,GTDB-tk by RS on 3/9/22,,2019-07-26,10^-1,BL,BHI,,,,2019-08-01,,IKL,,,6,58,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK461,p3-SID621,KHID62,Healthy Skin,Volar forearm,Y,Y,N,N,Klebsiella,pneumoniae,,,2019-07-26,10^-1,BT,BHI,,,,2019-08-01,,IKL,,,6,61,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK469,p3-SID656,KHID59,Healthy Skin,Nares,Y,Y,Y,N,Klebsiella,pneumoniae,GTDB-tk by RS on 3/9/22,,2019-07-26,10^-1,BH,BHI,,,,2019-08-01,,IKL,,,6,69,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK583,p3-SID695,KHID43,Healthy Skin,Nares,Y,Y,Y,Y,Klebsiella,pneumoniae,GTDB-tk by RS on 3/9/22,,2019-07-26,10^-1,BH,BHI,,,,2019-08-06,,IKL,,,8,21,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK619,p3-SID664,KHID59,Healthy Skin,Nares,Y,Y,Y,N,Klebsiella,pneumoniae,GTDB-tk by RS on 3/9/22,,2019-07-26,10^-1,BL,BHI,,,,2019-08-29,,IKL,,,8,57,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK670,p3-SID703,KHID43,Healthy Skin,Nares,Y,Y,Y,N,Klebsiella,pneumoniae,GTDB-tk by RS on 3/9/22,,2019-07-26,10^-1,BT,BHI,,,,2019-08-12,,IKL,,,9,27,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK858,p3-SID1206,KHID104,Healthy Skin,Alar crease,Y,Y,N,N,Klebsiella,pneumoniae,,,2019-09-19,10^0,BD,BHI,,,,2019-10-28,,SAS,,,11,53,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK869,p3-SID1213,KHID104,Healthy Skin,Alar crease,Y,Y,N,N,Klebsiella,pneumoniae,,,2019-09-19,10^0,BT,BHI,,,,2019-10-28,,SAS,,,11,64,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1000,p3-SID1428,KHID134,Healthy Skin,Umbilicus,Y,Y,Y,N,Kocuria,,GTDB-tk by RS on 3/9/22,,2019-09-16,10^0,B,BHI + Tween,,,,2019-11-23,,SAS,,,13,33,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1060,p3-SID1341,KHID143,Healthy Skin,Toe web space,Y,Y,N,N,Kocuria,,16s by SAS 12/19/19,,2019-09-16,10^0,B,BHI + Tween,,,,2019-11-27,,SAS,,,14,12,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1184,p3-SID1250,KHID103,Healthy Skin,Toe web space,Y,Y,N,N,Kocuria,,,,2019-09-19,10^0,BT,BHI + Tween,,,,2019-12-16,,SAS,,,15,55,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1374,p3-SID602,KHID58,Healthy Skin,Alar crease,Y,Y,N,N,Kocuria,,16s by SAS 9/18/20 ,,2019-07-26,10^-1,BT,BHI + Tween,,,,2020-03-05,,SAS,,,18,2,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK843,p3-SID1242,KHID103,Healthy Skin,Toe web space,Y,Y,N,N,Kocuria,,,,2019-09-19,10^0,BD,BHI,,,,2019-10-28,,SAS,,,11,38,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK854,p3-SID1232,KHID111,Healthy Skin,Toe web space,Y,Y,N,N,Kocuria,,,,2019-09-19,10^0,B,BHI,,,,2019-10-28,,SAS,,,11,49,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK866,p3-SID1239,KHID103,Healthy Skin,Toe web space,Y,Y,N,N,Kocuria,,,,2019-09-19,10^0,BD,BHI,,,,2019-10-28,,SAS,,,11,61,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK960,p3-SID1433,KHID139,Healthy Skin,Back,Y,Y,Y,Y,Kocuria,,GTDB-tk by RS on 3/9/22,,2019-09-16,10^0,B,BHI + Tween,,,,2019-11-23,,SAS,,,12,74,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK572,p3-SID917,KHID68,Healthy Skin,Occiput,Y,Y,Y,Y,Kocuria,carniphila,GTDB-tk by RS on 3/9/22,,2019-07-31,10^0,BH,BHI,,,,2019-08-06,,IKL,,,8,10,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1237,p3-SID2490,KHID122,Healthy Skin,Occiput,Y,Y,Y,Y,Kocuria,marina,GTDB-tk by RS on 3/9/22,,2019-12-18,10^0,B,BHI + Tween,,,,2019-12-20,,SAS,,,16,27,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1250,p3-SID1724,KHID157,Healthy Skin,Antecubital fossa,Y,Y,Y,Y,Kocuria,marina,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,BT,BHI + Tween,,,,2019-12-24,,SAS,,,16,40,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK478,p3-SID866,KHID71,Healthy Skin,Antecubital fossa,Y,Y,Y,Y,Kocuria,marina,GTDB-tk by RS on 3/9/22,,2019-07-29,10^0,BT,BHI,,,,2019-08-01,,IKL,,,6,78,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK579,p3-SID884,KHID45,Healthy Skin,Back,Y,Y,Y,N,Kocuria,marina,GTDB-tk by RS on 3/9/22,,2019-07-29,10^0,BH,BHI,,,,2019-08-06,,IKL,,,8,17,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK698,p3-SID882,KHID45,Healthy Skin,Back,Y,Y,Y,Y,Kocuria,marina,GTDB-tk by RS on 3/9/22,,2019-07-29,10^0,BL,BHI,,,,2019-08-12,,IKL,,,9,55,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1093,p3-SID1518,KHID143,Healthy Skin,Toe web space,Y,Y,Y,Y,Kocuria,palustris,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-10,,SAS,,,14,45,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1246,p3-SID1704,KHID146,Healthy Skin,Occiput,Y,Y,Y,Y,Kocuria,palustris,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-24,,SAS,,,16,36,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1021,p3-SID1383,KHID143,Healthy Skin,Toe web space,Y,Y,Y,Y,Kocuria,rhizophila,GTDB-tk by RS on 3/9/22,,2019-09-16,10^0,BT,BHI + Tween,,,,2019-11-23,,SAS,,,13,54,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1055,p3-SID1414,KHID127,Healthy Skin,Toe web space,Y,Y,Y,Y,Kocuria,rhizophila,GTDB-tk by RS on 3/9/22,,2019-09-16,10^0,BT,BHI + Tween,,,,2019-11-27,,SAS,,,14,7,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1120,p3-SID1455,KHID124,Healthy Skin,Volar forearm,Y,Y,Y,N,Kocuria,rhizophila,GTDB-tk by RS on 3/9/22,,2019-09-16,10^0,BD,BHI + Tween,,,,2019-12-10,,SAS,,,14,72,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK934,p3-SID1135,KHID105,Healthy Skin,Nares,Y,Y,Y,Y,Kocuria,rhizophila,GTDB-tk by RS on 3/9/22,,2019-09-19,10^0,B,BHI,,,,2019-11-18,,SAS,,,12,48,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK662,p3-SID734,KHID40,Healthy Skin,Umbilicus,Y,Y,N,N,Lysinibacillus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BH,BHI,,,,2019-08-12,,IKL,,,9,19,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK664,p3-SID736,KHID40,Healthy Skin,Umbilicus,Y,Y,N,N,Lysinibacillus,,,,2019-07-26,10^-1,BH,BHI,,,,2019-08-12,,IKL,,,9,21,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK675,p3-SID805,KHID74,Healthy Skin,Alar crease,Y,Y,N,N,Lysinibacillus,,,,2019-07-29,10^-1,BT,BHI,,,,2019-08-12,,IKL,,,9,32,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK724,p3-SID834,KHID76,Healthy Skin,Occiput,Y,Y,N,N,Lysinibacillus,,16s by SAS 9/26/19,,2019-07-29,10^-1,BT,BHI,,,,2019-08-12,,IKL,,,9,81,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK666,p3-SID807,KHID74,Healthy Skin,Alar crease,Y,Y,Y,N,Lysinibacillus,capsici,GTDB-tk by RS on 3/9/22,,2019-07-29,10^-1,BT,BHI,,,,2019-08-12,,IKL,,,9,23,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK668,p3-SID809,KHID74,Healthy Skin,Alar crease,Y,Y,Y,N,Lysinibacillus,capsici,GTDB-tk by RS on 3/9/22,,2019-07-29,10^-1,BT,BHI,,,,2019-08-12,,IKL,,,9,25,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK669,p3-SID773,KHID77,Healthy Skin,Back,Y,Y,Y,N,Lysinibacillus,capsici,GTDB-tk by RS on 3/9/22,,2019-07-29,10^-1,BL,BHI,,,,2019-08-12,,IKL,,,9,26,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1118,p3-SID1632,KHID155,Healthy Skin,Back,Y,Y,Y,Y,Microbacterium,paraoxydans,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,BT,BHI + Tween,,,,2019-12-10,,SAS,,,14,70,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1001,p3-SID1397,KHID128,Healthy Skin,Alar crease,Y,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-16,10^0,BD,BHI + Tween,,,,2019-11-23,,SAS,,,13,34,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1004,p3-SID1453,KHID141,Healthy Skin,Antecubital fossa,Y,Y,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-16,10^0,BD,BHI + Tween,,,,2019-11-23,,SAS,,,13,37,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1005,p3-SID1398,KHID128,Healthy Skin,Alar crease,Y,Y,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-16,10^0,BD,BHI + Tween,,,,2019-11-23,,SAS,,,13,38,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1010,p3-SID1336,KHID125,Healthy Skin,Antecubital fossa,Y,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-16,10^0,B,BHI + Tween,,,,2019-11-23,,SAS,,,13,43,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1011,p3-SID1419,KHID127,Healthy Skin,Toe web space,Y,Y,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-16,10^0,BT,BHI + Tween,,,,2019-11-23,,SAS,,,13,44,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1013,p3-SID1386,KHID143,Healthy Skin,Toe web space,Y,Y,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-16,10^0,BT,BHI + Tween,,,,2019-11-23,,SAS,,,13,46,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1016,p3-SID1403,KHID125,Healthy Skin,Antecubital fossa,Y,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-16,10^0,BD,BHI + Tween,,,,2019-11-23,,SAS,,,13,49,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1020,p3-SID1404,KHID125,Healthy Skin,Antecubital fossa,Y,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-16,10^0,BD,BHI + Tween,,,,2019-11-23,,SAS,,,13,53,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1023,p3-SID1368,KHID144,Healthy Skin,Alar crease,Y,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-16,10^0,B,BHI + Tween,,,,2019-11-23,,SAS,,,13,56,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1028,p3-SID1360,KHID144,Healthy Skin,Alar crease,Y,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-16,10^0,B,BHI + Tween,,,,2019-11-23,,SAS,,,13,61,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1029,p3-SID1405,KHID125,Healthy Skin,Antecubital fossa,Y,N,N,N,Micrococcus,,,,2019-09-16,10^0,B,BHI + Tween,,,,2019-11-23,,SAS,,,13,62,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1037,p3-SID1847,KHID133,Healthy Skin,Antecubital fossa,Y,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-17,10^0,B,BHI + Tween,,,,2019-11-27,,SAS,,,13,70,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1038,p3-SID1890,KHID132,Healthy Skin,Volar forearm,Y,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-17,10^0,B,BHI + Tween,,,,2019-11-27,,SAS,,,13,71,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1039,p3-SID770,KHID77,Healthy Skin,Back,Y,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-07-29,10^-1,BL,BHI + Tween,,,,2019-11-27,,SAS,,,13,72,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1040,p3-SID1864,KHID130,Healthy Skin,Occiput,Y,N,N,N,Micrococcus,,,,2019-09-17,10^0,B,BHI + Tween,,,,2019-11-27,,SAS,,,13,73,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1042,p3-SID1841,KHID132,Healthy Skin,Volar forearm,Y,N,N,N,Micrococcus,,,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-11-27,,SAS,,,13,75,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1043,p3-SID1909,KHID148,Healthy Skin,Volar forearm,Y,N,N,N,Micrococcus,,,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-11-27,,SAS,,,13,76,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1044,p3-SID1862,KHID130,Healthy Skin,Occiput,Y,N,N,N,Micrococcus,,,,2019-09-17,10^0,B,BHI + Tween,,,,2019-11-27,,SAS,,,13,77,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1047,p3-SID1906,KHID148,Healthy Skin,Volar forearm,Y,N,N,N,Micrococcus,,,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-11-27,,SAS,,,13,80,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1052,p3-SID1842,KHID132,Healthy Skin,Volar forearm,Y,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-11-27,,SAS,,,14,4,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1057,p3-SID1840,KHID132,Healthy Skin,Volar forearm,Y,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-11-27,,SAS,,,14,9,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1061,p3-SID1849,KHID133,Healthy Skin,Antecubital fossa,Y,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-17,10^0,BT,BHI + Tween,,,,2019-11-27,,SAS,,,14,13,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1062,p3-SID1845,KHID133,Healthy Skin,Antecubital fossa,Y,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-17,10^0,B,BHI + Tween,,,,2019-11-27,,SAS,,,14,14,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1064,p3-SID1885,KHID131,Healthy Skin,Back,Y,N,N,N,Micrococcus,,,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-11-27,,SAS,,,14,16,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1066,p3-SID1850,KHID133,Healthy Skin,Antecubital fossa,Y,N,N,N,Micrococcus,,,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-11-27,,SAS,,,14,18,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1067,p3-SID1874,KHID131,Healthy Skin,Back,Y,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-17,10^0,B,BHI + Tween,,,,2019-11-27,,SAS,,,14,19,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1068,p3-SID1883,KHID131,Healthy Skin,Back,Y,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-11-27,,SAS,,,14,20,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1069,p3-SID1846,KHID133,Healthy Skin,Antecubital fossa,Y,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-17,10^0,B,BHI + Tween,,,,2019-11-27,,SAS,,,14,21,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1074,p3-SID1848,KHID133,Healthy Skin,Antecubital fossa,Y,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-17,10^0,BT,BHI + Tween,,,,2019-11-27,,SAS,,,14,26,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1075,p3-SID1857,KHID134,Healthy Skin,Umbilicus,Y,Y,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-17,10^0,BT,BHI + Tween,,,,2019-11-27,,SAS,,,14,27,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1076,p3-SID1638,KHID136,Healthy Skin,Alar crease,Y,Y,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-10,,SAS,,,14,28,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1088,p3-SID1579,KHID130,Healthy Skin,Occiput,Y,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-10,,SAS,,,14,40,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1089,p3-SID1580,KHID130,Healthy Skin,Occiput,Y,N,N,N,Micrococcus,,,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-10,,SAS,,,14,41,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1103,p3-SID1470,KHID124,Healthy Skin,Volar forearm,Y,Y,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-16,10^0,B,BHI + Tween,,,,2019-12-10,,SAS,,,14,55,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1107,p3-SID1475,KHID124,Healthy Skin,Volar forearm,Y,N,N,N,Micrococcus,,,,2019-09-16,10^0,B,BHI + Tween,,,,2019-12-10,,SAS,,,14,59,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1111,p3-SID1595,KHID151,Healthy Skin,Toe web space,Y,N,N,N,Micrococcus,,,,2019-09-17,10^0,BT,BHI + Tween,,,,2019-12-10,,SAS,,,14,63,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1119,p3-SID1454,KHID124,Healthy Skin,Volar forearm,Y,N,N,N,Micrococcus,,,,2019-09-16,10^0,BD,BHI + Tween,,,,2019-12-10,,SAS,,,14,71,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1122,p3-SID1457,KHID124,Healthy Skin,Volar forearm,Y,N,N,N,Micrococcus,,,,2019-09-16,10^0,BD,BHI + Tween,,,,2019-12-10,,SAS,,,14,74,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1124,p3-SID1459,KHID124,Healthy Skin,Volar forearm,Y,N,N,N,Micrococcus,,,,2019-09-16,10^0,BD,BHI + Tween,,,,2019-12-10,,SAS,,,14,76,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1125,p3-SID1461,KHID124,Healthy Skin,Volar forearm,Y,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-16,10^0,BD,BHI + Tween,,,,2019-12-10,,SAS,,,14,77,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1131,p3-SID1506,KHID156,Healthy Skin,Volar forearm,Y,N,N,N,Micrococcus,,,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-10,,SAS,,,15,2,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1133,p3-SID1523,KHID122,Healthy Skin,Occiput,Y,N,N,N,Micrococcus,,,,2019-09-17,10^0,BT,BHI + Tween,,,,2019-12-10,,SAS,,,15,4,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1141,p3-SID1469,KHID124,Healthy Skin,Volar forearm,Y,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-16,10^0,B,BHI + Tween,,,,2019-12-10,,SAS,,,15,12,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1144,p3-SID1575,KHID123,Healthy Skin,Back,Y,N,N,N,Micrococcus,,,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-10,,SAS,,,15,15,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1148,p3-SID1556,KHID140,Healthy Skin,Volar forearm,Y,N,N,N,Micrococcus,,,,2019-09-17,10^0,BT,BHI + Tween,,,,2019-12-10,,SAS,,,15,19,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1151,p3-SID1476,KHID123,Healthy Skin,Back,Y,N,N,N,Micrococcus,,,,2019-09-16,10^0,BD,BHI + Tween,,,,2019-12-10,,SAS,,,15,22,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1152,p3-SID1477,KHID123,Healthy Skin,Back,Y,N,N,N,Micrococcus,,,,2019-09-16,10^0,BD,BHI + Tween,,,,2019-12-10,,SAS,,,15,23,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1155,p3-SID1479,KHID123,Healthy Skin,Back,Y,N,N,N,Micrococcus,,,,2019-09-16,10^0,BD,BHI + Tween,,,,2019-12-10,,SAS,,,15,26,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1158,p3-SID1495,KHID156,Healthy Skin,Volar forearm,Y,N,N,N,Micrococcus,,,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-10,,SAS,,,15,29,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1161,p3-SID1505,KHID156,Healthy Skin,Volar forearm,Y,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-10,,SAS,,,15,32,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1162,p3-SID1503,KHID156,Healthy Skin,Volar forearm,Y,Y,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-17,10^0,BT,BHI + Tween,,,,2019-12-10,,SAS,,,15,33,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1164,p3-SID1465,KHID124,Healthy Skin,Volar forearm,Y,N,N,N,Micrococcus,,,,2019-09-16,10^0,BT,BHI + Tween,,,,2019-12-10,,SAS,,,15,35,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1165,p3-SID1467,KHID124,Healthy Skin,Volar forearm,Y,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-16,10^0,BT,BHI + Tween,,,,2019-12-10,,SAS,,,15,36,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1168,p3-SID1619,KHID157,Healthy Skin,Antecubital fossa,Y,Y,N,N,Micrococcus,,,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-10,,SAS,,,15,39,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1170,p3-SID1443,KHID142,Healthy Skin,Umbilicus,Y,Y,N,N,Micrococcus,,,,2019-09-16,10^0,BD,BHI + Tween,,,,2019-12-10,,SAS,,,15,41,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1171,p3-SID1464,KHID124,Healthy Skin,Volar forearm,Y,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-16,10^0,BD,BHI + Tween,,,,2019-12-11,,SAS,,,15,42,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1177,p3-SID1230,KHID111,Healthy Skin,Toe web space,Y,N,N,N,Micrococcus,,,,2019-09-19,10^0,B,BHI + Tween,,,,2019-12-16,,SAS,,,15,48,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1181,p3-SID1370,KHID144,Healthy Skin,Alar crease,Y,N,N,N,Micrococcus,,,,2019-09-16,10^0,B,BHI + Tween,,,,2019-12-16,,SAS,,,15,52,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1186,p3-SID1853,KHID133,Healthy Skin,Antecubital fossa,Y,Y,N,N,Micrococcus,,,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-16,,SAS,,,15,57,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1190,p3-SID1471,KHID124,Healthy Skin,Volar forearm,Y,N,N,N,Micrococcus,,,,2019-09-16,10^0,B,BHI + Tween,,,,2019-12-16,,SAS,,,15,61,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1196,p3-SID1038,KHID118,Healthy Skin,Umbilicus,Y,Y,N,N,Micrococcus,,,,2019-09-19,10^0,BT,BHI + Tween,,,,2019-12-20,,SAS,,,15,67,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1197,p3-SID966,KHID109,Healthy Skin,Antecubital fossa,Y,Y,N,N,Micrococcus,,,,2019-09-19,10^0,BD,BHI + Tween,,,,2019-12-20,,SAS,,,15,68,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1199,p3-SID1682,KHID146,Healthy Skin,Occiput,Y,N,N,N,Micrococcus,,,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-20,,SAS,,,15,70,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1201,p3-SID1684,KHID146,Healthy Skin,Occiput,Y,N,N,N,Micrococcus,,,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-20,,SAS,,,15,72,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1203,p3-SID1690,KHID146,Healthy Skin,Occiput,Y,N,N,N,Micrococcus,,,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-20,,SAS,,,15,74,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1205,p3-SID1694,KHID146,Healthy Skin,Occiput,Y,N,N,N,Micrococcus,,,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-20,,SAS,,,15,76,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1209,p3-SID1707,KHID146,Healthy Skin,Occiput,Y,N,N,N,Micrococcus,,,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-20,,SAS,,,15,80,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1210,p3-SID1709,KHID147,Healthy Skin,Back,Y,N,N,N,Micrococcus,,,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-20,,SAS,,,15,81,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1211,p3-SID1711,KHID147,Healthy Skin,Back,Y,N,N,N,Micrococcus,,,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-20,,SAS,,,16,1,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1212,p3-SID1742,KHID139,Healthy Skin,Back,Y,N,N,N,Micrococcus,,16s by SAS 9/18/20 ,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-20,,SAS,,,16,2,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1213,p3-SID1743,KHID139,Healthy Skin,Back,Y,N,N,N,Micrococcus,,,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-20,,SAS,,,16,3,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1214,p3-SID1744,KHID139,Healthy Skin,Back,Y,N,N,N,Micrococcus,,,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-20,,SAS,,,16,4,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1215,p3-SID1745,KHID139,Healthy Skin,Back,Y,N,N,N,Micrococcus,,,,2019-09-17,10^0,BT,BHI + Tween,,,,2019-12-20,,SAS,,,16,5,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1216,p3-SID1746,KHID139,Healthy Skin,Back,Y,Y,N,N,Micrococcus,,,,2019-09-17,10^0,BT,BHI + Tween,,,,2019-12-20,,SAS,,,16,6,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1217,p3-SID2507,KHID120,Healthy Skin,Alar crease,Y,N,N,N,Micrococcus,,,,2019-12-18,10^0,B,BHI + Tween,,,,2019-12-20,,SAS,,,16,7,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1218,p3-SID1478,KHID123,Healthy Skin,Back,Y,N,N,N,Micrococcus,,16s by SAS 9/18/20 ,,2019-09-16,10^0,BD,BHI + Tween,,,,2019-12-20,,SAS,,,16,8,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1220,p3-SID1768,KHID145,Healthy Skin,Nares,Y,Y,N,N,Micrococcus,,,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-20,,SAS,,,16,10,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1225,p3-SID1793,KHID149,Healthy Skin,Antecubital fossa,Y,N,N,N,Micrococcus,,,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-20,,SAS,,,16,15,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1226,p3-SID1795,KHID149,Healthy Skin,Antecubital fossa,Y,N,N,N,Micrococcus,,,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-20,,SAS,,,16,16,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1227,p3-SID1798,KHID149,Healthy Skin,Antecubital fossa,Y,N,N,N,Micrococcus,,,,2019-09-17,10^0,BT,BHI + Tween,,,,2019-12-20,,SAS,,,16,17,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1228,p3-SID1800,KHID149,Healthy Skin,Antecubital fossa,Y,N,N,N,Micrococcus,,,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-20,,SAS,,,16,18,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1229,p3-SID1801,KHID149,Healthy Skin,Antecubital fossa,Y,N,N,N,Micrococcus,,16s by SAS 9/18/20 ,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-20,,SAS,,,16,19,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1230,p3-SID1804,KHID149,Healthy Skin,Antecubital fossa,Y,N,N,N,Micrococcus,,16s by SAS 9/18/20 ,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-20,,SAS,,,16,20,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1233,p3-SID1831,KHID138,Healthy Skin,Occiput,Y,N,N,N,Micrococcus,,,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-20,,SAS,,,16,23,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1234,p3-SID1833,KHID138,Healthy Skin,Occiput,Y,N,N,N,Micrococcus,,16s by SAS 9/18/20 ,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-20,,SAS,,,16,24,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1235,p3-SID1834,KHID138,Healthy Skin,Occiput,Y,N,N,N,Micrococcus,,16s by SAS 9/18/20 ,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-20,,SAS,,,16,25,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1236,p3-SID1836,KHID138,Healthy Skin,Occiput,Y,N,N,N,Micrococcus,,,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-20,,SAS,,,16,26,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1238,p3-SID2502,KHID120,Healthy Skin,Alar crease,Y,Y,N,N,Micrococcus,,16s by SAS 9/18/20 ,,2019-12-18,10^0,BT,BHI + Tween,,,,2019-12-20,,SAS,,,16,28,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1240,p3-SID1697,KHID146,Healthy Skin,Occiput,Y,N,N,N,Micrococcus,,16s by SAS 9/18/20 ,,2019-09-17,10^0,BT,BHI + Tween,,,,2019-12-24,,SAS,,,16,30,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1241,p3-SID1779,KHID148,Healthy Skin,Volar forearm,Y,N,N,N,Micrococcus,,16s by SAS 9/18/20 ,,2019-09-17,10^0,BT,BHI + Tween,,,,2019-12-24,,SAS,,,16,31,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1248,p3-SID1712,KHID147,Healthy Skin,Back,Y,N,N,N,Micrococcus,,16s by SAS 9/18/20 ,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-24,,SAS,,,16,38,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1258,p3-SID1720,KHID147,Healthy Skin,Back,Y,Y,N,N,Micrococcus,,16s by SAS 9/18/20 ,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-24,,SAS,,,16,48,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1260,p3-SID1736,KHID138,Healthy Skin,Occiput,Y,N,N,N,Micrococcus,,16s by SAS 9/18/20 ,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-24,,SAS,,,16,50,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1261,p3-SID1737,KHID138,Healthy Skin,Occiput,Y,N,N,N,Micrococcus,,16s by SAS 9/18/20 ,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-24,,SAS,,,16,51,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1262,p3-SID1739,KHID138,Healthy Skin,Occiput,Y,Y,N,N,Micrococcus,,16s by SAS 9/18/20 ,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-24,,SAS,,,16,52,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1276,p3-SID1784,KHID148,Healthy Skin,Volar forearm,Y,N,N,N,Micrococcus,,16s by SAS 9/18/20 ,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-24,,SAS,,,16,66,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1299,p3-SID1761,KHID158,Healthy Skin,Umbilicus,Y,Y,N,N,Micrococcus,,,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-27,,SAS,,,17,8,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1331,p3-SID997,KHID116,Healthy Skin,Volar forearm,Y,N,N,N,Micrococcus,,,,2019-09-19,10^0,BT,BHI + Tween,,,,2019-12-27,,SAS,,,17,40,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1333,p3-SID1023,KHID115,Healthy Skin,Back,Y,Y,N,N,Micrococcus,,16s by SAS 9/18/20 ,,2019-09-19,10^0,BD,BHI + Tween,,,,2019-12-27,,SAS,,,17,42,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1355,p3-SID1116,KHID107,Healthy Skin,Back,Y,Y,N,N,Micrococcus,,,,2019-09-19,10^0,BD,BHI + Tween,,,,2019-12-29,,SAS,,,17,64,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1356,p3-SID1117,KHID107,Healthy Skin,Back,Y,Y,N,N,Micrococcus,,16s by SAS 9/18/20 ,,2019-09-19,10^0,BD,BHI + Tween,,,,2019-12-29,,SAS,,,17,65,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1370,p3-SID686,KHID61,Healthy Skin,Back,Y,N,N,N,Micrococcus,,16s by SAS 9/18/20 ,,2019-07-26,10^-1,BL,BHI + Tween,,,,2020-03-05,,SAS,,,17,79,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1377,p3-SID2508,KHID74,Healthy Skin,Alar crease,Y,N,N,N,Micrococcus,,16s by MHS 3/13/20,,2020-02-26,10^0,BD,BHI + Tween,,,,2020-03-11,,MHS,,,18,5,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1381,p3-SID2512,KHID78,Healthy Skin,Volar forearm,Y,N,N,N,Micrococcus,,16s by MHS 3/13/20,,2020-02-26,10^0,BT,BHI + Tween,,,,2020-03-11,,MHS,,,18,9,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1385,p3-SID2516,KHID78,Healthy Skin,Volar forearm,Y,N,N,N,Micrococcus,,16s by MHS 3/13/20,,2020-02-26,10^0,BT,BHI + Tween,,,,2020-03-11,,MHS,,,18,13,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1389,p3-SID2520,KHID76,Healthy Skin,Occiput,Y,N,N,N,Micrococcus,,,,2020-02-26,10^0,BD,BHI + Tween,,,,2020-03-11,,MHS,,,18,17,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1391,p3-SID2522,KHID76,Healthy Skin,Occiput,Y,N,N,N,Micrococcus,,16s by MHS 3/13/20,,2020-02-26,10^0,BD,BHI + Tween,,,,2020-03-11,,MHS,,,18,19,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1394,p3-SID2525,KHID76,Healthy Skin,Occiput,Y,N,N,N,Micrococcus,,16s by MHS 3/13/20,,2020-02-26,10^0,BD,BHI + Tween,,,,2020-03-11,,MHS,,,18,22,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1395,p3-SID2526,KHID76,Healthy Skin,Occiput,Y,N,N,N,Micrococcus,,16s by MHS 3/13/20,,2020-02-26,10^0,BD,BHI + Tween,,,,2020-03-11,,MHS,,,18,23,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1396,p3-SID2527,KHID76,Healthy Skin,Occiput,Y,N,N,N,Micrococcus,,16s by MHS 3/13/20,,2020-02-26,10^0,BD,BHI + Tween,,,,2020-03-11,,MHS,,,18,24,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1398,p3-SID2529,KHID76,Healthy Skin,Occiput,Y,N,N,N,Micrococcus,,16s by MHS 3/13/20,,2020-02-26,10^0,BD,BHI + Tween,,,,2020-03-12,,MHS,,,18,26,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1399,p3-SID2530,KHID76,Healthy Skin,Occiput,Y,N,N,N,Micrococcus,,16s by MHS 3/13/20,,2020-02-26,10^0,BD,BHI + Tween,,,,2020-03-12,,MHS,,,18,27,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1401,p3-SID2532,KHID74,Healthy Skin,Alar crease,Y,N,N,N,Micrococcus,,16s by MHS 3/13/20,,2020-02-26,10^0,BD,BHI + Tween,,,,2020-03-12,,MHS,,,18,29,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK399,p3-SID890,KHID72,Healthy Skin,Umbilicus,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-29,10^0,BH,BHI,,,,2019-08-01,,IKL,,,5,80,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK404,p3-SID895,KHID64,Healthy Skin,Umbilicus,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-29,10^-2,BH,BHI,,,,2019-08-01,,IKL,,,6,4,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK406,p3-SID897,KHID65,Healthy Skin,Toe web space,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-29,10^-2,BH,BHI,,,,2019-08-01,,IKL,,,6,6,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK416,p3-SID857,KHID36,Healthy Skin,Occiput,Y,Y,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-29,10^0,BL,BHI,,,,2019-08-01,,IKL,,,6,16,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK418,p3-SID740,KHID33,Healthy Skin,Toe web space,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BL,BHI,,,,2019-08-01,,IKL,,,6,18,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK420,p3-SID632,KHID52,Healthy Skin,Occiput,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BL,BHI,,,,2019-08-01,,IKL,,,6,20,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK422,p3-SID629,KHID70,Healthy Skin,Volar forearm,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BH,BHI,,,,2019-08-01,,IKL,,,6,22,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK423,p3-SID683,KHID63,Healthy Skin,Antecubital fossa,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BL,BHI,,,,2019-08-01,,IKL,,,6,23,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK425,p3-SID881,KHID48,Healthy Skin,Umbilicus,Y,Y,N,N,Micrococcus,,,,2019-07-29,10^0,BH,BHI,,,,2019-08-01,,IKL,,,6,25,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK431,p3-SID771,KHID77,Healthy Skin,Back,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-29,10^-1,BL,BHI,,,,2019-08-01,,IKL,,,6,31,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK437,p3-SID749,KHID33,Healthy Skin,Toe web space,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BH,BHI,,,,2019-08-01,,IKL,,,6,37,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK438,p3-SID748,KHID33,Healthy Skin,Toe web space,Y,Y,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BH,BHI,,,,2019-08-01,,IKL,,,6,38,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK440,p3-SID811,KHID77,Healthy Skin,Back,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-29,10^-1,BH,BHI,,,,2019-08-01,,IKL,,,6,40,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK453,p3-SID677,KHID61,Healthy Skin,Back,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BH,BHI,,,,2019-08-01,,IKL,,,6,53,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK454,p3-SID878,KHID64,Healthy Skin,Umbilicus,Y,Y,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-29,10^-2,BL,BHI,,,,2019-08-01,,IKL,,,6,54,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK462,p3-SID622,KHID62,Healthy Skin,Volar forearm,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BT,BHI,,,,2019-08-01,,IKL,,,6,62,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK463,p3-SID616,KHID54,Healthy Skin,Volar forearm,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BH,BHI,,,,2019-08-01,,IKL,,,6,63,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK468,p3-SID658,KHID53,Healthy Skin,Back,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BL,BHI,,,,2019-08-01,,IKL,,,6,68,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK471,p3-SID687,KHID73,Healthy Skin,Toe web space,Y,Y,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BH,BHI,,,,2019-08-01,,IKL,,,6,71,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK472,p3-SID657,KHID53,Healthy Skin,Back,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BL,BHI,,,,2019-08-01,,IKL,,,6,72,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK474,p3-SID836,KHID78,Healthy Skin,Volar forearm,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-29,10^-1,BL,BHI,,,,2019-08-01,,IKL,,,6,74,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK475,p3-SID837,KHID78,Healthy Skin,Volar forearm,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-29,10^-1,BL,BHI,,,,2019-08-01,,IKL,,,6,75,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK476,p3-SID838,KHID78,Healthy Skin,Volar forearm,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-29,10^-1,BL,BHI,,,,2019-08-01,,IKL,,,6,76,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK477,p3-SID865,KHID71,Healthy Skin,Antecubital fossa,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-29,10^0,BT,BHI,,,,2019-08-01,,IKL,,,6,77,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK481,p3-SID680,KHID61,Healthy Skin,Back,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BT,BHI,,,,2019-08-01,,IKL,,,6,81,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK482,p3-SID682,KHID63,Healthy Skin,Antecubital fossa,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BL,BHI,,,,2019-08-01,,IKL,,,7,1,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK483,p3-SID684,KHID63,Healthy Skin,Antecubital fossa,Y,N,N,N,Micrococcus,,,,2019-07-26,10^-1,BL,BHI,,,,2019-08-01,,IKL,,,7,2,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK484,p3-SID846,KHID79,Healthy Skin,Antecubital fossa,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-29,10^-1,BH,BHI,,,,2019-08-01,,IKL,,,7,3,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK487,p3-SID628,KHID70,Healthy Skin,Volar forearm,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BH,BHI,,,,2019-08-01,,IKL,,,7,6,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK491,p3-SID617,KHID54,Healthy Skin,Volar forearm,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BH,BHI,,,,2019-08-01,,IKL,,,7,10,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK492,p3-SID727,KHID30,Healthy Skin,Volar forearm,Y,N,N,N,Micrococcus,,,,2019-07-26,10^-1,BL,BHI,,,,2019-08-01,,IKL,,,7,11,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK493,p3-SID676,KHID63,Healthy Skin,Antecubital fossa,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BH,BHI,,,,2019-08-01,,IKL,,,7,12,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK498,p3-SID833,KHID76,Healthy Skin,Occiput,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-29,10^-1,BT,BHI,,,,2019-08-06,,IKL,,,7,17,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK505,p3-SID638,KHID52,Healthy Skin,Occiput,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BT,BHI,,,,2019-08-06,,IKL,,,7,24,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK506,p3-SID637,KHID52,Healthy Skin,Occiput,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BT,BHI,,,,2019-08-06,,IKL,,,7,25,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK509,p3-SID615,KHID54,Healthy Skin,Volar forearm,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BL,BHI,,,,2019-08-06,,IKL,,,7,28,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK510,p3-SID610,KHID54,Healthy Skin,Volar forearm,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BT,BHI,,,,2019-08-06,,IKL,,,7,29,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK511,p3-SID611,KHID54,Healthy Skin,Volar forearm,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BT,BHI,,,,2019-08-06,,IKL,,,7,30,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK513,p3-SID609,KHID62,Healthy Skin,Volar forearm,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BH,BHI,,,,2019-08-06,,IKL,,,7,32,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK514,p3-SID729,KHID30,Healthy Skin,Volar forearm,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BT,BHI,,,,2019-08-06,,IKL,,,7,33,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK520,p3-SID775,KHID77,Healthy Skin,Back,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-29,10^-1,BL,BHI,,,,2019-08-06,,IKL,,,7,39,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK521,p3-SID827,KHID76,Healthy Skin,Occiput,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-29,10^-1,BH,BHI,,,,2019-08-06,,IKL,,,7,40,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK532,p3-SID608,KHID62,Healthy Skin,Volar forearm,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BH,BHI,,,,2019-08-06,,IKL,,,7,51,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK534,p3-SID670,KHID60,Healthy Skin,Occiput,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BT,BHI,,,,2019-08-06,,IKL,,,7,53,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK537,p3-SID821,KHID79,Healthy Skin,Antecubital fossa,Y,N,N,N,Micrococcus,,,,2019-07-29,10^-1,BL,BHI,,,,2019-08-06,,IKL,,,7,56,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK541,p3-SID822,KHID79,Healthy Skin,Antecubital fossa,Y,Y,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-29,10^-1,BL,BHI,,,,2019-08-06,,IKL,,,7,60,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK545,p3-SID660,KHID53,Healthy Skin,Back,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BH,BHI,,,,2019-08-06,,IKL,,,7,64,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK546,p3-SID659,KHID53,Healthy Skin,Back,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BH,BHI,,,,2019-08-06,,IKL,,,7,65,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK552,p3-SID640,KHID50,Healthy Skin,Alar crease,Y,Y,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BL,BHI,,,,2019-08-06,,IKL,,,7,71,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK558,p3-SID674,KHID63,Healthy Skin,Antecubital fossa,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BT,BHI,,,,2019-08-06,,IKL,,,7,77,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK559,p3-SID673,KHID63,Healthy Skin,Antecubital fossa,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BT,BHI,,,,2019-08-06,,IKL,,,7,78,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK562,p3-SID871,KHID70,Healthy Skin,Volar forearm,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-29,10^0,BL,BHI,,,,2019-08-06,,IKL,,,7,81,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK563,p3-SID777,KHID77,Healthy Skin,Back,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-29,10^-1,BL,BHI,,,,2019-08-06,,IKL,,,8,1,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK564,p3-SID710,KHID29,Healthy Skin,Back,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BH,BHI,,,,2019-08-06,,IKL,,,8,2,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK567,p3-SID613,KHID54,Healthy Skin,Volar forearm,Y,Y,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BL,BHI,,,,2019-08-06,,IKL,,,8,5,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK568,p3-SID650,KHID53,Healthy Skin,Back,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BT,BHI,,,,2019-08-06,,IKL,,,8,6,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK573,p3-SID911,KHID71,Healthy Skin,Antecubital fossa,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-31,10^0,BT,BHI,,,,2019-08-06,,IKL,,,8,11,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK575,p3-SID823,KHID76,Healthy Skin,Occiput,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-29,10^-1,BH,BHI,,,,2019-08-06,,IKL,,,8,13,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK576,p3-SID916,KHID72,Healthy Skin,Umbilicus,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-31,10^0,BH,BHI,,,,2019-08-06,,IKL,,,8,14,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK577,p3-SID633,KHID52,Healthy Skin,Occiput,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BH,BHI,,,,2019-08-06,,IKL,,,8,15,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK578,p3-SID887,KHID69,Healthy Skin,Back,Y,N,N,N,Micrococcus,,,,2019-07-29,10^0,BH,BHI,,,,2019-08-06,,IKL,,,8,16,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK581,p3-SID698,KHID26,Healthy Skin,Alar crease,Y,Y,N,N,Micrococcus,,,,2019-07-26,10^-1,BL,BHI,,,,2019-08-06,,IKL,,,8,19,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK582,p3-SID824,KHID76,Healthy Skin,Occiput,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-29,10^-1,BH,BHI,,,,2019-08-06,,IKL,,,8,20,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK584,p3-SID711,KHID29,Healthy Skin,Back,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BH,BHI,,,,2019-08-06,,IKL,,,8,22,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK587,p3-SID651,KHID53,Healthy Skin,Back,Y,Y,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BT,BHI,,,,2019-08-06,,IKL,,,8,25,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK589,p3-SID585,KHID55,Healthy Skin,Antecubital fossa,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BT,BHI,,,,2019-08-29,,IKL,,,8,27,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK598,p3-SID842,KHID78,Healthy Skin,Volar forearm,Y,N,N,N,Micrococcus,,,,2019-07-29,10^-1,BL,BHI,,,,2019-08-29,,IKL,,,8,36,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK621,p3-SID667,KHID60,Healthy Skin,Occiput,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BH,BHI,,,,2019-08-29,,IKL,,,8,59,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK622,p3-SID668,KHID60,Healthy Skin,Occiput,Y,Y,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BH,BHI,,,,2019-08-29,,IKL,,,8,60,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK658,p3-SID706,KHID29,Healthy Skin,Back,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BT,BHI,,,,2019-08-12,,IKL,,,9,15,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK667,p3-SID808,KHID74,Healthy Skin,Alar crease,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-29,10^-1,BT,BHI,,,,2019-08-12,,IKL,,,9,24,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK678,p3-SID802,KHID74,Healthy Skin,Alar crease,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-29,10^-1,BH,BHI,,,,2019-08-12,,IKL,,,9,35,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK680,p3-SID693,KHID29,Healthy Skin,Back,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BL,BHI,,,,2019-08-12,,IKL,,,9,37,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK682,p3-SID692,KHID71,Healthy Skin,Antecubital fossa,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BH,BHI,,,,2019-08-12,,IKL,,,9,39,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK683,p3-SID678,KHID61,Healthy Skin,Back,Y,Y,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BH,BHI,,,,2019-08-12,,IKL,,,9,40,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK689,p3-SID835,KHID76,Healthy Skin,Occiput,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-29,10^-1,BT,BHI,,,,2019-08-12,,IKL,,,9,46,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK695,p3-SID624,KHID62,Healthy Skin,Volar forearm,Y,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BL,BHI,,,,2019-08-12,,IKL,,,9,52,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK828,p3-SID1331,KHID81,Healthy Skin,Alar crease,Y,N,N,N,Micrococcus,,,,2019-09-19,10^0,BD,BHI,,,,2019-10-28,,SAS,,,11,23,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK829,p3-SID1297,KHID98,Healthy Skin,Occiput,Y,N,N,N,Micrococcus,,,,2019-09-19,10^0,BD,BHI,,,,2019-10-28,,SAS,,,11,24,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK830,p3-SID1139,KHID92,Healthy Skin,Back,Y,N,N,N,Micrococcus,,,,2019-09-19,10^0,BT,BHI,,,,2019-10-28,,SAS,,,11,25,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK831,p3-SID1304,KHID108,Healthy Skin,Volar forearm,Y,N,N,N,Micrococcus,,,,2019-09-19,10^0,B,BHI,,,,2019-10-28,,SAS,,,11,26,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK832,p3-SID1332,KHID81,Healthy Skin,Alar crease,Y,Y,N,N,Micrococcus,,,,2019-09-19,10^0,BD,BHI,,,,2019-10-28,,SAS,,,11,27,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK839,p3-SID1222,KHID86,Healthy Skin,Antecubital fossa,Y,N,N,N,Micrococcus,,,,2019-09-19,10^0,BT,BHI,,,,2019-10-28,,SAS,,,11,34,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK840,p3-SID1318,KHID108,Healthy Skin,Volar forearm,Y,N,N,N,Micrococcus,,,,2019-09-19,10^0,BD,BHI,,,,2019-10-28,,SAS,,,11,35,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK847,p3-SID1219,KHID86,Healthy Skin,Antecubital fossa,Y,Y,N,N,Micrococcus,,,,2019-09-19,10^0,BT,BHI,,,,2019-10-28,,SAS,,,11,42,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK850,p3-SID1295,KHID98,Healthy Skin,Occiput,Y,N,N,N,Micrococcus,,,,2019-09-19,10^0,BD,BHI,,,,2019-10-28,,SAS,,,11,45,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK862,p3-SID1290,KHID97,Healthy Skin,Nares,Y,N,N,N,Micrococcus,,,,2019-09-19,10^0,BD,BHI,,,,2019-10-28,,SAS,,,11,57,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK863,p3-SID1214,KHID104,Healthy Skin,Alar crease,Y,Y,N,N,Micrococcus,,,,2019-09-19,10^0,BT,BHI,,,,2019-10-28,,SAS,,,11,58,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK873,p3-SID1141,KHID92,Healthy Skin,Back,Y,Y,N,N,Micrococcus,,,,2019-09-19,10^0,BT,BHI,,,,2019-10-28,,SAS,,,11,68,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK874,p3-SID1228,KHID97,Healthy Skin,Nares,Y,Y,N,N,Micrococcus,,,,2019-09-19,10^0,B,BHI,,,,2019-10-28,,SAS,,,11,69,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK892,p3-SID1235,KHID111,Healthy Skin,Toe web space,Y,Y,N,N,Micrococcus,,,,2019-09-19,10^0,BT,BHI,,,,2019-11-15,,IKL,,,12,6,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK900,p3-SID1320,KHID108,Healthy Skin,Volar forearm,Y,N,N,N,Micrococcus,,,,2019-09-19,10^0,BD,BHI,,,,2019-11-15,,IKL,,,12,14,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK903,p3-SID1311,KHID108,Healthy Skin,Volar forearm,Y,Y,N,N,Micrococcus,,,,2019-09-19,10^0,BT,BHI,,,,2019-11-15,,IKL,,,12,17,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK911,p3-SID1133,KHID106,Healthy Skin,Occiput,Y,Y,N,N,Micrococcus,,,,2019-09-19,10^0,B,BHI,,,,2019-11-15,,IKL,,,12,25,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK998,p3-SID1570,KHID122,Healthy Skin,Occiput,Y,Y,N,N,Micrococcus,,,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-11-23,,SAS,,,13,31,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1002,p3-SID1338,KHID125,Healthy Skin,Antecubital fossa,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-09-16,10^0,B,BHI + Tween,,,,2019-11-23,,SAS,,,13,35,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1007,p3-SID1420,KHID127,Healthy Skin,Toe web space,Y,N,Y,N,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-09-16,10^0,BT,BHI + Tween,,,,2019-11-23,,SAS,,,13,40,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1008,p3-SID1424,KHID130,Healthy Skin,Occiput,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-09-16,10^0,B,BHI + Tween,,,,2019-11-23,,SAS,,,13,41,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1009,p3-SID1373,KHID144,Healthy Skin,Alar crease,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-09-16,10^0,B,BHI + Tween,,,,2019-11-23,,SAS,,,13,42,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1012,p3-SID1423,KHID129,Healthy Skin,Nares,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-09-16,10^0,B,BHI + Tween,,,,2019-11-23,,SAS,,,13,45,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1014,p3-SID1334,KHID125,Healthy Skin,Antecubital fossa,Y,N,Y,N,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-09-16,10^0,BT,BHI + Tween,,,,2019-11-23,,SAS,,,13,47,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1018,p3-SID1337,KHID125,Healthy Skin,Antecubital fossa,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-09-16,10^0,B,BHI + Tween,,,,2019-11-23,,SAS,,,13,51,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1019,p3-SID1412,KHID125,Healthy Skin,Antecubital fossa,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-09-16,10^0,B,BHI + Tween,,,,2019-11-23,,SAS,,,13,52,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1022,p3-SID1333,KHID125,Healthy Skin,Antecubital fossa,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-09-16,10^0,BT,BHI + Tween,,,,2019-11-23,,SAS,,,13,55,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1025,p3-SID1356,KHID144,Healthy Skin,Alar crease,Y,N,Y,N,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-09-16,10^0,B,BHI + Tween,,,,2019-11-23,,SAS,,,13,58,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1026,p3-SID1335,KHID125,Healthy Skin,Antecubital fossa,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-09-16,10^0,BT,BHI + Tween,,,,2019-11-23,,SAS,,,13,59,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1036,p3-SID1891,KHID132,Healthy Skin,Volar forearm,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,B,BHI + Tween,,,,2019-11-27,,SAS,,,13,69,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1048,p3-SID1866,KHID130,Healthy Skin,Occiput,Y,N,Y,N,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,BT,BHI + Tween,,,,2019-11-27,,SAS,,,13,81,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1049,p3-SID1876,KHID131,Healthy Skin,Back,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,B,BHI + Tween,,,,2019-11-27,,SAS,,,14,1,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1050,p3-SID1863,KHID130,Healthy Skin,Occiput,Y,N,Y,N,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,B,BHI + Tween,,,,2019-11-27,,SAS,,,14,2,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1051,p3-SID1865,KHID130,Healthy Skin,Occiput,Y,N,Y,N,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,BT,BHI + Tween,,,,2019-11-27,,SAS,,,14,3,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1053,p3-SID1884,KHID131,Healthy Skin,Back,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-11-27,,SAS,,,14,5,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1056,p3-SID1877,KHID131,Healthy Skin,Back,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,B,BHI + Tween,,,,2019-11-27,,SAS,,,14,8,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1070,p3-SID1875,KHID131,Healthy Skin,Back,Y,N,Y,N,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,B,BHI + Tween,,,,2019-11-27,,SAS,,,14,22,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1072,p3-SID1843,KHID132,Healthy Skin,Volar forearm,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-11-27,,SAS,,,14,24,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1073,p3-SID1889,KHID132,Healthy Skin,Volar forearm,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,B,BHI + Tween,,,,2019-11-27,,SAS,,,14,25,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1090,p3-SID1582,KHID130,Healthy Skin,Occiput,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-10,,SAS,,,14,42,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1091,p3-SID1516,KHID143,Healthy Skin,Toe web space,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-10,,SAS,,,14,43,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1099,p3-SID1548,KHID154,Healthy Skin,Occiput,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-10,,SAS,,,14,51,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1104,p3-SID1472,KHID124,Healthy Skin,Volar forearm,Y,N,Y,N,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-09-16,10^0,B,BHI + Tween,,,,2019-12-10,,SAS,,,14,56,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1105,p3-SID1473,KHID124,Healthy Skin,Volar forearm,Y,N,Y,N,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-09-16,10^0,B,BHI + Tween,,,,2019-12-10,,SAS,,,14,57,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1106,p3-SID1474,KHID124,Healthy Skin,Volar forearm,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-09-16,10^0,B,BHI + Tween,,,,2019-12-10,,SAS,,,14,58,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1113,p3-SID1600,KHID151,Healthy Skin,Toe web space,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,BT,BHI + Tween,,,,2019-12-10,,SAS,,,14,65,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1117,p3-SID1622,KHID155,Healthy Skin,Back,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-10,,SAS,,,14,69,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1121,p3-SID1456,KHID124,Healthy Skin,Volar forearm,Y,N,Y,N,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-09-16,10^0,BD,BHI + Tween,,,,2019-12-10,,SAS,,,14,73,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1145,p3-SID1576,KHID123,Healthy Skin,Back,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-10,,SAS,,,15,16,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1147,p3-SID1578,KHID123,Healthy Skin,Back,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,BT,BHI + Tween,,,,2019-12-10,,SAS,,,15,18,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1159,p3-SID1509,KHID140,Healthy Skin,Volar forearm,Y,N,Y,N,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-10,,SAS,,,15,30,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1173,p3-SID1296,KHID98,Healthy Skin,Occiput,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-09-19,10^0,BD,BHI + Tween,,,,2019-12-16,,SAS,,,15,44,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1206,p3-SID1703,KHID146,Healthy Skin,Occiput,Y,N,Y,N,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-20,,SAS,,,15,77,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1207,p3-SID1705,KHID146,Healthy Skin,Occiput,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-20,,SAS,,,15,78,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1208,p3-SID1706,KHID146,Healthy Skin,Occiput,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-20,,SAS,,,15,79,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1224,p3-SID1787,KHID148,Healthy Skin,Volar forearm,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-20,,SAS,,,16,14,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1231,p3-SID1805,KHID149,Healthy Skin,Antecubital fossa,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-20,,SAS,,,16,21,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1274,p3-SID1781,KHID148,Healthy Skin,Volar forearm,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,BT,BHI + Tween,,,,2019-12-24,,SAS,,,16,64,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1275,p3-SID1783,KHID148,Healthy Skin,Volar forearm,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,BT,BHI + Tween,,,,2019-12-24,,SAS,,,16,65,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1306,p3-SID980,KHID85,Healthy Skin,Volar forearm,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-09-19,10^0,BT,BHI + Tween,,,,2019-12-27,,SAS,,,17,15,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1330,p3-SID996,KHID116,Healthy Skin,Volar forearm,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-09-19,10^0,BT,BHI + Tween,,,,2019-12-27,,SAS,,,17,39,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1334,p3-SID1106,KHID113,Healthy Skin,Nares,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-09-19,10^0,BD,BHI + Tween,,,,2019-12-27,,SAS,,,17,43,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1335,p3-SID1002,KHID116,Healthy Skin,Volar forearm,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-09-19,10^0,B,BHI + Tween,,,,2019-12-27,,SAS,,,17,44,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1379,p3-SID2510,KHID74,Healthy Skin,Alar crease,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2020-02-26,10^0,BD,BHI + Tween,,,,2020-03-11,,MHS,,,18,7,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1380,p3-SID2511,KHID78,Healthy Skin,Volar forearm,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2020-02-26,10^0,BT,BHI + Tween,,,,2020-03-11,,MHS,,,18,8,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1382,p3-SID2513,KHID78,Healthy Skin,Volar forearm,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2020-02-26,10^0,BT,BHI + Tween,,,,2020-03-11,,MHS,,,18,10,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1383,p3-SID2514,KHID78,Healthy Skin,Volar forearm,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2020-02-26,10^0,BT,BHI + Tween,,,,2020-03-11,,MHS,,,18,11,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1384,p3-SID2515,KHID78,Healthy Skin,Volar forearm,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2020-02-26,10^0,BT,BHI + Tween,,,,2020-03-11,,MHS,,,18,12,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1390,p3-SID2521,KHID76,Healthy Skin,Occiput,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2020-02-26,10^0,BD,BHI + Tween,,,,2020-03-11,,MHS,,,18,18,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1392,p3-SID2523,KHID76,Healthy Skin,Occiput,Y,N,Y,N,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2020-02-26,10^0,BD,BHI + Tween,,,,2020-03-11,,MHS,,,18,20,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1393,p3-SID2524,KHID76,Healthy Skin,Occiput,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2020-02-26,10^0,BD,BHI + Tween,,,,2020-03-11,,MHS,,,18,21,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1397,p3-SID2528,KHID76,Healthy Skin,Occiput,Y,N,Y,N,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2020-02-26,10^0,BD,BHI + Tween,,,,2020-03-11,,MHS,,,18,25,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1400,p3-SID2531,KHID76,Healthy Skin,Occiput,Y,N,Y,N,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2020-02-26,10^0,BD,BHI + Tween,,,,2020-03-12,,MHS,,,18,28,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1402,p3-SID2533,KHID78,Healthy Skin,Volar forearm,Y,N,Y,N,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2020-02-26,10^0,BT,BHI + Tween,,,,2020-03-12,,MHS,,,18,30,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK400,p3-SID891,KHID72,Healthy Skin,Umbilicus,Y,N,Y,N,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-07-29,10^0,BH,BHI,,,,2019-08-01,,IKL,,,5,81,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK402,p3-SID893,KHID68,Healthy Skin,Occiput,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-07-29,10^0,BH,BHI,,,,2019-08-01,,IKL,,,6,2,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK408,p3-SID899,KHID65,Healthy Skin,Toe web space,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-07-29,10^-2,BH,BHI,,,,2019-08-01,,IKL,,,6,8,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK409,p3-SID868,KHID71,Healthy Skin,Antecubital fossa,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-07-29,10^0,BL,BHI,,,,2019-08-01,,IKL,,,6,9,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK410,p3-SID869,KHID70,Healthy Skin,Volar forearm,Y,N,Y,N,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-07-29,10^0,BL,BHI,,,,2019-08-01,,IKL,,,6,10,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK412,p3-SID861,KHID47,Healthy Skin,Antecubital fossa,Y,N,Y,N,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-07-29,10^0,BL,BHI,,,,2019-08-01,,IKL,,,6,12,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK419,p3-SID631,KHID52,Healthy Skin,Occiput,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-07-26,10^-1,BL,BHI,,,,2019-08-01,,IKL,,,6,19,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK426,p3-SID888,KHID69,Healthy Skin,Back,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-07-29,10^0,BH,BHI,,,,2019-08-01,,IKL,,,6,26,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK427,p3-SID765,KHID78,Healthy Skin,Volar forearm,Y,N,Y,N,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-07-29,10^-1,BH,BHI,,,,2019-08-01,,IKL,,,6,27,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK430,p3-SID675,KHID63,Healthy Skin,Antecubital fossa,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-07-26,10^-1,BH,BHI,,,,2019-08-01,,IKL,,,6,30,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK441,p3-SID810,KHID77,Healthy Skin,Back,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-07-29,10^-1,BH,BHI,,,,2019-08-01,,IKL,,,6,41,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK443,p3-SID750,KHID31,Healthy Skin,Antecubital fossa,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-07-26,10^-1,BL,BHI,,,,2019-08-01,,IKL,,,6,43,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK455,p3-SID723,KHID34,Healthy Skin,Alar crease,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-07-26,10^-1,BT,BHI,,,,2019-08-01,,IKL,,,6,55,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK467,p3-SID733,KHID30,Healthy Skin,Volar forearm,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-07-26,10^-1,BH,BHI,,,,2019-08-01,,IKL,,,6,67,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK517,p3-SID732,KHID30,Healthy Skin,Volar forearm,Y,N,Y,N,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-07-26,10^-1,BH,BHI,,,,2019-08-06,,IKL,,,7,36,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK542,p3-SID630,KHID52,Healthy Skin,Occiput,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-07-26,10^-1,BL,BHI,,,,2019-08-06,,IKL,,,7,61,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK553,p3-SID690,KHID57,Healthy Skin,Toe web space,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-07-26,10^-1,BL,BHI,,,,2019-08-06,,IKL,,,7,72,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK566,p3-SID619,KHID66,Healthy Skin,Alar crease,Y,N,Y,N,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-07-26,10^-1,BT,BHI,,,,2019-08-06,,IKL,,,8,4,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK569,p3-SID709,KHID29,Healthy Skin,Back,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-07-26,10^-1,BH,BHI,,,,2019-08-06,,IKL,,,8,7,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK604,p3-SID875,KHID56,Healthy Skin,Umbilicus,Y,N,Y,N,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-07-29,10^-2,BH,BHI,,,,2019-08-29,,IKL,,,8,42,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK661,p3-SID726,KHID30,Healthy Skin,Volar forearm,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-07-26,10^-1,BL,BHI,,,,2019-08-12,,IKL,,,9,18,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK694,p3-SID625,KHID62,Healthy Skin,Volar forearm,Y,N,Y,N,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-07-26,10^-1,BL,BHI,,,,2019-08-12,,IKL,,,9,51,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK697,p3-SID627,KHID70,Healthy Skin,Volar forearm,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-07-26,10^-1,BT,BHI,,,,2019-08-12,,IKL,,,9,54,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK705,p3-SID783,KHID78,Healthy Skin,Volar forearm,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-07-29,10^-1,BT,BHI,,,,2019-08-12,,IKL,,,9,62,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK719,p3-SID588,KHID55,Healthy Skin,Antecubital fossa,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-07-26,10^-1,BH,BHI,,,,2019-08-12,,IKL,,,9,76,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK941,p3-SID797,KHID74,Healthy Skin,Alar crease,Y,Y,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-07-29,10^-1,BH,BHI,,,,2019-11-18,,SAS,,,12,55,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK945,p3-SID1303,KHID108,Healthy Skin,Volar forearm,Y,Y,Y,Y,Micromonospora,chalcea,GTDB-tk by RS on 3/9/22,,2019-09-19,10^0,B,BHI,,,,2019-11-18,,SAS,,,12,59,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1098,p3-SID1541,KHID153,Healthy Skin,Nares,Y,Y,Y,Y,Morganella,morganii,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-10,,SAS,,,14,50,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1271,p3-SID1775,KHID135,Healthy Skin,Toe web space,Y,Y,N,N,Nesterenkonia,,,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-24,,SAS,,,16,61,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK518,p3-SID767,KHID78,Healthy Skin,Volar forearm,Y,Y,Y,Y,Nesterenkonia,massiliensis,GTDB-tk by RS on 3/9/22,,2019-07-29,10^-1,BH,BHI,,,,2019-08-06,,IKL,,,7,37,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK536,p3-SID665,KHID60,Healthy Skin,Occiput,Y,Y,N,N,Niallia,,,,2019-07-26,10^-1,BL,BHI,,,,2019-08-06,,IKL,,,7,55,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK712,p3-SID844,KHID79,Healthy Skin,Antecubital fossa,Y,Y,Y,Y,Niallia,taxi,GTDB-tk by RS on 3/9/22,,2019-07-29,10^-1,BH,BHI,,,,2019-08-12,,IKL,,,9,69,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1102,p3-SID1558,KHID155,Healthy Skin,Back,Y,Y,Y,N,Oceanobacillus,kimchii,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-10,,SAS,,,14,54,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1172,p3-SID1628,KHID155,Healthy Skin,Back,Y,Y,Y,Y,Oceanobacillus,kimchii,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-11,,SAS,,,15,43,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1034,p3-SID1389,KHID129,Healthy Skin,Nares,Y,Y,Y,Y,Paenibacillus,,GTDB-tk by RS on 3/9/22,,2019-09-16,10^0,BT,BHI + Tween,,,,2019-11-27,,SAS,,,13,67,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK479,p3-SID867,KHID71,Healthy Skin,Antecubital fossa,Y,Y,Y,Y,Paenibacillus,sp001860525,GTDB-tk by RS on 3/9/22,,2019-07-29,10^0,BT,BHI,,,,2019-08-01,,IKL,,,6,79,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK464,p3-SID801,KHID74,Healthy Skin,Alar crease,Y,Y,Y,Y,Peribacillus,frigoritolerans,GTDB-tk by RS on 3/9/22,,2019-07-29,10^-1,BH,BHI,,,,2019-08-01,,IKL,,,6,64,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1279,p3-SID1799,KHID149,Healthy Skin,Antecubital fossa,Y,Y,Y,Y,Pseudoclavibacter,alba,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,BT,BHI + Tween,,,,2019-12-24,,SAS,,,16,69,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK570,p3-SID696,KHID43,Healthy Skin,Nares,Y,Y,Y,Y,Raoultella,ornithinolytica,GTDB-tk by RS on 3/9/22,,2019-07-26,10^-1,BH,BHI,,,,2019-08-06,,IKL,,,8,8,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK860,p3-SID1223,KHID117,Healthy Skin,Antecubital fossa,Y,Y,N,N,Rhodocococcus,,,,2019-09-19,10^0,B,BHI+Tween,,,,2019-10-28,,SAS,,,11,55,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1081,p3-SID1645,KHID137,Healthy Skin,Nares,Y,Y,N,N,Rothia,,,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-10,,SAS,,,14,33,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1083,p3-SID1654,KHID137,Healthy Skin,Nares,Y,Y,N,N,Rothia,,,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-10,,SAS,,,14,35,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1086,p3-SID1566,KHID140,Healthy Skin,Volar forearm,Y,Y,Y,N,Rothia,kristinae,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-10,,SAS,,,14,38,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1244,p3-SID1678,KHID136,Healthy Skin,Alar crease,Y,Y,Y,N,Rothia,kristinae,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-24,,SAS,,,16,34,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1259,p3-SID1735,KHID138,Healthy Skin,Occiput,Y,Y,Y,N,Rothia,kristinae,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-24,,SAS,,,16,49,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1263,p3-SID1741,KHID138,Healthy Skin,Occiput,Y,Y,Y,Y,Rothia,kristinae,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-24,,SAS,,,16,53,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1282,p3-SID1811,KHID137,Healthy Skin,Nares,Y,Y,Y,N,Rothia,kristinae,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,BT,BHI + Tween,,,,2019-12-24,,SAS,,,16,72,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1285,p3-SID1829,KHID138,Healthy Skin,Occiput,Y,Y,Y,N,Rothia,kristinae,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-24,,SAS,,,16,75,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1287,p3-SID1817,KHID137,Healthy Skin,Nares,Y,Y,Y,N,Rothia,kristinae,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-24,,SAS,,,16,77,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1112,p3-SID1597,KHID151,Healthy Skin,Toe web space,Y,Y,Y,Y,Rothia,massiliensis,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,BT,BHI + Tween,,,,2019-12-10,,SAS,,,14,64,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK875,p3-SID1240,KHID103,Healthy Skin,Toe web space,Y,Y,N,N,Sphingobacterium,,,,2019-09-19,10^0,BD,BHI,,,,2019-10-28,,SAS,,,11,70,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK421,p3-SID743,KHID33,Healthy Skin,Toe web space,Y,Y,Y,Y,Sphingobacterium,daejeonense,GTDB-tk by RS on 3/9/22,,2019-07-26,10^-1,BL,BHI,,,,2019-08-01,,IKL,,,6,21,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK485,p3-SID741,KHID33,Healthy Skin,Toe web space,Y,Y,Y,Y,Sphingobacterium,hotanense,GTDB-tk by RS on 3/9/22,,2019-07-26,10^-1,BL,BHI,,,,2019-08-01,,IKL,,,7,4,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1003,p3-SID1426,KHID132,Healthy Skin,Volar forearm,Y,Y,N,N,Staphylococcus,,16s by SAS 12/19/19,,2019-09-16,10^0,B,BHI + Tween,,,,2019-11-23,,SAS,,,13,36,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1219,p3-SID1758,KHID158,Healthy Skin,Umbilicus,Y,Y,N,N,Staphylococcus,,,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-20,,SAS,,,16,9,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1253,p3-SID1728,KHID158,Healthy Skin,Umbilicus,Y,Y,N,N,Staphylococcus,,16s by SAS 9/18/20 ,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-24,,SAS,,,16,43,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1254,p3-SID1729,KHID158,Healthy Skin,Umbilicus,Y,Y,N,N,Staphylococcus,,,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-24,,SAS,,,16,44,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1265,p3-SID1760,KHID158,Healthy Skin,Umbilicus,Y,Y,N,N,Staphylococcus,,,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-24,,SAS,,,16,55,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1341,p3-SID985,KHID85,Healthy Skin,Volar forearm,Y,Y,N,N,Staphylococcus,,16s by SAS 9/18/20 ,,2019-09-19,10^0,BT,BHI + Tween,,,,2019-12-29,,SAS,,,17,50,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1342,p3-SID1177,KHID91,Healthy Skin,Occiput,Y,Y,N,N,Staphylococcus,,16s by SAS 9/18/20 ,,2019-09-19,10^0,BT,BHI + Tween,,,,2019-12-29,,SAS,,,17,51,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1373,p3-SID603,KHID58,Healthy Skin,Alar crease,Y,Y,N,N,Staphylococcus,,,,2019-07-26,10^-1,BT,BHI + Tween,,,,2020-03-05,,SAS,,,18,1,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK403,p3-SID894,KHID68,Healthy Skin,Occiput,Y,Y,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-29,10^0,BL,BHI,,,,2019-08-01,,IKL,,,6,3,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK407,p3-SID898,KHID65,Healthy Skin,Toe web space,Y,Y,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-29,10^-2,BH,BHI,,,,2019-08-01,,IKL,,,6,7,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK435,p3-SID880,KHID48,Healthy Skin,Umbilicus,Y,Y,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-29,10^0,BH,BHI,,,,2019-08-01,,IKL,,,6,35,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK436,p3-SID876,KHID28,Healthy Skin,Occiput,Y,Y,N,N,staphylococcus,,16s by SAS 9/26/19,,2019-07-29,10^-3,BH,BHI,,,,2019-08-01,,IKL,,,6,36,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK449,p3-SID832,KHID76,Healthy Skin,Occiput,Y,Y,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-29,10^-1,BT,BHI,,,,2019-08-01,,IKL,,,6,49,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK452,p3-SID681,KHID61,Healthy Skin,Back,Y,Y,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BT,BHI,,,,2019-08-01,,IKL,,,6,52,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK456,p3-SID725,KHID34,Healthy Skin,Alar crease,Y,Y,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BT,BHI,,,,2019-08-01,,IKL,,,6,56,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK457,p3-SID724,KHID34,Healthy Skin,Alar crease,Y,Y,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BT,BHI,,,,2019-08-01,,IKL,,,6,57,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK473,p3-SID860,KHID47,Healthy Skin,Antecubital fossa,Y,Y,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-29,10^0,BL,BHI,,,,2019-08-01,,IKL,,,6,73,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK480,p3-SID679,KHID61,Healthy Skin,Back,Y,Y,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BT,BHI,,,,2019-08-01,,IKL,,,6,80,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK486,p3-SID739,KHID33,Healthy Skin,Toe web space,Y,Y,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BL,BHI,,,,2019-08-01,,IKL,,,7,5,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK490,p3-SID759,KHID42,Healthy Skin,Alar crease,Y,Y,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BT,BHI,,,,2019-08-01,,IKL,,,7,9,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK496,p3-SID699,KHID26,Healthy Skin,Alar crease,Y,Y,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BL,BHI,,,,2019-08-06,,IKL,,,7,15,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK497,p3-SID700,KHID26,Healthy Skin,Alar crease,Y,Y,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BL,BHI,,,,2019-08-06,,IKL,,,7,16,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK503,p3-SID718,KHID44,Healthy Skin,Occiput,Y,Y,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BT,BHI,,,,2019-08-06,,IKL,,,7,22,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK504,p3-SID639,KHID52,Healthy Skin,Occiput,Y,Y,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BT,BHI,,,,2019-08-06,,IKL,,,7,23,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK507,p3-SID636,KHID52,Healthy Skin,Occiput,Y,Y,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BT,BHI,,,,2019-08-06,,IKL,,,7,26,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK515,p3-SID730,KHID30,Healthy Skin,Volar forearm,Y,Y,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BT,BHI,,,,2019-08-06,,IKL,,,7,34,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK516,p3-SID731,KHID30,Healthy Skin,Volar forearm,Y,Y,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BT,BHI,,,,2019-08-06,,IKL,,,7,35,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK528,p3-SID646,KHID32,Healthy Skin,Umbilicus,Y,Y,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-26,10^-2,BL,BHI,,,,2019-08-06,,IKL,,,7,47,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK529,p3-SID647,KHID32,Healthy Skin,Umbilicus,Y,Y,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-26,10^-2,BL,BHI,,,,2019-08-06,,IKL,,,7,48,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK530,p3-SID744,KHID41,Healthy Skin,Toe web space,Y,Y,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BL,BHI,,,,2019-08-06,,IKL,,,7,49,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK531,p3-SID649,KHID72,Healthy Skin,Umbilicus,Y,Y,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BT,BHI,,,,2019-08-06,,IKL,,,7,50,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK535,p3-SID671,KHID60,Healthy Skin,Occiput,Y,Y,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BT,BHI,,,,2019-08-06,,IKL,,,7,54,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK543,p3-SID662,KHID50,Healthy Skin,Alar crease,Y,Y,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BT,BHI,,,,2019-08-06,,IKL,,,7,62,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK544,p3-SID661,KHID50,Healthy Skin,Alar crease,Y,Y,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BT,BHI,,,,2019-08-06,,IKL,,,7,63,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK547,p3-SID645,KHID49,Healthy Skin,Toe web space,Y,Y,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-26,10^-2,BH,BHI,,,,2019-08-06,,IKL,,,7,66,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK548,p3-SID644,KHID49,Healthy Skin,Toe web space,Y,Y,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-26,10^-2,BL,BHI,,,,2019-08-06,,IKL,,,7,67,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK549,p3-SID643,KHID49,Healthy Skin,Toe web space,Y,Y,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-26,10^-2,BL,BHI,,,,2019-08-06,,IKL,,,7,68,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK550,p3-SID642,KHID59,Healthy Skin,Nares,Y,Y,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BT,BHI,,,,2019-08-06,,IKL,,,7,69,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK551,p3-SID641,KHID59,Healthy Skin,Nares,Y,Y,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BT,BHI,,,,2019-08-06,,IKL,,,7,70,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK555,p3-SID717,KHID37,Healthy Skin,Back,Y,Y,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BT,BHI,,,,2019-08-06,,IKL,,,7,74,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK556,p3-SID716,KHID26,Healthy Skin,Alar crease,Y,Y,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BH,BHI,,,,2019-08-06,,IKL,,,7,75,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK560,p3-SID672,KHID63,Healthy Skin,Antecubital fossa,Y,Y,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BT,BHI,,,,2019-08-06,,IKL,,,7,79,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK571,p3-SID850,KHID79,Healthy Skin,Antecubital fossa,Y,Y,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-29,10^-1,BT,BHI,,,,2019-08-06,,IKL,,,8,9,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK574,p3-SID648,KHID72,Healthy Skin,Umbilicus,Y,Y,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BT,BHI,,,,2019-08-06,,IKL,,,8,12,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK580,p3-SID652,KHID68,Healthy Skin,Occiput,Y,Y,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BT,BHI,,,,2019-08-06,,IKL,,,8,18,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK594,p3-SID883,KHID45,Healthy Skin,Back,Y,Y,N,N,Staphylococcus,,,,2019-07-29,10^0,BL,BHI,,,,2019-08-29,,IKL,,,8,32,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK596,p3-SID589,KHID55,Healthy Skin,Antecubital fossa,Y,Y,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BH,BHI,,,,2019-08-29,,IKL,,,8,34,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK600,p3-SID815,KHID79,Healthy Skin,Antecubital fossa,Y,Y,N,N,Staphylococcus,,,,2019-07-29,10^-1,BL,BHI,,,,2019-08-29,,IKL,,,8,38,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK601,p3-SID816,KHID79,Healthy Skin,Antecubital fossa,Y,Y,N,N,Staphylococcus,,,,2019-07-29,10^-1,BL,BHI,,,,2019-08-29,,IKL,,,8,39,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK606,p3-SID779,KHID77,Healthy Skin,Back,Y,Y,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-29,10^-1,BT,BHI,,,,2019-08-29,,IKL,,,8,44,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK615,p3-SID774,KHID77,Healthy Skin,Back,Y,Y,N,N,Staphylococcus,,,,2019-07-29,10^-1,BL,BHI,,,,2019-08-29,,IKL,,,8,53,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK616,p3-SID840,KHID78,Healthy Skin,Volar forearm,Y,Y,N,N,Staphylococcus,,,,2019-07-29,10^-1,BL,BHI,,,,2019-08-29,,IKL,,,8,54,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK620,p3-SID666,KHID60,Healthy Skin,Occiput,Y,Y,N,N,Staphylococcus,,,,2019-07-26,10^-1,BL,BHI,,,,2019-08-29,,IKL,,,8,58,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK623,p3-SID626,KHID70,Healthy Skin,Volar forearm,Y,Y,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BT,BHI,,,,2019-08-29,,IKL,,,8,61,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK625,p3-SID789,KHID74,Healthy Skin,Alar crease,Y,Y,N,N,Staphylococcus,,,,2019-07-29,10^-1,BL,BHI,,,,2019-08-29,,IKL,,,8,63,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK626,p3-SID583,KHID67,Healthy Skin,Nares,Y,Y,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BH,BHI,,,,2019-08-29,,IKL,,,8,64,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK635,p3-SID862,KHID42,Healthy Skin,Alar crease,Y,Y,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-29,10^0,BH,BHI,,,,2019-08-29,,IKL,,,8,73,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK636,p3-SID854,KHID47,Healthy Skin,Antecubital fossa,Y,Y,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-29,10^0,BH,BHI,,,,2019-08-29,,IKL,,,8,74,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK637,p3-SID853,KHID79,Healthy Skin,Antecubital fossa,Y,Y,N,N,Staphylococcus,,,,2019-07-29,10^-1,BT,BHI,,,,2019-08-29,,IKL,,,8,75,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK657,p3-SID738,KHID41,Healthy Skin,Toe web space,Y,Y,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BH,BHI,,,,2019-08-12,,IKL,,,9,14,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK659,p3-SID707,KHID29,Healthy Skin,Back,Y,Y,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BT,BHI,,,,2019-08-12,,IKL,,,9,16,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK665,p3-SID737,KHID41,Healthy Skin,Toe web space,Y,Y,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BH,BHI,,,,2019-08-12,,IKL,,,9,22,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK673,p3-SID705,KHID43,Healthy Skin,Nares,Y,Y,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BT,BHI,,,,2019-08-12,,IKL,,,9,30,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK674,p3-SID769,KHID78,Healthy Skin,Volar forearm,Y,Y,N,N,Staphylococcus,,,,2019-07-29,10^-1,BH,BHI,,,,2019-08-12,,IKL,,,9,31,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK677,p3-SID803,KHID74,Healthy Skin,Alar crease,Y,Y,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-29,10^-1,BH,BHI,,,,2019-08-12,,IKL,,,9,34,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK684,p3-SID590,KHID51,Healthy Skin,Nares,Y,Y,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BT,BHI,,,,2019-08-12,,IKL,,,9,41,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK685,p3-SID591,KHID51,Healthy Skin,Nares,Y,Y,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BT,BHI,,,,2019-08-12,,IKL,,,9,42,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK686,p3-SID592,KHID51,Healthy Skin,Nares,Y,Y,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BT,BHI,,,,2019-08-12,,IKL,,,9,43,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK688,p3-SID874,KHID56,Healthy Skin,Umbilicus,Y,Y,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-29,10^-2,BH,BHI,,,,2019-08-12,,IKL,,,9,45,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK690,p3-SID694,KHID29,Healthy Skin,Back,Y,Y,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BL,BHI,,,,2019-08-12,,IKL,,,9,47,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK691,p3-SID756,KHID31,Healthy Skin,Antecubital fossa,Y,Y,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BT,BHI,,,,2019-08-12,,IKL,,,9,48,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK693,p3-SID758,KHID42,Healthy Skin,Alar crease,Y,Y,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BT,BHI,,,,2019-08-12,,IKL,,,9,50,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK834,p3-SID1127,KHID105,Healthy Skin,Nares,Y,Y,N,N,Staphylococcus,,,,2019-09-19,10^0,B,BHI,,,,2019-10-28,,SAS,,,11,29,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK835,p3-SID1218,KHID112,Healthy Skin,Alar crease,Y,Y,N,N,Staphylococcus,,,,2019-09-19,10^0,BT,BHI,,,,2019-10-28,,SAS,,,11,30,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK837,p3-SID1210,KHID112,Healthy Skin,Alar crease,Y,Y,N,N,Staphylococcus,,,,2019-09-19,10^0,B,BHI,,,,2019-10-28,,SAS,,,11,32,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK849,p3-SID1279,KHID91,Healthy Skin,Occiput,Y,Y,N,N,Staphylococcus,,,,2019-09-19,10^0,B,BHI,,,,2019-10-28,,SAS,,,11,44,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK853,p3-SID1283,KHID91,Healthy Skin,Occiput,Y,Y,N,N,Staphylococcus,,,,2019-09-19,10^0,B,BHI,,,,2019-10-28,,SAS,,,11,48,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK857,p3-SID1274,KHID88,Healthy Skin,Toe web space,Y,Y,N,N,Staphylococcus,,,,2019-09-19,10^0,B,BHI+0.1%Tween 80,,,,2019-10-28,,SAS,,,11,52,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK861,p3-SID1280,KHID91,Healthy Skin,Occiput,Y,Y,N,N,Staphylococcus,,,,2019-09-19,10^0,B,BHI,,,,2019-10-28,,SAS,,,11,56,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK893,p3-SID796,KHID74,Healthy Skin,Alar crease,Y,Y,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-29,10^-1,BH,BHI,,,,2019-11-15,,IKL,,,12,7,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK524,p3-SID654,KHID67,Healthy Skin,Nares,Y,Y,Y,Y,Staphylococcus,aureus,GTDB-tk by RS on 3/9/22,,2019-07-26,10^-1,BT,BHI,,,,2019-08-06,,IKL,,,7,43,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1255,p3-SID1731,KHID158,Healthy Skin,Umbilicus,Y,Y,Y,Y,Staphylococcus,capitis,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-24,,SAS,,,16,45,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1095,p3-SID1607,KHID152,Healthy Skin,Alar crease,Y,Y,Y,N,Staphylococcus,epidermidis,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-10,,SAS,,,14,47,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1096,p3-SID1612,KHID152,Healthy Skin,Alar crease,Y,Y,Y,N,Staphylococcus,epidermidis,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-10,,SAS,,,14,48,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1110,p3-SID1594,KHID154,Healthy Skin,Occiput,Y,Y,Y,N,Staphylococcus,epidermidis,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-10,,SAS,,,14,62,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1116,p3-SID1603,KHID152,Healthy Skin,Alar crease,Y,Y,Y,Y,Staphylococcus,epidermidis,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-10,,SAS,,,14,68,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1136,p3-SID1655,KHID152,Healthy Skin,Alar crease,Y,Y,Y,Y,Staphylococcus,epidermidis,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,BT,BHI + Tween,,,,2019-12-10,,SAS,,,15,7,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1137,p3-SID1661,KHID152,Healthy Skin,Alar crease,Y,Y,Y,Y,Staphylococcus,epidermidis,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-10,,SAS,,,15,8,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1138,p3-SID1662,KHID152,Healthy Skin,Alar crease,Y,Y,Y,N,Staphylococcus,epidermidis,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-10,,SAS,,,15,9,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1167,p3-SID1615,KHID157,Healthy Skin,Antecubital fossa,Y,Y,Y,N,Staphylococcus,epidermidis,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-10,,SAS,,,15,38,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1264,p3-SID1754,KHID158,Healthy Skin,Umbilicus,Y,Y,Y,N,Staphylococcus,epidermidis,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-24,,SAS,,,16,54,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK401,p3-SID892,KHID68,Healthy Skin,Occiput,Y,Y,Y,N,Staphylococcus,epidermidis,GTDB-tk by RS on 3/9/22,,2019-07-29,10^0,BH,BHI,,,,2019-08-01,,IKL,,,6,1,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK445,p3-SID612,KHID54,Healthy Skin,Volar forearm,Y,Y,Y,N,Staphylococcus,epidermidis,GTDB-tk by RS on 3/9/22,,2019-07-26,10^-1,BT,BHI,,,,2019-08-01,,IKL,,,6,45,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK459,p3-SID728,KHID30,Healthy Skin,Volar forearm,Y,Y,Y,N,Staphylococcus,epidermidis,GTDB-tk by RS on 3/9/22,,2019-07-26,10^-1,BL,BHI,,,,2019-08-01,,IKL,,,6,59,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK460,p3-SID620,KHID62,Healthy Skin,Volar forearm,Y,Y,Y,N,Staphylococcus,epidermidis,GTDB-tk by RS on 3/9/22,,2019-07-26,10^-1,BT,BHI,,,,2019-08-01,,IKL,,,6,60,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK470,p3-SID653,KHID67,Healthy Skin,Nares,Y,Y,Y,Y,Staphylococcus,epidermidis,GTDB-tk by RS on 3/9/22,,2019-07-26,10^-1,BT,BHI,,,,2019-08-01,,IKL,,,6,70,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK523,p3-SID719,KHID44,Healthy Skin,Occiput,Y,Y,Y,Y,Staphylococcus,epidermidis,GTDB-tk by RS on 3/9/22,,2019-07-26,10^-1,BT,BHI,,,,2019-08-06,,IKL,,,7,42,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK533,p3-SID791,KHID74,Healthy Skin,Alar crease,Y,Y,Y,Y,Staphylococcus,epidermidis,GTDB-tk by RS on 3/9/22,,2019-07-29,10^-1,BL,BHI,,,,2019-08-06,,IKL,,,7,52,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK588,p3-SID780,KHID77,Healthy Skin,Back,Y,Y,Y,N,Staphylococcus,epidermidis,GTDB-tk by RS on 3/9/22,,2019-07-29,10^-1,BT,BHI,,,,2019-08-29,,IKL,,,8,26,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK590,p3-SID584,KHID55,Healthy Skin,Antecubital fossa,Y,Y,Y,N,Staphylococcus,epidermidis,GTDB-tk by RS on 3/9/22,,2019-07-26,10^-1,BT,BHI,,,,2019-08-29,,IKL,,,8,28,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK593,p3-SID786,KHID78,Healthy Skin,Volar forearm,Y,Y,Y,N,Staphylococcus,epidermidis,GTDB-tk by RS on 3/9/22,,2019-07-29,10^-1,BT,BHI,,,,2019-08-29,,IKL,,,8,31,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK595,p3-SID790,KHID74,Healthy Skin,Alar crease,Y,Y,Y,N,Staphylococcus,epidermidis,GTDB-tk by RS on 3/9/22,,2019-07-29,10^-1,BL,BHI,,,,2019-08-29,,IKL,,,8,33,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK602,p3-SID818,KHID79,Healthy Skin,Antecubital fossa,Y,Y,Y,N,Staphylococcus,epidermidis,GTDB-tk by RS on 3/9/22,,2019-07-29,10^-1,BL,BHI,,,,2019-08-29,,IKL,,,8,40,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK605,p3-SID829,KHID76,Healthy Skin,Occiput,Y,Y,Y,N,Staphylococcus,epidermidis,GTDB-tk by RS on 3/9/22,,2019-07-29,10^-1,BL,BHI,,,,2019-08-29,,IKL,,,8,43,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK417,p3-SID742,KHID33,Healthy Skin,Toe web space,Y,Y,Y,Y,Staphylococcus,hominis,GTDB-tk by RS on 3/9/22,,2019-07-26,10^-1,BL,BHI,,,,2019-08-01,,IKL,,,6,17,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK428,p3-SID721,KHID38,Healthy Skin,Volar forearm,Y,Y,Y,Y,Staphylococcus,hominis,GTDB-tk by RS on 3/9/22,,2019-07-26,10^-1,BT,BHI,,,,2019-08-01,,IKL,,,6,28,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK489,p3-SID760,KHID47,Healthy Skin,Antecubital fossa,Y,Y,Y,Y,Staphylococcus,saprophyticus,GTDB-tk by RS on 3/9/22,,2019-07-26,10^-1,BT,BHI,,,,2019-08-01,,IKL,,,7,8,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1015,p3-SID1418,KHID127,Healthy Skin,Toe web space,Y,Y,Y,Y,Staphylococcus,urealyticus,GTDB-tk by RS on 3/9/22,,2019-09-16,10^0,BT,BHI + Tween,,,,2019-11-23,,SAS,,,13,48,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK413,p3-SID855,KHID36,Healthy Skin,Occiput,Y,Y,Y,Y,Staphylococcus,warneri,GTDB-tk by RS on 3/9/22,,2019-07-29,10^0,BL,BHI,,,,2019-08-01,,IKL,,,6,13,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK414,p3-SID858,KHID36,Healthy Skin,Occiput,Y,Y,Y,N,Staphylococcus,warneri,GTDB-tk by RS on 3/9/22,,2019-07-29,10^0,BH,BHI,,,,2019-08-01,,IKL,,,6,14,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK415,p3-SID856,KHID36,Healthy Skin,Occiput,Y,Y,Y,N,Staphylococcus,warneri,GTDB-tk by RS on 3/9/22,,2019-07-29,10^0,BL,BHI,,,,2019-08-01,,IKL,,,6,15,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1071,p3-SID1364,KHID144,Healthy Skin,Alar crease,Y,N,N,N,,,,,2019-09-16,10^0,B,BHI + Tween,,,,2019-11-27,,SAS,,,14,23,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1087,p3-SID1567,KHID140,Healthy Skin,Volar forearm,Y,N,N,N,,,,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-10,,SAS,,,14,39,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1101,p3-SID1555,KHID140,Healthy Skin,Volar forearm,Y,N,N,N,,,,,2019-09-17,10^0,BT,BHI + Tween,,,,2019-12-10,,SAS,,,14,53,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1130,p3-SID1513,KHID140,Healthy Skin,Volar forearm,Y,N,N,N,,,,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-10,,SAS,,,15,1,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1146,p3-SID1577,KHID123,Healthy Skin,Back,Y,N,N,N,,,,,2019-09-17,10^0,BT,BHI + Tween,,,,2019-12-10,,SAS,,,15,17,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1150,p3-SID1563,KHID138,Healthy Skin,Occiput,Y,N,N,N,,,,,2019-09-17,10^0,BT,BHI + Tween,,,,2019-12-10,,SAS,,,15,21,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1200,p3-SID1683,KHID146,Healthy Skin,Occiput,Y,N,N,N,,,,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-20,,SAS,,,15,71,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1222,p3-SID1782,KHID148,Healthy Skin,Volar forearm,Y,N,N,N,,,,,2019-09-17,10^0,BT,BHI + Tween,,,,2019-12-20,,SAS,,,16,12,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1223,p3-SID1785,KHID148,Healthy Skin,Volar forearm,Y,N,N,N,,,,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-20,,SAS,,,16,13,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1242,p3-SID1672,KHID135,Healthy Skin,Toe web space,Y,N,N,N,,,,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-24,,SAS,,,16,32,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1243,p3-SID1676,KHID136,Healthy Skin,Alar crease,Y,N,N,N,,,,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-24,,SAS,,,16,33,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1286,p3-SID1830,KHID138,Healthy Skin,Occiput,Y,N,N,N,,,,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-24,,SAS,,,16,76,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1357,p3-SID1121,KHID107,Healthy Skin,Back,Y,N,N,N,,,,,2019-09-19,10^0,BT,BHI + Tween,,,,2019-12-29,,SAS,,,17,66,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK424,p3-SID889,KHID72,Healthy Skin,Umbilicus,Y,N,N,N,,,,,2019-07-29,10^0,BH,BHI,,,,2019-08-01,,IKL,,,6,24,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK450,p3-SID746,KHID33,Healthy Skin,Toe web space,Y,Y,N,N,Penicillium,,,,2019-07-26,10^-1,BH,BHI,,,,2019-08-01,,IKL,,,6,50,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK848,p3-SID1115,KHID107,Healthy Skin,Back,Y,N,N,N,,,,,2019-09-19,10^0,BD,BHI,,,,2019-10-28,,SAS,,,11,43,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK879,p3-SID1309,KHID108,Healthy Skin,Volar forearm,Y,N,N,N,,,,,2019-09-19,10^0,BT,BHI+0.1%Tween 80,,,,2019-10-28,,SAS,,,11,74,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK882,p3-SID1292,KHID117,Healthy Skin,Antecubital fossa,Y,N,N,N,,,,,2019-09-19,10^0,BT,BHI+0.1%Tween 80,,,,2019-10-28,,SAS,,,11,77,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1156,p3-SID1584,KHID130,Healthy Skin,Occiput,N,N,N,N,Bacillus,,16s by SAS 12/19/19,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-10,,SAS,,,15,27,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1160,p3-SID1504,KHID156,Healthy Skin,Volar forearm,N,N,N,N,Bacillus,,16s by SAS 12/19/19,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-10,,SAS,,,15,31,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1163,p3-SID1525,KHID122,Healthy Skin,Occiput,N,N,N,N,Bacillus,,16s by SAS 12/19/19,,2019-09-17,10^0,BT,BHI + Tween,,,,2019-12-10,,SAS,,,15,34,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1202,p3-SID1686,KHID146,Healthy Skin,Occiput,N,N,N,N,Bacillus,,16s by SAS 9/18/20 ,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-20,,SAS,,,15,73,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1319,p3-SID1120,KHID107,Healthy Skin,Back,N,N,N,N,Bacillus,,16s by SAS 9/18/20 ,,2019-09-19,10^0,BT,BHI + Tween,,,,2019-12-27,,SAS,,,17,28,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1332,p3-SID962,KHID94,Healthy Skin,Antecubital fossa,N,N,N,N,Bacillus,,16s by SAS 9/18/20 ,,2019-09-19,10^0,BD,BHI + Tween,,,,2019-12-27,,SAS,,,17,41,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK495,p3-SID768,KHID78,Healthy Skin,Volar forearm,N,N,N,N,Bacillus,,16s by SAS 9/26/19,,2019-07-29,10^-1,BH,BHI,,,,2019-08-06,,IKL,,,7,14,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK512,p3-SID607,KHID62,Healthy Skin,Volar forearm,N,N,N,N,Bacillus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BH,BHI,,,,2019-08-06,,IKL,,,7,31,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK706,p3-SID782,KHID78,Healthy Skin,Volar forearm,N,N,N,N,Bacillus,,16s by SAS 9/26/19,,2019-07-29,10^-1,BT,BHI,,,,2019-08-12,,IKL,,,9,63,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK713,p3-SID785,KHID78,Healthy Skin,Volar forearm,N,N,N,N,Bacillus,,16s by SAS 9/26/19,,2019-07-29,10^-1,BT,BHI,,,,2019-08-12,,IKL,,,9,70,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK718,p3-SID587,KHID55,Healthy Skin,Antecubital fossa,N,N,N,N,Bacillus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BL,BHI,,,,2019-08-12,,IKL,,,9,75,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK976,p3-SID1870,KHID130,Healthy Skin,Occiput,N,N,N,N,Bacillus,,16s by SAS 12/19/19,,2019-09-17,10^0,BT,BHI + Tween,,,,2019-11-23,,SAS,,,13,9,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1336,p3-SID1306,KHID108,Healthy Skin,Volar forearm,N,N,N,N,Brachybacterium,,16s by SAS 9/18/20 ,,2019-09-19,10^0,B,BHI + Tween,,,,2019-12-29,,SAS,,,17,45,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1302,p3-SID1351,KHID144,Healthy Skin,Alar crease,N,N,Y,Y,Brachybacterium,muris,GTDB-tk by RS on 3/9/22,,2019-09-16,10^0,B,BHI + Tween,,,,2019-12-27,,SAS,,,17,11,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK938,p3-SID1200,KHID111,Healthy Skin,Toe web space,N,N,Y,Y,Brachybacterium,paraconglomeratum,GTDB-tk by RS on 3/9/22,,2019-09-19,10^0,BD,BHI,,,,2019-11-18,,SAS,,,12,52,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1301,p3-SID1514,KHID143,Healthy Skin,Toe web space,N,N,Y,Y,Brevibacterium,casei,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-27,,SAS,,,17,10,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK904,p3-SID1233,KHID111,Healthy Skin,Toe web space,N,N,Y,Y,Brevibacterium,casei,GTDB-tk by RS on 3/9/22,,2019-09-19,10^0,BT,BHI,,,,2019-11-15,,IKL,,,12,18,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK676,p3-SID891,KHID72,Healthy Skin,Umbilicus,N,N,N,N,Cellulosimicrobium,,16s by SAS 9/26/19,,2019-07-29,10^0,BH,BHI,,,,2019-08-12,,IKL,,,9,33,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK897,p3-SID891,KHID72,Healthy Skin,Umbilicus,N,N,N,N,Cellulosimicrobium,,16s by SAS 9/26/19,,2019-07-29,10^0,BH,BHI,,,,2019-11-15,,IKL,,,12,11,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1358,p3-SID1194,KHID117,Healthy Skin,Antecubital fossa,N,N,Y,Y,Corynebacterium,,GTDB-tk by RS on 3/9/22,,2019-09-19,10^0,B,BHI + Tween,,,,2019-12-29,,SAS,,,17,67,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK447,p3-SID896,KHID64,Healthy Skin,Umbilicus,N,N,N,N,Corynebacterium,,16s by SAS 9/26/19,,2019-07-29,10^-2,BH,BHI,,,,2019-08-01,,IKL,,,6,47,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK946,p3-SID1145,KHID92,Healthy Skin,Back,N,N,Y,Y,Corynebacterium,,GTDB-tk by RS on 3/9/22,,2019-09-19,10^0,BD,BHI,,,,2019-11-18,,SAS,,,12,60,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK952,p3-SID1056,KHID119,Healthy Skin,Toe web space,N,N,Y,Y,Corynebacterium,,GTDB-tk by RS on 3/9/22,,2019-09-19,10^0,B,BHI,,,,2019-11-21,,MR,,,12,66,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK948,p3-SID1129,KHID105,Healthy Skin,Nares,N,N,Y,Y,Corynebacterium,accolens,GTDB-tk by RS on 3/9/22,,2019-09-19,10^0,BD,BHI + Tween,,,,2019-11-21,,MR,,,12,62,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1134,p3-SID1570,KHID122,Healthy Skin,Occiput,N,N,Y,Y,Corynebacterium,kefirresidentii,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-10,,SAS,,,15,5,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK930,p3-SID1220,KHID86,Healthy Skin,Antecubital fossa,N,N,Y,Y,Corynebacterium,mucifaciens,GTDB-tk by RS on 3/9/22,,2019-09-19,10^0,BT,BHI,,,,2019-11-18,,SAS,,,12,44,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1270,p3-SID1774,KHID135,Healthy Skin,Toe web space,N,N,Y,Y,Corynebacterium,sanguinis,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-24,,SAS,,,16,60,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1360,p3-SID1027,KHID115,Healthy Skin,Back,N,N,Y,N,Corynebacterium,sanguinis,GTDB-tk by RS on 3/9/22,,2019-09-19,10^0,BD,BHI + Tween,,,,2019-12-29,,SAS,,,17,69,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1362,p3-SID1008,KHID115,Healthy Skin,Back,N,N,Y,Y,Corynebacterium,sanguinis,GTDB-tk by RS on 3/9/22,,2019-09-19,10^0,BT,BHI + Tween,,,,2019-12-29,,SAS,,,17,71,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK700,p3-SID830,KHID76,Healthy Skin,Occiput,N,N,Y,N,Corynebacterium,sanguinis,GTDB-tk by RS on 3/9/22,,2019-07-29,10^-1,BL,BHI,,,,2019-08-12,,IKL,,,9,57,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK953,p3-SID1327,KHID81,Healthy Skin,Alar crease,N,N,Y,Y,Cutibacterium,avidum,GTDB-tk by RS on 3/9/22,,2019-09-19,10^0,BD,BHI,,,,2019-11-21,,MR,,,12,67,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1288,p3-SID1823,KHID137,Healthy Skin,Nares,N,N,Y,N,Dermabacter,hominis,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-24,,SAS,,,16,78,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1268,p3-SID1770,KHID145,Healthy Skin,Nares,N,N,Y,N,Dietzia,cinnamea,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,BT,BHI + Tween,,,,2019-12-24,,SAS,,,16,58,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1283,p3-SID1825,KHID138,Healthy Skin,Occiput,N,N,Y,N,Dietzia,cinnamea,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-24,,SAS,,,16,73,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1312,p3-SID1701,KHID146,Healthy Skin,Occiput,N,N,Y,N,Dietzia,cinnamea,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-27,,SAS,,,17,21,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK970,p3-SID1377a,KHID144,Healthy Skin,Alar crease,N,N,Y,N,Dietzia,cinnamea,GTDB-tk by RS on 3/9/22,,2019-09-16,10^0,B,BHI + Tween,,,,2019-11-23,,SAS,,,13,3,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK975,p3-SID1379,KHID144,Healthy Skin,Alar crease,N,N,Y,Y,Dietzia,cinnamea,GTDB-tk by RS on 3/9/22,,2019-09-16,10^0,B,BHI + Tween,,,,2019-11-23,,SAS,,,13,8,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1321,p3-SID1063,KHID119,Healthy Skin,Toe web space,N,N,Y,N,Dietzia,maris,GTDB-tk by RS on 3/9/22,,2019-09-19,10^0,BD,BHI + Tween,,,,2019-12-27,,SAS,,,17,30,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1078,p3-SID1642,KHID136,Healthy Skin,Alar crease,N,N,Y,N,Escherichia,coli,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-10,,SAS,,,14,30,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1079,p3-SID1643,KHID136,Healthy Skin,Alar crease,N,N,Y,N,Escherichia,coli,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-10,,SAS,,,14,31,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1354,p3-SID1079,KHID83,Healthy Skin,Occiput,N,N,N,N,Janibacter,,16s by SAS 9/18/20 ,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-29,,SAS,,,17,63,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1369,p3-SID825,KHID76,Healthy Skin,Occiput,N,N,N,N,Janibacter,,16s by SAS 9/18/20 ,,2019-09-16,10^0,B,BHI + Tween,,,,2020-03-05,,SAS,,,17,78,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK894,p3-SID1236,KHID111,Healthy Skin,Toe web space,N,N,Y,Y,Klebsiella,aerogenes,GTDB-tk by RS on 3/9/22,,2019-09-19,10^0,BT,BHI,,,,2019-11-15,,IKL,,,12,8,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1290,p3-SID1260,KHID88,Healthy Skin,Toe web space,N,N,N,N,Kytococcus,,16s by SAS 9/18/20 ,,2019-09-19,10^0,BD,BHI + Tween,,,,2019-12-24,,SAS,,,16,80,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK709,p3-SID794,KHID74,Healthy Skin,Alar crease,N,N,N,N,Lysinibacillus,,16s by SAS 9/26/19,,2019-07-29,10^-1,BL,BHI,,,,2019-08-12,,IKL,,,9,66,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK671,p3-SID704,KHID43,Healthy Skin,Nares,N,N,Y,N,Lysinibacillus,capsici,GTDB-tk by RS on 3/9/22,,2019-07-26,10^-1,BT,BHI,,,,2019-08-12,,IKL,,,9,28,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK716,p3-SID847,KHID79,Healthy Skin,Antecubital fossa,N,N,Y,Y,Lysinibacillus,capsici,GTDB-tk by RS on 3/9/22,,2019-07-29,10^-1,BH,BHI,,,,2019-08-12,,IKL,,,9,73,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1311,p3-SID1673,KHID135,Healthy Skin,Toe web space,N,N,Y,Y,Microbacterium,enclense,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-27,,SAS,,,17,20,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1058,p3-SID1896,KHID147,Healthy Skin,Back,N,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-17,10^0,BT,BHI + Tween,,,,2019-11-27,,SAS,,,14,10,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1065,p3-SID1892,KHID132,Healthy Skin,Volar forearm,N,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-17,10^0,BT,BHI + Tween,,,,2019-11-27,,SAS,,,14,17,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1166,p3-SID1468,KHID124,Healthy Skin,Volar forearm,N,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-16,10^0,BT,BHI + Tween,,,,2019-12-10,,SAS,,,15,37,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1221,p3-SID1780,KHID148,Healthy Skin,Volar forearm,N,N,N,N,Micrococcus,,16s by SAS 9/18/20 ,,2019-09-17,10^0,BT,BHI + Tween,,,,2019-12-20,,SAS,,,16,11,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1280,p3-SID1803,KHID149,Healthy Skin,Antecubital fossa,N,N,N,N,Micrococcus,,16s by SAS 9/18/20 ,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-24,,SAS,,,16,70,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1291,p3-SID1057,KHID119,Healthy Skin,Toe web space,N,N,N,N,Micrococcus,,16s by SAS 9/18/20 ,,2019-09-19,10^0,B,BHI + Tween,,,,2019-12-24,,SAS,,,16,81,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1292,p3-SID1013,KHID115,Healthy Skin,Back,N,N,N,N,Micrococcus,,16s by SAS 9/18/20 ,,2019-09-19,10^0,B,BHI + Tween,,,,2019-12-24,,SAS,,,17,1,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1294,p3-SID1073,KHID84,Healthy Skin,Back,N,N,N,N,Micrococcus,,16s by SAS 9/18/20 ,,2019-09-19,10^0,BD,BHI + Tween,,,,2019-12-24,,SAS,,,17,3,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1303,p3-SID1443,KHID142,Healthy Skin,Umbilicus,N,N,N,N,Micrococcus,,16s by SAS 9/18/20 ,,2019-09-16,10^0,BD,BHI + Tween,,,,2019-12-27,,SAS,,,17,12,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1304,p3-SID984,KHID85,Healthy Skin,Volar forearm,N,N,N,N,Micrococcus,,16s by SAS 9/18/20 ,,2019-09-19,10^0,BT,BHI + Tween,,,,2019-12-27,,SAS,,,17,13,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1310,p3-SID1671,KHID135,Healthy Skin,Toe web space,N,N,N,N,Micrococcus,,16s by SAS 9/18/20 ,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-27,,SAS,,,17,19,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1316,p3-SID1168,KHID86,Healthy Skin,Antecubital fossa,N,N,N,N,Micrococcus,,16s by SAS 9/18/20 ,,2019-09-19,10^0,B,BHI + Tween,,,,2019-12-27,,SAS,,,17,25,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1317,p3-SID1160,KHID84,Healthy Skin,Back,N,N,N,N,Micrococcus,,16s by SAS 9/18/20 ,,2019-09-19,10^0,BT,BHI + Tween,,,,2019-12-27,,SAS,,,17,26,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1318,p3-SID1158,KHID84,Healthy Skin,Back,N,N,N,N,Micrococcus,,16s by SAS 9/18/20 ,,2019-09-19,10^0,BT,BHI + Tween,,,,2019-12-27,,SAS,,,17,27,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1320,p3-SID1009,KHID115,Healthy Skin,Back,N,N,N,N,Micrococcus,,16s by SAS 9/18/20 ,,2019-09-19,10^0,BT,BHI + Tween,,,,2019-12-27,,SAS,,,17,29,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1322,p3-SID1003,KHID116,Healthy Skin,Volar forearm,N,N,N,N,Micrococcus,,16s by SAS 9/18/20 ,,2019-09-19,10^0,B,BHI + Tween,,,,2019-12-27,,SAS,,,17,31,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1323,p3-SID1012,KHID115,Healthy Skin,Back,N,N,N,N,Micrococcus,,16s by SAS 9/18/20 ,,2019-09-19,10^0,BT,BHI + Tween,,,,2019-12-27,,SAS,,,17,32,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1325,p3-SID977,KHID85,Healthy Skin,Volar forearm,N,N,N,N,Micrococcus,,16s by SAS 9/18/20 ,,2019-09-19,10^0,B,BHI + Tween,,,,2019-12-27,,SAS,,,17,34,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1378,p3-SID2509,KHID74,Healthy Skin,Alar crease,N,N,N,N,Micrococcus,,16s by MHS 3/13/20,,2020-02-26,10^0,BD,BHI + Tween,,,,2020-03-11,,MHS,,,18,6,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK433,p3-SID893,KHID68,Healthy Skin,Occiput,N,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-29,10^0,BH,BHI,,,,2019-08-01,,IKL,,,6,33,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK446,p3-SID892,KHID68,Healthy Skin,Occiput,N,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-29,10^0,BH,BHI,,,,2019-08-01,,IKL,,,6,46,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK448,p3-SID895,KHID64,Healthy Skin,Umbilicus,N,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-29,10^-2,BH,BHI,,,,2019-08-01,,IKL,,,6,48,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK451,p3-SID897,KHID65,Healthy Skin,Toe web space,N,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-29,10^-2,BH,BHI,,,,2019-08-01,,IKL,,,6,51,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK499,p3-SID899,KHID65,Healthy Skin,Toe web space,N,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-29,10^-2,BH,BHI,,,,2019-08-06,,IKL,,,7,18,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK565,p3-SID918,KHID78,Healthy Skin,Volar forearm,N,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-31,10^-1,BH,BHI,,,,2019-08-06,,IKL,,,8,3,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK638,p3-SID843,KHID78,Healthy Skin,Volar forearm,N,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-29,10^-1,BL,BHI,,,,2019-08-29,,IKL,,,8,76,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK699,p3-SID753,KHID32,Healthy Skin,Umbilicus,N,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BH,BHI,,,,2019-08-12,,IKL,,,9,56,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK701,p3-SID849,KHID79,Healthy Skin,Antecubital fossa,N,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-29,10^-1,BT,BHI,,,,2019-08-12,,IKL,,,9,58,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK710,p3-SID828,KHID76,Healthy Skin,Occiput,N,N,N,N,Micrococcus,,16s by SAS 9/26/19,,2019-07-29,10^-1,BL,BHI,,,,2019-08-12,,IKL,,,9,67,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK905,p3-SID889,KHID72,Healthy Skin,Umbilicus,N,N,N,N,Micrococcus,,16s by SAS 9/18/20 ,,2019-07-29,10^0,BH,BHI,,,,2019-11-15,,IKL,,,12,19,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK933,p3-SID868,KHID71,Healthy Skin,Antecubital fossa,N,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-19,10^0,BT,BHI,,,,2019-11-18,,SAS,,,12,47,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK939,p3-SID890,KHID72,Healthy Skin,Umbilicus,N,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-07-29,10^0,BH,BHI,,,,2019-11-18,,SAS,,,12,53,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK940,p3-SID1256,KHID103,Healthy Skin,Toe web space,N,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-19,10^0,B,BHI,,,,2019-11-18,,SAS,,,12,54,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK943,p3-SID1305,KHID108,Healthy Skin,Volar forearm,N,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-19,10^0,B,BHI,,,,2019-11-18,,SAS,,,12,57,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK957,p3-SID1904,KHID147,Healthy Skin,Back,N,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-17,10^0,B,BHI + Tween,,,,2019-11-23,,SAS,,,12,71,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK958,p3-SID1411,KHID125,Healthy Skin,Antecubital fossa,N,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-16,10^0,B,BHI + Tween,,,,2019-11-23,,SAS,,,12,72,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK961,p3-SID1413,KHID127,Healthy Skin,Toe web space,N,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-16,10^0,BT,BHI + Tween,,,,2019-11-23,,SAS,,,12,75,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK962,p3-SID1897,KHID147,Healthy Skin,Back,N,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-17,10^0,BT,BHI + Tween,,,,2019-11-23,,SAS,,,12,76,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK964,p3-SID1901,KHID147,Healthy Skin,Back,N,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-17,10^0,B,BHI + Tween,,,,2019-11-23,,SAS,,,12,78,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK966,p3-SID1913,KHID148,Healthy Skin,Volar forearm,N,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-11-23,,SAS,,,12,80,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK967,p3-SID1357,KHID144,Healthy Skin,Alar crease,N,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-16,10^0,B,BHI + Tween,,,,2019-11-23,,SAS,,,12,81,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK969,p3-SID1429,KHID135,Healthy Skin,Toe web space,N,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-16,10^0,B,BHI + Tween,,,,2019-11-23,,SAS,,,13,2,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK971,p3-SID1893,KHID132,Healthy Skin,Volar forearm,N,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-17,10^0,BT,BHI + Tween,,,,2019-11-23,,SAS,,,13,4,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK972,p3-SID1837,KHID132,Healthy Skin,Volar forearm,N,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-11-23,,SAS,,,13,5,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK973,p3-SID1855,KHID133,Healthy Skin,Antecubital fossa,N,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-11-23,,SAS,,,13,6,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK974,p3-SID1905,KHID147,Healthy Skin,Back,N,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-17,10^0,B,BHI + Tween,,,,2019-11-23,,SAS,,,13,7,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK979,p3-SID1872,KHID131,Healthy Skin,Back,N,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-17,10^0,BT,BHI + Tween,,,,2019-11-23,,SAS,,,13,12,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK980,p3-SID1852,KHID133,Healthy Skin,Antecubital fossa,N,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-11-23,,SAS,,,13,13,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK981,p3-SID1894,KHID147,Healthy Skin,Back,N,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-17,10^0,BT,BHI + Tween,,,,2019-11-23,,SAS,,,13,14,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK982,p3-SID1352,KHID144,Healthy Skin,Alar crease,N,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-16,10^0,B,BHI + Tween,,,,2019-11-23,,SAS,,,13,15,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK983,p3-SID1873,KHID131,Healthy Skin,Back,N,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-17,10^0,BT,BHI + Tween,,,,2019-11-23,,SAS,,,13,16,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK985,p3-SID1851,KHID133,Healthy Skin,Antecubital fossa,N,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-11-23,,SAS,,,13,18,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK986,p3-SID1354,KHID144,Healthy Skin,Alar crease,N,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-16,10^0,B,BHI + Tween,,,,2019-11-23,,SAS,,,13,19,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK988,p3-SID1908,KHID148,Healthy Skin,Volar forearm,N,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-11-23,,SAS,,,13,21,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK989,p3-SID1856,KHID133,Healthy Skin,Antecubital fossa,N,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-11-23,,SAS,,,13,22,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK990,p3-SID1410,KHID125,Healthy Skin,Antecubital fossa,N,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-16,10^0,B,BHI + Tween,,,,2019-11-23,,SAS,,,13,23,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK991,p3-SID1839,KHID132,Healthy Skin,Volar forearm,N,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-11-23,,SAS,,,13,24,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK993,p3-SID1871,KHID131,Healthy Skin,Back,N,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-17,10^0,BT,BHI + Tween,,,,2019-11-23,,SAS,,,13,26,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK994,p3-SID1376,KHID144,Healthy Skin,Alar crease,N,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-16,10^0,B,BHI + Tween,,,,2019-11-23,,SAS,,,13,27,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK995,p3-SID1838,KHID132,Healthy Skin,Volar forearm,N,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-11-23,,SAS,,,13,28,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK996,p3-SID1851,KHID133,Healthy Skin,Antecubital fossa,N,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-11-23,,SAS,,,13,29,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK997,p3-SID1402,KHID125,Healthy Skin,Antecubital fossa,N,N,N,N,Micrococcus,,16s by SAS 12/19/19,,2019-09-16,10^0,BD,BHI + Tween,,,,2019-11-23,,SAS,,,13,30,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK508,p3-SID653,KHID67,Healthy Skin,Nares,N,N,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-07-26,10^-1,BT,BHI,,,,2019-08-06,,IKL,,,7,27,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK540,p3-SID793,KHID74,Healthy Skin,Alar crease,N,N,Y,N,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-07-29,10^-1,BL,BHI,,,,2019-08-06,,IKL,,,7,59,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK792,p3-SID1079,KHID83,Healthy Skin,Occiput,N,N,Y,Y,Micrococcus,luteus,GTDB-tk by RS on 3/9/22,,2019-09-19,10^0,BD,BHI,,,,2019-10-08,,MR,,,10,68,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1368,p3-SID691,KHID72,Healthy Skin,Umbilicus,N,N,N,N,Micromonospora,,16s by SAS 9/18/20 ,,2019-07-26,10^-1,BL,BHI + Tween,,,,2020-03-05,,SAS,,,17,77,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1347,p3-SID970,KHID90,Healthy Skin,Nares,N,N,Y,Y,Pseudoglutamicibacter,cumminsii,GTDB-tk by RS on 3/9/22,,2019-09-19,10^0,BT,BHI + Tween,,,,2019-12-29,,SAS,,,17,56,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1281,p3-SID1808,KHID137,Healthy Skin,Nares,N,N,Y,N,Rothia,kristinae,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,BT,BHI + Tween,,,,2019-12-24,,SAS,,,16,71,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1284,p3-SID1828,KHID138,Healthy Skin,Occiput,N,N,Y,N,Rothia,kristinae,GTDB-tk by RS on 3/9/22,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-24,,SAS,,,16,74,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK624,p3-SID741,KHID33,Healthy Skin,Toe web space,N,N,N,N,Sphingobacterium,,16s by SAS 9/26/19,,2019-07-26,10^-1,BL,BHI,,,,2019-08-29,,IKL,,,8,62,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1307,p3-SID1180,KHID91,Healthy Skin,Occiput,N,N,N,N,Staphylococcus,,16s by SAS 9/18/20 ,,2019-09-19,10^0,BT,BHI + Tween,,,,2019-12-27,,SAS,,,17,16,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1327,p3-SID969,KHID90,Healthy Skin,Nares,N,N,N,N,Staphylococcus,,16s by SAS 9/18/20 ,,2019-09-19,10^0,BT,BHI + Tween,,,,2019-12-27,,SAS,,,17,36,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1343,p3-SID1178,KHID91,Healthy Skin,Occiput,N,N,N,N,Staphylococcus,,16s by SAS 9/18/20 ,,2019-09-19,10^0,BT,BHI + Tween,,,,2019-12-29,,SAS,,,17,52,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK554,p3-SID688,KHID69,Healthy Skin,Back,N,N,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BT,BHI,,,,2019-08-06,,IKL,,,7,73,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK592,p3-SID885,KHID50,Healthy Skin,Alar crease,N,N,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-29,10^0,BH,BHI,,,,2019-08-29,,IKL,,,8,30,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK599,p3-SID841,KHID78,Healthy Skin,Volar forearm,N,N,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-29,10^-1,BL,BHI,,,,2019-08-29,,IKL,,,8,37,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK609,p3-SID820,KHID79,Healthy Skin,Antecubital fossa,N,N,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-29,10^-1,BL,BHI,,,,2019-08-29,,IKL,,,8,47,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK611,p3-SID839,KHID78,Healthy Skin,Volar forearm,N,N,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-29,10^-1,BL,BHI,,,,2019-08-29,,IKL,,,8,49,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK613,p3-SID817,KHID79,Healthy Skin,Antecubital fossa,N,N,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-29,10^-1,BL,BHI,,,,2019-08-29,,IKL,,,8,51,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK628,p3-SID894,KHID68,Healthy Skin,Occiput,N,N,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-29,10^0,BL,BHI,,,,2019-08-29,,IKL,,,8,66,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK634,p3-SID839,KHID78,Healthy Skin,Volar forearm,N,N,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-29,10^-1,BL,BHI,,,,2019-08-29,,IKL,,,8,72,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK708,p3-SID806,KHID74,Healthy Skin,Alar crease,N,N,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-29,10^-1,BT,BHI,,,,2019-08-12,,IKL,,,9,65,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK711,p3-SID634,KHID52,Healthy Skin,Occiput,N,N,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-26,10^-1,BH,BHI,,,,2019-08-12,,IKL,,,9,68,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK717,p3-SID898,KHID65,Healthy Skin,Toe web space,N,N,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-29,10^-2,BH,BHI,,,,2019-08-12,,IKL,,,9,74,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK721,p3-SID814,KHID79,Healthy Skin,Antecubital fossa,N,N,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-29,10^-1,BL,BHI,,,,2019-08-12,,IKL,,,9,78,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK723,p3-SID814,KHID79,Healthy Skin,Antecubital fossa,N,N,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-29,10^-1,BL,BHI,,,,2019-08-12,,IKL,,,9,80,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK725,p3-SID804,KHID74,Healthy Skin,Alar crease,N,N,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-29,10^-1,BT,BHI,,,,2019-08-12,,IKL,,,10,1,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK891,p3-SID898,KHID65,Healthy Skin,Toe web space,N,N,N,N,Staphylococcus,,16s by SAS 9/26/19,,2019-07-29,10^-2,BH,BHI,,,,2019-11-15,,IKL,,,12,5,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK965,p3-SID1434,KHID140,Healthy Skin,Volar forearm,N,N,N,N,Staphylococcus,,16s by SAS 12/19/19,,2019-09-16,10^0,B,BHI + Tween,,,,2019-11-23,,SAS,,,12,79,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK999,p3-SID1425,KHID131,Healthy Skin,Back,N,N,N,N,Staphylococcus,,16s by SAS 12/19/19,,2019-09-16,10^0,B,BHI + Tween,,,,2019-11-23,,SAS,,,13,32,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK729,p3-SID1016,KHID115,Healthy Skin,Back,N,N,Y,Y,Staphylococcus,aureus,GTDB-tk by RS on 3/9/22,,2019-09-19,10^0,B,BHI,,,,2019-10-08,,MR,,,10,5,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK610,p3-SID799,KHID74,Healthy Skin,Alar crease,N,N,Y,N,Staphylococcus,epidermidis,GTDB-tk by RS on 3/9/22,,2019-07-29,10^-1,BH,BHI,,,,2019-08-29,,IKL,,,8,48,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1032,p3-SID1132,KHID106,Healthy Skin,Occiput,N,N,N,N,,,,,2019-09-19,10^0,B,BHI + Tween,,,,2019-11-27,,SAS,,,13,65,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1033,p3-SID1372,KHID144,Healthy Skin,Alar crease,N,N,N,N,,,,,2019-09-16,10^0,B,BHI + Tween,,,,2019-11-27,,SAS,,,13,66,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1035,p3-SID1375,KHID144,Healthy Skin,Alar crease,N,N,N,N,,,,,2019-09-16,10^0,B,BHI + Tween,,,,2019-11-27,,SAS,,,13,68,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1097,p3-SID1617,KHID157,Healthy Skin,Antecubital fossa,N,N,N,N,,,,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-10,,SAS,,,14,49,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1100,p3-SID1551,KHID154,Healthy Skin,Occiput,N,N,N,N,,,,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-10,,SAS,,,14,52,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1109,p3-SID1591,KHID158,Healthy Skin,Umbilicus,N,N,N,N,,,,,2019-09-17,10^0,BT,BHI + Tween,,,,2019-12-10,,SAS,,,14,61,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1114,p3-SID1910,KHID148,Healthy Skin,Volar forearm,N,N,N,N,,,,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-10,,SAS,,,14,66,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1115,p3-SID1448,KHID141,Healthy Skin,Antecubital fossa,N,N,N,N,,,,,2019-09-16,10^0,BT,BHI + Tween,,,,2019-12-10,,SAS,,,14,67,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1123,p3-SID1458,KHID124,Healthy Skin,Volar forearm,N,N,N,N,,,,,2019-09-16,10^0,BD,BHI + Tween,,,,2019-12-10,,SAS,,,14,75,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1126,p3-SID1462,KHID124,Healthy Skin,Volar forearm,N,N,N,N,,,,,2019-09-16,10^0,BD,BHI + Tween,,,,2019-12-10,,SAS,,,14,78,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1129,p3-SID1510,KHID140,Healthy Skin,Volar forearm,N,N,N,N,,,,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-10,,SAS,,,14,81,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1132,p3-SID1502,KHID156,Healthy Skin,Volar forearm,N,N,N,N,,,,,2019-09-17,10^0,BT,BHI + Tween,,,,2019-12-10,,SAS,,,15,3,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1135,p3-SID1571,KHID122,Healthy Skin,Occiput,N,N,N,N,,,,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-10,,SAS,,,15,6,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1142,p3-SID1588,KHID130,Healthy Skin,Occiput,N,N,N,N,,,,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-10,,SAS,,,15,13,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1143,p3-SID1574,KHID123,Healthy Skin,Back,N,N,N,N,,,,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-10,,SAS,,,15,14,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1149,p3-SID1557,KHID140,Healthy Skin,Volar forearm,N,N,N,N,,,,,2019-09-17,10^0,BT,BHI + Tween,,,,2019-12-10,,SAS,,,15,20,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1153,p3-SID1460,KHID124,Healthy Skin,Volar forearm,N,N,N,N,,,,,2019-09-16,10^0,BD,BHI + Tween,,,,2019-12-10,,SAS,,,15,24,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1154,p3-SID1623,KHID155,Healthy Skin,Back,N,N,N,N,,,,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-10,,SAS,,,15,25,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1169,p3-SID1342,KHID143,Healthy Skin,Toe web space,N,N,N,N,,,,,2019-09-16,10^0,B,BHI + Tween,,,,2019-12-10,,SAS,,,15,40,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1175,p3-SID1449,KHID141,Healthy Skin,Antecubital fossa,N,N,N,N,,,,,2019-09-16,10^0,BD,BHI + Tween,,,,2019-12-16,,SAS,,,15,46,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1178,p3-SID1903,KHID147,Healthy Skin,Back,N,N,N,N,,,,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-16,,SAS,,,15,49,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1179,p3-SID1374,KHID144,Healthy Skin,Alar crease,N,N,N,N,,,,,2019-09-16,10^0,B,BHI + Tween,,,,2019-12-16,,SAS,,,15,50,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1180,p3-SID1195,KHID92,Healthy Skin,Back,N,N,N,N,,,,,2019-09-19,10^0,B,BHI + Tween,,,,2019-12-16,,SAS,,,15,51,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1182,p3-SID1905,KHID147,Healthy Skin,Back,N,N,N,N,,,,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-16,,SAS,,,15,53,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1185,p3-SID1359,KHID144,Healthy Skin,Alar crease,N,N,N,N,,,,,2019-09-16,10^0,B,BHI + Tween,,,,2019-12-16,,SAS,,,15,56,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1187,p3-SID1225,KHID117,Healthy Skin,Antecubital fossa,N,N,N,N,,,,,2019-09-19,10^0,B,BHI + Tween,,,,2019-12-16,,SAS,,,15,58,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1189,p3-SID1874,KHID131,Healthy Skin,Back,N,N,N,N,,,,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-16,,SAS,,,15,60,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1191,p3-SID1859,KHID134,Healthy Skin,Umbilicus,N,N,N,N,,,,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-16,,SAS,,,15,62,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1192,p3-SID1151,KHID110,Healthy Skin,Umbilicus,N,N,N,N,,,,,2019-09-19,10^0,B,BHI + Tween,,,,2019-12-16,,SAS,,,15,63,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1193,p3-SID1868,KHID130,Healthy Skin,Occiput,N,N,N,N,,,,,2019-09-17,10^0,BT,BHI + Tween,,,,2019-12-16,,SAS,,,15,64,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1194,p3-SID1860,KHID134,Healthy Skin,Umbilicus,N,N,N,N,,,,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-16,,SAS,,,15,65,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1195,p3-SID1858,KHID134,Healthy Skin,Umbilicus,N,N,N,N,,,,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-16,,SAS,,,15,66,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1251,p3-SID1725,KHID157,Healthy Skin,Antecubital fossa,N,N,N,N,,,,,2019-09-17,10^0,BT,BHI + Tween,,,,2019-12-24,,SAS,,,16,41,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1273,p3-SID1777,KHID135,Healthy Skin,Toe web space,N,N,N,N,,,,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-24,,SAS,,,16,63,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1293,p3-SID1055,KHID119,Healthy Skin,Toe web space,N,N,N,N,,,,,2019-09-19,10^0,B,BHI + Tween,,,,2019-12-24,,SAS,,,17,2,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1295,p3-SID1794,KHID149,Healthy Skin,Antecubital fossa,N,N,N,N,,,,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-27,,SAS,,,17,4,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1296,p3-SID1702,KHID146,Healthy Skin,Occiput,N,N,N,N,,,,,2019-09-17,10^0,B,BHI + Tween,,,,2019-12-27,,SAS,,,17,5,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1297,p3-SID1814,KHID137,Healthy Skin,Nares,N,N,N,N,,,,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-27,,SAS,,,17,6,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1298,p3-SID1816,KHID137,Healthy Skin,Nares,N,N,N,N,,,,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-12-27,,SAS,,,17,7,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1300,p3-SID978,KHID85,Healthy Skin,Volar forearm,N,N,N,N,,,,,2019-09-19,10^0,B,BHI + Tween,,,,2019-12-27,,SAS,,,17,9,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1305,p3-SID981,KHID85,Healthy Skin,Volar forearm,N,N,N,N,,,,,2019-09-19,10^0,BT,BHI + Tween,,,,2019-12-27,,SAS,,,17,14,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1308,p3-SID1181,KHID91,Healthy Skin,Occiput,N,N,N,N,,,,,2019-09-19,10^0,BT,BHI + Tween,,,,2019-12-27,,SAS,,,17,17,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1309,p3-SID1698,KHID146,Healthy Skin,Occiput,N,N,N,N,,,,,2019-09-17,10^0,BT,BHI + Tween,,,,2019-12-27,,SAS,,,17,18,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1313,p3-SID1771,KHID145,Healthy Skin,Nares,N,N,N,N,,,,,2019-09-17,10^0,BT,BHI + Tween,,,,2019-12-27,,SAS,,,17,22,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1314,p3-SID983,KHID85,Healthy Skin,Volar forearm,N,N,N,N,,,,,2019-09-19,10^0,BT,BHI + Tween,,,,2019-12-27,,SAS,,,17,23,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1315,p3-SID965,KHID109,Healthy Skin,Antecubital fossa,N,N,N,N,,,,,2019-09-19,10^0,BT,BHI + Tween,,,,2019-12-27,,SAS,,,17,24,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1324,p3-SID976,KHID85,Healthy Skin,Volar forearm,N,N,N,N,,,,,2019-09-19,10^0,B,BHI + Tween,,,,2019-12-27,,SAS,,,17,33,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1326,p3-SID978,KHID85,Healthy Skin,Volar forearm,N,N,N,N,,,,,2019-09-19,10^0,B,BHI + Tween,,,,2019-12-27,,SAS,,,17,35,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1328,p3-SID1122,KHID107,Healthy Skin,Back,N,N,N,N,,,,,2019-09-19,10^0,BT,BHI + Tween,,,,2019-12-27,,SAS,,,17,37,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1329,p3-SID1123,KHID107,Healthy Skin,Back,N,N,N,N,,,,,2019-09-19,10^0,BT,BHI + Tween,,,,2019-12-27,,SAS,,,17,38,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1338,p3-SID992,KHID93,Healthy Skin,Volar forearm,N,N,N,N,,,,,2019-09-19,10^0,BD,BHI + Tween,,,,2019-12-29,,SAS,,,17,47,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1339,p3-SID1182,KHID87,Healthy Skin,Umbilicus,N,N,N,N,,,,,2019-09-19,10^0,BT,BHI + Tween,,,,2019-12-29,,SAS,,,17,48,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1344,p3-SID1179,KHID91,Healthy Skin,Occiput,N,N,N,N,,,,,2019-09-19,10^0,BT,BHI + Tween,,,,2019-12-29,,SAS,,,17,53,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1345,p3-SID990,KHID85,Healthy Skin,Volar forearm,N,N,N,N,,,,,2019-09-19,10^0,BD,BHI + Tween,,,,2019-12-29,,SAS,,,17,54,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1361,p3-SID1006,KHID116,Healthy Skin,Volar forearm,N,N,N,N,,,,,2019-09-19,10^0,B,BHI + Tween,,,,2019-12-29,,SAS,,,17,70,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1364,p3-SID1175,KHID87,Healthy Skin,Umbilicus,N,N,N,N,,,,,2019-09-19,10^0,BD,BHI + Tween,,,,2019-12-29,,SAS,,,17,73,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1371,p3-SID585,KHID55,Healthy Skin,Antecubital fossa,N,N,N,N,,,,,2019-07-26,10^-1,BT,BHI + Tween,,,,2020-03-05,,SAS,,,17,80,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1372,p3-SID831,KHID76,Healthy Skin,Occiput,N,N,N,N,,,,,2019-07-29,10^-1,BL,BHI + Tween,,,,2020-03-05,,SAS,,,17,81,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1375,p3-SID635,KHID52,Healthy Skin,Occiput,N,N,N,N,,,,,2019-07-26,10^-1,BH,BHI + Tween,,,,2020-03-05,,SAS,,,18,3,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1376,p3-SID614,KHID54,Healthy Skin,Volar forearm,N,N,N,N,,,,,2019-07-26,10^-1,BL,BHI + Tween,,,,2020-03-05,,SAS,,,18,4,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK1405,p3-SID2536,KHID76,Healthy Skin,Occiput,N,N,N,N,,,,,2020-02-26,10^0,BD,BHI + Tween,,,,2020-03-13,,MHS,,,18,33,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK502,p3-SID714,KHID40,Healthy Skin,Umbilicus,N,N,N,N,,,,,2019-07-26,10^-1,BL,BHI,,,,2019-08-06,,IKL,,,7,21,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK539,p3-SID776,KHID77,Healthy Skin,Back,N,N,N,N,,,,,2019-07-29,10^-1,BL,BHI,,,,2019-08-06,,IKL,,,7,58,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK607,p3-SID604,KHID51,Healthy Skin,Nares,N,N,N,N,,,,,2019-07-26,10^-1,BH,BHI,,,,2019-08-29,,IKL,,,8,45,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK608,p3-SID819,KHID79,Healthy Skin,Antecubital fossa,N,N,N,N,,,,,2019-07-29,10^-1,BL,BHI,,,,2019-08-29,,IKL,,,8,46,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK612,p3-SID778,KHID77,Healthy Skin,Back,N,N,N,N,,,,,2019-07-29,10^-1,BT,BHI,,,,2019-08-29,,IKL,,,8,50,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK614,p3-SID863,KHID42,Healthy Skin,Alar crease,N,N,N,N,,,,,2019-07-29,10^0,BL,BHI,,,,2019-08-29,,IKL,,,8,52,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK618,p3-SID913,KHID64,Healthy Skin,Umbilicus,N,N,N,N,,,,,2019-07-31,10^-2,BH,BHI,,,,2019-08-29,,IKL,,,8,56,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK627,p3-SID795,KHID74,Healthy Skin,Alar crease,N,N,N,N,,,,,2019-07-29,10^-1,BL,BHI,,,,2019-08-29,,IKL,,,8,65,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK629,p3-SID864,KHID71,Healthy Skin,Antecubital fossa,N,N,N,N,,,,,2019-07-29,10^0,BT,BHI,,,,2019-08-29,,IKL,,,8,67,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK631,p3-SID606,KHID73,Healthy Skin,Toe web space,N,N,N,N,,,,,2019-07-26,10^-1,BL,BHI,,,,2019-08-29,,IKL,,,8,69,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK632,p3-SID594,KHID51,Healthy Skin,Nares,N,N,N,N,,,,,2019-07-26,10^-1,BL,BHI,,,,2019-08-29,,IKL,,,8,70,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK633,p3-SID720,KHID38,Healthy Skin,Volar forearm,N,N,N,N,,,,,2019-07-26,10^-1,BT,BHI,,,,2019-08-29,,IKL,,,8,71,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK663,p3-SID735,KHID40,Healthy Skin,Umbilicus,N,N,N,N,,,,,2019-07-26,10^-1,BH,BHI,,,,2019-08-12,,IKL,,,9,20,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK702,p3-SID852,KHID79,Healthy Skin,Antecubital fossa,N,N,N,N,,,,,2019-07-29,10^-1,BT,BHI,,,,2019-08-12,,IKL,,,9,59,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK703,p3-SID851,KHID79,Healthy Skin,Antecubital fossa,N,N,N,N,,,,,2019-07-29,10^-1,BT,BHI,,,,2019-08-12,,IKL,,,9,60,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK707,p3-SID781,KHID77,Healthy Skin,Back,N,N,N,N,,,,,2019-07-29,10^-1,BT,BHI,,,,2019-08-12,,IKL,,,9,64,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK714,p3-SID784,KHID78,Healthy Skin,Volar forearm,N,N,N,N,,,,,2019-07-29,10^-1,BT,BHI,,,,2019-08-12,,IKL,,,9,71,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK715,p3-SID788,KHID74,Healthy Skin,Alar crease,N,N,N,N,,,,,2019-07-29,10^-1,BL,BHI,,,,2019-08-12,,IKL,,,9,72,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK720,p3-SID586,KHID55,Healthy Skin,Antecubital fossa,N,N,N,N,,,,,2019-07-26,10^-1,BL,BHI,,,,2019-08-12,,IKL,,,9,77,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK730,p3-SID1022,KHID116,Healthy Skin,Volar forearm,N,N,N,N,,,,,2019-09-19,10^0,BD,BHI,,,,2019-10-08,,MR,,,10,6,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK731,p3-SID1024,KHID115,Healthy Skin,Back,N,N,N,N,,,,,2019-09-19,10^0,BD,BHI,,,,2019-10-08,,MR,,,10,7,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK732,p3-SID1028,KHID115,Healthy Skin,Back,N,N,N,N,,,,,2019-09-19,10^0,BD,BHI,,,,2019-10-08,,MR,,,10,8,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK733,p3-SID1100,KHID113,Healthy Skin,Nares,N,N,N,N,,,,,2019-09-19,10^0,BT,BHI,,,,2019-10-08,,MR,,,10,9,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK734,p3-SID1101,KHID113,Healthy Skin,Nares,N,N,N,N,,,,,2019-09-19,10^0,BT,BHI,,,,2019-10-08,,MR,,,10,10,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK735,p3-SID1102,KHID113,Healthy Skin,Nares,N,N,N,N,,,,,2019-09-19,10^0,BT,BHI,,,,2019-10-08,,MR,,,10,11,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK736,p3-SID1103,KHID113,Healthy Skin,Nares,N,N,N,N,,,,,2019-09-19,10^0,BT,BHI,,,,2019-10-08,,MR,,,10,12,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK737,p3-SID1104,KHID113,Healthy Skin,Nares,N,N,N,N,,,,,2019-09-19,10^0,BT,BHI,,,,2019-10-08,,MR,,,10,13,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK738,p3-SID1107,KHID113,Healthy Skin,Nares,N,N,N,N,,,,,2019-09-19,10^0,BD,BHI,,,,2019-10-08,,MR,,,10,14,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK739,p3-SID1108,KHID113,Healthy Skin,Nares,N,N,N,N,,,,,2019-09-19,10^0,BD,BHI,,,,2019-10-08,,MR,,,10,15,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK740,p3-SID998,KHID116,Healthy Skin,Volar forearm,N,N,N,N,,,,,2019-09-19,10^0,BT,BHI,,,,2019-10-08,,MR,,,10,16,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK741,p3-SID1017,KHID116,Healthy Skin,Volar forearm,N,N,N,N,,,,,2019-09-19,10^0,BD,BHI,,,,2019-10-08,,MR,,,10,17,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK742,p3-SID1020,KHID116,Healthy Skin,Volar forearm,N,N,N,N,,,,,2019-09-19,10^0,BD,BHI,,,,2019-10-08,,MR,,,10,18,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK743,p3-SID1001,KHID116,Healthy Skin,Volar forearm,N,N,N,N,,,,,2019-09-19,10^0,B,BHI,,,,2019-10-08,,MR,,,10,19,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK744,p3-SID1004,KHID116,Healthy Skin,Volar forearm,N,N,N,N,,,,,2019-09-19,10^0,B,BHI,,,,2019-10-08,,MR,,,10,20,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK745,p3-SID1167,KHID86,Healthy Skin,Antecubital fossa,N,N,N,N,,,,,2019-09-19,10^0,B,BHI,,,,2019-10-08,,MR,,,10,21,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK746,p3-SID1011,KHID115,Healthy Skin,Back,N,N,N,N,,,,,2019-09-19,10^0,BT,BHI,,,,2019-10-08,,MR,,,10,22,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK747,p3-SID1050,KHID119,Healthy Skin,Toe web space,N,N,N,N,,,,,2019-09-19,10^0,BT,BHI,,,,2019-10-08,,MR,,,10,23,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK748,p3-SID1052,KHID119,Healthy Skin,Toe web space,N,N,N,N,,,,,2019-09-19,10^0,BT,BHI,,,,2019-10-08,,MR,,,10,24,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK749,p3-SID1053,KHID119,Healthy Skin,Toe web space,N,N,N,N,,,,,2019-09-19,10^0,BT,BHI,,,,2019-10-08,,MR,,,10,25,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK750,p3-SID1054,KHID119,Healthy Skin,Toe web space,N,N,N,N,,,,,2019-09-19,10^0,BT,BHI,,,,2019-10-08,,MR,,,10,26,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK751,p3-SID1049,KHID119,Healthy Skin,Toe web space,N,N,N,N,,,,,2019-09-19,10^0,BT,BHI,,,,2019-10-08,,MR,,,10,27,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK752,p3-SID1030,KHID118,Healthy Skin,Umbilicus,N,N,N,N,,,,,2019-09-19,10^0,B,BHI,,,,2019-10-08,,MR,,,10,28,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK753,p3-SID1031,KHID118,Healthy Skin,Umbilicus,N,N,N,N,,,,,2019-09-19,10^0,B,BHI,,,,2019-10-08,,MR,,,10,29,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK754,p3-SID1032,KHID118,Healthy Skin,Umbilicus,N,N,N,N,,,,,2019-09-19,10^0,B,BHI,,,,2019-10-08,,MR,,,10,30,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK755,p3-SID1046,KHID118,Healthy Skin,Umbilicus,N,N,N,N,,,,,2019-09-19,10^0,BD,BHI,,,,2019-10-08,,MR,,,10,31,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK756,p3-SID1034,KHID118,Healthy Skin,Umbilicus,N,N,N,N,,,,,2019-09-19,10^0,B,BHI,,,,2019-10-08,,MR,,,10,32,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK757,p3-SID1035,KHID118,Healthy Skin,Umbilicus,N,N,N,N,,,,,2019-09-19,10^0,B,BHI,,,,2019-10-08,,MR,,,10,33,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK758,p3-SID1044,KHID118,Healthy Skin,Umbilicus,N,N,N,N,,,,,2019-09-19,10^0,BD,BHI,,,,2019-10-08,,MR,,,10,34,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK759,p3-SID1045,KHID118,Healthy Skin,Umbilicus,N,N,N,N,,,,,2019-09-19,10^0,BD,BHI,,,,2019-10-08,,MR,,,10,35,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK760,p3-SID1039,KHID118,Healthy Skin,Umbilicus,N,N,N,N,,,,,2019-09-19,10^0,BT,BHI,,,,2019-10-08,,MR,,,10,36,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK761,p3-SID1058,KHID119,Healthy Skin,Toe web space,N,N,N,N,,,,,2019-09-19,10^0,B,BHI,,,,2019-10-08,,MR,,,10,37,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK762,p3-SID1061,KHID119,Healthy Skin,Toe web space,N,N,N,N,,,,,2019-09-19,10^0,B,BHI,,,,2019-10-08,,MR,,,10,38,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK763,p3-SID1040,KHID118,Healthy Skin,Umbilicus,N,N,N,N,,,,,2019-09-19,10^0,BT,BHI,,,,2019-10-08,,MR,,,10,39,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK764,p3-SID1159,KHID84,Healthy Skin,Back,N,N,N,N,,,,,2019-09-19,10^0,BT,BHI,,,,2019-10-08,,MR,,,10,40,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK765,p3-SID1187,KHID91,Healthy Skin,Occiput,N,N,N,N,,,,,2019-09-19,10^0,BD,BHI,,,,2019-10-08,,MR,,,10,41,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK766,p3-SID1066,KHID119,Healthy Skin,Toe web space,N,N,N,N,,,,,2019-09-19,10^0,BD,BHI,,,,2019-10-08,,MR,,,10,42,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK767,p3-SID1195,KHID92,Healthy Skin,Back,N,N,N,N,,,,,2019-09-19,10^0,B,BHI,,,,2019-10-08,,MR,,,10,43,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK768,p3-SID1188,KHID91,Healthy Skin,Occiput,N,N,N,N,,,,,2019-09-19,10^0,BD,BHI,,,,2019-10-08,,MR,,,10,44,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK769,p3-SID1192,KHID117,Healthy Skin,Antecubital fossa,N,N,N,N,,,,,2019-09-19,10^0,B,BHI,,,,2019-10-08,,MR,,,10,45,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK770,p3-SID961,KHID89,Healthy Skin,Alar crease,N,N,N,N,,,,,2019-09-19,10^0,BD,BHI,,,,2019-10-08,,MR,,,10,46,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK771,p3-SID1189,KHID91,Healthy Skin,Occiput,N,N,N,N,,,,,2019-09-19,10^0,BD,BHI,,,,2019-10-08,,MR,,,10,47,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK772,p3-SID1064,KHID119,Healthy Skin,Toe web space,N,N,N,N,,,,,2019-09-19,10^0,BD,BHI,,,,2019-10-08,,MR,,,10,48,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK773,p3-SID1097,KHID113,Healthy Skin,Nares,N,N,N,N,,,,,2019-09-19,10^0,B,BHI,,,,2019-10-08,,MR,,,10,49,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK774,p3-SID1096,KHID113,Healthy Skin,Nares,N,N,N,N,,,,,2019-09-19,10^0,B,BHI,,,,2019-10-08,,MR,,,10,50,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK775,p3-SID1095,KHID113,Healthy Skin,Nares,N,N,N,N,,,,,2019-09-19,10^0,B,BHI,,,,2019-10-08,,MR,,,10,51,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK776,p3-SID1094,KHID113,Healthy Skin,Nares,N,N,N,N,,,,,2019-09-19,10^0,B,BHI,,,,2019-10-08,,MR,,,10,52,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK777,p3-SID1092,KHID83,Healthy Skin,Occiput,N,N,N,N,,,,,2019-09-19,10^0,B,BHI,,,,2019-10-08,,MR,,,10,53,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK778,p3-SID1091,KHID83,Healthy Skin,Occiput,N,N,N,N,,,,,2019-09-19,10^0,B,BHI,,,,2019-10-08,,MR,,,10,54,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK779,p3-SID1090,KHID83,Healthy Skin,Occiput,N,N,N,N,,,,,2019-09-19,10^0,B,BHI,,,,2019-10-08,,MR,,,10,55,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK780,p3-SID1088,KHID83,Healthy Skin,Occiput,N,N,N,N,,,,,2019-09-19,10^0,B,BHI,,,,2019-10-08,,MR,,,10,56,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK781,p3-SID1118,KHID107,Healthy Skin,Back,N,N,N,N,,,,,2019-09-19,10^0,BD,BHI,,,,2019-10-08,,MR,,,10,57,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK782,p3-SID1075,KHID84,Healthy Skin,Back,N,N,N,N,,,,,2019-09-19,10^0,B,BHI,,,,2019-10-08,,MR,,,10,58,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK783,p3-SID1072,KHID84,Healthy Skin,Back,N,N,N,N,,,,,2019-09-19,10^0,BD,BHI,,,,2019-10-08,,MR,,,10,59,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK784,p3-SID1070,KHID84,Healthy Skin,Back,N,N,N,N,,,,,2019-09-19,10^0,BD,BHI,,,,2019-10-08,,MR,,,10,60,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK785,p3-SID1069,KHID84,Healthy Skin,Back,N,N,N,N,,,,,2019-09-19,10^0,BD,BHI,,,,2019-10-08,,MR,,,10,61,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK786,p3-SID1110,KHID107,Healthy Skin,Back,N,N,N,N,,,,,2019-09-19,10^0,B,BHI,,,,2019-10-08,,MR,,,10,62,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK787,p3-SID1111,KHID107,Healthy Skin,Back,N,N,N,N,,,,,2019-09-19,10^0,B,BHI,,,,2019-10-08,,MR,,,10,63,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK788,p3-SID1112,KHID107,Healthy Skin,Back,N,N,N,N,,,,,2019-09-19,10^0,B,BHI,,,,2019-10-08,,MR,,,10,64,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK789,p3-SID1113,KHID107,Healthy Skin,Back,N,N,N,N,,,,,2019-09-19,10^0,B,BHI,,,,2019-10-08,,MR,,,10,65,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK790,p3-SID1114,KHID107,Healthy Skin,Back,N,N,N,N,,,,,2019-09-19,10^0,B,BHI,,,,2019-10-08,,MR,,,10,66,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK791,p3-SID1186,KHID91,Healthy Skin,Occiput,N,N,N,N,,,,,2019-09-19,10^0,BD,BHI,,,,2019-10-08,,MR,,,10,67,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK793,p3-SID1084,KHID83,Healthy Skin,Occiput,N,N,N,N,,,,,2019-09-19,10^0,BT,BHI,,,,2019-10-08,,MR,,,10,69,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK794,p3-SID1083,KHID83,Healthy Skin,Occiput,N,N,N,N,,,,,2019-09-19,10^0,BD,BHI,,,,2019-10-08,,MR,,,10,70,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK795,p3-SID1082,KHID83,Healthy Skin,Occiput,N,N,N,N,,,,,2019-09-19,10^0,BD,BHI,,,,2019-10-08,,MR,,,10,71,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK796,p3-SID1081,KHID83,Healthy Skin,Occiput,N,N,N,N,,,,,2019-09-19,10^0,BD,BHI,,,,2019-10-08,,MR,,,10,72,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK797,p3-SID1080,KHID83,Healthy Skin,Occiput,N,N,N,N,,,,,2019-09-19,10^0,BD,BHI,,,,2019-10-08,,MR,,,10,73,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK798,p3-SID1173,KHID86,Healthy Skin,Antecubital fossa,N,N,N,N,,,,,2019-09-19,10^0,BD,BHI,,,,2019-10-08,,MR,,,10,74,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK799,p3-SID1041,KHID118,Healthy Skin,Umbilicus,N,N,N,N,,,,,2019-09-19,10^0,BD,BHI+0.1%Tween 80,,,,2019-10-24,,SAS,,,10,75,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK800,p3-SID1037,KHID118,Healthy Skin,Umbilicus,N,N,N,N,,,,,2019-09-19,10^0,BT,BHI+0.1%Tween 80,,,,2019-10-24,,SAS,,,10,76,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK801,p3-SID958,KHID89,Healthy Skin,Alar crease,N,N,N,N,,,,,2019-09-19,10^0,BD,BHI+0.1%Tween 80,,,,2019-10-24,,SAS,,,10,77,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK802,p3-SID1162,KHID93,Healthy Skin,Volar forearm,N,N,N,N,,,,,2019-09-19,10^0,BT,BHI+0.1%Tween 80,,,,2019-10-24,,SAS,,,10,78,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK803,p3-SID999,KHID116,Healthy Skin,Volar forearm,N,N,N,N,,,,,2019-09-19,10^0,BT,BHI+0.1%Tween 80,,,,2019-10-24,,SAS,,,10,79,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK804,p3-SID1190,KHID117,Healthy Skin,Antecubital fossa,N,N,N,N,,,,,2019-09-19,10^0,B,BHI+0.1%Tween 80,,,,2019-10-24,,SAS,,,10,80,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK805,p3-SID1157,KHID84,Healthy Skin,Back,N,N,N,N,,,,,2019-09-19,10^0,BT,BHI+0.1%Tween 80,,,,2019-10-24,,SAS,,,10,81,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK806,p3-SID1000,KHID116,Healthy Skin,Volar forearm,N,N,N,N,,,,,2019-09-19,10^0,BT,BHI+0.1%Tween 80,,,,2019-10-24,,SAS,,,11,1,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK807,p3-SID1033,KHID118,Healthy Skin,Umbilicus,N,N,N,N,,,,,2019-09-19,10^0,B,BHI+0.1%Tween 80,,,,2019-10-24,,SAS,,,11,2,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK808,p3-SID1029,KHID118,Healthy Skin,Umbilicus,N,N,N,N,,,,,2019-09-19,10^0,B,BHI+0.1%Tween 80,,,,2019-10-24,,SAS,,,11,3,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK809,p3-SID956,KHID90,Healthy Skin,Nares,N,N,N,N,,,,,2019-09-19,10^0,B,BHI+0.1%Tween 80,,,,2019-10-24,,SAS,,,11,4,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK810,"p3-SID1164
+",KHID93,Healthy Skin,Volar forearm,N,N,N,N,,,,,2019-09-19,10^0,B,BHI+0.1%Tween 80,,,,2019-10-24,,SAS,,,11,5,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK811,p3-SID951,KHID94,Healthy Skin,Antecubital fossa,N,N,N,N,,,,,2019-09-19,10^0,BT,BHI+0.1%Tween 80,,,,2019-10-25,,SAS,,,11,6,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK812,p3-SID1185,KHID91,Healthy Skin,Occiput,N,N,N,N,,,,,2019-09-19,10^0,BD,BHI+0.1%Tween 80,,,,2019-10-25,,SAS,,,11,7,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK813,p3-SID1169,KHID86,Healthy Skin,Antecubital fossa,N,N,N,N,,,,,2019-09-19,10^0,B,BHI+0.1%Tween 80,,,,2019-10-25,,SAS,,,11,8,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK814,p3-SID1166,KHID93,Healthy Skin,Volar forearm,N,N,N,N,,,,,2019-09-19,10^0,B,BHI+0.1%Tween 80,,,,2019-10-25,,SAS,,,11,9,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK815,p3-SID1067,KHID119,Healthy Skin,Toe web space,N,N,N,N,,,,,2019-09-19,10^0,BD,BHI+0.1%Tween 80,,,,2019-10-25,,SAS,,,11,10,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK816,p3-SID1196,KHID92,Healthy Skin,Back,N,N,N,N,,,,,2019-09-19,10^0,B,BHI+0.1%Tween 80,,,,2019-10-25,,SAS,,,11,11,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK817,p3-SID954,KHID90,Healthy Skin,Nares,N,N,N,N,,,,,2019-09-19,10^0,B,BHI+0.1%Tween 80,,,,2019-10-25,,SAS,,,11,12,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK818,p3-SID959,KHID89,Healthy Skin,Alar crease,N,N,N,N,,,,,2019-09-19,10^0,BD,BHI+0.1%Tween 80,,,,2019-10-25,,SAS,,,11,13,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK819,p3-SID1165,KHID93,Healthy Skin,Volar forearm,N,N,N,N,,,,,2019-09-19,10^0,B,BHI+0.1%Tween 80,,,,2019-10-25,,SAS,,,11,14,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK824,p3-SID1330,KHID81,Healthy Skin,Alar crease,N,N,N,N,,,,,2019-09-19,10^0,BD,BHI,,,,2019-10-28,,SAS,,,11,19,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK825,p3-SID1511,KHID140,Healthy Skin,Volar forearm,N,N,N,N,,,,,2019-09-17,10^0,BD,BHI,,,,2019-10-28,,SAS,,,11,20,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK833,p3-SID1211,KHID112,Healthy Skin,Alar crease,N,N,N,N,,,,,2019-09-19,10^0,B,BHI,,,,2019-10-28,,SAS,,,11,28,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK842,p3-SID1144,KHID92,Healthy Skin,Back,N,N,N,N,,,,,2019-09-19,10^0,BD,BHI,,,,2019-10-28,,SAS,,,11,37,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK846,p3-SID1202,KHID110,Healthy Skin,Umbilicus,N,N,N,N,,,,,2019-09-19,10^0,BD,BHI,,,,2019-10-28,,SAS,,,11,41,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK851,p3-SID952,KHID94,Healthy Skin,Antecubital fossa,N,N,N,N,,,,,2019-09-19,10^0,BT,BHI+0.1%Tween 80,,,,2019-10-28,,SAS,,,11,46,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK852,p3-SID1161,KHID93,Healthy Skin,Volar forearm,N,N,N,N,,,,,2019-09-19,10^0,BT,BHI+0.1%Tween 80,,,,2019-10-28,,SAS,,,11,47,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK859,p3-SID1191,KHID117,Healthy Skin,Antecubital fossa,N,N,N,N,,,,,2019-09-19,10^0,B,BHI,,,,2019-10-28,,SAS,,,11,54,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK865,p3-SID1319,KHID108,Healthy Skin,Volar forearm,N,N,N,N,,,,,2019-09-19,10^0,BD,BHI,,,,2019-10-28,,SAS,,,11,60,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK867,p3-SID1257,KHID103,Healthy Skin,Toe web space,N,N,N,N,,,,,2019-09-19,10^0,B,BHI,,,,2019-10-28,,SAS,,,11,62,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK868,p3-SID1293,KHID117,Healthy Skin,Antecubital fossa,N,N,N,N,,,,,2019-09-19,10^0,BT,BHI,,,,2019-10-28,,SAS,,,11,63,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK878,p3-SID1147,KHID89,Healthy Skin,Alar crease,N,N,N,N,,,,,2019-09-19,10^0,B,BHI+0.1%Tween 80,,,,2019-10-28,,SAS,,,11,73,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK880,p3-SID1153,KHID89,Healthy Skin,Alar crease,N,N,N,N,,,,,2019-09-19,10^0,B,BHI+0.1%Tween 80,,,,2019-10-28,,SAS,,,11,75,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK881,p3-SID1150,KHID89,Healthy Skin,Alar crease,N,N,N,N,,,,,2019-09-19,10^0,BT,BHI+0.1%Tween 80,,,,2019-10-28,,SAS,,,11,76,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK883,p3-SID1285,KHID97,Healthy Skin,Nares,N,N,N,N,,,,,2019-09-19,10^0,B,BHI+0.1%Tween 80,,,,2019-10-28,,SAS,,,11,78,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK884,p3-SID1282,KHID91,Healthy Skin,Occiput,N,N,N,N,,,,,2019-09-19,10^0,B,BHI+0.1%Tween 80,,,,2019-10-28,,SAS,,,11,79,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK885,p3-SID1253,KHID103,Healthy Skin,Toe web space,N,N,N,N,,,,,2019-09-19,10^0,BT,BHI+0.1%Tween 80,,,,2019-10-28,,SAS,,,11,80,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK886,p3-SID1125,KHID106,Healthy Skin,Occiput,N,N,N,N,,,,,2019-09-19,10^0,BT,BHI+0.1%Tween 80,,,,2019-10-28,,SAS,,,11,81,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK887,p3-SID1286,KHID97,Healthy Skin,Nares,N,N,N,N,,,,,2019-09-19,10^0,B,BHI+0.1%Tween 80,,,,2019-10-28,,SAS,,,12,1,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK888,p3-SID1281,KHID91,Healthy Skin,Occiput,N,N,N,N,,,,,2019-09-19,10^0,B,BHI+0.1%Tween 80,,,,2019-10-28,,SAS,,,12,2,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK895,p3-SID1154,KHID89,Healthy Skin,Alar crease,N,N,N,N,,,,,2019-09-19,10^0,BT,BHI,,,,2019-11-15,,IKL,,,12,9,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK896,p3-SID1262,KHID88,Healthy Skin,Toe web space,N,N,N,N,,,,,2019-09-19,10^0,BD,BHI,,,,2019-11-15,,IKL,,,12,10,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK898,p3-SID1251,KHID103,Healthy Skin,Toe web space,N,N,N,N,,,,,2019-09-19,10^0,BT,BHI,,,,2019-11-15,,IKL,,,12,12,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK899,p3-SID1321,KHID108,Healthy Skin,Volar forearm,N,N,N,N,,,,,2019-09-19,10^0,BD,BHI,,,,2019-11-15,,IKL,,,12,13,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK901,p3-SID1308,KHID108,Healthy Skin,Volar forearm,N,N,N,N,,,,,2019-09-19,10^0,B,BHI,,,,2019-11-15,,IKL,,,12,15,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK902,p3-SID1264,KHID102,Healthy Skin,Umbilicus,N,N,N,N,,,,,2019-09-19,10^0,B,BHI,,,,2019-11-15,,IKL,,,12,16,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK906,p3-SID1234,KHID111,Healthy Skin,Toe web space,N,N,N,N,,,,,2019-09-19,10^0,BT,BHI,,,,2019-11-15,,IKL,,,12,20,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK907,p3-SID1267,KHID88,Healthy Skin,Toe web space,N,N,N,N,,,,,2019-09-19,10^0,BT,BHI,,,,2019-11-15,,IKL,,,12,21,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK908,p3-SID1247,KHID112,Healthy Skin,Alar crease,N,N,N,N,,,,,2019-09-19,10^0,BD,BHI,,,,2019-11-15,,IKL,,,12,22,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK909,p3-SID1307,KHID108,Healthy Skin,Volar forearm,N,N,N,N,,,,,2019-09-19,10^0,B,BHI,,,,2019-11-15,,IKL,,,12,23,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK910,p3-SID869,KHID70,Healthy Skin,Volar forearm,N,N,N,N,,,,,2019-07-29,10^0,BL,BHI,,,,2019-11-15,,IKL,,,12,24,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK913,p3-SID1254,KHID103,Healthy Skin,Toe web space,N,N,N,N,,,,,2019-09-19,10^0,B,BHI,,,,2019-11-15,,IKL,,,12,27,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK914,p3-SID1350,KHID144,Healthy Skin,Alar crease,N,N,N,N,,,,,2019-09-16,10^0,B,BHI,,,,2019-11-15,,IKL,,,12,28,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK915,p3-SID1312,KHID108,Healthy Skin,Volar forearm,N,N,N,N,,,,,2019-09-19,10^0,BT,BHI,,,,2019-11-15,,IKL,,,12,29,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK916,p3-SID1313,KHID108,Healthy Skin,Volar forearm,N,N,N,N,,,,,2019-09-19,10^0,BT,BHI,,,,2019-11-15,,IKL,,,12,30,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK917,p3-SID1249,KHID112,Healthy Skin,Alar crease,N,N,N,N,,,,,2019-09-19,10^0,BD,BHI,,,,2019-11-15,,IKL,,,12,31,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK918,p3-SID1198,KHID111,Healthy Skin,Toe web space,N,N,N,N,,,,,2019-09-19,10^0,BD,BHI,,,,2019-11-15,,IKL,,,12,32,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK919,p3-SID1238,KHID104,Healthy Skin,Alar crease,N,N,N,N,,,,,2019-09-19,10^0,B,BHI,,,,2019-11-15,,IKL,,,12,33,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK920,p3-SID1131,KHID105,Healthy Skin,Nares,N,N,N,N,,,,,2019-09-19,10^0,BD,BHI,,,,2019-11-15,,IKL,,,12,34,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK921,p3-SID1138b,KHID110,Healthy Skin,Umbilicus,N,N,N,N,,,,,2019-09-19,10^0,BT,BHI,,,,2019-11-15,,IKL,,,12,35,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK922,p3-SID1298,KHID117,Healthy Skin,Antecubital fossa,N,N,N,N,,,,,2019-09-19,10^0,BD,BHI,,,,2019-11-15,,IKL,,,12,36,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK923,p3-SID1138a,KHID110,Healthy Skin,Umbilicus,N,N,N,N,,,,,2019-09-19,10^0,BT,BHI,,,,2019-11-15,,IKL,,,12,37,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK924,p3-SID1259,KHID88,Healthy Skin,Toe web space,N,N,N,N,,,,,2019-09-19,10^0,BD,BHI,,,,2019-11-15,,IKL,,,12,38,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK925,p3-SID1291,KHID117,Healthy Skin,Antecubital fossa,N,N,N,N,,,,,2019-09-19,10^0,BT,BHI,,,,2019-11-15,,IKL,,,12,39,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK926,p3-SID1245,KHID112,Healthy Skin,Alar crease,N,N,N,N,,,,,2019-09-19,10^0,BD,BHI,,,,2019-11-15,,IKL,,,12,40,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK927,p3-SID1284,KHID97,Healthy Skin,Nares,N,N,N,N,,,,,2019-09-19,10^0,BT,BHI,,,,2019-11-15,,IKL,,,12,41,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK932,p3-SID1294,KHID117,Healthy Skin,Antecubital fossa,N,N,N,N,,,,,2019-09-19,10^0,BT,BHI,,,,2019-11-18,,SAS,,,12,46,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK937,p3-SID1199,KHID111,Healthy Skin,Toe web space,N,N,N,N,,,,,2019-09-19,10^0,BD,BHI,,,,2019-11-18,,SAS,,,12,51,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK944,p3-SID1143,KHID92,Healthy Skin,Back,N,N,N,N,,,,,2019-09-19,10^0,BD,BHI,,,,2019-11-18,,SAS,,,12,58,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK947,p3-SID1255,KHID103,Healthy Skin,Toe web space,N,N,N,N,,,,,2019-09-19,10^0,B,BHI+tween,,,,2019-11-21,,MR,,,12,61,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK954,p3-SID870,KHID70,Healthy Skin,Volar forearm,N,N,N,N,,,,,2019-07-29,10^0,BL,,,,,2019-11-21,,MR,,,12,68,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK959,p3-SID1895,KHID147,Healthy Skin,Back,N,N,N,N,,,,,2019-09-17,10^0,BT,BHI + Tween,,,,2019-11-23,,SAS,,,12,73,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK963,p3-SID1912,KHID148,Healthy Skin,Volar forearm,N,N,N,N,,,,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-11-23,,SAS,,,12,77,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK968,p3-SID1406,KHID125,Healthy Skin,Antecubital fossa,N,N,N,N,,,,,2019-09-16,10^0,B,BHI + Tween,,,,2019-11-23,,SAS,,,13,1,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK987,p3-SID1907,KHID148,Healthy Skin,Volar forearm,N,N,N,N,,,,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-11-23,,SAS,,,13,20,,,,,,2020-05-18 08:30,Shelby Sandstrom
+Skin Microbiome Study,LK992,p3-SID1854,KHID133,Healthy Skin,Antecubital fossa,N,N,N,N,,,,,2019-09-17,10^0,BD,BHI + Tween,,,,2019-11-23,,SAS,,,13,25,,,,,,2020-05-18 08:30,Shelby Sandstrom

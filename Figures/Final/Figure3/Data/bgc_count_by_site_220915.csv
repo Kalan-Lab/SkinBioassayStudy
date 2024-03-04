@@ -1,0 +1,265 @@
+Product Prediction,Body_Site,count,Site Type,rel_abun
+hybrid,Alar crease,6,Sebaceous,0.046153846
+NRPS,Alar crease,8,Sebaceous,0.061538462
+arylpolyene,Alar crease,2,Sebaceous,0.015384615
+T1PKS,Alar crease,9,Sebaceous,0.069230769
+NRPS-like,Alar crease,5,Sebaceous,0.038461538
+ladderane,Alar crease,0,Sebaceous,0
+resorcinol,Alar crease,0,Sebaceous,0
+T3PKS,Alar crease,4,Sebaceous,0.030769231
+NAPAA,Alar crease,14,Sebaceous,0.107692308
+tropodithietic-acid,Alar crease,1,Sebaceous,0.007692308
+thioamide-NRP,Alar crease,0,Sebaceous,0
+betalactone,Alar crease,5,Sebaceous,0.038461538
+lanthipeptide-class-ii,Alar crease,0,Sebaceous,0
+thiopeptide,Alar crease,2,Sebaceous,0.015384615
+lanthipeptide-class-i,Alar crease,0,Sebaceous,0
+lassopeptide,Alar crease,1,Sebaceous,0.007692308
+RRE-containing,Alar crease,6,Sebaceous,0.046153846
+LAP,Alar crease,0,Sebaceous,0
+redox-cofactor,Alar crease,5,Sebaceous,0.038461538
+lanthipeptide-class-iv,Alar crease,0,Sebaceous,0
+terpene,Alar crease,26,Sebaceous,0.2
+epipeptide,Alar crease,0,Sebaceous,0
+sactipeptide,Alar crease,2,Sebaceous,0.015384615
+T2PKS,Alar crease,0,Sebaceous,0
+cyclic-lactone-autoinducer,Alar crease,4,Sebaceous,0.030769231
+proteusin,Alar crease,0,Sebaceous,0
+lanthipeptide-class-iii,Alar crease,0,Sebaceous,0
+siderophore,Alar crease,14,Sebaceous,0.107692308
+NAGGN,Alar crease,0,Sebaceous,0
+linaridin,Alar crease,0,Sebaceous,0
+RiPP-like,Alar crease,1,Sebaceous,0.007692308
+ranthipeptide,Alar crease,1,Sebaceous,0.007692308
+ectoine,Alar crease,14,Sebaceous,0.107692308
+hybrid,Nares,4,Moist,0.044444444
+NRPS,Nares,16,Moist,0.177777778
+arylpolyene,Nares,2,Moist,0.022222222
+T1PKS,Nares,3,Moist,0.033333333
+NRPS-like,Nares,1,Moist,0.011111111
+ladderane,Nares,0,Moist,0
+resorcinol,Nares,0,Moist,0
+T3PKS,Nares,5,Moist,0.055555556
+NAPAA,Nares,6,Moist,0.066666667
+tropodithietic-acid,Nares,0,Moist,0
+thioamide-NRP,Nares,0,Moist,0
+betalactone,Nares,6,Moist,0.066666667
+lanthipeptide-class-ii,Nares,0,Moist,0
+thiopeptide,Nares,4,Moist,0.044444444
+lanthipeptide-class-i,Nares,0,Moist,0
+lassopeptide,Nares,0,Moist,0
+RRE-containing,Nares,3,Moist,0.033333333
+LAP,Nares,0,Moist,0
+redox-cofactor,Nares,2,Moist,0.022222222
+lanthipeptide-class-iv,Nares,0,Moist,0
+terpene,Nares,12,Moist,0.133333333
+epipeptide,Nares,0,Moist,0
+sactipeptide,Nares,0,Moist,0
+T2PKS,Nares,0,Moist,0
+cyclic-lactone-autoinducer,Nares,2,Moist,0.022222222
+proteusin,Nares,0,Moist,0
+lanthipeptide-class-iii,Nares,1,Moist,0.011111111
+siderophore,Nares,10,Moist,0.111111111
+NAGGN,Nares,0,Moist,0
+linaridin,Nares,1,Moist,0.011111111
+RiPP-like,Nares,7,Moist,0.077777778
+ranthipeptide,Nares,0,Moist,0
+ectoine,Nares,5,Moist,0.055555556
+hybrid,Back,2,Sebaceous,0.019047619
+NRPS,Back,2,Sebaceous,0.019047619
+arylpolyene,Back,1,Sebaceous,0.00952381
+T1PKS,Back,4,Sebaceous,0.038095238
+NRPS-like,Back,2,Sebaceous,0.019047619
+ladderane,Back,0,Sebaceous,0
+resorcinol,Back,0,Sebaceous,0
+T3PKS,Back,5,Sebaceous,0.047619048
+NAPAA,Back,14,Sebaceous,0.133333333
+tropodithietic-acid,Back,0,Sebaceous,0
+thioamide-NRP,Back,0,Sebaceous,0
+betalactone,Back,11,Sebaceous,0.104761905
+lanthipeptide-class-ii,Back,1,Sebaceous,0.00952381
+thiopeptide,Back,0,Sebaceous,0
+lanthipeptide-class-i,Back,0,Sebaceous,0
+lassopeptide,Back,0,Sebaceous,0
+RRE-containing,Back,9,Sebaceous,0.085714286
+LAP,Back,0,Sebaceous,0
+redox-cofactor,Back,0,Sebaceous,0
+lanthipeptide-class-iv,Back,0,Sebaceous,0
+terpene,Back,20,Sebaceous,0.19047619
+epipeptide,Back,0,Sebaceous,0
+sactipeptide,Back,0,Sebaceous,0
+T2PKS,Back,0,Sebaceous,0
+cyclic-lactone-autoinducer,Back,1,Sebaceous,0.00952381
+proteusin,Back,0,Sebaceous,0
+lanthipeptide-class-iii,Back,1,Sebaceous,0.00952381
+siderophore,Back,14,Sebaceous,0.133333333
+NAGGN,Back,0,Sebaceous,0
+linaridin,Back,0,Sebaceous,0
+RiPP-like,Back,2,Sebaceous,0.019047619
+ranthipeptide,Back,1,Sebaceous,0.00952381
+ectoine,Back,15,Sebaceous,0.142857143
+hybrid,Umbilicus,1,Moist,0.029411765
+NRPS,Umbilicus,3,Moist,0.088235294
+arylpolyene,Umbilicus,0,Moist,0
+T1PKS,Umbilicus,3,Moist,0.088235294
+NRPS-like,Umbilicus,0,Moist,0
+ladderane,Umbilicus,0,Moist,0
+resorcinol,Umbilicus,0,Moist,0
+T3PKS,Umbilicus,6,Moist,0.176470588
+NAPAA,Umbilicus,4,Moist,0.117647059
+tropodithietic-acid,Umbilicus,0,Moist,0
+thioamide-NRP,Umbilicus,0,Moist,0
+betalactone,Umbilicus,0,Moist,0
+lanthipeptide-class-ii,Umbilicus,0,Moist,0
+thiopeptide,Umbilicus,0,Moist,0
+lanthipeptide-class-i,Umbilicus,1,Moist,0.029411765
+lassopeptide,Umbilicus,1,Moist,0.029411765
+RRE-containing,Umbilicus,0,Moist,0
+LAP,Umbilicus,1,Moist,0.029411765
+redox-cofactor,Umbilicus,0,Moist,0
+lanthipeptide-class-iv,Umbilicus,1,Moist,0.029411765
+terpene,Umbilicus,6,Moist,0.176470588
+epipeptide,Umbilicus,0,Moist,0
+sactipeptide,Umbilicus,0,Moist,0
+T2PKS,Umbilicus,0,Moist,0
+cyclic-lactone-autoinducer,Umbilicus,2,Moist,0.058823529
+proteusin,Umbilicus,0,Moist,0
+lanthipeptide-class-iii,Umbilicus,0,Moist,0
+siderophore,Umbilicus,2,Moist,0.058823529
+NAGGN,Umbilicus,0,Moist,0
+linaridin,Umbilicus,0,Moist,0
+RiPP-like,Umbilicus,1,Moist,0.029411765
+ranthipeptide,Umbilicus,0,Moist,0
+ectoine,Umbilicus,2,Moist,0.058823529
+hybrid,Antecubital fossa,3,Rarely Moist,0.021582734
+NRPS,Antecubital fossa,8,Rarely Moist,0.057553957
+arylpolyene,Antecubital fossa,0,Rarely Moist,0
+T1PKS,Antecubital fossa,7,Rarely Moist,0.050359712
+NRPS-like,Antecubital fossa,3,Rarely Moist,0.021582734
+ladderane,Antecubital fossa,0,Rarely Moist,0
+resorcinol,Antecubital fossa,1,Rarely Moist,0.007194245
+T3PKS,Antecubital fossa,5,Rarely Moist,0.035971223
+NAPAA,Antecubital fossa,18,Rarely Moist,0.129496403
+tropodithietic-acid,Antecubital fossa,0,Rarely Moist,0
+thioamide-NRP,Antecubital fossa,0,Rarely Moist,0
+betalactone,Antecubital fossa,14,Rarely Moist,0.100719424
+lanthipeptide-class-ii,Antecubital fossa,1,Rarely Moist,0.007194245
+thiopeptide,Antecubital fossa,0,Rarely Moist,0
+lanthipeptide-class-i,Antecubital fossa,0,Rarely Moist,0
+lassopeptide,Antecubital fossa,0,Rarely Moist,0
+RRE-containing,Antecubital fossa,11,Rarely Moist,0.079136691
+LAP,Antecubital fossa,1,Rarely Moist,0.007194245
+redox-cofactor,Antecubital fossa,0,Rarely Moist,0
+lanthipeptide-class-iv,Antecubital fossa,0,Rarely Moist,0
+terpene,Antecubital fossa,26,Rarely Moist,0.18705036
+epipeptide,Antecubital fossa,1,Rarely Moist,0.007194245
+sactipeptide,Antecubital fossa,0,Rarely Moist,0
+T2PKS,Antecubital fossa,0,Rarely Moist,0
+cyclic-lactone-autoinducer,Antecubital fossa,2,Rarely Moist,0.014388489
+proteusin,Antecubital fossa,1,Rarely Moist,0.007194245
+lanthipeptide-class-iii,Antecubital fossa,0,Rarely Moist,0
+siderophore,Antecubital fossa,14,Rarely Moist,0.100719424
+NAGGN,Antecubital fossa,0,Rarely Moist,0
+linaridin,Antecubital fossa,0,Rarely Moist,0
+RiPP-like,Antecubital fossa,4,Rarely Moist,0.028776978
+ranthipeptide,Antecubital fossa,1,Rarely Moist,0.007194245
+ectoine,Antecubital fossa,18,Rarely Moist,0.129496403
+hybrid,Occiput,1,Sebaceous,0.009345794
+NRPS,Occiput,2,Sebaceous,0.018691589
+arylpolyene,Occiput,0,Sebaceous,0
+T1PKS,Occiput,2,Sebaceous,0.018691589
+NRPS-like,Occiput,2,Sebaceous,0.018691589
+ladderane,Occiput,0,Sebaceous,0
+resorcinol,Occiput,0,Sebaceous,0
+T3PKS,Occiput,5,Sebaceous,0.046728972
+NAPAA,Occiput,16,Sebaceous,0.14953271
+tropodithietic-acid,Occiput,0,Sebaceous,0
+thioamide-NRP,Occiput,0,Sebaceous,0
+betalactone,Occiput,11,Sebaceous,0.102803738
+lanthipeptide-class-ii,Occiput,0,Sebaceous,0
+thiopeptide,Occiput,0,Sebaceous,0
+lanthipeptide-class-i,Occiput,0,Sebaceous,0
+lassopeptide,Occiput,0,Sebaceous,0
+RRE-containing,Occiput,12,Sebaceous,0.112149533
+LAP,Occiput,0,Sebaceous,0
+redox-cofactor,Occiput,1,Sebaceous,0.009345794
+lanthipeptide-class-iv,Occiput,0,Sebaceous,0
+terpene,Occiput,20,Sebaceous,0.186915888
+epipeptide,Occiput,0,Sebaceous,0
+sactipeptide,Occiput,0,Sebaceous,0
+T2PKS,Occiput,0,Sebaceous,0
+cyclic-lactone-autoinducer,Occiput,2,Sebaceous,0.018691589
+proteusin,Occiput,0,Sebaceous,0
+lanthipeptide-class-iii,Occiput,1,Sebaceous,0.009345794
+siderophore,Occiput,17,Sebaceous,0.158878505
+NAGGN,Occiput,0,Sebaceous,0
+linaridin,Occiput,1,Sebaceous,0.009345794
+RiPP-like,Occiput,1,Sebaceous,0.009345794
+ranthipeptide,Occiput,0,Sebaceous,0
+ectoine,Occiput,13,Sebaceous,0.121495327
+hybrid,Toe web space,1,Moist,0.007092199
+NRPS,Toe web space,4,Moist,0.028368794
+arylpolyene,Toe web space,2,Moist,0.014184397
+T1PKS,Toe web space,7,Moist,0.04964539
+NRPS-like,Toe web space,6,Moist,0.042553191
+ladderane,Toe web space,1,Moist,0.007092199
+resorcinol,Toe web space,1,Moist,0.007092199
+T3PKS,Toe web space,6,Moist,0.042553191
+NAPAA,Toe web space,19,Moist,0.134751773
+tropodithietic-acid,Toe web space,0,Moist,0
+thioamide-NRP,Toe web space,0,Moist,0
+betalactone,Toe web space,10,Moist,0.070921986
+lanthipeptide-class-ii,Toe web space,0,Moist,0
+thiopeptide,Toe web space,1,Moist,0.007092199
+lanthipeptide-class-i,Toe web space,0,Moist,0
+lassopeptide,Toe web space,0,Moist,0
+RRE-containing,Toe web space,7,Moist,0.04964539
+LAP,Toe web space,0,Moist,0
+redox-cofactor,Toe web space,4,Moist,0.028368794
+lanthipeptide-class-iv,Toe web space,0,Moist,0
+terpene,Toe web space,28,Moist,0.19858156
+epipeptide,Toe web space,0,Moist,0
+sactipeptide,Toe web space,0,Moist,0
+T2PKS,Toe web space,0,Moist,0
+cyclic-lactone-autoinducer,Toe web space,2,Moist,0.014184397
+proteusin,Toe web space,0,Moist,0
+lanthipeptide-class-iii,Toe web space,1,Moist,0.007092199
+siderophore,Toe web space,18,Moist,0.127659574
+NAGGN,Toe web space,0,Moist,0
+linaridin,Toe web space,1,Moist,0.007092199
+RiPP-like,Toe web space,6,Moist,0.042553191
+ranthipeptide,Toe web space,0,Moist,0
+ectoine,Toe web space,16,Moist,0.113475177
+hybrid,Volar forearm,8,Rarely Moist,0.043956044
+NRPS,Volar forearm,2,Rarely Moist,0.010989011
+arylpolyene,Volar forearm,0,Rarely Moist,0
+T1PKS,Volar forearm,20,Rarely Moist,0.10989011
+NRPS-like,Volar forearm,2,Rarely Moist,0.010989011
+ladderane,Volar forearm,0,Rarely Moist,0
+resorcinol,Volar forearm,0,Rarely Moist,0
+T3PKS,Volar forearm,3,Rarely Moist,0.016483516
+NAPAA,Volar forearm,25,Rarely Moist,0.137362637
+tropodithietic-acid,Volar forearm,0,Rarely Moist,0
+thioamide-NRP,Volar forearm,1,Rarely Moist,0.005494505
+betalactone,Volar forearm,16,Rarely Moist,0.087912088
+lanthipeptide-class-ii,Volar forearm,0,Rarely Moist,0
+thiopeptide,Volar forearm,0,Rarely Moist,0
+lanthipeptide-class-i,Volar forearm,3,Rarely Moist,0.016483516
+lassopeptide,Volar forearm,0,Rarely Moist,0
+RRE-containing,Volar forearm,17,Rarely Moist,0.093406593
+LAP,Volar forearm,0,Rarely Moist,0
+redox-cofactor,Volar forearm,0,Rarely Moist,0
+lanthipeptide-class-iv,Volar forearm,0,Rarely Moist,0
+terpene,Volar forearm,32,Rarely Moist,0.175824176
+epipeptide,Volar forearm,0,Rarely Moist,0
+sactipeptide,Volar forearm,0,Rarely Moist,0
+T2PKS,Volar forearm,1,Rarely Moist,0.005494505
+cyclic-lactone-autoinducer,Volar forearm,1,Rarely Moist,0.005494505
+proteusin,Volar forearm,0,Rarely Moist,0
+lanthipeptide-class-iii,Volar forearm,2,Rarely Moist,0.010989011
+siderophore,Volar forearm,21,Rarely Moist,0.115384615
+NAGGN,Volar forearm,1,Rarely Moist,0.005494505
+linaridin,Volar forearm,0,Rarely Moist,0
+RiPP-like,Volar forearm,1,Rarely Moist,0.005494505
+ranthipeptide,Volar forearm,1,Rarely Moist,0.005494505
+ectoine,Volar forearm,25,Rarely Moist,0.137362637

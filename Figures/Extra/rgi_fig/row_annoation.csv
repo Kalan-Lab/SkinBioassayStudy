@@ -1,0 +1,419 @@
+gene,Taxonomic_ID,Body_Site,Site_Type
+LK100.rgi,Micrococcus,Axillary-groin,Moist
+LK1000.rgi,Kocuria,Umbilicus,Moist
+LK1002.rgi,Micrococcus,Antecubital fossa,Moist
+LK1006.rgi,Dietzia,Alar crease,Sebaceous
+LK1007.rgi,Micrococcus,Toe web space,Moist
+LK1008.rgi,Micrococcus,Occiput,Sebaceous
+LK1009.rgi,Micrococcus,Alar crease,Sebaceous
+LK1012.rgi,Micrococcus,Nare,Moist
+LK1014.rgi,Micrococcus,Antecubital fossa,Moist
+LK1015.rgi,Staphylococcus,Toe web space,Moist
+LK1017.rgi,Dietzia,Alar crease,Sebaceous
+LK1018.rgi,Micrococcus,Antecubital fossa,Moist
+LK1019.rgi,Micrococcus,Antecubital fossa,Moist
+LK1021.rgi,Kocuria,Toe web space,Moist
+LK1022.rgi,Micrococcus,Antecubital fossa,Moist
+LK1024.rgi,Brachybacterium,Alar crease,Sebaceous
+LK1025.rgi,Micrococcus,Alar crease,Sebaceous
+LK1026.rgi,Micrococcus,Antecubital fossa,Moist
+LK1027.rgi,Brevibacterium,Toe web space,Moist
+LK1030.rgi,Corynebacterium,Alar crease,Sebaceous
+LK1031.rgi,Dietzia,Alar crease,Sebaceous
+LK1034.rgi,Paenibacillus,Nare,Moist
+LK1036.rgi,Paenibacillus,Volar forearm,Dry
+LK1041.rgi,Corynebacterium,Antecubital fossa,Moist
+LK1045.rgi,Brachybacterium,Alar crease,Sebaceous
+LK1046.rgi,Dietzia,Back,Sebaceous
+LK1048.rgi,Micrococcus,Occiput,Sebaceous
+LK1049.rgi,Micrococcus,Back,Sebaceous
+LK1050.rgi,Micrococcus,Occiput,Sebaceous
+LK1051.rgi,Micrococcus,Occiput,Sebaceous
+LK1053.rgi,Micrococcus,Back,Sebaceous
+LK1054.rgi,Gordonia,Nare,Moist
+LK1055.rgi,Kocuria,Toe web space,Moist
+LK1056.rgi,Micrococcus,Back,Sebaceous
+LK1059.rgi,Corynebacterium,Toe web space,Moist
+LK1070.rgi,Micrococcus,Back,Sebaceous
+LK1072.rgi,Paenibacillus,Volar forearm,Dry
+LK1073.rgi,Micrococcus,Volar forearm,Dry
+LK1077.rgi,Dermabacter,Alar crease,Sebaceous
+LK1078.rgi,Escherichia,Alar crease,Sebaceous
+LK1079.rgi,Escherichia,Alar crease,Sebaceous
+LK1080.rgi,Dermabacter,Alar crease,Sebaceous
+LK1082.rgi,Dermabacter,Nare,Moist
+LK1085.rgi,Brachybacterium,Axillary-groin,Moist
+LK1086.rgi,Kocuria,Axillary-groin,Moist
+LK1090.rgi,Micrococcus,Occiput,Sebaceous
+LK1091.rgi,Escherichia,Toe web space,Moist
+LK1092.rgi,Dietzia,Toe web space,Moist
+LK1093.rgi,Kocuria,Toe web space,Moist
+LK1094.rgi,Brevibacterium,Toe web space,Moist
+LK1095.rgi,Staphylococcus,Alar crease,Sebaceous
+LK1096.rgi,Staphylococcus,Alar crease,Sebaceous
+LK1098.rgi,Morganella,Nare,Moist
+LK1099.rgi,Micrococcus,Occiput,Sebaceous
+LK1102.rgi,Oceanobacillus,Back,Sebaceous
+LK1104.rgi,Micrococcus,Volar forearm,Dry
+LK1105.rgi,Micrococcus,Volar forearm,Dry
+LK1106.rgi,Micrococcus,Volar forearm,Dry
+LK1110.rgi,Staphylococcus,Occiput,Sebaceous
+LK1112.rgi,Kocuria,Toe web space,Moist
+LK1113.rgi,Micrococcus,Toe web space,Moist
+LK1116.rgi,Staphylococcus,Alar crease,Sebaceous
+LK1117.rgi,Micrococcus,Back,Sebaceous
+LK1118.rgi,Microbacterium,Back,Sebaceous
+LK112.rgi,Dermabacter,Axillary-groin,Moist
+LK1120.rgi,Kocuria,Volar forearm,Dry
+LK1121.rgi,Micrococcus,Volar forearm,Dry
+LK1128.rgi,Dermacoccus,Axillary-groin,Moist
+LK1134.rgi,Corynebacterium,Occiput,Sebaceous
+LK1136.rgi,Staphylococcus,Alar crease,Sebaceous
+LK1137.rgi,Staphylococcus,Alar crease,Sebaceous
+LK1138.rgi,Staphylococcus,Alar crease,Sebaceous
+LK1139.rgi,Escherichia,Alar crease,Sebaceous
+LK114.rgi,Micrococcus,Axillary-groin,Moist
+LK1140.rgi,Escherichia,Alar crease,Sebaceous
+LK1145.rgi,Micrococcus,Back,Sebaceous
+LK1147.rgi,Micrococcus,Back,Sebaceous
+LK115.rgi,Micrococcus,Axillary-groin,Moist
+LK1157.rgi,Escherichia,Nare,Moist
+LK1159.rgi,Micrococcus,Axillary-groin,Moist
+LK116.rgi,Micrococcus,Axillary-groin,Moist
+LK1167.rgi,Staphylococcus,Antecubital fossa,Moist
+LK1172.rgi,Oceanobacillus,Back,Sebaceous
+LK1173.rgi,Micrococcus,Occiput,Sebaceous
+LK1176.rgi,Micrococcus,Toe web space,Moist
+LK1188.rgi,Aestuariimicrobium,Alar crease,Sebaceous
+LK1198.rgi,Escherichia,Alar crease,Sebaceous
+LK120.rgi,Staphylococcus,Axillary-groin,Moist
+LK1204.rgi,Granulicatella,Occiput,Sebaceous
+LK1206.rgi,Micrococcus,Occiput,Sebaceous
+LK1207.rgi,Micrococcus,Occiput,Sebaceous
+LK1208.rgi,Micrococcus,Occiput,Sebaceous
+LK1224.rgi,Micrococcus,Volar forearm,Dry
+LK1231.rgi,Micrococcus,Antecubital fossa,Moist
+LK1232.rgi,Escherichia,Nare,Moist
+LK1237.rgi,Kocuria,Occiput,Sebaceous
+LK1239.rgi,Corynebacterium,Umbilicus,Moist
+LK1244.rgi,Kocuria,Alar crease,Sebaceous
+LK1245.rgi,Dermabacter,Alar crease,Sebaceous
+LK1246.rgi,Kocuria,Occiput,Sebaceous
+LK1247.rgi,Dietzia,Back,Sebaceous
+LK1249.rgi,Dietzia,Back,Sebaceous
+LK1250.rgi,Kocuria,Antecubital fossa,Moist
+LK1252.rgi,Dermabacter,Umbilicus,Moist
+LK1255.rgi,Staphylococcus,Umbilicus,Moist
+LK1256.rgi,Dietzia,Antecubital fossa,Moist
+LK1257.rgi,Dermabacter,Back,Sebaceous
+LK1259.rgi,Kocuria,Occiput,Sebaceous
+LK1263.rgi,Kocuria,Occiput,Sebaceous
+LK1264.rgi,Sphingobacterium,Umbilicus,Moist
+LK1266.rgi,Dietzia,Nare,Moist
+LK1267.rgi,Dietzia,Nare,Moist
+LK1268.rgi,Dietzia,Nare,Moist
+LK1269.rgi,Corynebacterium,Toe web space,Moist
+LK1270.rgi,Corynebacterium,Toe web space,Moist
+LK1272.rgi,Corynebacterium,Toe web space,Moist
+LK1274.rgi,Micrococcus,Volar forearm,Dry
+LK1275.rgi,Micrococcus,Volar forearm,Dry
+LK1277.rgi,Dietzia,Volar forearm,Dry
+LK1278.rgi,Dietzia,Antecubital fossa,Moist
+LK1279.rgi,Zimmermannella,Antecubital fossa,Moist
+LK1281.rgi,Kocuria,Nare,Moist
+LK1282.rgi,Kocuria,Nare,Moist
+LK1283.rgi,Dietzia,Occiput,Sebaceous
+LK1284.rgi,Kocuria,Occiput,Sebaceous
+LK1285.rgi,Kocuria,Occiput,Sebaceous
+LK1287.rgi,Kocuria,Nare,Moist
+LK1288.rgi,Dermabacter,Nare,Moist
+LK1289.rgi,Corynebacterium,Toe web space,Moist
+LK130.rgi,Helcobacillus,Axillary-groin,Moist
+LK1301.rgi,Brevibacterium,Toe web space,Moist
+LK1302.rgi,Brachybacterium,Alar crease,Sebaceous
+LK1306.rgi,Micrococcus,Volar forearm,Dry
+LK1311.rgi,Microbacterium,Toe web space,Moist
+LK1312.rgi,Dietzia,Occiput,Sebaceous
+LK1321.rgi,Dietzia,Toe web space,Moist
+LK1330.rgi,Micrococcus,Volar forearm,Dry
+LK1334.rgi,Micrococcus,Nare,Moist
+LK1335.rgi,Micrococcus,Volar forearm,Dry
+LK1337.rgi,Brevibacterium,Alar crease,Sebaceous
+LK1346.rgi,Corynebacterium,Volar forearm,Dry
+LK1347.rgi,Anthrobacter,Nare,Moist
+LK1348.rgi,Corynebacterium,Antecubital fossa,Moist
+LK135.rgi,Brevibacterium,Axillary-groin,Moist
+LK1350.rgi,Brachybacterium,Antecubital fossa,Moist
+LK1351.rgi,Dermabacter,Nare,Moist
+LK1352.rgi,Brachybacterium,Alar crease,Sebaceous
+LK1358.rgi,Corynebacterium,Antecubital fossa,Moist
+LK1360.rgi,Corynebacterium,Back,Sebaceous
+LK1362.rgi,Corynebacterium,Back,Sebaceous
+LK1363.rgi,Brevibacterium,Toe web space,Moist
+LK1366.rgi,Corynebacterium,Volar forearm,Dry
+LK1367.rgi,Corynebacterium,Back,Sebaceous
+LK1379.rgi,Micrococcus,Alar crease,Sebaceous
+LK1380.rgi,Micrococcus,Volar forearm,Dry
+LK1382.rgi,Micrococcus,Volar forearm,Dry
+LK1383.rgi,Micrococcus,Volar forearm,Dry
+LK1384.rgi,Micrococcus,Volar forearm,Dry
+LK1386.rgi,Dermacoccus,Umbilicus,Moist
+LK1390.rgi,Micrococcus,Occiput,Sebaceous
+LK1392.rgi,Micrococcus,Occiput,Sebaceous
+LK1393.rgi,Micrococcus,Occiput,Sebaceous
+LK1397.rgi,Micrococcus,Occiput,Sebaceous
+LK1400.rgi,Micrococcus,Occiput,Sebaceous
+LK1402.rgi,Micrococcus,Volar forearm,Dry
+LK1403.rgi,Helcococcus,Umbilicus,Moist
+LK1404.rgi,Brachybacterium,Nare,Moist
+LK1421.rgi,Staphylococcus,AD,
+LK1422.rgi,Staphylococcus,AD,
+LK1434.rgi,Staphylococcus,AD,
+LK1436.rgi,Staphylococcus,AD,
+LK145.rgi,Micrococcus,Axillary-groin,Moist
+LK1467.rgi,Staphylococcus,AD,
+LK1468.rgi,Staphylococcus,AD,
+LK1469.rgi,Staphylococcus,AD,
+LK1474.rgi,Staphylococcus,AD,
+LK1475.rgi,Staphylococcus,AD,
+LK1486.rgi,Staphylococcus,AD,
+LK1487.rgi,Staphylococcus,AD,
+LK1489.rgi,Staphylococcus,AD,
+LK149.rgi,Micrococcus,Axillary-groin,Moist
+LK1493.rgi,Staphylococcus,AD,
+LK1505.rgi,Staphylococcus,AD,
+LK1508.rgi,Staphylococcus,AD,
+LK1519.rgi,Staphylococcus,AD,
+LK1520.rgi,Staphylococcus,AD,
+LK1521.rgi,Staphylococcus,AD,
+LK1522.rgi,Staphylococcus,AD,
+LK1523.rgi,Staphylococcus,AD,
+LK153.rgi,Staphylococcus,Axillary-groin,Moist
+LK1532.rgi,Staphylococcus,AD,
+LK1533.rgi,Staphylococcus,AD,
+LK1535.rgi,Staphylococcus,AD,
+LK1552.rgi,Staphylococcus,AD,
+LK162.rgi,Staphylococcus,Axillary-groin,Moist
+LK166.rgi,Micrococcus,Axillary-groin,Moist
+LK187.rgi,Micrococcus,Axillary-groin,Moist
+LK199.rgi,Micrococcus,Axillary-groin,Moist
+LK206.rgi,Micrococcus,Axillary-groin,Moist
+LK210.rgi,Bacillus,Axillary-groin,Moist
+LK220.rgi,Dermabacter,Axillary-groin,Moist
+LK221.rgi,Kocuria,Axillary-groin,Moist
+LK222.rgi,Kocuria,Axillary-groin,Moist
+LK225.rgi,Micrococcus,Axillary-groin,Moist
+LK226.rgi,Micrococcus,Axillary-groin,Moist
+LK230.rgi,Micrococcus,Axillary-groin,Moist
+LK231.rgi,Micrococcus,Axillary-groin,Moist
+LK233.rgi,Micrococcus,Axillary-groin,Moist
+LK235.rgi,Dietzia,Axillary-groin,Moist
+LK237.rgi,Dietzia,Axillary-groin,Moist
+LK238.rgi,Micrococcus,Axillary-groin,Moist
+LK239.rgi,Helcobacillus,Axillary-groin,Moist
+LK240.rgi,Brachybacterium,Axillary-groin,Moist
+LK242.rgi,Micrococcus,Axillary-groin,Moist
+LK243.rgi,Micrococcus,Axillary-groin,Moist
+LK244.rgi,Micrococcus,Axillary-groin,Moist
+LK246.rgi,Micrococcus,Axillary-groin,Moist
+LK247.rgi,Micrococcus,Axillary-groin,Moist
+LK248.rgi,Micrococcus,Axillary-groin,Moist
+LK249.rgi,Brevibacterium,Axillary-groin,Moist
+LK250.rgi,Micrococcus,Axillary-groin,Moist
+LK252.rgi,Micrococcus,Axillary-groin,Moist
+LK253.rgi,Micrococcus,Axillary-groin,Moist
+LK254.rgi,Micrococcus,Axillary-groin,Moist
+LK255.rgi,Micrococcus,Axillary-groin,Moist
+LK256.rgi,Micrococcus,Axillary-groin,Moist
+LK257.rgi,Staphylococcus,Axillary-groin,Moist
+LK258.rgi,Micrococcus,Axillary-groin,Moist
+LK259.rgi,Micrococcus,Axillary-groin,Moist
+LK261.rgi,Micrococcus,Axillary-groin,Moist
+LK265.rgi,Micrococcus,Axillary-groin,Moist
+LK271.rgi,Micrococcus,Axillary-groin,Moist
+LK272.rgi,Micrococcus,Axillary-groin,Moist
+LK273.rgi,Micrococcus,Axillary-groin,Moist
+LK276.rgi,Micrococcus,Axillary-groin,Moist
+LK277.rgi,Micrococcus,Axillary-groin,Moist
+LK278.rgi,Micrococcus,Axillary-groin,Moist
+LK285.rgi,Kocuria,Axillary-groin,Moist
+LK288.rgi,Brevibacterium,Axillary-groin,Moist
+LK289.rgi,Brachybacterium,Axillary-groin,Moist
+LK290.rgi,Brevibacterium,Axillary-groin,Moist
+LK291.rgi,Kocuria,Axillary-groin,Moist
+LK292.rgi,Micrococcus,Axillary-groin,Moist
+LK295.rgi,Micrococcus,Axillary-groin,Moist
+LK296.rgi,Brevibacterium,Axillary-groin,Moist
+LK297.rgi,Micrococcus,Axillary-groin,Moist
+LK298.rgi,Micrococcus,Axillary-groin,Moist
+LK299.rgi,Micrococcus,Axillary-groin,Moist
+LK300.rgi,Brevibacterium,Axillary-groin,Moist
+LK301.rgi,Brevibacterium,Axillary-groin,Moist
+LK306.rgi,Micrococcus,Axillary-groin,Moist
+LK307.rgi,Micrococcus,Axillary-groin,Moist
+LK308.rgi,Staphylococcus,Axillary-groin,Moist
+LK312.rgi,Micrococcus,Axillary-groin,Moist
+LK315.rgi,Micrococcus,Axillary-groin,Moist
+LK318.rgi,Micrococcus,Axillary-groin,Moist
+LK319.rgi,Microbacterium,Axillary-groin,Moist
+LK320.rgi,Microbacterium,Axillary-groin,Moist
+LK321.rgi,Microbacterium,Axillary-groin,Moist
+LK323.rgi,Micrococcus,Axillary-groin,Moist
+LK325.rgi,Micrococcus,Axillary-groin,Moist
+LK326.rgi,Micrococcus,Axillary-groin,Moist
+LK327.rgi,Micrococcus,Axillary-groin,Moist
+LK336.rgi,Dermabacter,Axillary-groin,Moist
+LK337.rgi,Brachybacterium,Axillary-groin,Moist
+LK338.rgi,Micrococcus,Axillary-groin,Moist
+LK34.rgi,Corynebacterium,,
+LK340.rgi,Micrococcus,Axillary-groin,Moist
+LK341.rgi,Micrococcus,Axillary-groin,Moist
+LK342.rgi,Micrococcus,Axillary-groin,Moist
+LK345.rgi,Staphylococcus,Axillary-groin,Moist
+LK346.rgi,Staphylococcus,Axillary-groin,Moist
+LK348.rgi,Micrococcus,Axillary-groin,Moist
+LK352.rgi,Staphylococcus,Axillary-groin,Moist
+LK354.rgi,Staphylococcus,Axillary-groin,Moist
+LK355.rgi,Aerococcus,Axillary-groin,Moist
+LK356.rgi,Micrococcus,Axillary-groin,Moist
+LK357.rgi,Brevibacterium,Axillary-groin,Moist
+LK363.rgi,Oceanobacillus,Axillary-groin,Moist
+LK368.rgi,Serratia,Axillary-groin,Moist
+LK369.rgi,Microbacterium,Axillary-groin,Moist
+LK37.rgi,Corynebacterium,,
+LK383.rgi,Escherichia,,
+LK400.rgi,Cellulosimicrobium,Umbilicus,Moist
+LK401.rgi,Micrococcus,Occiput,Sebaceous
+LK402.rgi,Micrococcus,Occiput,Sebaceous
+LK405.rgi,Corynebacterium,Umbilicus,Moist
+LK408.rgi,Micrococcus,Toe web space,Moist
+LK409.rgi,Micrococcus,Antecubital fossa,Moist
+LK410.rgi,Micrococcus,Volar forearm,Dry
+LK411.rgi,Corynebacterium,Volar forearm,Dry
+LK412.rgi,Micrococcus,Antecubital fossa,Moist
+LK413.rgi,Staphylococcus,Occiput,Sebaceous
+LK414.rgi,Micrococcus,Occiput,Sebaceous
+LK415.rgi,Staphylococcus,Occiput,Sebaceous
+LK417.rgi,Staphylococcus,Toe web space,Moist
+LK419.rgi,Micrococcus,Occiput,Sebaceous
+LK421.rgi,Sphingobacterium,Toe web space,Moist
+LK426.rgi,Micrococcus,Back,Sebaceous
+LK427.rgi,Micrococcus,Volar forearm,Dry
+LK428.rgi,Staphylococcus,Volar forearm,Dry
+LK430.rgi,Micrococcus,Antecubital fossa,Moist
+LK432.rgi,Corynebacterium,Alar crease,Sebaceous
+LK434.rgi,Corynebacterium,Umbilicus,Moist
+LK439.rgi,Dietzia,Alar crease,Sebaceous
+LK441.rgi,Micrococcus,Back,Sebaceous
+LK442.rgi,Klebsiella,Nare,Moist
+LK443.rgi,Micrococcus,Antecubital fossa,Moist
+LK444.rgi,Corynebacterium,Umbilicus,Moist
+LK445.rgi,Micrococcus,Volar forearm,Dry
+LK455.rgi,Micrococcus,Alar crease,Sebaceous
+LK458.rgi,Citrobacter,Nare,Moist
+LK459.rgi,Staphylococcus,Volar forearm,Dry
+LK460.rgi,Staphylococcus,Volar forearm,Dry
+LK464.rgi,Bacillus,Alar crease,Sebaceous
+LK465.rgi,Corynebacterium,Nare,Moist
+LK466.rgi,Corynebacterium,Nare,Moist
+LK467.rgi,Micrococcus,Volar forearm,Dry
+LK469.rgi,Klebsiella,Nare,Moist
+LK470.rgi,Micrococcus,Nare,Moist
+LK478.rgi,Kocuria,Antecubital fossa,Moist
+LK479.rgi,Paenibacillus,Antecubital fossa,Moist
+LK485.rgi,Sphingobacterium,Toe web space,Moist
+LK488.rgi,Corynebacterium,Umbilicus,Moist
+LK489.rgi,Staphylococcus,Antecubital fossa,Moist
+LK494.rgi,Citrobacter,Nare,Moist
+LK500.rgi,Enterobacter,Alar crease,Sebaceous
+LK501.rgi,Enterobacter,Alar crease,Sebaceous
+LK508.rgi,Micrococcus,Nare,Moist
+LK517.rgi,Micrococcus,Volar forearm,Dry
+LK518.rgi,Nesterenkonia,Volar forearm,Dry
+LK519.rgi,Corynebacterium,Volar forearm,Dry
+LK522.rgi,Dermabacter,Umbilicus,Moist
+LK523.rgi,Staphylococcus,Occiput,Sebaceous
+LK524.rgi,Staphylococcus,Nare,Moist
+LK525.rgi,Enterobacter,Alar crease,Sebaceous
+LK526.rgi,Enterobacter,Alar crease,Sebaceous
+LK527.rgi,Enterobacter,Alar crease,Sebaceous
+LK533.rgi,Staphylococcus,Alar crease,Sebaceous
+LK538.rgi,Bacillus,Back,Sebaceous
+LK540.rgi,Micrococcus,Alar crease,Sebaceous
+LK542.rgi,Micrococcus,Occiput,Sebaceous
+LK553.rgi,Micrococcus,Toe web space,Moist
+LK557.rgi,Dermabacter,Umbilicus,Moist
+LK561.rgi,Corynebacterium,Nare,Moist
+LK566.rgi,Micrococcus,Alar crease,Sebaceous
+LK569.rgi,Micrococcus,Back,Sebaceous
+LK570.rgi,Raoultella,Nare,Moist
+LK572.rgi,Kocuria,Occiput,Sebaceous
+LK579.rgi,Kocuria,Back,Sebaceous
+LK583.rgi,Klebsiella,Nare,Moist
+LK586.rgi,Corynebacterium,Alar crease,Sebaceous
+LK588.rgi,Staphylococcus,Back,Sebaceous
+LK590.rgi,Staphylococcus,Antecubital fossa,Moist
+LK591.rgi,Enterobacter,Alar crease,Sebaceous
+LK593.rgi,Staphylococcus,Volar forearm,Dry
+LK595.rgi,Staphylococcus,Alar crease,Sebaceous
+LK602.rgi,Staphylococcus,Antecubital fossa,Moist
+LK604.rgi,Micrococcus,Umbilicus,Moist
+LK605.rgi,Staphylococcus,Occiput,Sebaceous
+LK61.rgi,Corynebacterium,,
+LK610.rgi,Staphylococcus,Alar crease,Sebaceous
+LK617.rgi,Helcococcus,Umbilicus,Moist
+LK619.rgi,Klebsiella,Nare,Moist
+LK630.rgi,Brachybacterium,Back,Sebaceous
+LK639.rgi,Dietzia,Occiput,Sebaceous
+LK661.rgi,Lysinibacillus,Volar forearm,Dry
+LK666.rgi,Lysinibacillus,Alar crease,Sebaceous
+LK668.rgi,Lysinibacillus,Alar crease,Sebaceous
+LK669.rgi,Lysinibacillus,Back,Sebaceous
+LK670.rgi,Klebsiella,Nare,Moist
+LK671.rgi,Lysinibacillus,Nare,Moist
+LK672.rgi,Corynebacterium,Antecubital fossa,Moist
+LK679.rgi,Janibacter,Back,Sebaceous
+LK68.rgi,Corynebacterium,,
+LK687.rgi,Corynebacterium,Alar crease,Sebaceous
+LK694.rgi,Lysinibacillus,Volar forearm,Dry
+LK697.rgi,Lysinibacillus,Volar forearm,Dry
+LK698.rgi,Kocuria,Back,Sebaceous
+LK7.rgi,Corynebacterium,,
+LK700.rgi,Corynebacterium,Occiput,Sebaceous
+LK704.rgi,Citrobacter,Nare,Moist
+LK705.rgi,Lysinibacillus,Volar forearm,Dry
+LK709.rgi,Lysinibacillus,Alar crease,Sebaceous
+LK712.rgi,Lysinibacillus,Antecubital fossa,Moist
+LK716.rgi,Bacillus,Antecubital fossa,Moist
+LK719.rgi,Lysinibacillus,Antecubital fossa,Moist
+LK724.rgi,Lysinibacillus,Occiput,Sebaceous
+LK729.rgi,Staphylococcus,Back,Sebaceous
+LK792.rgi,Micrococcus,Occiput,Sebaceous
+LK8.rgi,Corynebacterium,,
+LK841.rgi,Dietzia,Axillary-groin,Moist
+LK871.rgi,Corynebacterium,Volar forearm,Dry
+LK894.rgi,Klebsiella,Toe web space,Moist
+LK904.rgi,Brevibacterium,Toe web space,Moist
+LK930.rgi,Corynebacterium,Antecubital fossa,Moist
+LK931.rgi,Corynebacterium,Back,Sebaceous
+LK934.rgi,Kocuria,Nare,Moist
+LK935.rgi,Corynebacterium,Umbilicus,Moist
+LK936.rgi,Corynebacterium,Alar crease,Sebaceous
+LK938.rgi,Brachybacterium,Toe web space,Moist
+LK941.rgi,Micrococcus,Alar crease,Sebaceous
+LK942.rgi,Corynebacterium,Alar crease,Sebaceous
+LK945.rgi,Micromonospora,Volar forearm,Dry
+LK946.rgi,Corynebacterium,Back,Sebaceous
+LK948.rgi,Corynebacterium,Nare,Moist
+LK949.rgi,Dietzia,Toe web space,Moist
+LK950.rgi,Corynebacterium,Back,Sebaceous
+LK951.rgi,Dietzia,Toe web space,Moist
+LK952.rgi,Corynebacterium,Toe web space,Moist
+LK953.rgi,Propionibacterium,Alar crease,Sebaceous
+LK955.rgi,Corynebacterium,Alar crease,Sebaceous
+LK956.rgi,Corynebacterium,Antecubital fossa,Moist
+LK960.rgi,Kocuria,Back,Sebaceous
+LK970.rgi,Dietzia,Alar crease,Sebaceous
+LK975.rgi,Dietzia,Alar crease,Sebaceous
+LK978.rgi,Brevibacterium,Toe web space,Moist
+LK984.rgi,Dietzia,Alar crease,Sebaceous

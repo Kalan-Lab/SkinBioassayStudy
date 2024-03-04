@@ -1,0 +1,363 @@
+---
+title: "Novel Species Bioassay Summarized Inhibition Score"
+author: "Thy Nguyen"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r load packages, include=FALSE}
+library(ggplot2)
+library(readxl)
+library(dplyr)
+library(tidyverse)
+library(pheatmap)
+require(pals)
+#install.packages("RColorBrewer")
+library(RColorBrewer)
+```
+
+
+```{r load data}
+data <- read_excel("~/Documents/GitHub/Kalan_Lab/scripts/ssandstrom/skin_bioassay_paper_files/fig_6(1)/novel_species_bioassay_121823.xlsx", 
+    col_types = c("text", "text", "text", 
+        "text", "numeric", "numeric", "text"))
+genera_scores <- read.delim("~/Documents/GitHub/Kalan_Lab/scripts/ssandstrom/skin_bioassay_paper_files/fig_6(1)/Boxplot_Input.txt")
+genera_scores <- as.tibble(genera_scores)
+#changing columns to factor and numeric
+data$Strain <- as.factor(data$Strain)
+data$Simplified_score <- as.numeric(as.character(data$Simplified_score))
+```
+
+## Data clean up 
+
+```{r load data}
+data_summary <- function(data, varname, groupnames){
+  require(plyr)
+  summary_func <- function(x, col){
+    c(mean = mean(x[[col]], na.rm=TRUE),
+      sd = sd(x[[col]], na.rm=TRUE))
+  }
+  data_sum<-ddply(data, groupnames, .fun=summary_func,
+                  varname)
+  data_sum <- rename(data_sum, c("mean" = varname))
+ return(data_sum)
+}
+
+data_clean <- data_summary(data, varname = "Simplified_score", groupnames = c("Pathogen_Name", "Pathogen_Type", "Strain"))
+```
+
+## Plots
+
+```{r facet by pathogen type, echo=FALSE}
+#basic plot
+p <- ggplot(data, aes(x=Strain, y=Simplified_score, color = factor(Strain, levels = c("LK1000", "LK1337", "LK952", "LK960")))) 
+#mean dotplot
+p + geom_dotplot(binaxis = 'y', stackdir = 'center', fill = "lightgray", dotsize = 2, binwidth = 0.02) + 
+  ylim(0,2) + 
+  stat_summary(fun.data = "mean_sdl", fun.args = list(mult=1), geom = "crossbar", width = 0.5) + 
+  facet_grid(Pathogen_Type ~., scales = "free_y") + 
+  labs(x = "", 
+       y = "Summarized Inhibition Score", 
+       colour = "Strain") + 
+  scale_color_brewer(type = "seq", palette = "Spectral") +
+  theme_classic() +
+  theme(axis.text.x = element_text(size = 16), panel.background = element_rect(colour = "black", linewidth = 0.5), strip.text = element_text(size = 14, face = "bold"))
+
+#median dotplot
+p + geom_dotplot(binaxis = 'y', stackdir = 'center', fill = "lightgray", dotsize = 2, binwidth = 0.02) + 
+  ylim(0,2) + 
+  stat_summary(fun = "median", geom = "crossbar", width = 0.5) + 
+  facet_grid(Pathogen_Type ~., scales = "free_y") + 
+  labs(x = "", 
+       y = "Summarized Inhibition Score", 
+       colour = "Strain") + 
+  scale_color_brewer(type = "seq", palette = "Spectral") +
+  theme_classic() +
+  theme(axis.text.x = element_text(size = 16), panel.background = element_rect(colour = "black", linewidth = 0.5), strip.text = element_text(size = 14, face = "bold"))
+
+```
+
+```{r facet by strain, echo=FALSE}
+#basic plot
+g <- ggplot(data, aes(x=pathogen, y=Simplified_score, color = factor(Pathogen_Type, levels = c("Gram-positive", "Gram-negative", "Fungi"))))
+
+pathogen <- factor(data$Pathogen_Name, level=c("Staphylococcus aureus",
+"Bacillus cereus",
+"Bacillus subtilis",
+"Mycobacterium smegmatis",
+"Nocardia corynebacteroides",
+"Staphylococcus epidermidis",
+"Micrococcus luteus",
+"Enterococcus faecalis",
+"Escherichia coli",
+"Pseudomonas aeruginosa (PA01)",
+"Pseudomonas aeruginosa 27873",
+"Enterobacter cloacae",
+"Klebsiella oxytoca",
+"Citrobacter freundii",
+"Proteus vulgaris",
+"Acinetobacter baumanii",
+"Cryptococcus neoformans",
+"Candida albicans (K1)",
+"Candida sp.", 
+"Candida auris (B11211)", 
+"Trichosporon asahii"))
+
+#mean dotplot
+g + geom_dotplot(binaxis = 'y', stackdir = 'center',fill = "lightgray", dotsize = 3, binwidth = 0.02) + 
+  ylim(-0.2,2.2) + 
+  stat_summary(fun.data = "mean_sdl", fun.args = list(mult=1), geom = "point", size = 2.5) +
+  facet_grid(Strain ~., scales = "free_y") +
+  labs(x = "", 
+       y = "Summarized Inhibition Score", 
+       colour = "Pathogen Type") + 
+  scale_color_brewer(type = "qual", palette = "Set1") +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 51, hjust=1, vjust=1), panel.background = element_rect(colour = "black", linewidth = 0.5), strip.text = element_text(size = 14, face = "bold"))
+
+#violin plot
+g + geom_violin(trim = F) +
+  ylim(0,2) + 
+  stat_summary(fun.data = "mean_sdl", fun.args = list(mult=1), geom = "point", size = 2) +
+  facet_grid(Strain ~., scales = "free_y") +
+  labs(x = "", 
+       y = "Summarized Inhibition Score", 
+       colour = "Pathogen Type") + 
+  scale_color_brewer(type = "qual", palette = "Set1") +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 51, hjust=1, vjust=1), panel.background = element_rect(colour = "black", linewidth = 0.5), strip.text = element_text(size = 14, face = "bold"))
+
+#boxplot
+g + geom_boxplot(width = 0.5) +
+  ylim(0,2) +
+  stat_summary(fun.data = "mean_sdl", fun.args = list(mult=1), geom = "point", size = 2) +
+  facet_grid(Strain ~., scales = "free_y") +
+  labs(x = "", 
+       y = "Summarized Inhibition Score", 
+       colour = "Pathogen Type") + 
+  scale_color_brewer(type = "qual", palette = "Set1") +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 51, hjust=1, vjust=1), panel.background = element_rect(colour = "black", linewidth = 0.5), strip.text = element_text(size = 14, face = "bold"))
+
+#bar plot         
+g + geom_bar(stat = "identity", position = "dodge", fill = "white") +
+  ylim(-0.2,2.2) + 
+  stat_summary(fun.data = "mean_sdl", fun.args = list(mult=1), geom = "point", size = 2) +
+  facet_grid(Strain ~., scales = "free_y") +
+  labs(x = "", 
+       y = "Summarized Inhibition Score", 
+       colour = "Pathogen Type") + 
+  scale_color_brewer(type = "qual", palette = "Set1") +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 51, hjust=1, vjust=1), panel.background = element_rect(colour = "black", linewidth = 0.5), strip.text = element_text(size = 14, face = "bold"))
+
+#line plot
+#use this one
+data_clean <- filter(data_clean, Strain !="LK1000")
+
+pathogen1 <- factor(data_clean$Pathogen_Name, level=c("Staphylococcus aureus",
+"Bacillus cereus",
+"Bacillus subtilis",
+"Mycobacterium smegmatis",
+"Nocardia corynebacteroides",
+"Staphylococcus epidermidis",
+"Micrococcus luteus",
+"Enterococcus faecalis",
+"Escherichia coli",
+"Pseudomonas aeruginosa (PA01)",
+"Pseudomonas aeruginosa 27873",
+"Enterobacter cloacae",
+"Klebsiella oxytoca",
+"Citrobacter freundii",
+"Proteus vulgaris",
+"Acinetobacter baumanii",
+"Cryptococcus neoformans",
+"Candida albicans (K1)",
+"Candida sp.", 
+"Candida auris (B11211)", 
+"Trichosporon asahii", 
+"Aspergillus flavus"))
+
+path_type <- factor(data_clean$Pathogen_Type, levels = c("Gram-positive", "Gram-negative", "Fungi"))
+data_clean$Pathogen_Type <- factor(data_clean$Pathogen_Type, levels = c("Gram-positive", "Gram-negative", "Fungi"))
+
+#get colors of palette
+brewer.pal(3, "Set1")
+#("#E41A1C", "#377EB8", "#4DAF4A")
+
+#average inhibition scores
+count <- genera_scores %>% group_by(Target, IsolateGenus) %>% tally()
+fungi <- genera_scores %>%
+  filter( Target == "Fungal" )
+agg_fungi <- aggregate(SummmaryScore ~ IsolateGenus, fungi, mean)
+neg <- genera_scores %>%
+  filter( Target == "Gram Negative" )
+agg_neg <- aggregate(SummmaryScore ~ IsolateGenus, neg, mean)
+pos <- genera_scores %>%
+  filter( Target == "Gram Positive" )
+agg_pos <- aggregate(SummmaryScore ~ IsolateGenus, pos, mean)
+
+#average of each genera
+data_hline <- data.frame(group = c("Gram-positive", "Gram-negative", "Fungi"), strain = c("LK1337", "LK1337", "LK1337", "LK952", "LK952", "LK952", "LK960", "LK960", "LK960", "LK1188", "LK1188", "LK1188"), hline = c(0.80714286, 0.44444444, 1.4285714, 0.16576087, 0.01207729, 0.1608696, 0.28070175, 0.19371345, 0.8526316, 0.00000000, 0.00000000, 0.4000000))
+data_hline$group <- factor(data_hline$group, levels = c("Gram-positive", "Gram-negative", "Fungi"))
+
+ggplot(data = data_clean, aes(x=pathogen1, y=Simplified_score, group = path_type, color = path_type)) + 
+  geom_errorbar(aes(ymin=Simplified_score-sd, ymax=Simplified_score+sd), width=0.1) +
+   ylim(-0.2,2.2) + 
+  geom_hline(data = data_hline, aes(yintercept = hline), linetype="dashed") +
+  facet_grid(Strain ~ Pathogen_Type, scales = "free_x") +
+  geom_line() +
+  geom_point(size = 2.5) +
+  labs(x = "", 
+       y = "Summarized Inhibition Score", 
+       colour = "Pathogen Type") + 
+  scale_color_brewer(type = "qual", palette = "Set1") +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 55, hjust=1, vjust=1), panel.background = element_rect(colour = "black", linewidth = 0.5), strip.text = element_text(size = 14, face = "bold"))
+
+#do not use
+#median dotplot
+g + geom_dotplot(binaxis = 'y', stackdir = 'center',fill = "lightgray", dotsize = 3, binwidth = 0.02) + 
+  ylim(0,2) + 
+  stat_summary(fun = "median", fun.min = min, fun.max = max ,geom = "crossbar", width = 0.5) +
+  facet_grid(Strain ~., scales = "free_y") +
+  labs(x = "", 
+       y = "Summarized Inhibition Score", 
+       colour = "Pathogen Type") + 
+  scale_color_brewer(type = "qual", palette = "Set1") +
+  theme_classic() +
+  theme(axis.text.x = element_text(angle = 51, hjust=1, vjust=1), panel.background = element_rect(colour = "black", linewidth = 0.5), strip.text = element_text(size = 14, face = "bold"))
+```
+
+```{r formatting for heatmap, echo=FALSE}
+#do not use
+#extracting median
+data1 <- data %>% 
+  group_by(Pathogen_Name, Strain, Pathogen_Type) %>% 
+  summarise(Mean=mean(Simplified_score), Max=max(Simplified_score), Min=min(Simplified_score), Median=median(Simplified_score), Std=sd(Simplified_score)) %>% 
+  select(1,2,3,7) %>%
+  mutate(transform = Median * 2)
+#reshaping from long to wide format
+wide.data <- spread(data1, Strain, Median)
+wide.data$Pathogen_Type <- gsub('Fungi', 'Fungal', wide.data$Pathogen_Type)
+```
+
+```{r plotting heatmap, echo=FALSE}
+#do not use
+paths <- factor(wide.data$Pathogen_Name, level=c("Staphylococcus aureus",
+"Bacillus cereus",
+"Bacillus subtilis",
+"Mycobacterium smegmatis",
+"Nocardia corynebacteroides",
+"Staphylococcus epidermidis",
+"Micrococcus luteus",
+"Enterococcus faecalis",
+"Escherichia coli",
+"Pseudomonas aeruginosa (PA01)",
+"Pseudomonas aeruginosa 27873",
+"Enterobacter cloacae",
+"Klebsiella oxytoca",
+"Citrobacter freundii",
+"Proteus vulgaris",
+"Acinetobacter baumanii",
+"Cryptococcus neoformans",
+"Candida albicans (K1)",
+"Candida sp.", 
+"Candida auris (B11211)", 
+"Trichosporon asahii", 
+"Aspergillus flavus"))
+
+path_type <- factor(wide.data$Pathogen_Type, level=c("Gram-positive", "Gram-negative", "Fungal"))
+
+heatmap = wide.data[c(3:6)]
+theatmap = as.data.frame(t(heatmap))
+colnames(theatmap)=paths
+theatmap <- theatmap[, paths] #set pathogen name in certain order
+theatmap <- theatmap %>% select(all_of(paths)) #this code also works for the same function above
+
+#col annotations for site
+annotation_col = data.frame(Pathogen_Type = wide.data$Pathogen_Type, Pathogen_Name = wide.data$Pathogen_Name)
+rownames(annotation_col) = annotation_col$Pathogen_Name
+annotation_col <- select(annotation_col, -2)
+
+#row annotaions body_site
+annotation_row = read.csv('/Users/unguyen2/Documents/GitHub/Kalan_Lab/scripts/ssandstrom/skin_bioassay_paper_files/fig_3/row_annotation.csv')
+annotation_row = annotation_row[!duplicated(annotation_row$Strain_ID),]
+strains <- annotation_row$Strain_ID
+tax <- annotation_row$Genus
+type <- annotation_row$Site_Type
+site <- annotation_row$Body_Site
+rownames(annotation_row) = strains
+annotation_rows = data.frame(Genus = tax,Body_Site=site)
+rownames(annotation_rows) = strains
+
+#color lists
+ann_colors = list(Pathogen_Type = c("Gram-positive" = "#FF0000","Gram-negative" = "#0000FF", "Fungal" = "#008000"),
+                  Genus = c("Cutibacterium"="#b1728f",
+                            "Corynebacterium"="#c89cb0",
+                            "Micrococcus"="#dfc6d2",
+                            "Kocuria"="#efe2e8",
+                            "Rothia"="#E69138",
+                            "Brevibacterium"="#edb273",
+                            "Gordonia"="#f5d3af",
+                            "Dermabacter"="#fae9d7",
+                            "Kytococcus"="#bc3e47",
+                            "Janibacter"="#d0777e",
+                            "Dietzia"="#e4b1b5",
+                            "Microbacterium"="#f1d8da",
+                            "Brachybacterium"="#CBA92B",
+                            "Dermacoccus"="#dac26a",
+                            "Nesterenkonia"="#eadcaa",
+                            "Pseudoclavibacter"="#f4edd4",
+                            "Sphingobacterium"="#493C61",
+                            "Staphylococcus"="#38761d",
+                            "Bacillus"="#739f60",
+                            "Granulicatella"="#afc8a4",
+                            "Enterococcus"="#d7e3d1",
+                            "Klebsiella"="#073763",
+                            "Citrobacter"="#517391",
+                            "Escherichia"="#9bafc0",
+                            "Enterobacter"="#cdd7df",
+                            "Other" = "#808080"),
+                  Body_Site = c("Nares"="#D53E4F",
+                                "Toe web space"="#F46D43",
+                                "Umbilicus"="#FDAE61",
+                                "Antecubital fossa"="#FEE08B",
+                                "Volar forearm"="#E6F598",
+                                "Alar crease"="#ABDDA4",
+                                "Back"="#66C2A5",
+                                "Occiput"="#3288BD"))
+
+annotation_rows$Genus <- factor(annotation_rows$Genus, levels = c(
+  "Cutibacterium","Corynebacterium",
+  "Micrococcus","Kocuria","Rothia",
+  "Brevibacterium","Gordonia",
+  "Dermabacter","Kytococcus",
+  "Janibacter","Dietzia",
+  "Microbacterium","Brachybacterium",
+  "Dermacoccus","Nesterenkonia",
+  "Pseudoclavibacter","Sphingobacterium",
+  "Staphylococcus","Bacillus","Granulicatella",
+  "Enterococcus","Klebsiella","Citrobacter",
+  "Escherichia","Enterobacter", "Other"
+))
+
+
+cols = c("#808080","#e6d8df","#b48a9f","#833d60")
+#heatmap
+hm = pheatmap(theatmap, show_rownames = F,fontsize_col=14,
+              annotation_col = annotation_col,
+              annotation_row = annotation_rows,
+              annotation_colors = ann_colors,
+              color = c("#808080","#e6d8df","#b48a9f","#833d60"),
+              show_colnames = T,
+              width = 10,
+              height = 10,
+              cluster_rows = T,
+              cluster_cols = FALSE,
+              angle_col = 90,
+              legend_breaks = c(-.66,.15,.85,1.66),
+              legend_labels=c("no data","no inhibition","zone of inhibition","full inhibition"),annotation_legend = T)
+hm
+```
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

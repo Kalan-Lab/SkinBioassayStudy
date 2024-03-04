@@ -1,0 +1,23 @@
+Pathogen_Type,Pathogen_Name,Pathogen_Name_short,LK1000,LK1337,LK960
+Gram-negative,Acinetobacter baumannii ,A. baumanii,0,0,0
+Fungal,Aspergillus flavus ,A. flavus,0,0,2
+Gram-positive,Bacillus cereus ,B. cereus,0,0,0
+Gram-positive,Bacillus subtilis ,B. subtilis,0,0,0
+Fungal,Candida albicans (K1),C. albicans,1,0,2
+Fungal,Candida sp. ,Candida spp.,2,0,2
+Gram-negative,Citrobacter freundii ,C. freundii,0,0,0
+Fungal,Cryptococcus neoformans,C. neoformans,2,0,2
+Gram-negative,Enterobacter cloacae ,E. cloacae,0,0,0
+Gram-positive,Enterococcus faecalis ,E. faecalis,0,-1,0
+Gram-negative,Escherichia coli ,E. coli,0,0,2
+Gram-negative,Klebsiella oxytoca ,K. oxytoca,0,0,0
+Gram-positive,Micrococcus luteus ,M. luteus,0,-1,0
+Gram-positive,Mycobacterium smegmatis ,M. smegmatis,0,0,2
+Gram-positive,Norcardia corynebacteroides ,N. corynebacteroides,0,0,2
+Gram-negative,Proteus vulgaris ,P. vulgaris,0,0,2
+Gram-negative,Pseudomonas aeruginosa (PAO1),P. aeruginosa (PAO1),0,0,0
+Gram-negative,Pseudomonas aeruginosa 27873,P.aeruginosa 27873,0,0,0
+Gram-negative,Serratia marcescens 8055,S. marcescens,0,0,0
+Gram-positive,Staphylococcus aureus,S. aureus,0,0,0
+Gram-positive,Staphylococcus epidermidis ,S. epidermidis,0,-1,0
+Fungal,Trichosporon asahii ,T. asahii,1,0,0

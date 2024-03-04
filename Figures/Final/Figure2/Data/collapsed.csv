@@ -1,0 +1,417 @@
+dataset,genus,body_site,site_type,rel_abun
+Metagenomic,Micrococcus,Af,Rarely Moist,0.038742867
+Metagenomic,Staphylococcus,Af,Rarely Moist,0.342512779
+Metagenomic,Corynebacterium,Af,Rarely Moist,0.331645151
+Metagenomic,Dietzia,Af,Rarely Moist,0.000767189
+Metagenomic,Bacillus,Af,Rarely Moist,0.000825633
+Metagenomic,Kocuria,Af,Rarely Moist,0.007614219
+Metagenomic,Klebsiella,Af,Rarely Moist,0.000418752
+Metagenomic,Rothia,Af,Rarely Moist,0.002339005
+Metagenomic,Brachybacterium,Af,Rarely Moist,0.000956059
+Metagenomic,Dermabacter,Af,Rarely Moist,0.000804397
+Metagenomic,Brevibacterium,Af,Rarely Moist,0.001790773
+Metagenomic,Escherichia,Af,Rarely Moist,0.000450662
+Metagenomic,Janibacter,Af,Rarely Moist,0.001614596
+Metagenomic,Sphingobacterium,Af,Rarely Moist,5.92E-05
+Metagenomic,Dermacoccus,Af,Rarely Moist,0.000765082
+Metagenomic,Citrobacter,Af,Rarely Moist,4.30E-05
+Metagenomic,Microbacterium,Af,Rarely Moist,0.001593229
+Metagenomic,Nesterenkonia,Af,Rarely Moist,0.000148273
+Metagenomic,Cutibacterium,Af,Rarely Moist,0.139833451
+Metagenomic,Enterobacter,Af,Rarely Moist,0.000527337
+Metagenomic,Enterococcus,Af,Rarely Moist,1.75E-05
+Metagenomic,Gordonia,Af,Rarely Moist,0.001812325
+Metagenomic,Granulicatella,Af,Rarely Moist,0.000222524
+Metagenomic,Kytococcus,Af,Rarely Moist,0.001433117
+Metagenomic,Pseudoclavibacter,Af,Rarely Moist,1.65E-05
+Metagenomic,Other,Af,Rarely Moist,1.23E-01
+Cultured,Micrococcus,Af,Rarely Moist,0.572815534
+Cultured,Staphylococcus,Af,Rarely Moist,0.165048544
+Cultured,Corynebacterium,Af,Rarely Moist,0.087378641
+Cultured,Dietzia,Af,Rarely Moist,0.029126214
+Cultured,Bacillus,Af,Rarely Moist,0.058252427
+Cultured,Kocuria,Af,Rarely Moist,0.019417476
+Cultured,Klebsiella,Af,Rarely Moist,0
+Cultured,Rothia,Af,Rarely Moist,0
+Cultured,Brachybacterium,Af,Rarely Moist,0.019417476
+Cultured,Dermabacter,Af,Rarely Moist,0
+Cultured,Brevibacterium,Af,Rarely Moist,0
+Cultured,Escherichia,Af,Rarely Moist,0
+Cultured,Janibacter,Af,Rarely Moist,0
+Cultured,Sphingobacterium,Af,Rarely Moist,0
+Cultured,Dermacoccus,Af,Rarely Moist,0
+Cultured,Citrobacter,Af,Rarely Moist,0
+Cultured,Microbacterium,Af,Rarely Moist,0
+Cultured,Nesterenkonia,Af,Rarely Moist,0
+Cultured,Cutibacterium,Af,Rarely Moist,0
+Cultured,Enterobacter,Af,Rarely Moist,0
+Cultured,Enterococcus,Af,Rarely Moist,0
+Cultured,Gordonia,Af,Rarely Moist,0
+Cultured,Granulicatella,Af,Rarely Moist,0
+Cultured,Kytococcus,Af,Rarely Moist,0
+Cultured,Pseudoclavibacter,Af,Rarely Moist,0.009708738
+Cultured,Other,Af,Rarely Moist,0.038834951
+Metagenomic,Micrococcus,Al,Sebaceous,0.014194538
+Metagenomic,Staphylococcus,Al,Sebaceous,0.114150121
+Metagenomic,Corynebacterium,Al,Sebaceous,0.030604013
+Metagenomic,Dietzia,Al,Sebaceous,0.000357882
+Metagenomic,Bacillus,Al,Sebaceous,0.000211467
+Metagenomic,Kocuria,Al,Sebaceous,0.000902201
+Metagenomic,Klebsiella,Al,Sebaceous,0.000342456
+Metagenomic,Rothia,Al,Sebaceous,0.004871942
+Metagenomic,Brachybacterium,Al,Sebaceous,0.000215456
+Metagenomic,Dermabacter,Al,Sebaceous,3.78E-05
+Metagenomic,Brevibacterium,Al,Sebaceous,0.000732434
+Metagenomic,Escherichia,Al,Sebaceous,7.78E-05
+Metagenomic,Janibacter,Al,Sebaceous,0.000241494
+Metagenomic,Sphingobacterium,Al,Sebaceous,1.62E-05
+Metagenomic,Dermacoccus,Al,Sebaceous,2.95E-05
+Metagenomic,Citrobacter,Al,Sebaceous,2.21E-05
+Metagenomic,Microbacterium,Al,Sebaceous,0.000253093
+Metagenomic,Nesterenkonia,Al,Sebaceous,3.91E-05
+Metagenomic,Cutibacterium,Al,Sebaceous,0.771957195
+Metagenomic,Enterobacter,Al,Sebaceous,6.60E-05
+Metagenomic,Enterococcus,Al,Sebaceous,2.89E-06
+Metagenomic,Gordonia,Al,Sebaceous,0.000585495
+Metagenomic,Granulicatella,Al,Sebaceous,0.000303111
+Metagenomic,Kytococcus,Al,Sebaceous,0.000344116
+Metagenomic,Pseudoclavibacter,Al,Sebaceous,1.44E-05
+Metagenomic,Other,Al,Sebaceous,5.94E-02
+Cultured,Micrococcus,Al,Sebaceous,0.263636364
+Cultured,Staphylococcus,Al,Sebaceous,0.254545455
+Cultured,Corynebacterium,Al,Sebaceous,0.090909091
+Cultured,Dietzia,Al,Sebaceous,0.081818182
+Cultured,Bacillus,Al,Sebaceous,0.018181818
+Cultured,Kocuria,Al,Sebaceous,0.009090909
+Cultured,Klebsiella,Al,Sebaceous,0.063636364
+Cultured,Rothia,Al,Sebaceous,0.009090909
+Cultured,Brachybacterium,Al,Sebaceous,0.036363636
+Cultured,Dermabacter,Al,Sebaceous,0.027272727
+Cultured,Brevibacterium,Al,Sebaceous,0.009090909
+Cultured,Escherichia,Al,Sebaceous,0.045454545
+Cultured,Janibacter,Al,Sebaceous,0
+Cultured,Sphingobacterium,Al,Sebaceous,0
+Cultured,Dermacoccus,Al,Sebaceous,0.009090909
+Cultured,Citrobacter,Al,Sebaceous,0
+Cultured,Microbacterium,Al,Sebaceous,0
+Cultured,Nesterenkonia,Al,Sebaceous,0
+Cultured,Cutibacterium,Al,Sebaceous,0.009090909
+Cultured,Enterobacter,Al,Sebaceous,0.009090909
+Cultured,Enterococcus,Al,Sebaceous,0
+Cultured,Gordonia,Al,Sebaceous,0
+Cultured,Granulicatella,Al,Sebaceous,0
+Cultured,Kytococcus,Al,Sebaceous,0
+Cultured,Pseudoclavibacter,Al,Sebaceous,0
+Cultured,Other,Al,Sebaceous,0.063636364
+Metagenomic,Micrococcus,Ba,Sebaceous,0.106663661
+Metagenomic,Staphylococcus,Ba,Sebaceous,0.139278026
+Metagenomic,Corynebacterium,Ba,Sebaceous,0.061558339
+Metagenomic,Dietzia,Ba,Sebaceous,0.001958381
+Metagenomic,Bacillus,Ba,Sebaceous,0.000570355
+Metagenomic,Kocuria,Ba,Sebaceous,0.007429916
+Metagenomic,Klebsiella,Ba,Sebaceous,0.000847346
+Metagenomic,Rothia,Ba,Sebaceous,0.004844129
+Metagenomic,Brachybacterium,Ba,Sebaceous,0.0011652
+Metagenomic,Dermabacter,Ba,Sebaceous,0.000362149
+Metagenomic,Brevibacterium,Ba,Sebaceous,0.00291619
+Metagenomic,Escherichia,Ba,Sebaceous,0.000412457
+Metagenomic,Janibacter,Ba,Sebaceous,0.001816581
+Metagenomic,Sphingobacterium,Ba,Sebaceous,0.000106479
+Metagenomic,Dermacoccus,Ba,Sebaceous,0.000603277
+Metagenomic,Citrobacter,Ba,Sebaceous,8.26E-05
+Metagenomic,Microbacterium,Ba,Sebaceous,0.002250393
+Metagenomic,Nesterenkonia,Ba,Sebaceous,0.000548929
+Metagenomic,Cutibacterium,Ba,Sebaceous,0.493205148
+Metagenomic,Enterobacter,Ba,Sebaceous,0.000204587
+Metagenomic,Enterococcus,Ba,Sebaceous,0.000627713
+Metagenomic,Gordonia,Ba,Sebaceous,0.00290056
+Metagenomic,Granulicatella,Ba,Sebaceous,0.000459907
+Metagenomic,Kytococcus,Ba,Sebaceous,0.002501842
+Metagenomic,Pseudoclavibacter,Ba,Sebaceous,0.000238773
+Metagenomic,Other,Ba,Sebaceous,1.66E-01
+Cultured,Micrococcus,Ba,Sebaceous,0.626168224
+Cultured,Staphylococcus,Ba,Sebaceous,0.112149533
+Cultured,Corynebacterium,Ba,Sebaceous,0.074766355
+Cultured,Dietzia,Ba,Sebaceous,0.037383178
+Cultured,Bacillus,Ba,Sebaceous,0.018691589
+Cultured,Kocuria,Ba,Sebaceous,0.028037383
+Cultured,Klebsiella,Ba,Sebaceous,0
+Cultured,Rothia,Ba,Sebaceous,0
+Cultured,Brachybacterium,Ba,Sebaceous,0.009345794
+Cultured,Dermabacter,Ba,Sebaceous,0.018691589
+Cultured,Brevibacterium,Ba,Sebaceous,0.009345794
+Cultured,Escherichia,Ba,Sebaceous,0
+Cultured,Janibacter,Ba,Sebaceous,0.018691589
+Cultured,Sphingobacterium,Ba,Sebaceous,0
+Cultured,Dermacoccus,Ba,Sebaceous,0
+Cultured,Citrobacter,Ba,Sebaceous,0
+Cultured,Microbacterium,Ba,Sebaceous,0.009345794
+Cultured,Nesterenkonia,Ba,Sebaceous,0
+Cultured,Cutibacterium,Ba,Sebaceous,0
+Cultured,Enterobacter,Ba,Sebaceous,0
+Cultured,Enterococcus,Ba,Sebaceous,0
+Cultured,Gordonia,Ba,Sebaceous,0
+Cultured,Granulicatella,Ba,Sebaceous,0
+Cultured,Kytococcus,Ba,Sebaceous,0
+Cultured,Pseudoclavibacter,Ba,Sebaceous,0
+Cultured,Other,Ba,Sebaceous,0.037383178
+Metagenomic,Micrococcus,Na,Moist,0.073641529
+Metagenomic,Staphylococcus,Na,Moist,0.062582487
+Metagenomic,Corynebacterium,Na,Moist,0.092258027
+Metagenomic,Dietzia,Na,Moist,0.001869978
+Metagenomic,Bacillus,Na,Moist,0.000286638
+Metagenomic,Kocuria,Na,Moist,0.004211051
+Metagenomic,Klebsiella,Na,Moist,0.001425391
+Metagenomic,Rothia,Na,Moist,0.002065448
+Metagenomic,Brachybacterium,Na,Moist,0.000751149
+Metagenomic,Dermabacter,Na,Moist,0.000140815
+Metagenomic,Brevibacterium,Na,Moist,0.002599681
+Metagenomic,Escherichia,Na,Moist,0.000154493
+Metagenomic,Janibacter,Na,Moist,0.001384519
+Metagenomic,Sphingobacterium,Na,Moist,2.55E-05
+Metagenomic,Dermacoccus,Na,Moist,0.0003128
+Metagenomic,Citrobacter,Na,Moist,1.78E-05
+Metagenomic,Microbacterium,Na,Moist,0.000490932
+Metagenomic,Nesterenkonia,Na,Moist,0.0002192
+Metagenomic,Cutibacterium,Na,Moist,0.636872508
+Metagenomic,Enterobacter,Na,Moist,0.000144566
+Metagenomic,Enterococcus,Na,Moist,7.27E-06
+Metagenomic,Gordonia,Na,Moist,0.002339598
+Metagenomic,Granulicatella,Na,Moist,0.000320179
+Metagenomic,Kytococcus,Na,Moist,0.001400197
+Metagenomic,Pseudoclavibacter,Na,Moist,8.49E-05
+Metagenomic,Other,Na,Moist,1.14E-01
+Cultured,Micrococcus,Na,Moist,0.115384615
+Cultured,Staphylococcus,Na,Moist,0.211538462
+Cultured,Corynebacterium,Na,Moist,0.115384615
+Cultured,Dietzia,Na,Moist,0.057692308
+Cultured,Bacillus,Na,Moist,0
+Cultured,Kocuria,Na,Moist,0.019230769
+Cultured,Klebsiella,Na,Moist,0.115384615
+Cultured,Rothia,Na,Moist,0.096153846
+Cultured,Brachybacterium,Na,Moist,0.019230769
+Cultured,Dermabacter,Na,Moist,0.057692308
+Cultured,Brevibacterium,Na,Moist,0
+Cultured,Escherichia,Na,Moist,0.038461538
+Cultured,Janibacter,Na,Moist,0
+Cultured,Sphingobacterium,Na,Moist,0
+Cultured,Dermacoccus,Na,Moist,0
+Cultured,Citrobacter,Na,Moist,0.038461538
+Cultured,Microbacterium,Na,Moist,0
+Cultured,Nesterenkonia,Na,Moist,0
+Cultured,Cutibacterium,Na,Moist,0
+Cultured,Enterobacter,Na,Moist,0
+Cultured,Enterococcus,Na,Moist,0
+Cultured,Gordonia,Na,Moist,0.019230769
+Cultured,Granulicatella,Na,Moist,0
+Cultured,Kytococcus,Na,Moist,0
+Cultured,Pseudoclavibacter,Na,Moist,0
+Cultured,Other,Na,Moist,0.096153846
+Metagenomic,Micrococcus,Oc,Sebaceous,0.108757428
+Metagenomic,Staphylococcus,Oc,Sebaceous,0.039892128
+Metagenomic,Corynebacterium,Oc,Sebaceous,0.073200976
+Metagenomic,Dietzia,Oc,Sebaceous,0.002763985
+Metagenomic,Bacillus,Oc,Sebaceous,0.000416052
+Metagenomic,Kocuria,Oc,Sebaceous,0.009609597
+Metagenomic,Klebsiella,Oc,Sebaceous,0.001372493
+Metagenomic,Rothia,Oc,Sebaceous,0.01044438
+Metagenomic,Brachybacterium,Oc,Sebaceous,0.001819192
+Metagenomic,Dermabacter,Oc,Sebaceous,0.000454358
+Metagenomic,Brevibacterium,Oc,Sebaceous,0.00685656
+Metagenomic,Escherichia,Oc,Sebaceous,0.000258422
+Metagenomic,Janibacter,Oc,Sebaceous,0.002400795
+Metagenomic,Sphingobacterium,Oc,Sebaceous,8.31E-05
+Metagenomic,Dermacoccus,Oc,Sebaceous,0.000489752
+Metagenomic,Citrobacter,Oc,Sebaceous,8.82E-05
+Metagenomic,Microbacterium,Oc,Sebaceous,0.002327173
+Metagenomic,Nesterenkonia,Oc,Sebaceous,0.000499566
+Metagenomic,Cutibacterium,Oc,Sebaceous,0.566883365
+Metagenomic,Enterobacter,Oc,Sebaceous,0.000246678
+Metagenomic,Enterococcus,Oc,Sebaceous,0.000546589
+Metagenomic,Gordonia,Oc,Sebaceous,0.001109257
+Metagenomic,Granulicatella,Oc,Sebaceous,0.000564115
+Metagenomic,Kytococcus,Oc,Sebaceous,0.002506015
+Metagenomic,Pseudoclavibacter,Oc,Sebaceous,0.000532991
+Metagenomic,Other,Oc,Sebaceous,1.66E-01
+Cultured,Micrococcus,Oc,Sebaceous,0.581818182
+Cultured,Staphylococcus,Oc,Sebaceous,0.218181818
+Cultured,Corynebacterium,Oc,Sebaceous,0.018181818
+Cultured,Dietzia,Oc,Sebaceous,0.027272727
+Cultured,Bacillus,Oc,Sebaceous,0.045454545
+Cultured,Kocuria,Oc,Sebaceous,0.027272727
+Cultured,Klebsiella,Oc,Sebaceous,0
+Cultured,Rothia,Oc,Sebaceous,0.036363636
+Cultured,Brachybacterium,Oc,Sebaceous,0
+Cultured,Dermabacter,Oc,Sebaceous,0
+Cultured,Brevibacterium,Oc,Sebaceous,0
+Cultured,Escherichia,Oc,Sebaceous,0
+Cultured,Janibacter,Oc,Sebaceous,0.018181818
+Cultured,Sphingobacterium,Oc,Sebaceous,0
+Cultured,Dermacoccus,Oc,Sebaceous,0
+Cultured,Citrobacter,Oc,Sebaceous,0
+Cultured,Microbacterium,Oc,Sebaceous,0
+Cultured,Nesterenkonia,Oc,Sebaceous,0
+Cultured,Cutibacterium,Oc,Sebaceous,0
+Cultured,Enterobacter,Oc,Sebaceous,0
+Cultured,Enterococcus,Oc,Sebaceous,0
+Cultured,Gordonia,Oc,Sebaceous,0
+Cultured,Granulicatella,Oc,Sebaceous,0.009090909
+Cultured,Kytococcus,Oc,Sebaceous,0
+Cultured,Pseudoclavibacter,Oc,Sebaceous,0
+Cultured,Other,Oc,Sebaceous,0.018181818
+Metagenomic,Micrococcus,Tw,Moist,0.007011129
+Metagenomic,Staphylococcus,Tw,Moist,0.197173333
+Metagenomic,Corynebacterium,Tw,Moist,0.24826291
+Metagenomic,Dietzia,Tw,Moist,6.07E-05
+Metagenomic,Bacillus,Tw,Moist,7.95E-05
+Metagenomic,Kocuria,Tw,Moist,0.00044846
+Metagenomic,Klebsiella,Tw,Moist,0.001615011
+Metagenomic,Rothia,Tw,Moist,0.001091225
+Metagenomic,Brachybacterium,Tw,Moist,5.56E-05
+Metagenomic,Dermabacter,Tw,Moist,0.000313489
+Metagenomic,Brevibacterium,Tw,Moist,0.00077957
+Metagenomic,Escherichia,Tw,Moist,8.28E-05
+Metagenomic,Janibacter,Tw,Moist,8.13E-05
+Metagenomic,Sphingobacterium,Tw,Moist,4.38E-06
+Metagenomic,Dermacoccus,Tw,Moist,7.66E-06
+Metagenomic,Citrobacter,Tw,Moist,7.98E-06
+Metagenomic,Microbacterium,Tw,Moist,6.53E-05
+Metagenomic,Nesterenkonia,Tw,Moist,1.44E-05
+Metagenomic,Cutibacterium,Tw,Moist,0.469417661
+Metagenomic,Enterobacter,Tw,Moist,1.37E-05
+Metagenomic,Enterococcus,Tw,Moist,1.45E-06
+Metagenomic,Gordonia,Tw,Moist,0.000100186
+Metagenomic,Granulicatella,Tw,Moist,3.55E-05
+Metagenomic,Kytococcus,Tw,Moist,0.000204282
+Metagenomic,Pseudoclavibacter,Tw,Moist,6.86E-06
+Metagenomic,Other,Tw,Moist,7.31E-02
+Cultured,Micrococcus,Tw,Moist,0.301369863
+Cultured,Staphylococcus,Tw,Moist,0.178082192
+Cultured,Corynebacterium,Tw,Moist,0.082191781
+Cultured,Dietzia,Tw,Moist,0.068493151
+Cultured,Bacillus,Tw,Moist,0
+Cultured,Kocuria,Tw,Moist,0.109589041
+Cultured,Klebsiella,Tw,Moist,0.01369863
+Cultured,Rothia,Tw,Moist,0.01369863
+Cultured,Brachybacterium,Tw,Moist,0.01369863
+Cultured,Dermabacter,Tw,Moist,0
+Cultured,Brevibacterium,Tw,Moist,0.095890411
+Cultured,Escherichia,Tw,Moist,0
+Cultured,Janibacter,Tw,Moist,0
+Cultured,Sphingobacterium,Tw,Moist,0.054794521
+Cultured,Dermacoccus,Tw,Moist,0
+Cultured,Citrobacter,Tw,Moist,0
+Cultured,Microbacterium,Tw,Moist,0.01369863
+Cultured,Nesterenkonia,Tw,Moist,0.01369863
+Cultured,Cutibacterium,Tw,Moist,0
+Cultured,Enterobacter,Tw,Moist,0
+Cultured,Enterococcus,Tw,Moist,0
+Cultured,Gordonia,Tw,Moist,0
+Cultured,Granulicatella,Tw,Moist,0
+Cultured,Kytococcus,Tw,Moist,0.01369863
+Cultured,Pseudoclavibacter,Tw,Moist,0
+Cultured,Other,Tw,Moist,0.02739726
+Metagenomic,Micrococcus,Um,Moist,0.006696867
+Metagenomic,Staphylococcus,Um,Moist,0.078466664
+Metagenomic,Corynebacterium,Um,Moist,0.214421597
+Metagenomic,Dietzia,Um,Moist,0.00018212
+Metagenomic,Bacillus,Um,Moist,0.00231746
+Metagenomic,Kocuria,Um,Moist,0.000704281
+Metagenomic,Klebsiella,Um,Moist,0.000532003
+Metagenomic,Rothia,Um,Moist,0.002802636
+Metagenomic,Brachybacterium,Um,Moist,0.00022363
+Metagenomic,Dermabacter,Um,Moist,0.001818682
+Metagenomic,Brevibacterium,Um,Moist,0.003345726
+Metagenomic,Escherichia,Um,Moist,0.00128926
+Metagenomic,Janibacter,Um,Moist,0.00032434
+Metagenomic,Sphingobacterium,Um,Moist,0.000221155
+Metagenomic,Dermacoccus,Um,Moist,0.000134619
+Metagenomic,Citrobacter,Um,Moist,9.11E-05
+Metagenomic,Microbacterium,Um,Moist,0.000341246
+Metagenomic,Nesterenkonia,Um,Moist,0.000147266
+Metagenomic,Cutibacterium,Um,Moist,0.501701325
+Metagenomic,Enterobacter,Um,Moist,7.52E-05
+Metagenomic,Enterococcus,Um,Moist,0.000154131
+Metagenomic,Gordonia,Um,Moist,0.000440549
+Metagenomic,Granulicatella,Um,Moist,0.000188807
+Metagenomic,Kytococcus,Um,Moist,0.000210899
+Metagenomic,Pseudoclavibacter,Um,Moist,9.02E-06
+Metagenomic,Other,Um,Moist,1.83E-01
+Cultured,Micrococcus,Um,Moist,0.326530612
+Cultured,Staphylococcus,Um,Moist,0.244897959
+Cultured,Corynebacterium,Um,Moist,0.142857143
+Cultured,Dietzia,Um,Moist,0
+Cultured,Bacillus,Um,Moist,0.020408163
+Cultured,Kocuria,Um,Moist,0.020408163
+Cultured,Klebsiella,Um,Moist,0
+Cultured,Rothia,Um,Moist,0
+Cultured,Brachybacterium,Um,Moist,0
+Cultured,Dermabacter,Um,Moist,0.06122449
+Cultured,Brevibacterium,Um,Moist,0
+Cultured,Escherichia,Um,Moist,0
+Cultured,Janibacter,Um,Moist,0
+Cultured,Sphingobacterium,Um,Moist,0
+Cultured,Dermacoccus,Um,Moist,0.020408163
+Cultured,Citrobacter,Um,Moist,0
+Cultured,Microbacterium,Um,Moist,0
+Cultured,Nesterenkonia,Um,Moist,0
+Cultured,Cutibacterium,Um,Moist,0
+Cultured,Enterobacter,Um,Moist,0
+Cultured,Enterococcus,Um,Moist,0.020408163
+Cultured,Gordonia,Um,Moist,0
+Cultured,Granulicatella,Um,Moist,0
+Cultured,Kytococcus,Um,Moist,0
+Cultured,Pseudoclavibacter,Um,Moist,0
+Cultured,Other,Um,Moist,0.142857143
+Metagenomic,Micrococcus,Vf,Rarely Moist,0.035693475
+Metagenomic,Staphylococcus,Vf,Rarely Moist,0.082089641
+Metagenomic,Corynebacterium,Vf,Rarely Moist,0.396858108
+Metagenomic,Dietzia,Vf,Rarely Moist,0.000622589
+Metagenomic,Bacillus,Vf,Rarely Moist,0.000261454
+Metagenomic,Kocuria,Vf,Rarely Moist,0.013064656
+Metagenomic,Klebsiella,Vf,Rarely Moist,0.001016062
+Metagenomic,Rothia,Vf,Rarely Moist,0.002255931
+Metagenomic,Brachybacterium,Vf,Rarely Moist,0.000576945
+Metagenomic,Dermabacter,Vf,Rarely Moist,0.005985375
+Metagenomic,Brevibacterium,Vf,Rarely Moist,0.009649342
+Metagenomic,Escherichia,Vf,Rarely Moist,0.000533527
+Metagenomic,Janibacter,Vf,Rarely Moist,0.000794213
+Metagenomic,Sphingobacterium,Vf,Rarely Moist,4.20E-05
+Metagenomic,Dermacoccus,Vf,Rarely Moist,0.000265459
+Metagenomic,Citrobacter,Vf,Rarely Moist,5.56E-05
+Metagenomic,Microbacterium,Vf,Rarely Moist,0.000596535
+Metagenomic,Nesterenkonia,Vf,Rarely Moist,0.000154009
+Metagenomic,Cutibacterium,Vf,Rarely Moist,0.260604695
+Metagenomic,Enterobacter,Vf,Rarely Moist,0.00077581
+Metagenomic,Enterococcus,Vf,Rarely Moist,2.79E-05
+Metagenomic,Gordonia,Vf,Rarely Moist,0.000538298
+Metagenomic,Granulicatella,Vf,Rarely Moist,0.000332072
+Metagenomic,Kytococcus,Vf,Rarely Moist,0.000920273
+Metagenomic,Pseudoclavibacter,Vf,Rarely Moist,0.000172366
+Metagenomic,Other,Vf,Rarely Moist,1.86E-01
+Cultured,Micrococcus,Vf,Rarely Moist,0.691729323
+Cultured,Staphylococcus,Vf,Rarely Moist,0.120300752
+Cultured,Corynebacterium,Vf,Rarely Moist,0.067669173
+Cultured,Dietzia,Vf,Rarely Moist,0.007518797
+Cultured,Bacillus,Vf,Rarely Moist,0.052631579
+Cultured,Kocuria,Vf,Rarely Moist,0.007518797
+Cultured,Klebsiella,Vf,Rarely Moist,0.007518797
+Cultured,Rothia,Vf,Rarely Moist,0.007518797
+Cultured,Brachybacterium,Vf,Rarely Moist,0.015037594
+Cultured,Dermabacter,Vf,Rarely Moist,0
+Cultured,Brevibacterium,Vf,Rarely Moist,0
+Cultured,Escherichia,Vf,Rarely Moist,0
+Cultured,Janibacter,Vf,Rarely Moist,0
+Cultured,Sphingobacterium,Vf,Rarely Moist,0
+Cultured,Dermacoccus,Vf,Rarely Moist,0.007518797
+Cultured,Citrobacter,Vf,Rarely Moist,0
+Cultured,Microbacterium,Vf,Rarely Moist,0
+Cultured,Nesterenkonia,Vf,Rarely Moist,0.007518797
+Cultured,Cutibacterium,Vf,Rarely Moist,0
+Cultured,Enterobacter,Vf,Rarely Moist,0
+Cultured,Enterococcus,Vf,Rarely Moist,0
+Cultured,Gordonia,Vf,Rarely Moist,0
+Cultured,Granulicatella,Vf,Rarely Moist,0
+Cultured,Kytococcus,Vf,Rarely Moist,0
+Cultured,Pseudoclavibacter,Vf,Rarely Moist,0
+Cultured,Other,Vf,Rarely Moist,0.007518797
