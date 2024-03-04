@@ -1,2 +1,2 @@
 # SkinBioassayStudy
-Code and data for skin bioassay data
+Code and data for the Kalan lab skin bioassay project.
