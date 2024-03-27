@@ -1,0 +1,142 @@
+Product Prediction	Body_Site	count	Site Type	rel_abun
+betalactone	Nares	4	Moist	0.0555555555556
+T3PKS	Nares	2	Moist	0.0277777777778
+arylpolyene	Nares	2	Moist	0.0277777777778
+siderophore	Nares	9	Moist	0.125
+redox-cofactor	Nares	2	Moist	0.0277777777778
+multi-type	Nares	10	Moist	0.138888888889
+lanthipeptide-class-iii	Nares	1	Moist	0.0138888888889
+RRE-containing	Nares	2	Moist	0.0277777777778
+RiPP-like	Nares	6	Moist	0.0833333333333
+NAPAA	Nares	4	Moist	0.0555555555556
+ectoine	Nares	2	Moist	0.0277777777778
+linaridin	Nares	1	Moist	0.0138888888889
+thiopeptide	Nares	2	Moist	0.0277777777778
+terpene	Nares	8	Moist	0.111111111111
+T1PKS	Nares	1	Moist	0.0138888888889
+cyclic-lactone-autoinducer	Nares	1	Moist	0.0138888888889
+NRPS	Nares	15	Moist	0.208333333333
+betalactone	Toe web space	7	Moist	0.0736842105263
+T3PKS	Toe web space	4	Moist	0.0421052631579
+arylpolyene	Toe web space	2	Moist	0.0210526315789
+siderophore	Toe web space	11	Moist	0.115789473684
+redox-cofactor	Toe web space	3	Moist	0.0315789473684
+ectoine	Toe web space	6	Moist	0.0631578947368
+multi-type	Toe web space	4	Moist	0.0421052631579
+lanthipeptide-class-iii	Toe web space	1	Moist	0.0105263157895
+RRE-containing	Toe web space	6	Moist	0.0631578947368
+ladderane	Toe web space	1	Moist	0.0105263157895
+RiPP-like	Toe web space	4	Moist	0.0421052631579
+NAPAA	Toe web space	11	Moist	0.115789473684
+NRPS-like	Toe web space	5	Moist	0.0526315789474
+resorcinol	Toe web space	1	Moist	0.0105263157895
+linaridin	Toe web space	1	Moist	0.0105263157895
+thiopeptide	Toe web space	1	Moist	0.0105263157895
+terpene	Toe web space	17	Moist	0.178947368421
+T1PKS	Toe web space	4	Moist	0.0421052631579
+cyclic-lactone-autoinducer	Toe web space	2	Moist	0.0210526315789
+NRPS	Toe web space	4	Moist	0.0421052631579
+NRPS-like	Occiput	2	Sebaceous	0.04
+betalactone	Occiput	2	Sebaceous	0.04
+T3PKS	Occiput	4	Sebaceous	0.08
+siderophore	Occiput	8	Sebaceous	0.16
+redox-cofactor	Occiput	1	Sebaceous	0.02
+multi-type	Occiput	3	Sebaceous	0.06
+lanthipeptide-class-iii	Occiput	1	Sebaceous	0.02
+RRE-containing	Occiput	5	Sebaceous	0.1
+NAPAA	Occiput	5	Sebaceous	0.1
+terpene	Occiput	11	Sebaceous	0.22
+RiPP-like	Occiput	1	Sebaceous	0.02
+linaridin	Occiput	1	Sebaceous	0.02
+ectoine	Occiput	1	Sebaceous	0.02
+T1PKS	Occiput	1	Sebaceous	0.02
+cyclic-lactone-autoinducer	Occiput	2	Sebaceous	0.04
+NRPS	Occiput	2	Sebaceous	0.04
+tropodithietic-acid	Alar crease	1	Sebaceous	0.0169491525424
+betalactone	Alar crease	3	Sebaceous	0.0508474576271
+T3PKS	Alar crease	1	Sebaceous	0.0169491525424
+arylpolyene	Alar crease	2	Sebaceous	0.0338983050847
+siderophore	Alar crease	6	Sebaceous	0.101694915254
+redox-cofactor	Alar crease	2	Sebaceous	0.0338983050847
+multi-type	Alar crease	5	Sebaceous	0.0847457627119
+RRE-containing	Alar crease	5	Sebaceous	0.0847457627119
+RiPP-like	Alar crease	1	Sebaceous	0.0169491525424
+sactipeptide	Alar crease	2	Sebaceous	0.0338983050847
+NAPAA	Alar crease	5	Sebaceous	0.0847457627119
+NRPS-like	Alar crease	2	Sebaceous	0.0338983050847
+ectoine	Alar crease	3	Sebaceous	0.0508474576271
+lassopeptide	Alar crease	1	Sebaceous	0.0169491525424
+thiopeptide	Alar crease	1	Sebaceous	0.0169491525424
+terpene	Alar crease	11	Sebaceous	0.186440677966
+T1PKS	Alar crease	2	Sebaceous	0.0338983050847
+cyclic-lactone-autoinducer	Alar crease	1	Sebaceous	0.0169491525424
+NRPS	Alar crease	5	Sebaceous	0.0847457627119
+NRPS-like	Back	2	Sebaceous	0.0338983050847
+betalactone	Back	4	Sebaceous	0.0677966101695
+T3PKS	Back	5	Sebaceous	0.0847457627119
+arylpolyene	Back	1	Sebaceous	0.0169491525424
+siderophore	Back	6	Sebaceous	0.101694915254
+redox-cofactor	Back	1	Sebaceous	0.0169491525424
+multi-type	Back	3	Sebaceous	0.0508474576271
+lanthipeptide-class-ii	Back	1	Sebaceous	0.0169491525424
+lanthipeptide-class-iii	Back	1	Sebaceous	0.0169491525424
+RRE-containing	Back	4	Sebaceous	0.0677966101695
+NAPAA	Back	6	Sebaceous	0.101694915254
+ectoine	Back	5	Sebaceous	0.0847457627119
+RiPP-like	Back	2	Sebaceous	0.0338983050847
+terpene	Back	12	Sebaceous	0.203389830508
+T1PKS	Back	3	Sebaceous	0.0508474576271
+cyclic-lactone-autoinducer	Back	1	Sebaceous	0.0169491525424
+NRPS	Back	2	Sebaceous	0.0338983050847
+NRPS-like	Volar forearm	2	Moist	0.0266666666667
+betalactone	Volar forearm	2	Moist	0.0266666666667
+T3PKS	Volar forearm	2	Moist	0.0266666666667
+cyclic-lactone-autoinducer	Volar forearm	1	Moist	0.0133333333333
+thioamide-NRP	Volar forearm	1	Moist	0.0133333333333
+siderophore	Volar forearm	6	Moist	0.08
+redox-cofactor	Volar forearm	1	Moist	0.0133333333333
+multi-type	Volar forearm	10	Moist	0.133333333333
+lanthipeptide-class-iii	Volar forearm	2	Moist	0.0266666666667
+RRE-containing	Volar forearm	5	Moist	0.0666666666667
+RiPP-like	Volar forearm	1	Moist	0.0133333333333
+NAPAA	Volar forearm	6	Moist	0.08
+terpene	Volar forearm	12	Moist	0.16
+NAGGN	Volar forearm	1	Moist	0.0133333333333
+T2PKS	Volar forearm	1	Moist	0.0133333333333
+ectoine	Volar forearm	3	Moist	0.04
+T1PKS	Volar forearm	14	Moist	0.186666666667
+lanthipeptide-class-i	Volar forearm	3	Moist	0.04
+NRPS	Volar forearm	2	Moist	0.0266666666667
+NRPS-like	Antecubital fossa	3	Rarely Moist	0.0379746835443
+betalactone	Antecubital fossa	5	Rarely Moist	0.0632911392405
+T3PKS	Antecubital fossa	4	Rarely Moist	0.0506329113924
+epipeptide	Antecubital fossa	1	Rarely Moist	0.0126582278481
+siderophore	Antecubital fossa	6	Rarely Moist	0.0759493670886
+redox-cofactor	Antecubital fossa	1	Rarely Moist	0.0126582278481
+T1PKS	Antecubital fossa	3	Rarely Moist	0.0379746835443
+multi-type	Antecubital fossa	5	Rarely Moist	0.0632911392405
+lanthipeptide-class-ii	Antecubital fossa	1	Rarely Moist	0.0126582278481
+RRE-containing	Antecubital fossa	5	Rarely Moist	0.0632911392405
+RiPP-like	Antecubital fossa	4	Rarely Moist	0.0506329113924
+NAPAA	Antecubital fossa	8	Rarely Moist	0.101265822785
+terpene	Antecubital fossa	15	Rarely Moist	0.189873417722
+resorcinol	Antecubital fossa	1	Rarely Moist	0.0126582278481
+proteusin	Antecubital fossa	1	Rarely Moist	0.0126582278481
+ectoine	Antecubital fossa	5	Rarely Moist	0.0632911392405
+LAP	Antecubital fossa	1	Rarely Moist	0.0126582278481
+cyclic-lactone-autoinducer	Antecubital fossa	2	Rarely Moist	0.0253164556962
+NRPS	Antecubital fossa	8	Rarely Moist	0.101265822785
+T3PKS	Umbilicus	3	Moist	0.111111111111
+siderophore	Umbilicus	2	Moist	0.0740740740741
+T1PKS	Umbilicus	2	Moist	0.0740740740741
+cyclic-lactone-autoinducer	Umbilicus	2	Moist	0.0740740740741
+lanthipeptide-class-i	Umbilicus	1	Moist	0.037037037037
+RiPP-like	Umbilicus	1	Moist	0.037037037037
+NAPAA	Umbilicus	3	Moist	0.111111111111
+terpene	Umbilicus	4	Moist	0.148148148148
+lassopeptide	Umbilicus	1	Moist	0.037037037037
+lanthipeptide-class-iv	Umbilicus	1	Moist	0.037037037037
+ectoine	Umbilicus	2	Moist	0.0740740740741
+LAP	Umbilicus	1	Moist	0.037037037037
+multi-type	Umbilicus	2	Moist	0.0740740740741
+NRPS	Umbilicus	2	Moist	0.0740740740741

@@ -1,0 +1,1 @@
+python /home/conda_envs/BiG-MAP/BiG-MAP/src/BiG-MAP.family.py -D /researchdrive_files/Projects/Skin_Bioassay_Paper/antismash/ -O BiG-MAP_Family_Results/ -b /home/conda_envs/BiG-SCAPE_env/BiG-SCAPE_with_MiBIG3/BiG-SCAPE/ -pf /home/salamzade/databases/Pfam/ -p 50 -c 0.3
