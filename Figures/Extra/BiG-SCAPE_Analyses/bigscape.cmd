@@ -1,0 +1,1 @@
+python /home/conda_envs/BiG-SCAPE_env/BiG-SCAPE_with_MiBIG3/BiG-SCAPE/bigscape.py -i /researchdrive_files/Projects/Skin_Bioassay_Paper/antismash/ -o BiG-SCAPE_Results_V2  --pfam_dir /home/salamzade/databases/Pfam/ --mibig -c 30 --include_singletons --mix

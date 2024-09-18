@@ -1,0 +1,622 @@
+SMGC_1	g__F0040	s__
+SMGC_2	g__Ruminococcus_D	s__Ruminococcus_D bicirculans
+SMGC_3	g__Kocuria	s__Kocuria salsicia
+SMGC_4	g__Gemmiger	s__Gemmiger formicilis
+SMGC_5	g__Porphyromonas	s__
+SMGC_6	g__Agathobacter	s__Agathobacter rectale
+SMGC_7	g__Corynebacterium	s__
+SMGC_8	g__Jeotgalicoccus	s__Jeotgalicoccus marinus
+SMGC_9	g__Corynebacterium	s__Corynebacterium riegelii
+SMGC_10	g__Anaerococcus	s__
+SMGC_11	g__Staphylococcus	s__
+SMGC_12	g__Lagierella	s__
+SMGC_13	g__Peptoniphilus_C	s__
+SMGC_14	g__Anaerococcus	s__
+SMGC_15	g__Anaerococcus	s__
+SMGC_16	g__Tessaracoccus_A	s__
+SMGC_17	g__Ignavigranum	s__Ignavigranum ruoffiae
+SMGC_18	g__Corynebacterium	s__Corynebacterium frankenforstense
+SMGC_19	g__Corynebacterium	s__Corynebacterium otitidis
+SMGC_20	g__Staphylococcus	s__Staphylococcus capitis
+SMGC_21	g__Acinetobacter	s__Acinetobacter baumannii
+SMGC_22	g__	s__
+SMGC_23	g__Corynebacterium	s__Corynebacterium sp000755185
+SMGC_24	g__Rothia	s__
+SMGC_25	g__Facklamia	s__Facklamia languida
+SMGC_26	g__Corynebacterium	s__
+SMGC_27	g__Stenotrophomonas	s__Stenotrophomonas maltophilia_A
+SMGC_28	g__Cutibacterium	s__Cutibacterium humerusii
+SMGC_29	g__Anaerococcus	s__Anaerococcus sp002359915
+SMGC_30	g__Anaerococcus	s__Anaerococcus octavius
+SMGC_31	g__Peptoniphilus_A	s__Peptoniphilus_A rhinitidis
+SMGC_32	g__Corynebacterium	s__
+SMGC_33	g__Dermabacter	s__Dermabacter hominis
+SMGC_34	g__Brevibacterium	s__
+SMGC_35	g__Corynebacterium	s__Corynebacterium sp001812805
+SMGC_36	g__Cutibacterium	s__Cutibacterium namnetense
+SMGC_37	g__Paracoccus	s__Paracoccus sp000967825
+SMGC_38	g__Corynebacterium	s__
+SMGC_39	g__Nesterenkonia	s__
+SMGC_40	g__Pseudoclavibacter	s__Pseudoclavibacter alba
+SMGC_41	g__Serratia	s__Serratia marcescens_I
+SMGC_42	g__Rothia	s__
+SMGC_43	g__Corynebacterium	s__Corynebacterium matruchotii
+SMGC_44	g__Pauljensenia	s__Pauljensenia sp000185285
+SMGC_45	g__Veillonella	s__Veillonella parvula_A
+SMGC_46	g__Facklamia_A	s__Facklamia_A ignava
+SMGC_47	g__Mogibacterium	s__
+SMGC_48	g__Campylobacter_B	s__Campylobacter_B ureolyticus_A
+SMGC_49	g__Porphyromonas	s__Porphyromonas somerae
+SMGC_50	g__S5-A14a	s__S5-A14a sp000758905
+SMGC_51	g__Corynebacterium	s__Corynebacterium coyleae
+SMGC_52	g__Prevotella	s__
+SMGC_53	g__Acinetobacter	s__Acinetobacter johnsonii
+SMGC_54	g__Acinetobacter	s__
+SMGC_55	g__Streptococcus	s__
+SMGC_56	g__Corynebacterium	s__Corynebacterium afermentans
+SMGC_57	g__Staphylococcus	s__Staphylococcus auricularis
+SMGC_58	g__Aeromonas	s__Aeromonas rivipollensis
+SMGC_59	g__Pseudomonas_E	s__
+SMGC_60	g__Gordonia	s__Gordonia sp002009645
+SMGC_61	g__Mycolicibacterium	s__Mycolicibacterium bacteremicum
+SMGC_62	g__Rhodococcus	s__Rhodococcus kroppenstedtii
+SMGC_63	g__Kocuria	s__Kocuria sp002295155
+SMGC_64	g__Paracoccus	s__Paracoccus sphaerophysae
+SMGC_65	g__Pantoea	s__Pantoea agglomerans
+SMGC_66	g__Kocuria	s__Kocuria palustris
+SMGC_67	g__Bacillus_A	s__Bacillus_A thuringiensis_S
+SMGC_68	g__Achromobacter	s__Achromobacter sp002331005
+SMGC_69	g__Arsenicicoccus	s__Arsenicicoccus bolidensis
+SMGC_70	g__Winkia	s__Winkia sp002849225
+SMGC_71	g__Bacillus_C	s__Bacillus_C flexus
+SMGC_72	g__Brevibacillus_B	s__Brevibacillus_B laterosporus
+SMGC_73	g__Brevibacterium	s__Brevibacterium ravenspurgense
+SMGC_74	g__Brachybacterium	s__
+SMGC_75	g__Corynebacterium	s__Corynebacterium afermentans
+SMGC_76	g__Corynebacterium	s__
+SMGC_77	g__Corynebacterium	s__Corynebacterium aurimucosum_C
+SMGC_78	g__Corynebacterium	s__Corynebacterium singulare
+SMGC_79	g__Corynebacterium	s__Corynebacterium hadale
+SMGC_80	g__Cellulomonas	s__
+SMGC_81	g__Corynebacterium	s__Corynebacterium imitans
+SMGC_82	g__Corynebacterium	s__Corynebacterium sp001807485
+SMGC_83	g__Corynebacterium	s__
+SMGC_84	g__Corynebacterium	s__
+SMGC_85	g__Corynebacterium	s__Corynebacterium minutissimum
+SMGC_86	g__Corynebacterium	s__Corynebacterium propinquum
+SMGC_87	g__Corynebacterium	s__Corynebacterium pseudodiphtheriticum
+SMGC_88	g__Corynebacterium	s__Corynebacterium simulans
+SMGC_89	g__Corynebacterium	s__Corynebacterium striatum
+SMGC_90	g__Corynebacterium	s__Corynebacterium pseudogenitalium
+SMGC_91	g__Corynebacterium	s__
+SMGC_92	g__Corynebacterium	s__
+SMGC_93	g__Corynebacterium	s__Corynebacterium freneyi
+SMGC_94	g__Dermabacter_A	s__Dermabacter_A vaginalis
+SMGC_95	g__	s__
+SMGC_96	g__Kocuria	s__Kocuria indica
+SMGC_97	g__Kocuria	s__Kocuria rhizophila_B
+SMGC_98	g__Lysinibacillus	s__Lysinibacillus fusiformis
+SMGC_99	g__Microbacterium	s__Microbacterium aurum
+SMGC_100	g__Macrococcus	s__Macrococcus epidermidis
+SMGC_101	g__Micrococcus	s__
+SMGC_102	g__Corynebacterium	s__
+SMGC_103	g__Lawsonella	s__
+SMGC_104	g__	s__
+SMGC_105	g__Aquabacterium	s__
+SMGC_106	g__Bergeyella	s__Bergeyella zoohelcum
+SMGC_107	g__	s__
+SMGC_108	g__Moraxella	s__
+SMGC_109	g__Streptococcus	s__Streptococcus canis
+SMGC_110	g__Moraxella	s__
+SMGC_111	g__Moraxella	s__
+SMGC_112	g__Branchiibius	s__
+SMGC_113	g__Lysobacter_B	s__
+SMGC_114	g__Granulicoccus	s__
+SMGC_115	g__Corynebacterium	s__Corynebacterium resistens
+SMGC_116	g__Agrobacterium	s__
+SMGC_117	g__Haematobacter	s__Haematobacter missouriensis
+SMGC_118	g__Pseudomonas	s__Pseudomonas aeruginosa
+SMGC_119	g__Xanthomonas_B	s__
+SMGC_120	g__Klebsiella	s__Klebsiella pneumoniae
+SMGC_121	g__Streptococcus	s__Streptococcus thermophilus
+SMGC_122	g__Corynebacterium	s__
+SMGC_123	g__Varibaculum	s__Varibaculum cambriense_B
+SMGC_124	g__Mobiluncus	s__
+SMGC_125	g__Peptoniphilus_A	s__Peptoniphilus_A lacrimalis
+SMGC_126	g__Trueperella	s__Trueperella bernardiae
+SMGC_127	g__Ezakiella	s__
+SMGC_128	g__Anaerococcus	s__
+SMGC_129	g__	s__
+SMGC_130	g__Brevibacterium	s__
+SMGC_131	g__Ezakiella	s__Ezakiella coagulans
+SMGC_132	g__Novosphingobium	s__
+SMGC_133	g__Pseudomonas_E	s__Pseudomonas_E putida
+SMGC_134	g__Acinetobacter	s__Acinetobacter ursingii
+SMGC_135	g__Comamonas	s__Comamonas terrigena
+SMGC_136	g__Comamonas_B	s__Comamonas_B testosteroni
+SMGC_137	g__Eisenbergiella	s__Eisenbergiella sp900066775
+SMGC_138	g__Dialister	s__Dialister invisus
+SMGC_139	g__CAG-83	s__CAG-83 sp000431575
+SMGC_140	g__Pseudomonas_E	s__Pseudomonas_E alcaligenes
+SMGC_141	g__Bdellovibrio	s__
+SMGC_142	g__Corynebacterium	s__Corynebacterium sp001815935
+SMGC_143	g__Cutibacterium	s__Cutibacterium granulosum
+SMGC_144	g__Erwinia	s__Erwinia sp002752575
+SMGC_145	g__Pseudomonas_E	s__Pseudomonas_E helleri
+SMGC_146	g__Anaerococcus	s__
+SMGC_147	g__Streptococcus	s__
+SMGC_148	g__Pseudomonas_E	s__Pseudomonas_E sp002741105
+SMGC_149	g__Acinetobacter	s__Acinetobacter soli
+SMGC_150	g__Sphingobacterium	s__Sphingobacterium sp001952815
+SMGC_151	g__Corynebacterium	s__Corynebacterium massiliense
+SMGC_152	g__Brevundimonas	s__
+SMGC_153	g__Arthrospira	s__Arthrospira maxima
+SMGC_154	g__Alloiococcus	s__Alloiococcus otitis
+SMGC_155	g__Corynebacterium	s__
+SMGC_156	g__QFNR01	s__
+SMGC_157	g__Corynebacterium	s__
+SMGC_158	g__Methyloversatilis	s__Methyloversatilis discipulorum_A
+SMGC_159	g__Micrococcus	s__Micrococcus luteus_A
+SMGC_160	g__Acinetobacter	s__Acinetobacter bereziniae
+SMGC_161	g__Varibaculum	s__Varibaculum sp900106855
+SMGC_162	g__Rothia	s__Rothia mucilaginosa
+SMGC_163	g__Streptococcus	s__
+SMGC_164	g__Corynebacterium	s__Corynebacterium pyruviciproducens
+SMGC_165	g__Pauljensenia	s__Pauljensenia radingae
+SMGC_166	g__Prevotella	s__Prevotella corporis
+SMGC_167	g__Porphyromonas	s__
+SMGC_168	g__Corynebacterium	s__Corynebacterium glyciniphilum
+SMGC_169	g__Corynebacterium	s__Corynebacterium variabile
+SMGC_170	g__Moraxella_A	s__Moraxella_A aerosaccus
+SMGC_171	g__Staphylococcus	s__Staphylococcus simulans
+SMGC_172	g__Alistipes	s__Alistipes putredinis
+SMGC_173	g__RC9	s__RC9 sp000431015
+SMGC_174	g__CAG-269	s__CAG-269 sp003525075
+SMGC_175	g__Gemmiger	s__Gemmiger sp003476825
+SMGC_176	g__UBA11524	s__UBA11524 sp000437595
+SMGC_177	g__Corynebacterium	s__
+SMGC_178	g__Corynebacterium	s__Corynebacterium vitaeruminis_A
+SMGC_179	g__Anaerococcus	s__
+SMGC_180	g__Porphyromonas	s__
+SMGC_181	g__Neisseria	s__Neisseria cinerea
+SMGC_182	g__Corynebacterium	s__Corynebacterium ureicelerivorans
+SMGC_183	g__Porphyromonas	s__Porphyromonas sp001808555
+SMGC_184	g__Actinomyces	s__Actinomyces viscosus
+SMGC_185	g__Streptococcus	s__
+SMGC_186	g__Dietzia	s__Dietzia maris
+SMGC_187	g__Brevundimonas	s__Brevundimonas nasdae
+SMGC_188	g__Porphyromonas	s__
+SMGC_189	g__Gordonia	s__Gordonia jacobaea
+SMGC_190	g__Streptococcus	s__
+SMGC_191	g__Aggregatibacter	s__Aggregatibacter sp000466335
+SMGC_192	g__Pantoea_B	s__Pantoea_B calida
+SMGC_193	g__Acinetobacter	s__Acinetobacter nosocomialis
+SMGC_194	g__Neisseria	s__Neisseria sp000186165
+SMGC_195	g__Gordonia	s__Gordonia paraffinivorans
+SMGC_196	g__Achromobacter	s__Achromobacter xylosoxidans
+SMGC_197	g__Corynebacterium	s__Corynebacterium appendicis
+SMGC_198	g__Moraxella	s__Moraxella catarrhalis
+SMGC_199	g__Pseudoglutamicibacter	s__Pseudoglutamicibacter cumminsii
+SMGC_200	g__Streptococcus	s__
+SMGC_201	g__Rothia	s__Rothia mucilaginosa
+SMGC_202	g__Peptoniphilus_C	s__Peptoniphilus_C coxii
+SMGC_203	g__Varibaculum	s__Varibaculum cambriense
+SMGC_204	g__Prevotella	s__Prevotella timonensis
+SMGC_205	g__Lactobacillus	s__Lactobacillus delbrueckii
+SMGC_206	g__Brevundimonas	s__
+SMGC_207	g__Microbacterium	s__Microbacterium sp001889265
+SMGC_208	g__Pseudomonas_E	s__Pseudomonas_E chengduensis
+SMGC_209	g__Brevundimonas	s__Brevundimonas sp003248925
+SMGC_210	g__Leuconostoc	s__Leuconostoc mesenteroides
+SMGC_211	g__Brevibacterium	s__
+SMGC_212	g__Corynebacterium	s__Corynebacterium accolens
+SMGC_213	g__Corynebacterium	s__
+SMGC_214	g__Bifidobacterium	s__Bifidobacterium lacrimalis
+SMGC_215	g__Porphyromonas	s__Porphyromonas bennonis
+SMGC_216	g__Conchiformibius	s__Conchiformibius steedae
+SMGC_217	g__Mycolicibacterium	s__Mycolicibacterium obuense
+SMGC_218	g__Lawsonella	s__Lawsonella clevelandensis_A
+SMGC_219	g__QFNR01	s__QFNR01 sp003248485
+SMGC_220	g__QFNR01	s__
+SMGC_221	g__Micrococcus	s__Micrococcus luteus
+SMGC_222	g__Moraxella	s__Moraxella nonliquefaciens
+SMGC_223	g__Microbacterium	s__
+SMGC_224	g__Microvirga	s__
+SMGC_225	g__Paenibacillus_B	s__
+SMGC_226	g__Cutibacterium	s__Cutibacterium avidum
+SMGC_227	g__Pantoea	s__Pantoea sp002389975
+SMGC_228	g__Paenibacillus	s__
+SMGC_229	g__Pseudomonas_B	s__Pseudomonas_B luteola
+SMGC_230	g__Pantoea	s__Pantoea sp002920175
+SMGC_231	g__Paenibacillus	s__Paenibacillus sp001426865
+SMGC_232	g__Caballeronia	s__Caballeronia zhejiangensis
+SMGC_233	g__Roseomonas	s__
+SMGC_234	g__Roseomonas	s__Roseomonas mucosa
+SMGC_235	g__Staphylococcus	s__Staphylococcus argenteus
+SMGC_236	g__Staphylococcus	s__Staphylococcus caprae
+SMGC_237	g__Staphylococcus	s__Staphylococcus cohnii
+SMGC_238	g__Streptococcus	s__Streptococcus cristatus
+SMGC_239	g__Sphingomonas	s__
+SMGC_240	g__Staphylococcus	s__Staphylococcus devriesei_A
+SMGC_241	g__Staphylococcus	s__Staphylococcus epidermidis
+SMGC_242	g__Staphylococcus	s__
+SMGC_243	g__Staphylococcus	s__Staphylococcus haemolyticus
+SMGC_244	g__Staphylococcus	s__Staphylococcus hominis
+SMGC_245	g__Staphylococcus	s__Staphylococcus lugdunensis
+SMGC_246	g__Sporosarcina_B	s__
+SMGC_247	g__Staphylococcus	s__Staphylococcus petrasii
+SMGC_248	g__Salinicoccus	s__Salinicoccus roseus
+SMGC_249	g__Lysobacter	s__
+SMGC_250	g__Methylobacterium	s__Methylobacterium brachiatum
+SMGC_251	g__Flavobacterium	s__
+SMGC_252	g__Bacteriovorax	s__
+SMGC_253	g__Hyphomonas	s__
+SMGC_254	g__Paracoccus	s__
+SMGC_255	g__Brevundimonas	s__
+SMGC_256	g__Corynebacterium	s__
+SMGC_257	g__Micrococcus	s__Micrococcus terreus
+SMGC_258	g__Paracoccus	s__Paracoccus sanguinis
+SMGC_259	g__Acinetobacter	s__
+SMGC_260	g__C7867-001	s__
+SMGC_261	g__Micrococcus	s__
+SMGC_262	g__Corynebacterium	s__
+SMGC_263	g__Corynebacterium	s__
+SMGC_264	g__Corynebacterium	s__Corynebacterium glaucum
+SMGC_265	g__Moraxella_A	s__Moraxella_A osloensis
+SMGC_266	g__Enterobacter	s__Enterobacter himalayensis
+SMGC_267	g__Klebsiella_A	s__Klebsiella_A grimontii
+SMGC_268	g__Microbacterium	s__
+SMGC_269	g__Pseudoclavibacter	s__
+SMGC_270	g__Corynebacterium	s__
+SMGC_271	g__Corynebacterium	s__
+SMGC_272	g__Corynebacterium	s__
+SMGC_273	g__Stenotrophomonas	s__Stenotrophomonas maltophilia_F
+SMGC_274	g__Propionimicrobium	s__
+SMGC_275	g__Corynebacterium	s__
+SMGC_276	g__Corynebacterium	s__
+SMGC_277	g__Corynebacterium	s__
+SMGC_278	g__	s__
+SMGC_279	g__Corynebacterium	s__
+SMGC_280	g__Brevibacterium	s__
+SMGC_281	g__Porphyromonas	s__
+SMGC_282	g__Mobiluncus	s__
+SMGC_283	g__Pelistega	s__Pelistega indica
+SMGC_284	g__Porphyromonas	s__Porphyromonas asaccharolytica
+SMGC_285	g__	s__
+SMGC_286	g__Staphylococcus	s__
+SMGC_287	g__Micrococcus	s__
+SMGC_288	g__Jeotgalicoccus	s__Jeotgalicoccus halophilus
+SMGC_289	g__Erwinia	s__
+SMGC_290	g__Nesterenkonia	s__
+SMGC_291	g__Auricoccus	s__Auricoccus indicus
+SMGC_292	g__Corynebacterium	s__Corynebacterium glucuronolyticum
+SMGC_293	g__Porphyromonas	s__
+SMGC_294	g__Corynebacterium	s__
+SMGC_295	g__Acinetobacter	s__Acinetobacter radioresistens
+SMGC_296	g__Acinetobacter	s__Acinetobacter pittii
+SMGC_297	g__Paracoccus	s__
+SMGC_298	g__Antricoccus	s__
+SMGC_299	g__Janibacter	s__
+SMGC_300	g__	s__
+SMGC_301	g__Corynebacterium	s__Corynebacterium sp900232865
+SMGC_302	g__Brevibacterium	s__Brevibacterium ihuae
+SMGC_303	g__Brevibacterium	s__Brevibacterium casei
+SMGC_304	g__Corynebacterium	s__
+SMGC_305	g__Corynebacterium	s__Corynebacterium aurimucosum_E
+SMGC_306	g__Moraxella_A	s__
+SMGC_307	g__DSL-40	s__
+SMGC_308	g__Tetrasphaera_A	s__
+SMGC_309	g__Fen-668	s__
+SMGC_310	g__	s__
+SMGC_311	g__OKQN01	s__OKQN01 sp900289115
+SMGC_312	g__Arsenicicoccus	s__
+SMGC_313	g__	s__
+SMGC_314	g__Brachybacterium	s__Brachybacterium paraconglomeratum
+SMGC_315	g__Dietzia	s__
+SMGC_316	g__Brevibacterium	s__
+SMGC_317	g__Micrococcus	s__
+SMGC_318	g__Janibacter	s__
+SMGC_319	g__Lawsonella	s__Lawsonella clevelandensis
+SMGC_320	g__Anaerococcus	s__
+SMGC_321	g__Prevotella	s__Prevotella buccalis
+SMGC_322	g__Basfia	s__Basfia bettyae
+SMGC_323	g__Corynebacterium	s__Corynebacterium kroppenstedtii_B
+SMGC_324	g__Brevundimonas	s__Brevundimonas sp003248455
+SMGC_325	g__Haematobacter	s__Haematobacter massiliensis
+SMGC_326	g__Brachybacterium	s__
+SMGC_327	g__Micrococcus	s__
+SMGC_328	g__Kocuria	s__
+SMGC_329	g__Brevibacterium	s__
+SMGC_330	g__Anaerococcus	s__
+SMGC_331	g__Peptoniphilus_A	s__
+SMGC_332	g__Lawsonella	s__
+SMGC_333	g__Pararheinheimera	s__
+SMGC_334	g__Streptococcus	s__Streptococcus mitis_S
+SMGC_335	g__Citrobacter_B	s__Citrobacter_B koseri
+SMGC_336	g__Streptococcus	s__Streptococcus mitis_F
+SMGC_337	g__Corynebacterium	s__
+SMGC_338	g__Corynebacterium	s__Corynebacterium amycolatum
+SMGC_339	g__Haemophilus_D	s__Haemophilus_D sp001815355
+SMGC_340	g__Escherichia	s__Escherichia coli
+SMGC_341	g__Enterococcus	s__Enterococcus faecalis
+SMGC_342	g__Corynebacterium	s__Corynebacterium minutissimum_A
+SMGC_343	g__Corynebacterium	s__Corynebacterium kefirresidentii
+SMGC_344	g__	s__
+SMGC_345	g__Cutibacterium	s__Cutibacterium acnes
+SMGC_346	g__Pseudomonas_E	s__
+SMGC_347	g__Prevotella	s__Prevotella bivia
+SMGC_348	g__Acidaminococcus	s__Acidaminococcus intestini
+SMGC_349	g__Bacteroides	s__Bacteroides uniformis
+SMGC_350	g__Bacteroides_B	s__Bacteroides_B massiliensis
+SMGC_351	g__Bacteroides	s__Bacteroides xylanisolvens
+SMGC_352	g__Megasphaera	s__Megasphaera massiliensis
+SMGC_353	g__Staphylococcus	s__Staphylococcus pettenkoferi
+SMGC_354	g__Staphylococcus	s__Staphylococcus aureus
+SMGC_355	g__Sporosarcina_C	s__
+SMGC_356	g__Staphylococcus	s__Staphylococcus warneri
+SMGC_357	g__Staphylococcus	s__Staphylococcus warneri_A
+SMGC_358	g__Pseudomonas_E	s__Pseudomonas_E oleovorans
+SMGC_359	g__Anaerococcus	s__
+SMGC_360	g__Corynebacterium	s__
+SMGC_361	g__Pseudomonas_E	s__Pseudomonas_E sp002742565
+SMGC_362	g__Corynebacterium	s__
+SMGC_363	g__Anaerococcus	s__Anaerococcus sp900128425
+SMGC_364	g__Nesterenkonia	s__
+SMGC_365	g__Streptococcus	s__Streptococcus agalactiae
+SMGC_366	g__Rothia	s__Rothia sp001808955
+SMGC_367	g__F0040	s__
+SMGC_368	g__Nesterenkonia	s__
+SMGC_369	g__Rothia	s__Rothia xyli
+SMGC_370	g__Acidocella	s__
+SMGC_371	g__Pauljensenia	s__Pauljensenia sp000411415
+SMGC_372	g__Prevotella	s__Prevotella melaninogenica
+SMGC_373	g__Abiotrophia	s__Abiotrophia defectiva
+SMGC_374	g__Chryseobacterium_B	s__Chryseobacterium_B sp002391865
+SMGC_375	g__Levyella	s__Levyella massiliensis
+SMGC_376	g__Propionimicrobium	s__Propionimicrobium lymphophilum
+SMGC_377	g__Peptoniphilus_B	s__Peptoniphilus_B duerdenii
+SMGC_378	g__Peptoniphilus_C	s__Peptoniphilus_C sp900088125
+SMGC_379	g__Jonquetella	s__Jonquetella anthropi
+SMGC_380	g__Actinotignum	s__Actinotignum schaalii_A
+SMGC_381	g__Pseudomonas	s__Pseudomonas nitroreducens_B
+SMGC_382	g__Fenollaria	s__
+SMGC_383	g__Streptococcus	s__Streptococcus sanguinis
+SMGC_384	g__Brevundimonas	s__
+SMGC_385	g__Fenollaria	s__
+SMGC_386	g__Pseudoxanthomonas_A	s__
+SMGC_387	g__Corynebacterium	s__
+SMGC_388	g__Pseudomonas	s__Pseudomonas nitroreducens
+SMGC_389	g__Lactobacillus	s__Lactobacillus iners
+SMGC_390	g__Agrobacterium	s__Agrobacterium pusense
+SMGC_391	g__Lautropia	s__
+SMGC_392	g__Mycolicibacterium	s__Mycolicibacterium mucogenicum_A
+SMGC_393	g__Chryseobacterium	s__Chryseobacterium joostei
+SMGC_394	g__Rhodococcus	s__Rhodococcus fascians
+SMGC_395	g__Corynebacterium	s__Corynebacterium sp001767255
+SMGC_396	g__Pararheinheimera	s__Pararheinheimera sp001275035
+SMGC_397	g__Sphingobacterium	s__Sphingobacterium spiritivorum
+SMGC_398	g__Empedobacter	s__Empedobacter falsenii
+SMGC_399	g__Corynebacterium	s__
+SMGC_400	g__Lactococcus	s__Lactococcus lactis
+SMGC_401	g__	s__
+SMGC_402	g__Gordonia	s__Gordonia otitidis
+SMGC_403	g__Rothia	s__Rothia sp001683935
+SMGC_404	g__UBA1936	s__
+SMGC_405	g__Prevotella	s__Prevotella denticola
+SMGC_406	g__Aquabacterium	s__
+SMGC_407	g__Pseudomonas_O	s__
+SMGC_408	g__Prevotella	s__Prevotella nigrescens
+SMGC_409	g__Serratia	s__Serratia liquefaciens
+SMGC_410	g__Ochrobactrum_A	s__Ochrobactrum_A pituitosum
+SMGC_411	g__Rhodoferax	s__
+SMGC_412	g__Porphyromonas	s__Porphyromonas cangingivalis
+SMGC_413	g__Deinococcus	s__
+SMGC_414	g__Deinococcus	s__
+SMGC_415	g__Streptococcus	s__Streptococcus parasanguinis_B
+SMGC_416	g__Lautropia	s__Lautropia mirabilis
+SMGC_417	g__Helcococcus	s__
+SMGC_418	g__Peptoniphilus_A	s__Peptoniphilus_A grossensis_B
+SMGC_419	g__Olegusella	s__Olegusella massiliensis
+SMGC_420	g__Brachybacterium	s__Brachybacterium sp900258505
+SMGC_421	g__Weeksella	s__Weeksella virosa
+SMGC_422	g__	s__
+SMGC_423	g__Corynebacterium	s__Corynebacterium tuscaniense
+SMGC_424	g__Prevotella	s__
+SMGC_425	g__W5053	s__
+SMGC_426	g__Oligella	s__Oligella urethralis
+SMGC_427	g__Peptoniphilus_A	s__Peptoniphilus_A harei_A
+SMGC_428	g__Bifidobacterium	s__Bifidobacterium vaginale_G
+SMGC_429	g__Dialister	s__
+SMGC_430	g__	s__
+SMGC_431	g__Corynebacterium	s__
+SMGC_432	g__Facklamia	s__Facklamia hominis
+SMGC_433	g__Stenotrophomonas	s__Stenotrophomonas maltophilia_AJ
+SMGC_434	g__Staphylococcus	s__Staphylococcus saprophyticus
+SMGC_435	g__Negativicoccus	s__
+SMGC_436	g__Finegoldia	s__Finegoldia magna_F
+SMGC_437	g__Eremococcus	s__
+SMGC_438	g__Helcobacillus	s__
+SMGC_439	g__Brevibacterium	s__Brevibacterium luteolum
+SMGC_440	g__Prevotella	s__Prevotella sp000758925
+SMGC_441	g__28L	s__28L sp002892445
+SMGC_442	g__Porphyromonas	s__Porphyromonas gulae
+SMGC_443	g__Haematomicrobium	s__Haematomicrobium sanguinis
+SMGC_444	g__Prevotella	s__
+SMGC_445	g__Mobiluncus	s__Mobiluncus mulieris
+SMGC_446	g__KA00274	s__
+SMGC_447	g__Prevotella	s__Prevotella amnii
+SMGC_448	g__Fannyhessea	s__
+SMGC_449	g__Aeromicrobium	s__
+SMGC_450	g__UBA1103	s__
+SMGC_451	g__Pseudomonas_E	s__Pseudomonas_E koreensis_C
+SMGC_452	g__Acinetobacter	s__Acinetobacter sp002934695
+SMGC_453	g__Pseudomonas_E	s__Pseudomonas_E sp002966775
+SMGC_454	g__Nesterenkonia	s__Nesterenkonia massiliensis
+SMGC_455	g__Haemophilus_D	s__
+SMGC_456	g__Enterococcus_D	s__Enterococcus_D sp002850555
+SMGC_457	g__Bacillus	s__Bacillus paralicheniformis
+SMGC_458	g__Exiguobacterium	s__
+SMGC_459	g__Micrococcus	s__Micrococcus lylae
+SMGC_460	g__Mycobacterium	s__Mycobacterium gordonae_B
+SMGC_461	g__Pseudonocardia	s__
+SMGC_462	g__Nesterenkonia	s__
+SMGC_463	g__Phenylobacterium	s__
+SMGC_464	g__Streptococcus	s__Streptococcus oralis_S
+SMGC_465	g__Methylobacterium	s__Methylobacterium organophilum
+SMGC_466	g__Staphylococcus	s__Staphylococcus schleiferi
+SMGC_467	g__Haemophilus_D	s__Haemophilus_D parainfluenzae
+SMGC_468	g__	s__
+SMGC_469	g__Micrococcus	s__
+SMGC_470	g__Corynebacterium	s__
+SMGC_471	g__Sphingomonas	s__
+SMGC_472	g__Fusicatenibacter	s__Fusicatenibacter saccharivorans
+SMGC_473	g__Porphyromonas	s__Porphyromonas somerae_A
+SMGC_474	g__Leuconostoc	s__
+SMGC_475	g__Micrococcus	s__
+SMGC_476	g__Saccharimonas	s__
+SMGC_477	g__UBA6286	s__UBA6286 sp002438305
+SMGC_478	g__TM7x	s__
+SMGC_479	g__F0040	s__
+SMGC_480	g__Luteimonas	s__
+SMGC_481	g__Actinomyces	s__Actinomyces sp000220835
+SMGC_482	g__Stenotrophomonas	s__Stenotrophomonas maltophilia_N
+SMGC_483	g__Streptococcus	s__Streptococcus mutans
+SMGC_484	g__Psychrobacter	s__Psychrobacter sp000213615
+SMGC_485	g__Pauljensenia	s__Pauljensenia odontolyticus_A
+SMGC_486	g__F0332	s__F0332 sp000466165
+SMGC_487	g__Gordonia	s__Gordonia bronchialis
+SMGC_488	g__Rothia	s__Rothia kristinae
+SMGC_489	g__Haemophilus	s__Haemophilus sp002998595
+SMGC_490	g__Rothia	s__Rothia dentocariosa
+SMGC_491	g__Granulicatella	s__Granulicatella adiacens
+SMGC_492	g__Actinomyces	s__Actinomyces massiliensis
+SMGC_493	g__	s__
+SMGC_494	g__Stenotrophomonas	s__Stenotrophomonas maltophilia
+SMGC_495	g__Psychrobacter	s__Psychrobacter sp001652315
+SMGC_496	g__Acinetobacter	s__Acinetobacter fasciculus
+SMGC_497	g__Stenotrophomonas	s__
+SMGC_498	g__Anaerococcus	s__
+SMGC_499	g__Anaerococcus	s__
+SMGC_500	g__Anaerococcus	s__
+SMGC_501	g__Salinicoccus	s__Salinicoccus qingdaonensis
+SMGC_502	g__Faecalibacterium	s__Faecalibacterium prausnitzii_G
+SMGC_503	g__Basfia	s__
+SMGC_504	g__Blautia_A	s__Blautia_A wexlerae
+SMGC_505	g__Gulosibacter	s__
+SMGC_506	g__Xanthomonas	s__Xanthomonas campestris
+SMGC_507	g__Corynebacterium	s__Corynebacterium jeikeium_A
+SMGC_508	g__Ruminococcus_E	s__Ruminococcus_E bromii_B
+SMGC_509	g__Micrococcus	s__
+SMGC_510	g__CAG-217	s__CAG-217 sp000436335
+SMGC_511	g__Bacteroides_B	s__Bacteroides_B dorei
+SMGC_512	g__Sphingomonas	s__Sphingomonas sp000980895
+SMGC_513	g__Alistipes	s__Alistipes finegoldii
+SMGC_514	g__Bifidobacterium	s__Bifidobacterium vaginale_A
+SMGC_515	g__Streptococcus	s__Streptococcus pseudopneumoniae_O
+SMGC_516	g__QFNR01	s__
+SMGC_517	g__28L	s__28L sp000177555
+SMGC_518	g__Massilia	s__Massilia alkalitolerans
+SMGC_519	g__Neorhizobium	s__
+SMGC_520	g__Sphingobium	s__Sphingobium yanoikuyae
+SMGC_521	g__Pantoea	s__Pantoea septica
+SMGC_522	g__Lactobacillus	s__Lactobacillus gasseri
+SMGC_523	g__Corynebacterium	s__
+SMGC_524	g__Sphingomonas	s__
+SMGC_525	g__Pseudoglutamicibacter	s__Pseudoglutamicibacter albus
+SMGC_526	g__Fastidiosipila	s__Fastidiosipila sanguinis
+SMGC_527	g__Bifidobacterium	s__Bifidobacterium vaginale
+SMGC_528	g__Paracoccus	s__Paracoccus yeei
+SMGC_529	g__	s__
+SMGC_530	g__Cloacibacterium	s__
+SMGC_531	g__Corynebacterium	s__
+SMGC_532	g__Staphylococcus	s__Staphylococcus simulans_B
+SMGC_533	g__COE1	s__COE1 sp000403215
+SMGC_534	g__Streptococcus	s__Streptococcus gordonii
+SMGC_535	g__Mucispirillum	s__Mucispirillum schaedleri
+SMGC_536	g__Corynebacterium	s__
+SMGC_537	g__Aliicoccus	s__Aliicoccus persicus
+SMGC_538	g__Lactobacillus	s__Lactobacillus crispatus
+SMGC_539	g__Rothia	s__Rothia mucilaginosa
+SMGC_540	g__Streptococcus	s__
+SMGC_541	g__Streptococcus	s__Streptococcus mitis_Y
+SMGC_542	g__Prevotella	s__Prevotella copri
+SMGC_543	g__Rothia	s__
+SMGC_544	g__Neisseria	s__Neisseria sp000227275
+SMGC_545	g__Dermacoccus	s__Dermacoccus nishinomiyaensis
+SMGC_546	g__Pedobacter	s__
+SMGC_547	g__Flavobacterium	s__
+SMGC_548	g__Flavobacterium	s__
+SMGC_549	g__	s__
+SMGC_550	g__	s__
+SMGC_551	g__Deinococcus	s__
+SMGC_552	g__Leuconostoc	s__Leuconostoc lactis_B
+SMGC_553	g__Exiguobacterium_A	s__Exiguobacterium_A indicum
+SMGC_554	g__Kytococcus	s__
+SMGC_555	g__Neisseria	s__Neisseria subflava_A
+SMGC_556	g__Corynebacterium	s__Corynebacterium sp001807205
+SMGC_557	g__Hyphomicrobium	s__
+SMGC_558	g__Brevundimonas	s__
+SMGC_559	g__Pseudomonas_E	s__Pseudomonas_E fulva
+SMGC_560	g__Deinococcus	s__Deinococcus wulumuqiensis
+SMGC_561	g__F0422	s__
+SMGC_562	g__Micrococcus	s__
+SMGC_563	g__Corynebacterium	s__Corynebacterium sp001831515
+SMGC_564	g__Microbacterium	s__
+SMGC_565	g__Deinococcus	s__
+SMGC_566	g__Saccharimonas	s__
+SMGC_567	g__Chryseobacterium_D	s__Chryseobacterium_D taklimakanense
+SMGC_568	g__Pauljensenia	s__Pauljensenia hongkongensis
+SMGC_569	g__Kurthia	s__Kurthia sp001534765
+SMGC_570	g__Williamsia_A	s__
+SMGC_571	g__Aeromonas	s__Aeromonas caviae
+SMGC_572	g__Shewanella	s__Shewanella bicestrii
+SMGC_573	g__Rothia	s__Rothia aeria
+SMGC_574	g__Parabacteroides	s__Parabacteroides distasonis
+SMGC_575	g__Bacteroides	s__Bacteroides fragilis
+SMGC_576	g__CAG-521	s__
+SMGC_577	g__Roseburia	s__Roseburia intestinalis
+SMGC_578	g__Ruminococcus_C	s__Ruminococcus_C sp000433635
+SMGC_579	g__F0422	s__F0422 sp001553345
+SMGC_580	g__Pseudopropionibacterium	s__
+SMGC_581	g__Bacteroides	s__
+SMGC_582	g__Faecalicatena	s__Faecalicatena torques
+SMGC_583	g__Mycobacterium	s__Mycobacterium gordonae
+SMGC_584	g__Agrobacterium	s__
+SMGC_585	g__Flavobacterium	s__
+SMGC_586	g__UBA2020	s__
+SMGC_587	g__Microbacterium	s__
+SMGC_588	g__Micavibrio_B	s__
+SMGC_589	g__Pseudomonas_E	s__
+SMGC_590	g__Kytococcus	s__Kytococcus sedentarius
+SMGC_591	g__Corynebacterium	s__Corynebacterium falsenii_A
+SMGC_592	g__Stenotrophomonas	s__Stenotrophomonas sp003248565
+SMGC_593	g__Shewanella	s__Shewanella xiamenensis
+SMGC_594	g__Comamonas	s__Comamonas aquatica
+SMGC_595	g__Massilia	s__
+SMGC_596	g__Acinetobacter	s__Acinetobacter schindleri
+SMGC_597	g__Pseudomonas_E	s__Pseudomonas_E sp001320525
+SMGC_598	g__Pseudoxanthomonas_B	s__Pseudoxanthomonas_B suwonensis
+SMGC_599	g__	s__
+SMGC_600	g__Streptococcus	s__Streptococcus dysgalactiae
+SMGC_601	g__Corynebacterium	s__
+SMGC_602	g__Fannyhessea	s__Fannyhessea vaginae
+SMGC_603	g__Anaerococcus	s__Anaerococcus prevotii_A
+SMGC_604	g__DNF00809	s__DNF00809 sp001552935
+SMGC_605	g__Porphyromonas	s__
+SMGC_606	g__Dolosigranulum	s__Dolosigranulum pigrum
+SMGC_607	g__DSL-40	s__
+SMGC_608	g__Marmoricola	s__
+SMGC_609	g__Pseudomonas_E	s__Pseudomonas_E weihenstephanensis
+SMGC_610	g__Corynebacterium	s__Corynebacterium glutamicum
+SMGC_611	g__Aerococcus	s__Aerococcus urinaeequi
+SMGC_612	g__Staphylococcus	s__Staphylococcus xylosus
+SMGC_613	g__Staphylococcus_A	s__Staphylococcus_A sciuri
+SMGC_614	g__Corynebacterium	s__Corynebacterium casei
+SMGC_615	g__Bartonella	s__
+SMGC_616	g__Corynebacterium	s__
+SMGC_617	g__Corynebacterium	s__
+SMGC_618	g__Staphylococcus	s__Staphylococcus succinus
+SMGC_619	g__Corynebacterium	s__Corynebacterium genitalium
+SMGC_620	g__Acinetobacter	s__Acinetobacter parvus
+SMGC_621	g__Porphyromonas	s__
+SMGC_622	g__Finegoldia	s__Finegoldia magna_H
