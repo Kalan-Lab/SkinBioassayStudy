@@ -1,17 +1,17 @@
 library(tidyverse)
 library(dplyr)
-install.packages("extraoperators")
+#install.packages("extraoperators")
 library(extraoperators)
 library(ggplot2)
 library(readxl)
 
 #import bioassay raw data (de-duplicated)
-bioassay_data <- read.csv("~/Documents/GitHub/Kalan_Lab/scripts/unguyen2/bioassay_data.csv")
+bioassay_data <- read.csv("/Users/unguyen2/Documents/GitHub/Kalan_Lab/SkinBioassayStudy/Figures/Final/FigureS5/Data/bioassay_data.csv")
 #bioassay data with ID
-complete_skin_bioassay_isolate_list <- read_excel("~/Documents/GitHub/Kalan_Lab/scripts/unguyen2/complete_skin_bioassay_isolate_list.xlsx", 
+complete_skin_bioassay_isolate_list <- read_excel("/Users/unguyen2/Documents/GitHub/Kalan_Lab/SkinBioassayStudy/Figures/Final/FigureS5/Data/complete_skin_bioassay_isolate_list_092922.xlsx", 
                                                   sheet = "complete_skin_bioassay_isolate_")
 #strains for paper
-strain_paper <- read_excel("~/Documents/GitHub/Kalan_Lab/scripts/unguyen2/bioassay_data/complete_skin_bioassay_isolate_list.xlsx", 
+strain_paper <- read_excel("/Users/unguyen2/Documents/GitHub/Kalan_Lab/SkinBioassayStudy/Figures/Final/FigureS5/Data/complete_skin_bioassay_isolate_list_092922.xlsx", 
                            sheet = "internal - assembly & antismash")
 #select strains for paper (dereplicated)
 bioassay_paper <- subset(strain_paper, strain_paper$`Representative following Dereplication at 99% ANI` !="No")
@@ -22,8 +22,8 @@ new <- merge(bioassay_data, complete, by="Strain_ID")
 new_1 <- new[!is.na(new$Genus),]
 #export dataset 
 #this is the de-duplicated and contains strains with ID
-library(writexl)
-write_xlsx(new_1, path = "~/Documents/bioassay_data_new.xlsx")
+#library(writexl)
+#write_xlsx(new_1, path = "~/Documents/bioassay_data_new.xlsx")
 
 #subset data with sequenced genome
 bioassay_genome <- subset(new_1, new_1$`genome sequenced (Y/N)` !="N")
