@@ -89,7 +89,7 @@ pathogens <- c("Staphylococcus aureus (MRSA) - PID40",
                "Aspergillus flavus - PID14")
 
 colnames(wide.data.upset)  <- pathogens
-wide.data.upset %>% print(n = nrow(wide.data.upset))
+#wide.data.upset %>% print(n = nrow(wide.data.upset))
 
 #plotting only fungi
 upset_input_fungi <- wide.data.upset %>% 
@@ -108,12 +108,6 @@ colnames(upset_input_fungi)  <- fungi
 
 #making upset plot without color
 library(ComplexUpset)
-upset(upset_input, pathogens,
-      name = "Fungal Pathogen Groupings", 
-      min_size = 1, 
-      themes = upset_modify_themes(theme(axis.text.x = element_text(angle = 90))),
-      width_ratio = 0.1) + 
-  labs(title = "Skin isolates exhibiting antifungal activities")
 
 #import updated, dereplicated strain list 
 row_annotation <- read.csv("/Users/unguyen2/Documents/GitHub/Kalan_Lab/SkinBioassayStudy/Figures/Final/FigureS5/Data/row_annotation.csv")
