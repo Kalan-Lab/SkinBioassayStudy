@@ -10,7 +10,7 @@ library(RColorBrewer)
 library(pivottabler)
 library(reshape2)
 
-setwd(dir = "/Users/liztown/Documents/KalanLab/Papers/SkinBioassay")
+setwd(dir = "SkinBioassayStudy/Figures/Final/FigureS2")
 
 # Prevelence of antiseptic genes in healthy skin metagenomes 
 trim <- function (x) gsub("^\\s+|\\s+$", "", x) # remove leading and trailing white spaces from cells 
