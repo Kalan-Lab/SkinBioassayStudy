@@ -10,7 +10,7 @@ library(RColorBrewer)
 library(pivottabler)
 library(reshape2)
 
-setwd(dir = "SkinBioassayStudy/Figures/Final/FigureS2")
+setwd(dir = "/Kalan-Lab/SkinBioassayStudy/Figures/Final/FigureS2")
 
 # Prevelence of antiseptic genes in healthy skin metagenomes 
 trim <- function (x) gsub("^\\s+|\\s+$", "", x) # remove leading and trailing white spaces from cells 
@@ -173,6 +173,7 @@ noEfflux <- noEfflux %>% mutate(AMRclass = case_when(DrugClass == "aminocoumarin
 
 ISOResults<- rbind(noEfflux, Efflux)    
 ISOResults.FIN.df <- merge(ISOResults, DeIsoCount,by ="Species", all = T)
+ISOResults.FIN.df <-subset.data.frame(ISOResults.FIN.df, !grepl('vanY|vanX', Best_Hit_ARO))
 
 ISOResults.FIN.df<-distinct(ISOResults.FIN.df, sample, AMRclass, .keep_all= TRUE) # removing any duplicate hits (ie a sample with multiple efflux pumps hits or aminoglycoside hits - so there is only one aminoglycoside count "presnet" for each sample)
 ISOResults.FIN.df <- ISOResults.FIN.df %>% drop_na(AMRclass)
