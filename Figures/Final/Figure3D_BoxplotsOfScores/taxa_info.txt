@@ -1,0 +1,981 @@
+Strain_ID	Genus
+LK1386	Dermacoccus
+LK948	Corynebacterium
+LK1204	Granulicatella
+LK500	Klebsiella
+LK501	Klebsiella
+LK525	Klebsiella
+LK526	Klebsiella
+LK527	Klebsiella
+LK894	Klebsiella
+LK1279	Pseudoclavibacter
+LK434	Corynebacterium
+LK444	Corynebacterium
+LK1348	Corynebacterium
+LK524	Staphylococcus
+LK729	Staphylococcus
+LK953	Cutibacterium
+LK1255	Staphylococcus
+LK666	Lysinibacillus
+LK668	Lysinibacillus
+LK669	Lysinibacillus
+LK671	Lysinibacillus
+LK716	Lysinibacillus
+LK572	Kocuria
+LK1027	Brevibacterium
+LK1094	Brevibacterium
+LK1301	Brevibacterium
+LK1363	Brevibacterium
+LK904	Brevibacterium
+LK978	Brevibacterium
+LK951	Dietzia
+LK945	Micromonospora
+LK1006	Dietzia
+LK1017	Dietzia
+LK1031	Dietzia
+LK1046	Dietzia
+LK1092	Dietzia
+LK1247	Dietzia
+LK1249	Dietzia
+LK1256	Dietzia
+LK1266	Dietzia
+LK1267	Dietzia
+LK1268	Dietzia
+LK1277	Dietzia
+LK1278	Dietzia
+LK1283	Dietzia
+LK1312	Dietzia
+LK439	Dietzia
+LK639	Dietzia
+LK970	Dietzia
+LK975	Dietzia
+LK984	Dietzia
+LK1078	Escherichia
+LK1079	Escherichia
+LK1139	Escherichia
+LK1140	Escherichia
+LK1157	Escherichia
+LK1198	Escherichia
+LK1232	Escherichia
+LK1347	Pseudoglutamicibacter
+LK421	Sphingobacterium
+LK1311	Microbacterium
+LK1095	Staphylococcus
+LK1096	Staphylococcus
+LK1110	Staphylococcus
+LK1116	Staphylococcus
+LK1136	Staphylococcus
+LK1137	Staphylococcus
+LK1138	Staphylococcus
+LK1167	Staphylococcus
+LK1264	Staphylococcus
+LK401	Staphylococcus
+LK445	Staphylococcus
+LK459	Staphylococcus
+LK460	Staphylococcus
+LK470	Staphylococcus
+LK523	Staphylococcus
+LK533	Staphylococcus
+LK588	Staphylococcus
+LK590	Staphylococcus
+LK593	Staphylococcus
+LK595	Staphylococcus
+LK602	Staphylococcus
+LK605	Staphylococcus
+LK610	Staphylococcus
+LK405	Enterococcus
+LK494	Citrobacter
+LK704	Citrobacter
+LK464	Peribacillus
+LK488	Corynebacterium
+LK935	Corynebacterium
+LK1077	Dermabacter
+LK1080	Dermabacter
+LK1082	Dermabacter
+LK1245	Dermabacter
+LK1252	Dermabacter
+LK1288	Dermabacter
+LK1351	Dermabacter
+LK417	Staphylococcus
+LK428	Staphylococcus
+LK522	Dermabacter
+LK557	Dermabacter
+LK591	Enterobacter
+LK485	Sphingobacterium
+LK538	Janibacter
+LK679	Janibacter
+LK1134	Corynebacterium
+LK1102	Oceanobacillus
+LK1172	Oceanobacillus
+LK1086	Rothia
+LK1244	Rothia
+LK1259	Rothia
+LK1263	Rothia
+LK1281	Rothia
+LK1282	Rothia
+LK1284	Rothia
+LK1285	Rothia
+LK1287	Rothia
+LK1403	Helcococcus
+LK617	Helcococcus
+LK1002	Micrococcus
+LK1007	Micrococcus
+LK1008	Micrococcus
+LK1009	Micrococcus
+LK1012	Micrococcus
+LK1014	Micrococcus
+LK1018	Micrococcus
+LK1019	Micrococcus
+LK1022	Micrococcus
+LK1025	Micrococcus
+LK1026	Micrococcus
+LK1036	Micrococcus
+LK1048	Micrococcus
+LK1049	Micrococcus
+LK1050	Micrococcus
+LK1051	Micrococcus
+LK1053	Micrococcus
+LK1056	Micrococcus
+LK1070	Micrococcus
+LK1072	Micrococcus
+LK1073	Micrococcus
+LK1090	Micrococcus
+LK1091	Micrococcus
+LK1099	Micrococcus
+LK1104	Micrococcus
+LK1105	Micrococcus
+LK1106	Micrococcus
+LK1113	Micrococcus
+LK1117	Micrococcus
+LK1121	Micrococcus
+LK1145	Micrococcus
+LK1147	Micrococcus
+LK1159	Micrococcus
+LK1173	Micrococcus
+LK1206	Micrococcus
+LK1207	Micrococcus
+LK1208	Micrococcus
+LK1224	Micrococcus
+LK1231	Micrococcus
+LK1274	Micrococcus
+LK1275	Micrococcus
+LK1306	Micrococcus
+LK1330	Micrococcus
+LK1334	Micrococcus
+LK1335	Micrococcus
+LK1379	Micrococcus
+LK1380	Micrococcus
+LK1382	Micrococcus
+LK1383	Micrococcus
+LK1384	Micrococcus
+LK1390	Micrococcus
+LK1392	Micrococcus
+LK1393	Micrococcus
+LK1397	Micrococcus
+LK1400	Micrococcus
+LK1402	Micrococcus
+LK400	Micrococcus
+LK402	Micrococcus
+LK408	Micrococcus
+LK409	Micrococcus
+LK410	Micrococcus
+LK412	Micrococcus
+LK419	Micrococcus
+LK426	Micrococcus
+LK427	Micrococcus
+LK430	Micrococcus
+LK441	Micrococcus
+LK443	Micrococcus
+LK455	Micrococcus
+LK467	Micrococcus
+LK508	Micrococcus
+LK517	Micrococcus
+LK540	Micrococcus
+LK542	Micrococcus
+LK553	Micrococcus
+LK566	Micrococcus
+LK569	Micrococcus
+LK604	Micrococcus
+LK661	Micrococcus
+LK694	Micrococcus
+LK697	Micrococcus
+LK705	Micrococcus
+LK719	Micrococcus
+LK792	Micrococcus
+LK941	Micrococcus
+LK1237	Kocuria
+LK1250	Kocuria
+LK579	Kocuria
+LK698	Kocuria
+LK478	Kocuria
+LK1321	Dietzia
+LK949	Dietzia
+LK1112	Rothia
+LK518	Nesterenkonia
+LK1098	Morganella
+LK930	Corynebacterium
+LK1024	Brachybacterium
+LK1045	Brachybacterium
+LK1302	Brachybacterium
+LK1350	Brachybacterium
+LK1404	Brachybacterium
+LK630	Brachybacterium
+LK1128	Dermacoccus
+LK570	Raoultella
+LK1093	Kocuria
+LK1246	Kocuria
+LK938	Brachybacterium
+LK1118	Microbacterium
+LK442	Klebsiella
+LK458	Klebsiella
+LK469	Klebsiella
+LK583	Klebsiella
+LK619	Klebsiella
+LK670	Klebsiella
+LK461	Klebsiella
+LK858	Klebsiella
+LK869	Klebsiella
+LK561	Corynebacterium
+LK465	Corynebacterium
+LK466	Corynebacterium
+LK1021	Kocuria
+LK1055	Kocuria
+LK1120	Kocuria
+LK934	Kocuria
+LK1030	Corynebacterium
+LK1041	Corynebacterium
+LK1059	Corynebacterium
+LK1239	Corynebacterium
+LK1269	Corynebacterium
+LK1270	Corynebacterium
+LK1272	Corynebacterium
+LK1346	Corynebacterium
+LK1360	Corynebacterium
+LK1362	Corynebacterium
+LK1366	Corynebacterium
+LK1367	Corynebacterium
+LK411	Corynebacterium
+LK432	Corynebacterium
+LK519	Corynebacterium
+LK586	Corynebacterium
+LK672	Corynebacterium
+LK687	Corynebacterium
+LK700	Corynebacterium
+LK871	Corynebacterium
+LK936	Corynebacterium
+LK942	Corynebacterium
+LK950	Corynebacterium
+LK955	Corynebacterium
+LK956	Corynebacterium
+LK489	Staphylococcus
+LK1034	Paenibacillus_A
+LK479	Paenibacillus
+LK1054	Gordonia
+LK712	Niallia
+LK1176	Citricoccus
+LK1015	Staphylococcus
+LK1257	Dermabacter
+LK413	Staphylococcus
+LK414	Staphylococcus
+LK415	Staphylococcus
+LK1188	Aestuariimicrobium
+LK1085	Brachybacterium
+LK1352	Brachybacterium
+LK1337	Brevibacterium
+LK1289	Corynebacterium
+LK1358	Corynebacterium
+LK931	Corynebacterium
+LK946	Corynebacterium
+LK952	Corynebacterium
+LK1000	Kocuria
+LK960	Kocuria
+LK399	Micrococcus
+LK403	Staphylococcus
+LK404	Micrococcus
+LK406	Micrococcus
+LK407	Staphylococcus
+LK416	Micrococcus
+LK418	Micrococcus
+LK420	Micrococcus
+LK422	Micrococcus
+LK423	Micrococcus
+LK429	Bacillus
+LK431	Micrococcus
+LK433	Micrococcus
+LK435	Staphylococcus
+LK436	Staphylococcus
+LK437	Micrococcus
+LK438	Micrococcus
+LK440	Micrococcus
+LK446	Micrococcus
+LK447	Corynebacterium
+LK448	Micrococcus
+LK449	Staphylococcus
+LK451	Micrococcus
+LK452	Staphylococcus
+LK453	Micrococcus
+LK454	Micrococcus
+LK456	Staphylococcus
+LK457	Staphylococcus
+LK462	Micrococcus
+LK463	Micrococcus
+LK468	Micrococcus
+LK471	Micrococcus
+LK472	Micrococcus
+LK473	Staphylococcus
+LK474	Micrococcus
+LK475	Micrococcus
+LK476	Micrococcus
+LK477	Micrococcus
+LK480	Staphylococcus
+LK481	Micrococcus
+LK482	Micrococcus
+LK484	Micrococcus
+LK486	Staphylococcus
+LK487	Micrococcus
+LK490	Staphylococcus
+LK491	Micrococcus
+LK493	Micrococcus
+LK495	Bacillus
+LK496	Staphylococcus
+LK497	Staphylococcus
+LK498	Micrococcus
+LK499	Micrococcus
+LK503	Staphylococcus
+LK504	Staphylococcus
+LK505	Micrococcus
+LK506	Micrococcus
+LK507	Staphylococcus
+LK509	Micrococcus
+LK510	Micrococcus
+LK511	Micrococcus
+LK512	Bacillus
+LK513	Micrococcus
+LK514	Micrococcus
+LK515	Staphylococcus
+LK516	Staphylococcus
+LK520	Micrococcus
+LK521	Micrococcus
+LK528	Staphylococcus
+LK529	Staphylococcus
+LK530	Staphylococcus
+LK531	Staphylococcus
+LK532	Micrococcus
+LK534	Micrococcus
+LK535	Staphylococcus
+LK541	Micrococcus
+LK543	Staphylococcus
+LK544	Staphylococcus
+LK545	Micrococcus
+LK546	Micrococcus
+LK547	Staphylococcus
+LK548	Staphylococcus
+LK549	Staphylococcus
+LK550	Staphylococcus
+LK551	Staphylococcus
+LK552	Micrococcus
+LK554	Staphylococcus
+LK555	Staphylococcus
+LK556	Staphylococcus
+LK558	Micrococcus
+LK559	Micrococcus
+LK560	Staphylococcus
+LK562	Micrococcus
+LK563	Micrococcus
+LK564	Micrococcus
+LK565	Micrococcus
+LK567	Micrococcus
+LK568	Micrococcus
+LK571	Staphylococcus
+LK573	Micrococcus
+LK574	Staphylococcus
+LK575	Micrococcus
+LK576	Micrococcus
+LK577	Micrococcus
+LK580	Staphylococcus
+LK582	Micrococcus
+LK584	Micrococcus
+LK585	Bacillus
+LK587	Micrococcus
+LK589	Micrococcus
+LK592	Staphylococcus
+LK596	Staphylococcus
+LK597	Bacillus
+LK599	Staphylococcus
+LK603	Bacillus
+LK606	Staphylococcus
+LK609	Staphylococcus
+LK611	Staphylococcus
+LK613	Staphylococcus
+LK621	Micrococcus
+LK622	Micrococcus
+LK623	Staphylococcus
+LK624	Sphingobacterium
+LK626	Staphylococcus
+LK628	Staphylococcus
+LK634	Staphylococcus
+LK635	Staphylococcus
+LK636	Staphylococcus
+LK638	Micrococcus
+LK657	Staphylococcus
+LK658	Micrococcus
+LK659	Staphylococcus
+LK660	Bacillus
+LK662	Lysinibacillus
+LK665	Staphylococcus
+LK667	Micrococcus
+LK673	Staphylococcus
+LK676	Cellulosimicrobium
+LK677	Staphylococcus
+LK678	Micrococcus
+LK680	Micrococcus
+LK681	Bacillus
+LK682	Micrococcus
+LK683	Micrococcus
+LK684	Staphylococcus
+LK685	Staphylococcus
+LK686	Staphylococcus
+LK688	Staphylococcus
+LK689	Micrococcus
+LK690	Staphylococcus
+LK691	Staphylococcus
+LK692	Bacillus
+LK693	Staphylococcus
+LK695	Micrococcus
+LK696	Bacillus
+LK699	Micrococcus
+LK701	Micrococcus
+LK706	Bacillus
+LK708	Staphylococcus
+LK709	Lysinibacillus
+LK710	Micrococcus
+LK711	Staphylococcus
+LK713	Bacillus
+LK717	Staphylococcus
+LK718	Bacillus
+LK721	Staphylococcus
+LK722	Bacillus
+LK723	Staphylococcus
+LK724	Lysinibacillus
+LK725	Staphylococcus
+LK891	Staphylococcus
+LK893	Staphylococcus
+LK897	Cellulosimicrobium
+LK1202	Bacillus
+LK1212	Micrococcus
+LK1218	Micrococcus
+LK1221	Micrococcus
+LK1229	Micrococcus
+LK1230	Micrococcus
+LK1234	Micrococcus
+LK1235	Micrococcus
+LK1238	Micrococcus
+LK1240	Micrococcus
+LK1241	Micrococcus
+LK1248	Micrococcus
+LK1253	Staphylococcus
+LK1258	Micrococcus
+LK1260	Micrococcus
+LK1261	Micrococcus
+LK1262	Micrococcus
+LK1276	Micrococcus
+LK1280	Micrococcus
+LK1290	Kytococcus
+LK1291	Micrococcus
+LK1292	Micrococcus
+LK1294	Micrococcus
+LK1303	Micrococcus
+LK1304	Micrococcus
+LK1307	Staphylococcus
+LK1310	Micrococcus
+LK1316	Micrococcus
+LK1317	Micrococcus
+LK1318	Micrococcus
+LK1319	Bacillus
+LK1320	Micrococcus
+LK1322	Micrococcus
+LK1323	Micrococcus
+LK1325	Micrococcus
+LK1327	Staphylococcus
+LK1332	Bacillus
+LK1333	Micrococcus
+LK1336	Brachybacterium
+LK1341	Staphylococcus
+LK1342	Staphylococcus
+LK1343	Staphylococcus
+LK1354	Janibacter
+LK1356	Micrococcus
+LK1368	Micromonospora
+LK1369	Janibacter
+LK1370	Micrococcus
+LK1374	Kocuria
+LK905	Micrococcus
+LK1001	Micrococcus
+LK1003	Staphylococcus
+LK1004	Micrococcus
+LK1005	Micrococcus
+LK1010	Micrococcus
+LK1011	Micrococcus
+LK1013	Micrococcus
+LK1016	Micrococcus
+LK1020	Micrococcus
+LK1023	Micrococcus
+LK1028	Micrococcus
+LK1037	Micrococcus
+LK1038	Micrococcus
+LK1039	Micrococcus
+LK1052	Micrococcus
+LK1057	Micrococcus
+LK1058	Micrococcus
+LK1060	Kocuria
+LK1061	Micrococcus
+LK1062	Micrococcus
+LK1065	Micrococcus
+LK1067	Micrococcus
+LK1068	Micrococcus
+LK1069	Micrococcus
+LK1074	Micrococcus
+LK1075	Micrococcus
+LK1076	Micrococcus
+LK1088	Micrococcus
+LK1103	Micrococcus
+LK1125	Micrococcus
+LK1141	Micrococcus
+LK1156	Bacillus
+LK1160	Bacillus
+LK1161	Micrococcus
+LK1162	Micrococcus
+LK1163	Bacillus
+LK1165	Micrococcus
+LK1166	Micrococcus
+LK1171	Micrococcus
+LK933	Micrococcus
+LK939	Micrococcus
+LK940	Micrococcus
+LK943	Micrococcus
+LK957	Micrococcus
+LK958	Micrococcus
+LK961	Micrococcus
+LK962	Micrococcus
+LK964	Micrococcus
+LK965	Staphylococcus
+LK966	Micrococcus
+LK967	Micrococcus
+LK969	Micrococcus
+LK971	Micrococcus
+LK972	Micrococcus
+LK973	Micrococcus
+LK974	Micrococcus
+LK976	Bacillus
+LK979	Micrococcus
+LK980	Micrococcus
+LK981	Micrococcus
+LK982	Micrococcus
+LK983	Micrococcus
+LK985	Micrococcus
+LK986	Micrococcus
+LK988	Micrococcus
+LK989	Micrococcus
+LK990	Micrococcus
+LK991	Micrococcus
+LK993	Micrococcus
+LK994	Micrococcus
+LK995	Micrococcus
+LK996	Micrococcus
+LK997	Micrococcus
+LK999	Staphylococcus
+LK1377	Micrococcus
+LK1378	Micrococcus
+LK1381	Micrococcus
+LK1385	Micrococcus
+LK1391	Micrococcus
+LK1394	Micrococcus
+LK1395	Micrococcus
+LK1396	Micrococcus
+LK1398	Micrococcus
+LK1399	Micrococcus
+LK1401	Micrococcus
+LK1029	Micrococcus
+LK1032	
+LK1033	
+LK1035	
+LK1040	Micrococcus
+LK1042	Micrococcus
+LK1043	Micrococcus
+LK1044	Micrococcus
+LK1047	Micrococcus
+LK1063	Dietzia
+LK1064	Micrococcus
+LK1066	Micrococcus
+LK1071	
+LK1081	Rothia
+LK1083	Rothia
+LK1084	Corynebacterium
+LK1087	
+LK1089	Micrococcus
+LK1097	
+LK1100	
+LK1101	
+LK1107	Micrococcus
+LK1109	
+LK1111	Micrococcus
+LK1114	
+LK1115	
+LK1119	Micrococcus
+LK1122	Micrococcus
+LK1123	
+LK1124	Micrococcus
+LK1126	
+LK1127	Bacillus
+LK1129	
+LK1130	
+LK1131	Micrococcus
+LK1132	
+LK1133	Micrococcus
+LK1135	
+LK1142	
+LK1143	
+LK1144	Micrococcus
+LK1146	
+LK1148	Micrococcus
+LK1149	
+LK1150	
+LK1151	Micrococcus
+LK1152	Micrococcus
+LK1153	
+LK1154	
+LK1155	Micrococcus
+LK1158	Micrococcus
+LK1164	Micrococcus
+LK1168	Micrococcus
+LK1169	
+LK1170	Micrococcus
+LK1174	Citricoccus
+LK1175	
+LK1177	Micrococcus
+LK1178	
+LK1179	
+LK1180	
+LK1181	Micrococcus
+LK1182	
+LK1183	Brachybacterium
+LK1184	Kocuria
+LK1185	
+LK1186	Micrococcus
+LK1187	
+LK1189	
+LK1190	Micrococcus
+LK1191	
+LK1192	
+LK1193	
+LK1194	
+LK1195	
+LK1196	Micrococcus
+LK1197	Micrococcus
+LK1199	Micrococcus
+LK1200	
+LK1201	Micrococcus
+LK1203	Micrococcus
+LK1205	Micrococcus
+LK1209	Micrococcus
+LK1210	Micrococcus
+LK1211	Micrococcus
+LK1213	Micrococcus
+LK1214	Micrococcus
+LK1215	Micrococcus
+LK1216	Micrococcus
+LK1217	Micrococcus
+LK1219	Staphylococcus
+LK1220	Micrococcus
+LK1222	
+LK1223	
+LK1225	Micrococcus
+LK1226	Micrococcus
+LK1227	Micrococcus
+LK1228	Micrococcus
+LK1233	Micrococcus
+LK1236	Micrococcus
+LK1242	
+LK1243	
+LK1251	
+LK1254	Staphylococcus
+LK1265	Staphylococcus
+LK1271	Nesterenkonia
+LK1273	
+LK1286	
+LK1293	
+LK1295	
+LK1296	
+LK1297	
+LK1298	
+LK1299	Micrococcus
+LK1300	
+LK1305	
+LK1308	
+LK1309	
+LK1313	
+LK1314	
+LK1315	
+LK1324	
+LK1326	
+LK1328	
+LK1329	
+LK1331	Micrococcus
+LK1338	
+LK1339	
+LK1340	Corynebacterium
+LK1344	
+LK1345	
+LK1349	Corynebacterium
+LK1353	Dermabacter
+LK1355	Micrococcus
+LK1357	
+LK1359	Corynebacterium
+LK1361	
+LK1364	
+LK1365	Corynebacterium
+LK1371	
+LK1372	
+LK1373	Staphylococcus
+LK1375	
+LK1376	
+LK1387	Corynebacterium
+LK1388	Corynebacterium
+LK1389	Micrococcus
+LK1405	
+LK424	
+LK425	Micrococcus
+LK450	Penicillium
+LK483	Micrococcus
+LK492	Micrococcus
+LK502	
+LK536	Niallia
+LK537	Micrococcus
+LK539	
+LK578	Micrococcus
+LK581	Micrococcus
+LK594	Staphylococcus
+LK598	Micrococcus
+LK600	Staphylococcus
+LK601	Staphylococcus
+LK607	
+LK608	
+LK612	
+LK614	
+LK615	Staphylococcus
+LK616	Staphylococcus
+LK618	
+LK620	Staphylococcus
+LK625	Staphylococcus
+LK627	
+LK629	
+LK631	
+LK632	
+LK633	
+LK637	Staphylococcus
+LK663	
+LK664	Lysinibacillus
+LK674	Staphylococcus
+LK675	Lysinibacillus
+LK702	
+LK703	
+LK707	
+LK714	
+LK715	
+LK720	
+LK730	
+LK731	
+LK732	
+LK733	
+LK734	
+LK735	
+LK736	
+LK737	
+LK738	
+LK739	
+LK740	
+LK741	
+LK742	
+LK743	
+LK744	
+LK745	
+LK746	
+LK747	
+LK748	
+LK749	
+LK750	
+LK751	
+LK752	
+LK753	
+LK754	
+LK755	
+LK756	
+LK757	
+LK758	
+LK759	
+LK760	
+LK761	
+LK762	
+LK763	
+LK764	
+LK765	
+LK766	
+LK767	
+LK768	
+LK769	
+LK770	
+LK771	
+LK772	
+LK773	
+LK774	
+LK775	
+LK776	
+LK777	
+LK778	
+LK779	
+LK780	
+LK781	
+LK782	
+LK783	
+LK784	
+LK785	
+LK786	
+LK787	
+LK788	
+LK789	
+LK790	
+LK791	
+LK793	
+LK794	
+LK795	
+LK796	
+LK797	
+LK798	
+LK799	
+LK800	
+LK801	
+LK802	
+LK803	
+LK804	
+LK805	
+LK806	
+LK807	
+LK808	
+LK809	
+LK810	
+LK811	
+LK812	
+LK813	
+LK814	
+LK815	
+LK816	
+LK817	
+LK818	
+LK819	
+LK820	Corynebacterium
+LK821	Corynebacterium
+LK822	Citricoccus
+LK823	Dietzia
+LK824	
+LK825	
+LK826	Dietzia
+LK827	Corynebacterium
+LK828	Micrococcus
+LK829	Micrococcus
+LK830	Micrococcus
+LK831	Micrococcus
+LK832	Micrococcus
+LK833	
+LK834	Staphylococcus
+LK835	Staphylococcus
+LK836	Dermacoccus
+LK837	Staphylococcus
+LK838	Brevibacterium
+LK839	Micrococcus
+LK840	Micrococcus
+LK842	
+LK843	Kocuria
+LK844	Dietzia
+LK845	Dietzia
+LK846	
+LK847	Micrococcus
+LK848	
+LK849	Staphylococcus
+LK850	Micrococcus
+LK851	
+LK852	
+LK853	Staphylococcus
+LK854	Kocuria
+LK855	Corynebacterium
+LK856	Corynebacterium
+LK857	Staphylococcus
+LK859	
+LK860	Rhodocococcus
+LK861	Staphylococcus
+LK862	Micrococcus
+LK863	Micrococcus
+LK864	Bacillus
+LK865	
+LK866	Kocuria
+LK867	
+LK868	
+LK870	Brevibacterium
+LK872	Corynebacterium
+LK873	Micrococcus
+LK874	Micrococcus
+LK875	Sphingobacterium
+LK876	Corynebacterium
+LK877	Corynebacterium
+LK878	
+LK879	
+LK880	
+LK881	
+LK882	
+LK883	
+LK884	
+LK885	
+LK886	
+LK887	
+LK888	
+LK892	Micrococcus
+LK895	
+LK896	
+LK898	
+LK899	
+LK900	Micrococcus
+LK901	
+LK902	
+LK903	Micrococcus
+LK906	
+LK907	
+LK908	
+LK909	
+LK910	
+LK911	Micrococcus
+LK912	Citricoccus
+LK913	
+LK914	
+LK915	
+LK916	
+LK917	
+LK918	
+LK919	
+LK920	
+LK921	
+LK922	
+LK923	
+LK924	
+LK925	
+LK926	
+LK927	
+LK932	
+LK937	
+LK944	
+LK947	
+LK954	
+LK959	
+LK963	
+LK968	
+LK987	
+LK992	
+LK998	Micrococcus
