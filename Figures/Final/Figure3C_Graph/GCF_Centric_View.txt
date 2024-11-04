@@ -1,1 +1,0 @@
-../BiG-SCAPE_Analyses/GCF_Centric_View.txt
