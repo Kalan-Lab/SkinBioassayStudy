@@ -40,11 +40,11 @@ data %>%
   scale_fill_manual(values = c("#dddddd", "#777777", "#222222")) +
   geom_hline(yintercept=0, linetype="solid", color="black") + 
   labs(x="Active fraction (uL)", y="Change in Log10 CFU/kidney") +
-  facet_wrap(~Sample) +
+  facet_wrap(~Sample, labeller = label_wrap_gen(width=10)) +
   theme_classic(base_size = 18) +
   #ylim(-0.5, 0.84) +
   theme(strip.text = element_text(face = "bold.italic"),
-        axis.text.x = element_text(size = 18),
+        axis.text.x = element_text(size = 18, angle = 45, hjust = 1),
         axis.text.y = element_text(size = 18),
         legend.position = "none")
 
