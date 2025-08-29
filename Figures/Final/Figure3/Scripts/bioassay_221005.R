@@ -2,7 +2,7 @@ library(pheatmap)
 library(RColorBrewer)
 library(dplyr)
 library(writexl)
-data = read.csv("/Users/unguyen2/Documents/GitHub/Kalan_Lab/scripts/ssandstrom/skin_bioassay_paper_files/fig_3/bioassay_data_new_wide.csv")
+data = read.csv("/Users/thynguyen/Documents/GitHub/SkinBioassayStudy/Figures/Final/Figure3/Data/bioassay_data_new_wide.csv")
 #genera <- data$Genus
 #site <- data$Body.Site
 
@@ -43,7 +43,7 @@ rownames(annotation_col) = annotation_col$Pathogen_Name
 annotation_col <- select(annotation_col, -2)
 
 #row annotaions body_site
-annotation_row = read.csv('/Users/unguyen2/Documents/GitHub/Kalan_Lab/scripts/ssandstrom/skin_bioassay_paper_files/fig_3/row_annotation.csv')
+annotation_row = read.csv('/Users/thynguyen/Documents/GitHub/SkinBioassayStudy/Figures/Final/Figure3/Data/row_annotation.csv')
 annotation_row = annotation_row[!duplicated(annotation_row$Strain_ID),]
 strains <- annotation_row$Strain_ID
 tax <- annotation_row$Genus
