@@ -106,9 +106,15 @@ data1 <- data.frame(
 p4 <- data1 %>%
   mutate(Sample = factor(Sample, levels = c("Fluconazole 25 mg/kg", "AmphotericinB 4 mg/kg", "Micafungin 1 mg/kg"))) %>%
   group_by(Sample) %>%
-  dplyr::summarise(MeanChange = mean(Change)) %>%
+  dplyr::summarise(MeanChange = mean(Change), 
+                   SD = sd(Change, na.rm = TRUE),
+                   SE = sd(Change, na.rm = TRUE) / sqrt(n()),
+                   n = n()) %>%
   ggplot(aes(x=Sample, y=MeanChange, fill = Sample)) +
   geom_bar(stat="identity") +
+  geom_errorbar(aes(ymin = MeanChange - SE, ymax = MeanChange + SE), 
+                width = 0.2,
+                position = position_dodge(0.9)) +
   scale_fill_manual(values = c("#dddddd", "#777777", "#222222")) +
   scale_x_discrete(labels = function(x) str_wrap(x, width = 10)) +
   geom_hline(yintercept=0, linetype="solid", color="black") + 
