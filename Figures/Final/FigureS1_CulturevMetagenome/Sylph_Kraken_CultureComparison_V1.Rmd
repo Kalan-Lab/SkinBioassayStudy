@@ -52,7 +52,7 @@ genus_colors <- setNames(colors, genus)
 
 ```{r Load datasets, include=FALSE}
 # Culture dataset ----
-culture <- read_excel("/Users/thynguyen/Downloads/Sup Tables (1).xlsx", 
+culture <- read_excel("/Users/thynguyen/Documents/GitHub/SkinBioassayStudy/Figures/Final/FigureS1_CulturevMetagenome/Sup Tables (1).xlsx", 
     sheet = "Table S2 - Updated")
 
 # Assign body and site types
@@ -139,9 +139,11 @@ combined <- rbind(metagenome_final, culture_final)
 
 ```{r Upset Plot}
 # Input data for upset plot
+# By genus, body_site, site_type ----
 upset_presence <- combined %>%
   filter(!dataset == "Sylph") %>%
   #filter(!dataset == "Kraken") %>%
+  filter(rel_abun > 0) %>%
   distinct(dataset, body_site, site_type, genus) %>%
   mutate(present = 1) %>%
   pivot_wider(names_from = dataset, 
@@ -208,8 +210,8 @@ upset_data1 <- upset_data %>%
     Kraken = as.numeric(Kraken), 
     Culture = as.numeric(Culture)
   ) %>%
-  # Filter out rows if either column have < 0.001
-  filter(Kraken_abundance >= 0.00001) # 2075 taxa remaining
+  # Filter out rows if either column have < 0.01%
+  filter(Kraken_abundance >= 0.0001) # 1981 taxa remaining
 
 #upset_data2 <- upset_data %>%
 #  mutate(
@@ -314,6 +316,160 @@ upset(
         labs(y = "Kraken abundance")
     )
   )
+)
+
+# Plot without boxplot
+upset(
+  upset_data1, 
+  intersect = c("Culture", "Kraken"),
+  name = "",
+  width_ratio = 0.1,
+  min_size = 1,
+  max_degree = 3,
+  base_annotations = list(
+    "Taxa Count" = intersection_size(
+      counts = TRUE,
+      text = list(size = 3)
+    )
+  ),
+  
+  # Add side plots for abundance
+  stripes = upset_stripes(
+    geom = geom_segment(size = 6),
+    colors = c("white", "grey95")
+  ),
+  
+  # Change set size
+  set_sizes = upset_set_size() + 
+    theme(
+      axis.text.x = element_text(angle = 45, hjust = 1),
+      axis.title.x = element_blank()
+    )
+)
+
+# By genus ----
+# Input data for upset plot
+upset_presence_genus <- combined %>%
+  filter(!dataset == "Sylph") %>%
+  #filter(!dataset == "Kraken") %>%
+  filter(rel_abun > 0) %>%
+  distinct(dataset, genus) %>%
+  mutate(present = 1) %>%
+  pivot_wider(names_from = dataset, 
+              values_from = present, 
+              values_fill = 0) %>%
+  filter(!genus == "Other")
+
+# Abundance statistics for each genus across datasets
+abundance_stats_genus <- combined %>%
+  filter(!dataset == "Sylph") %>%
+  #filter(!dataset == "Kraken") %>%
+  group_by(genus, dataset) %>%
+  dplyr::summarise(
+    mean_abundance = mean(rel_abun, na.rm = TRUE),
+    .groups = "drop"
+  ) %>%
+  pivot_wider(
+    names_from = dataset,
+    values_from = mean_abundance,
+    values_fill = 0
+  ) %>%
+  filter(!genus == "Other") 
+  
+
+# Combine the datasets - Kraken
+upset_data_genus <- upset_presence_genus %>%
+  dplyr::left_join(abundance_stats_genus, by = c("genus")) %>%
+  dplyr::rename("Kraken" = "Kraken.x", 
+         "Culture" = "Culture.x", 
+         "Kraken_abundance" = "Kraken.y", 
+         "Culture_abundance" = "Culture.y")
+
+# Filter those with < 0.001%
+upset_data1_genus <- upset_data_genus %>%
+  mutate(
+    Kraken = as.numeric(Kraken), 
+    Culture = as.numeric(Culture)
+  ) %>%
+  # Filter out rows if either column have < 0.001%
+  filter(Kraken_abundance >= 0.001) # 223 genera remaining
+
+# Kraken
+# 32 overlapping genus
+# 232 only detected in Kraken
+# 9 only detected in culture
+upset(
+  upset_data_genus, 
+  intersect = c("Culture", "Kraken"),
+  name = "",
+  width_ratio = 0.1,
+  min_size = 1,
+  max_degree = 3,
+  base_annotations = list(
+    "Genera Count" = intersection_size(
+      counts = TRUE,
+      text = list(size = 3)
+    )
+  ),
+  
+  # Add side plots for abundance
+  stripes = upset_stripes(
+    geom = geom_segment(size = 6),
+    colors = c("white", "grey95")
+  ),
+  
+  # Change set size
+  set_sizes = upset_set_size() + 
+    theme(
+      axis.text.x = element_text(angle = 45, hjust = 1),
+      axis.title.x = element_blank()
+    ),
+  
+  # Add custom annotations
+  annotations = list(
+    "Culture abundance" = (
+      ggplot(mapping = aes(y = Culture_abundance)) +  
+        geom_boxplot(fill = "#b1728f", alpha = 0.7) +
+        theme_minimal() +
+        labs(y = "Culture abundance (%)")
+    ),
+    "Kraken abundance" = (
+      ggplot(mapping = aes(y = Kraken_abundance)) +  
+        geom_boxplot(fill = "#073763", alpha = 0.7) +
+        theme_minimal() +
+        labs(y = "Kraken abundance (%)")
+    )
+  )
+)
+
+# Plot without boxplot
+upset(
+  upset_data_genus, 
+  intersect = c("Culture", "Kraken"),
+  name = "",
+  width_ratio = 0.1,
+  min_size = 1,
+  max_degree = 3,
+  base_annotations = list(
+    "Taxa Count" = intersection_size(
+      counts = TRUE,
+      text = list(size = 6)
+    ) + theme(
+      axis.text.y = element_text(size = 12), 
+      axis.title.y = element_text(size = 14)
+    )
+  ),
+  
+  themes = upset_default_themes(
+    text = element_text(size = 12)
+  ), 
+  
+  # Change set size
+  set_sizes = upset_set_size() + 
+    theme(
+      axis.text.x = element_text(angle = 45, hjust = 1, size = 12),
+      axis.title.x = element_blank()
+    )
 )
 
 # Sylph
@@ -427,7 +583,7 @@ intersection_data$genus <- factor(intersection_data$genus, levels = genus)
 
 # Scatterplot - Kraken ----
 intersection_data %>%
-  filter(!genus == "Cutibacterium") %>%
+  #filter(!genus == "Cutibacterium") %>%
   mutate(body_site = factor(body_site, levels = c("Al","Ba", "Oc", "Na", "Um","Tw", "Vf", "Af"))) %>%
   ggplot(aes(x = Culture_abundance/100, y = Kraken_abundance/100, color = genus)) +
   geom_point(alpha = 0.7, size = 3) +
