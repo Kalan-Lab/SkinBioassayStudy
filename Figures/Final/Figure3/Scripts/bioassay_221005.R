@@ -2,7 +2,7 @@ library(pheatmap)
 library(RColorBrewer)
 library(dplyr)
 library(writexl)
-data = read.csv("/Users/thynguyen/Documents/GitHub/SkinBioassayStudy/Figures/Final/Figure3/Data/bioassay_data_new_wide.csv")
+data = read.csv("/Users/thynguyen/Documents/GitHub/SkinBioassayStudy/Figures/Final/Figure3/Data/bioassay_data_new_wide_updated.csv")
 #genera <- data$Genus
 #site <- data$Body.Site
 
@@ -23,7 +23,7 @@ data$Pathogen_Name <- factor(data$Pathogen_Name, levels = paths)
 path_type <- c("Gram-positive", "Gram-negative", "Fungal")
 data$Pathogen_Type <- factor(data$Pathogen_Type, levels = path_type)
 #cols = c("#D3D3D3",'#ffd5e1','#e79bb2','#cc6183')
-heatmap = data[c(4:401)]
+heatmap = data[c(4:389)]
 theatmap = as.data.frame(t(heatmap))
 colnames(theatmap)=paths
 theatmap <- theatmap[, paths1] #set pathogen name in certain order
@@ -35,7 +35,7 @@ theatmap1 <- cbind(" "=rownames(theatmap), theatmap)
 #merge annotations
 theatmap2 <- merge(theatmap, annotation_rows, by=0)
 #export to excel sheet
-write_xlsx(theatmap2, "~/Desktop/bioassay_all.xlsx")
+#write_xlsx(theatmap2, "~/Desktop/bioassay_all.xlsx")
 
 #col annotations for site
 annotation_col = data.frame(Pathogen_Type = data$Pathogen_Type, Pathogen_Name = data$Pathogen_Name)
@@ -121,4 +121,4 @@ hm = pheatmap(theatmap, show_rownames = F,fontsize_col=14,
               legend_breaks = c(-.66,.15,.85,1.66),
               legend_labels=c("no data","no inhibition","zone of inhibition","full inhibition"),annotation_legend = T)
 hm
-ggsave(file="/Users/shelbysandstrom/Documents/GitHub/Kalan_Lab/scripts/ssandstrom/jupyter/bioassay_heatmap/heatmap_wo_metadata_200225.pdf", width=10, height=7, dpi=300)
+ggsave(file="/Users/thynguyen/Documents/GitHub/SkinBioassayStudy/Figures/Final/Figure3/Figures/bioassay_heatmap_100925.pdf", width=10, height=7, dpi=300)

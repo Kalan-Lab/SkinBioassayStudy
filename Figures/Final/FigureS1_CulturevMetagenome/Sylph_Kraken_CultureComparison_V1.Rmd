@@ -52,13 +52,12 @@ genus_colors <- setNames(colors, genus)
 
 ```{r Load datasets, include=FALSE}
 # Culture dataset ----
-culture <- read_excel("/Users/thynguyen/Documents/GitHub/SkinBioassayStudy/Figures/Final/FigureS1_CulturevMetagenome/Sup Tables (1).xlsx", 
-    sheet = "Table S2 - Updated")
+culture <- read_excel("/Users/thynguyen/Documents/GitHub/SkinBioassayStudy/Figures/Final/FigureS1_CulturevMetagenome/251003_SupTable2_Updated.xlsx")
 
 # Assign body and site types
 culture <- culture %>%
-  filter(row_number() !=1) %>%
-  row_to_names(row_number = 1) %>%
+  #filter(row_number() !=1) %>%
+  #row_to_names(row_number = 1) %>%
   mutate(body_site = case_when(
     `Body site` == "Antecubital fossa" ~ "Af", 
     `Body site` == "Alar crease" ~ "Al", 
