@@ -22,6 +22,7 @@ colors <- c("#b1728f","#c89cb0","#dfc6d2","#efe2e8",
            "#bc3e47","#d0777e","#e4b1b5","#f1d8da",
            "#CBA92B","#dac26a","#eadcaa","#f4edd4",
            "#CD8987", "#CDACA1", "#DCC4BC", "#EADCD7",
+           "#2C2C34",
            "#493C61",
            "#38761d","#739f60","#afc8a4","#d7e3d1",
            "#3B7D6A", "#59B198",
@@ -34,7 +35,8 @@ genus <- c(
            "Kocuria","Rothia", "Brevibacterium","Gordonia",
            "Dermabacter","Kytococcus", "Janibacter","Dietzia",
            "Microbacterium","Brachybacterium","Dermacoccus","Nesterenkonia",
-           "Pseudoclavibacter","Helcococcus", "Cellulosimicrobium", "Micromonospora",
+           "Pseudoclavibacter","Helcococcus", "Cellulosimicrobium", "Micromonospora", 
+           "Rhodococcus",
  #Bacteroidota
            "Sphingobacterium",
  #Bacillota
@@ -46,13 +48,58 @@ genus <- c(
 # Create a named vector mapping genera to colors
 genus_colors <- setNames(colors, genus)
 
+# Create a named vector for mapping
+phylum_map <- c(
+  # Actinomycetota
+  "Cutibacterium" = "Actinomycetota",
+  "Corynebacterium" = "Actinomycetota",
+  "Citricoccus" = "Actinomycetota",
+  "Micrococcus" = "Actinomycetota",
+  "Kocuria" = "Actinomycetota",
+  "Rothia" = "Actinomycetota",
+  "Brevibacterium" = "Actinomycetota",
+  "Gordonia" = "Actinomycetota",
+  "Dermabacter" = "Actinomycetota",
+  "Kytococcus" = "Actinomycetota",
+  "Janibacter" = "Actinomycetota",
+  "Dietzia" = "Actinomycetota",
+  "Microbacterium" = "Actinomycetota",
+  "Brachybacterium" = "Actinomycetota",
+  "Dermacoccus" = "Actinomycetota",
+  "Nesterenkonia" = "Actinomycetota",
+  "Pseudoclavibacter" = "Actinomycetota",
+  "Helcococcus" = "Actinomycetota",
+  "Cellulosimicrobium" = "Actinomycetota",
+  "Micromonospora" = "Actinomycetota",
+  "Rhodococcus" = "Actinomycetota",
+  
+  # Bacteroidota
+  "Sphingobacterium" = "Bacteroidota",
+  
+  # Bacillota
+  "Staphylococcus" = "Bacillota",
+  "Bacillus" = "Bacillota",
+  "Granulicatella" = "Bacillota",
+  "Lysinibacillus" = "Bacillota",
+  "Paenibacillus" = "Bacillota",
+  "Enterococcus" = "Bacillota",
+  # Pseudomonadota
+  
+  "Klebsiella" = "Pseudomonadota",
+  "Citrobacter" = "Pseudomonadota",
+  "Enterobacter" = "Pseudomonadota",
+  "Raoultella" = "Pseudomonadota",
+  "Escherichia" = "Pseudomonadota"
+)
+
+
 ```
 
 ## Load data
 
 ```{r Load datasets, include=FALSE}
 # Culture dataset ----
-culture <- read_excel("/Users/thynguyen/Documents/GitHub/SkinBioassayStudy/Figures/Final/FigureS1_CulturevMetagenome/251003_SupTable2_Updated.xlsx")
+culture <- read_excel("/Users/thynguyen/Documents/GitHub/SkinBioassayStudy/Figures/Final/FigureS1_CulturevMetagenome/251010_SupTable2_Updated.xlsx")
 
 # Assign body and site types
 culture <- culture %>%
@@ -93,7 +140,7 @@ culture_final <- culture %>%
   group_by(body_site) %>%
   mutate(
     total_body_site_count = sum(count),
-    rel_abun = (count / total_body_site_count)*100
+    rel_abun = (count / total_body_site_count) * 100
   ) %>%
   ungroup() %>%
   mutate(dataset =  "Culture") %>% 
@@ -132,6 +179,83 @@ metagenome_final <- metagenome %>%
 
 # Combine metagenomic and culture data
 combined <- rbind(metagenome_final, culture_final)
+
+# By genus ----
+# Summarize culture data
+culture_final_genus <- culture_final %>%
+  group_by(dataset, genus) %>%
+  summarise(
+    rel_abun = mean(rel_abun, na.rm=T), 
+    .groups = "drop"
+  )
+
+metagenome_final_genus <- metagenome_final %>%
+  filter(!dataset == "Sylph") %>%
+  group_by(dataset, genus) %>%
+  summarise(
+    rel_abun = mean(rel_abun, na.rm=T), 
+    .groups = "drop"
+  )
+
+# Combine data
+combined_genus <- rbind(culture_final_genus, metagenome_final_genus)
+
+# Determine presence in each dataset
+combined_genus_presence <- combined_genus %>%
+  filter(rel_abun > 0) %>%
+  distinct(dataset, genus) %>%
+  mutate(present = 1) %>%
+  pivot_wider(names_from = dataset, 
+              values_from = present, 
+              values_fill = 0) %>%
+  filter(!genus == "Other")
+
+abundance_stats_genus <- combined_genus %>%
+  group_by(dataset, genus) %>%
+  dplyr::summarise(
+    mean_abundance = mean(rel_abun, na.rm = TRUE),
+    .groups = "drop"
+  ) %>%
+  pivot_wider(
+    names_from = dataset,
+    values_from = mean_abundance,
+    values_fill = 0
+  ) %>%
+  filter(!genus == "Other") 
+  
+# Combine the datasets
+presence_abundance_genus <- combined_genus_presence %>%
+  dplyr::left_join(abundance_stats_genus, by = c("genus")) %>%
+  dplyr::rename("Kraken" = "Kraken.x", 
+         "Culture" = "Culture.x", 
+         "Kraken_abundance" = "Kraken.y", 
+         "Culture_abundance" = "Culture.y")
+
+# Overlapping taxa
+intersection_taxa_genus <- presence_abundance_genus %>%
+  filter(Culture == 1 & Kraken ==1) %>%
+  select(genus)
+# Join data
+intersection_data_genus <- presence_abundance_genus %>%
+  dplyr::inner_join(intersection_taxa, by = c("genus")) %>%
+  mutate(
+    Culture_abundance = Culture_abundance / 100,
+    Kraken_abundance = Kraken_abundance / 100
+  ) %>%
+  rename(
+    iso_abun = Culture_abundance,
+    met_abun = Kraken_abundance
+  )
+
+# Map genus to phylum
+intersection_data_genus$phylum <- phylum_map[intersection_data_genus$genus]
+
+# reorder columns
+intersection_data_genus <- intersection_data_genus %>%
+  select(genus, phylum, met_abun, iso_abun)
+
+# Export data for Figure 2B
+#write_csv(intersection_data_genus, "/Users/thynguyen/Documents/GitHub/SkinBioassayStudy/Figures/Final/Figure2/Data/scat_plot_updated.csv")
 ```
 
 ## Plots
@@ -620,7 +744,7 @@ intersection_data %>%
   labs(
     title = NULL,
     x = "Culture abundance",
-    y = "Kraken abundance"
+    y = "Metagenome abundance"
   ) +
   theme_minimal(base_size = 18) +
   theme(
