@@ -1,4 +1,4 @@
-data <- read.csv("/Users/thynguyen/Documents/GitHub/SkinBioassayStudy/Figures/Final/Figure2/Data/scat_plot_updated.csv")
+data <- read.csv("/Users/thynguyen/Documents/GitHub/SkinBioassayStudy/Figures/Final/Figure2/Data/scat_plot_updated1.csv")
 library(ggplot2)
 library(ggbreak)
 colors = c("#b1728f","#38761d","#493C61","#517391")

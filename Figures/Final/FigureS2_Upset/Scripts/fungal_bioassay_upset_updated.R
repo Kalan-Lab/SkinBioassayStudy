@@ -6,11 +6,11 @@ library(readxl)
 library(ComplexUpset)
 
 # import bioassay data
-bioassay_data_new_wide <- read.csv("~/Documents/GitHub/SkinBioassayStudy/Figures/Final/Figure4/Data/bioassay_data_new_wide.csv")
+bioassay_data_new_wide <- read.csv("/Users/thynguyen/Documents/GitHub/SkinBioassayStudy/Figures/Final/FigureS2_Upset/Data/bioassay_data_new_wide_updated.csv")
 # import updated, dereplicated strain list 
-row_annotation <- read.csv("/Users/thynguyen/Documents/GitHub/SkinBioassayStudy/Figures/Final/FigureS5/Data/row_annotation.csv")
+row_annotation <- read.csv("/Users/thynguyen/Documents/GitHub/SkinBioassayStudy/Figures/Final/FigureS2_Upset/Data/row_annotation.csv")
 # Import color dataframe
-color_genus <- read_excel("/Users/thynguyen/Documents/GitHub/SkinBioassayStudy/Figures/Final/FigureS5/Data/complete_skin_bioassay_isolate_list_092922.xlsx", 
+color_genus <- read_excel("/Users/thynguyen/Documents/GitHub/SkinBioassayStudy/Figures/Final/FigureS2_Upset/Data/complete_skin_bioassay_isolate_list_092922.xlsx", 
                           sheet = "internal - Colors for Species_T")
 
 transpose_df <- function(df) {
