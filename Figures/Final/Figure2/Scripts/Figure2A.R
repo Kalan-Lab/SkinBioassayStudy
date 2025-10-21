@@ -8,7 +8,7 @@ library(janitor)
 library(ggpubr)
 
 # Load data
-culture <- read_excel("/Users/thynguyen/Documents/GitHub/SkinBioassayStudy/Figures/Final/FigureS1_CulturevMetagenome/251010_SupTable2_Updated.xlsx")
+culture <- read_excel("/Users/thynguyen/Documents/GitHub/SkinBioassayStudy/Figures/Final/FigureS1_CulturevMetagenome/Data/251010_SupTable2_Updated.xlsx")
 
 # Assign body and site types
 culture <- culture %>%
@@ -41,7 +41,7 @@ culture <- culture %>%
 
 # Summarize culture data
 culture_final <- culture %>%
-  filter(!is.na(Genus)) %>%
+  filter(!is.na(Genus) & Genus != "Penicillium") %>%
   group_by(Genus, body_site, site_type) %>%
   dplyr::summarise(
     count = n(),
@@ -74,8 +74,7 @@ colors <- c("#b1728f","#c89cb0","#dfc6d2","#efe2e8",
             "#3B7D6A", "#59B198","#82C4B2", "#ACD8CC",
             "#3E5641",
             "#073763","#517391","#9bafc0","#cdd7df","#E6EBEF", 
-            "#4861AD", 
-            "#26547C")
+            "#4861AD")
 
 
 genus <- c(
@@ -94,8 +93,7 @@ genus <- c(
   "Peribacillus",
   #Pseudomonadota
   "Klebsiella","Citrobacter","Enterobacter", "Raoultella", "Escherichia", 
-  "Morganella", 
-  "Penicillium"
+  "Morganella"
   )
 
 # Create a named vector mapping genera to colors
