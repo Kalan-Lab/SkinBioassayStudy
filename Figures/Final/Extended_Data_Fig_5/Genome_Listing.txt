@@ -1,0 +1,10 @@
+Corynebacterium_SMGC_122/LK1289.fa
+Corynebacterium_SMGC_277/LK946.fa
+Corynebacterium_SMGC_277/LK931.fa
+Corynebacterium_SMGC_122/SMGC_122.fa
+Corynebacterium_SMGC_277/SMGC_277.fa
+Corynebacterium_SMGC_7/SMGC_7.fa
+Brachybacterium_SMGC_326/SMGC_326.fa
+Brachybacterium_SMGC_326/LK1352.fa
+Brachybacterium_SMGC_326/LK1085.fa
+Corynebacterium_SMGC_7/LK1358.fa

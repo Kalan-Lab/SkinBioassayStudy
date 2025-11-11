@@ -1,0 +1,178 @@
+---
+title: "novel_species_abon"
+author: "Thy Nguyen"
+date: "`r Sys.Date()`"
+output: html_document
+---
+
+```{r load packages, include=FALSE}
+library(dplyr)
+library(plyr)
+library(ggplot2)
+library(readxl)
+library(tidyverse)
+```
+
+
+## LK952
+
+```{r }
+#import data
+LK952_metadata <- read_excel("~/Documents/GitHub/Kalan_Lab/scripts/ssandstrom/skin_bioassay_paper_files/fig_6(1)/abon_results/LK952_abon_results.xlsx", 
+    sheet = "Sample BGCome Overview")
+LK952_results <- read_excel("~/Documents/GitHub/Kalan_Lab/scripts/ssandstrom/skin_bioassay_paper_files/fig_6(1)/abon_results/LK952_abon_results.xlsx", 
+    sheet = "Similarity to Target Genomes")
+
+#NAs were replace with 0 in Excel
+
+#formating
+#pivot original file to long format
+LK952_long <- LK952_results %>%
+  pivot_longer(
+    cols = starts_with("LK952_"),
+    names_sep = "-",
+    names_to = c("Region", "Parameter"))
+#pivot AAI and Proportion to wide format
+LK952_data <- LK952_long %>%
+  pivot_wider(names_from = Parameter, values_from = value)
+#filter out 0
+LK952_data1 <- filter(LK952_data, LK952_data$` AAI` > 0 , LK952_data$` Proportion Shared Genes` > 0)
+```
+
+## LK960
+
+```{r }
+#import data
+LK960_metadata <- read_excel("~/Documents/GitHub/Kalan_Lab/scripts/ssandstrom/skin_bioassay_paper_files/fig_6(1)/abon_results/LK960_abon_results.xlsx", 
+    sheet = "Sample BGCome Overview")
+LK960_results <- read_excel("~/Documents/GitHub/Kalan_Lab/scripts/ssandstrom/skin_bioassay_paper_files/fig_6(1)/abon_results/LK960_abon_results.xlsx", 
+    sheet = "Similarity to Target Genomes")
+
+#NAs were replace with 0 in Excel
+
+#formating
+#pivot original file to long format
+LK960_long <- LK960_results %>%
+  pivot_longer(
+    cols = starts_with("LK960_"),
+    names_sep = "-",
+    names_to = c("Region", "Parameter"))
+#pivot AAI and Proportion to wide format
+LK960_data <- LK960_long %>%
+  pivot_wider(names_from = Parameter, values_from = value)
+#filter out 0
+LK960_data1 <- filter(LK960_data, LK960_data$` AAI` > 0 , LK960_data$` Proportion Shared Genes` > 0)
+```
+
+## LK1337
+
+```{r }
+#import data
+LK1337_metadata <- read_excel("~/Documents/GitHub/Kalan_Lab/scripts/ssandstrom/skin_bioassay_paper_files/fig_6(1)/abon_results/LK1337_abon_results.xlsx", 
+    sheet = "Sample BGCome Overview")
+LK1337_results <- read_excel("~/Documents/GitHub/Kalan_Lab/scripts/ssandstrom/skin_bioassay_paper_files/fig_6(1)/abon_results/LK1337_abon_results.xlsx", 
+    sheet = "Similarity to Target Genomes")
+
+#NAs were replace with 0 in Excel
+
+#formating
+#pivot original file to long format
+LK1337_long <- LK1337_results %>%
+  pivot_longer(
+    cols = starts_with("LK1337_"),
+    names_sep = "-",
+    names_to = c("Region", "Parameter"))
+#pivot AAI and Proportion to wide format
+LK1337_data <- LK1337_long %>%
+  pivot_wider(names_from = Parameter, values_from = value)
+#filter out 0
+LK1337_data1 <- filter(LK1337_data, LK1337_data$` AAI` > 0 , LK1337_data$` Proportion Shared Genes` > 0)
+```
+
+## LK1188
+
+```{r }
+#import data
+LK1188_metadata <- read_excel("~/Documents/GitHub/Kalan_Lab/scripts/ssandstrom/skin_bioassay_paper_files/fig_6(1)/abon_results/LK1188_abon_results.xlsx", 
+    sheet = "Sample BGCome Overview")
+LK1188_results <- read_excel("~/Documents/GitHub/Kalan_Lab/scripts/ssandstrom/skin_bioassay_paper_files/fig_6(1)/abon_results/LK1188_abon_results.xlsx", 
+    sheet = "Similarity to Target Genomes")
+
+#NAs were replace with 0 in Excel
+
+#formating
+#pivot original file to long format
+LK1188_long <- LK1188_results %>%
+  pivot_longer(
+    cols = starts_with("LK1188_"),
+    names_sep = "-",
+    names_to = c("Region", "Parameter"))
+#pivot AAI and Proportion to wide format
+LK1188_data <- LK1188_long %>%
+  pivot_wider(names_from = Parameter, values_from = value)
+#filter out 0
+LK1188_data1 <- filter(LK1188_data, LK1188_data$` AAI` > 0 , LK1188_data$` Proportion Shared Genes` > 0)
+```
+
+
+## Scatter Plots
+
+```{r scatter plots}
+#LK952
+ggplot(LK952_data1, aes(x = ` AAI`, y = ` Proportion Shared Genes`)) +
+  geom_point(size = 4, aes(fill = factor(Region)), colour="black",pch=21) +
+  geom_vline(xintercept=95, linetype=3) +
+  scale_x_continuous(limits = c(40, 100)) +
+  scale_y_continuous(limits = c(0.4, 1)) +
+  scale_fill_manual(name = "BGC Type", labels=c('Terpene', 'T1PKS', 'Betalactone', 'RiPP-like'), values=c("#99B898", "#FECEAB" ,"#FF847C", "#E84A5F")) +
+  guides(fill=guide_legend(title="BGC Type")) +
+  labs(x = "Average Amino Acid Identity", 
+       y = "Proportion Shared Genes", 
+       col = "BGC Type") +
+  theme_classic() +
+  theme(axis.text = element_text(size = 16), panel.background = element_rect(colour = "black", linewidth = 0.5), strip.text = element_text(size = 14, face = "bold"), axis.title.y = element_text(size = 16))
+
+#LK960
+ggplot(LK960_data1, aes(x = ` AAI`, y = ` Proportion Shared Genes`)) +
+  geom_point(size = 4, aes(fill = factor(Region)), colour="black",pch=21) +
+  geom_vline(xintercept=95, linetype=3) +
+  scale_x_continuous(limits = c(40, 100)) +
+  scale_y_continuous(limits = c(0.4, 1)) +
+  scale_fill_manual(name = "BGC Type", labels=c('Siderophore', 'Terpene', 'Arylpolyene'), values=c("#F8B195", "#C06C84" ,"#355C7D")) +
+  guides(fill=guide_legend(title="BGC Type")) +
+  labs(x = "Average Amino Acid Identity", 
+       y = "Proportion Shared Genes", 
+       col = "BGC Type") +
+  theme_classic() +
+  theme(axis.text = element_text(size = 16), panel.background = element_rect(colour = "black", linewidth = 0.5), strip.text = element_text(size = 14, face = "bold"), axis.title.y = element_text(size = 16))
+
+#LK1337
+ggplot(LK1337_data1, aes(x = ` AAI`, y = ` Proportion Shared Genes`)) +
+  geom_point(size = 4, aes(fill = factor(Region)), colour="black",pch=21) +
+  geom_vline(xintercept=95, linetype=3) +
+  scale_x_continuous(limits = c(40, 100)) +
+  scale_y_continuous(limits = c(0.4, 1)) +
+  scale_fill_manual(name = "BGC Type", labels=c('Tropodithietic-acid', 'NAPAA', 'Terpene'), values=c("#9DE0AD", "#45ADA8" ,"#547980")) +
+  guides(fill=guide_legend(title="BGC Type")) +
+  labs(x = "Average Amino Acid Identity", 
+       y = "Proportion Shared Genes", 
+       col = "BGC Type") +
+  theme_classic() +
+  theme(axis.text = element_text(size = 16), panel.background = element_rect(colour = "black", linewidth = 0.5), strip.text = element_text(size = 14, face = "bold"), axis.title.y = element_text(size = 16))
+
+#LK1188
+ggplot(LK1188_data1, aes(x = ` AAI`, y = ` Proportion Shared Genes`)) +
+  geom_point(size = 4, aes(fill = factor(Region)), colour="black",pch=21) +
+  geom_vline(xintercept=95, linetype=3) +
+  scale_x_continuous(limits = c(40, 100)) +
+  scale_y_continuous(limits = c(0.4, 1)) +
+  scale_fill_manual(name = "BGC Type", labels=c('Tropodithietic-acid', 'NAPAA', 'Terpene'), values=c("#9DE0AD", "#45ADA8" ,"#547980")) +
+  guides(fill=guide_legend(title="BGC Type")) +
+  labs(x = "Average Amino Acid Identity", 
+       y = "Proportion Shared Genes", 
+       col = "BGC Type") +
+  theme_classic() +
+  theme(axis.text = element_text(size = 16), panel.background = element_rect(colour = "black", linewidth = 0.5), strip.text = element_text(size = 14, face = "bold"), axis.title.y = element_text(size = 16))
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.

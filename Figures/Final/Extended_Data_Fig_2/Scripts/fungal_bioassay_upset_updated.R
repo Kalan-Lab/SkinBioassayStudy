@@ -1,0 +1,116 @@
+library(tidyverse)
+library(dplyr)
+library(extraoperators)
+library(ggplot2)
+library(readxl)
+library(ComplexUpset)
+
+# import bioassay data
+bioassay_data_new_wide <- read.csv("/Users/thynguyen/Documents/GitHub/SkinBioassayStudy/Figures/Final/FigureS2_Upset/Data/bioassay_data_new_wide_updated.csv")
+# import updated, dereplicated strain list 
+row_annotation <- read.csv("/Users/thynguyen/Documents/GitHub/SkinBioassayStudy/Figures/Final/FigureS2_Upset/Data/row_annotation.csv")
+# Import color dataframe
+color_genus <- read_excel("/Users/thynguyen/Documents/GitHub/SkinBioassayStudy/Figures/Final/FigureS2_Upset/Data/complete_skin_bioassay_isolate_list_092922.xlsx", 
+                          sheet = "internal - Colors for Species_T")
+
+transpose_df <- function(df) {
+  # Store original row names
+  original_row_names <- rownames(df)
+  
+  # Remove the first two columns
+  df <- df[, -(1:2)]
+  
+  # Store remaining column names
+  remaining_col_names <- colnames(df)
+  
+  # Transpose the data frame
+  df_t <- as.data.frame(t(df))
+  
+  # Set original row names as column names
+  colnames(df_t) <- original_row_names
+  
+  # Set remaining column names as row names
+  rownames(df_t) <- remaining_col_names
+  
+  # Make the first row the column names
+  colnames(df_t) <- as.character(df_t[1, ])
+  
+  # Remove the first row
+  df_t <- df_t[-1, ]
+  
+  # Convert all values to logical based on the condition (>1 is TRUE, otherwise FALSE)
+  df_t[] <- lapply(df_t, function(x) as.logical(as.numeric(x) > 1))
+  
+  return(df_t)
+}
+
+
+# Usage:
+df_transposed <- transpose_df(bioassay_data_new_wide)
+
+#plotting only fungi
+upset_input_fungi <- df_transposed %>% 
+  select(2,5,6,8,22)
+
+fungi <- c("A. flavus",
+           "C. albicans",
+           "Candida spp.",
+           "C. neoformans",
+           "T. asahii")
+
+colnames(upset_input_fungi)  <- fungi
+
+# Set order
+color_genus$Genus <- factor(color_genus$Genus, levels = color_genus$Genus)
+# Create color vector
+colors_genus <- setNames(color_genus$Hex, color_genus$Genus)
+
+# Making annotation
+wide.data.annotation <- data.frame(Strain_ID = rownames(df_transposed, df_transposed))
+annotation <- merge(wide.data.annotation, row_annotation, by="Strain_ID")
+
+upset(upset_input_fungi, 
+      fungi,
+      base_annotations = list(
+        'Intersection_size' = intersection_size(
+          count = FALSE, 
+          mapping = aes(fill = annotation$Genus)
+        ) + 
+          scale_fill_manual(values = colors_genus, 
+                            breaks = levels(color_genus$Genus)) +
+          theme(legend.position = "right", 
+                legend.title = element_blank(), 
+                text = element_text(size = 16),
+                axis.text = element_text(size = 16),
+                axis.title = element_text(size = 16),
+                legend.text = element_text(size = 14)
+          ) +
+          labs(y = "Number of Isolates")
+      ),
+      name = "Fungal Pathogen Groupings", 
+      min_size = 1,
+      width_ratio = 0.1) 
+
+upset(upset_input_fungi, 
+      fungi,
+      base_annotations = list(
+        'Intersection_size' = intersection_size(
+          count = FALSE, 
+          mapping = aes(fill = annotation$Genus)
+        ) + 
+          scale_fill_manual(values = colors_genus, 
+                            breaks = levels(color_genus$Genus)) +
+          theme(legend.position = "right", 
+                legend.title = element_blank(), 
+                text = element_text(size = 16),
+                axis.text = element_text(size = 16),
+                axis.title = element_text(size = 16),
+                legend.text = element_text(size = 14)
+          ) +
+          labs(y = "Number of Isolates")
+      ),
+      name = "Fungal Pathogen Groupings", 
+      min_size = 1,
+      max_size = 50,
+      width_ratio = 0.1) 
+

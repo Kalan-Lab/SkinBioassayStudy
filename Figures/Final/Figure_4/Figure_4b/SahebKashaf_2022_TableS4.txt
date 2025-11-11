@@ -1,0 +1,624 @@
+Supplementary Table 4. Quality assessment and taxonomic classification of the prokaryotic Skin Microbial Genome Catalogue																	
+identifier	genome_size	N50	completeness	contamination	5S_rRNA	LSU_rRNA_bacteria	SSU_rRNA_bacteria	Numb_tRNAs	gtdb_domain	gtdb_phylum	gtdb_class	gtdb_order	gtdb_family	gtdb_genus	gtdb_species	novelty	Sample
+SMGC_1	2533388	128237	97.49	0.37	94.96	99.73	23.03	18	d__Bacteria	p__Bacteroidota	c__Bacteroidia	o__Bacteroidales	f__Bacteroidaceae	g__F0040	s__	Novel	SAMPLE_9
+SMGC_2	2375524	70989	98.63	0	0	0	0	14	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Oscillospirales	f__Ruminococcaceae	g__Ruminococcus_D	s__Ruminococcus_D bicirculans	Known	SAMPLE_9
+SMGC_3	2709546	41625	97.41	1.08	0	0	0	18	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Micrococcaceae	g__Kocuria	s__Kocuria salsicia	Known	SAMPLE_9
+SMGC_4	2883842	76928	97.28	0	0	0	0	20	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Oscillospirales	f__Ruminococcaceae	g__Gemmiger	s__Gemmiger formicilis	Known	SAMPLE_9
+SMGC_5	1803026	29889	96.15	0	0	0	0	20	d__Bacteria	p__Bacteroidota	c__Bacteroidia	o__Bacteroidales	f__Porphyromonadaceae	g__Porphyromonas	s__	Known	SAMPLE_9
+SMGC_6	2786581	55983	98.55	0	0	0	0	16	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Lachnospirales	f__Lachnospiraceae	g__Agathobacter	s__Agathobacter rectale	Known	SAMPLE_9
+SMGC_7	2319761	43663	99.11	0.11	0	0	0	18	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__	Known	SAMPLE_13
+SMGC_8	1976173	46484	98.28	0.57	0	0	0	13	d__Bacteria	p__Firmicutes	c__Bacilli	o__Staphylococcales	f__Salinicoccaceae	g__Jeotgalicoccus	s__Jeotgalicoccus marinus	Known	SAMPLE_14
+SMGC_9	2155888	19676	92.58	0.49	0	0	0	14	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__Corynebacterium riegelii	Known	SAMPLE_39
+SMGC_10	1868856	59963	98.78	0.61	92.44	0	51.34	13	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Tissierellales	f__Helcococcaceae	g__Anaerococcus	s__	Known	SAMPLE_47
+SMGC_11	2463477	161114	98.9	1.8	94.96	53.61	0	14	d__Bacteria	p__Firmicutes	c__Bacilli	o__Staphylococcales	f__Staphylococcaceae	g__Staphylococcus	s__	Novel	SAMPLE_47
+SMGC_12	1795057	189178	98.78	0.61	0	0	0	17	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Tissierellales	f__Helcococcaceae	g__Lagierella	s__	Novel	SAMPLE_47
+SMGC_13	1613458	132159	98.95	0	0	0	0	15	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Tissierellales	f__Peptoniphilaceae	g__Peptoniphilus_C	s__	Novel	SAMPLE_47
+SMGC_14	1880044	103541	99.39	1.22	93.28	0	0	13	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Tissierellales	f__Helcococcaceae	g__Anaerococcus	s__	Novel	SAMPLE_47
+SMGC_15	1678913	263230	98.78	0.91	68.91	0	0	13	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Tissierellales	f__Helcococcaceae	g__Anaerococcus	s__	Known	SAMPLE_47
+SMGC_16	2683346	198549	97.73	0	95.8	99.69	0	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Propionibacteriales	f__Propionibacteriaceae	g__Tessaracoccus_A	s__	Novel	SAMPLE_47
+SMGC_17	1854293	51540	98.5	0.27	0	0	0	7	d__Bacteria	p__Firmicutes	c__Bacilli	o__Lactobacillales	f__Aerococcaceae	g__Ignavigranum	s__Ignavigranum ruoffiae	Known	SAMPLE_47
+SMGC_18	2510706	83350	100	0.48	0	0	0	19	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__Corynebacterium frankenforstense	Known	SAMPLE_47
+SMGC_19	2138777	106295	97.54	0	0	0	0	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__Corynebacterium otitidis	Known	SAMPLE_54
+SMGC_20	2338882	169916	99.75	0.06	94.96	0	0	9	d__Bacteria	p__Firmicutes	c__Bacilli	o__Staphylococcales	f__Staphylococcaceae	g__Staphylococcus	s__Staphylococcus capitis	Known	SAMPLE_61
+SMGC_21	3039125	21525	94.84	0.68	0	0	0	12	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Pseudomonadales	f__Moraxellaceae	g__Acinetobacter	s__Acinetobacter baumannii	Known	SAMPLE_63
+SMGC_22	1228355	1712	61.75	1.21	0	29.54	0	11	d__Archaea	p__Crenarchaeota	c__Nitrososphaeria	o__Nitrososphaerales	f__Nitrososphaeraceae	g__	s__	Novel	SAMPLE_85
+SMGC_23	2617116	50022	99.8	0	0	0	0	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__Corynebacterium sp000755185	Known	SAMPLE_89
+SMGC_24	2645035	196709	100	0	94.96	0	0	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Micrococcaceae	g__Rothia	s__	Known	SAMPLE_90
+SMGC_25	1313261	6826	86.26	0.93	0	0	0	4	d__Bacteria	p__Firmicutes	c__Bacilli	o__Lactobacillales	f__Aerococcaceae	g__Facklamia	s__Facklamia languida	Known	SAMPLE_91
+SMGC_26	2143946	94186	98.42	0.45	87.39	0	0	18	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__	Novel	SAMPLE_91
+SMGC_27	4845803	63095	100	0.15	0	0	0	20	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Xanthomonadales	f__Xanthomonadaceae	g__Stenotrophomonas	s__Stenotrophomonas maltophilia_A	Known	SAMPLE_105
+SMGC_28	2532977	245169	99.01	0	0	0	0	19	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Propionibacteriales	f__Propionibacteriaceae	g__Cutibacterium	s__Cutibacterium humerusii	Known	SAMPLE_106
+SMGC_29	1172733	8491	62.07	0.61	0	0	0	4	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Tissierellales	f__Helcococcaceae	g__Anaerococcus	s__Anaerococcus sp002359915	Known	SAMPLE_123
+SMGC_30	1714535	28672	98.21	0.91	0	0	0	11	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Tissierellales	f__Helcococcaceae	g__Anaerococcus	s__Anaerococcus octavius	Known	SAMPLE_123
+SMGC_31	1707411	106109	97.55	0	0	0	0	12	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Tissierellales	f__Peptoniphilaceae	g__Peptoniphilus_A	s__Peptoniphilus_A rhinitidis	Known	SAMPLE_123
+SMGC_32	2361637	78612	98.37	1.04	0	0	0	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__	Novel	SAMPLE_124
+SMGC_33	2145908	75482	94.15	0.15	94.12	30.09	0	19	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Dermabacteraceae	g__Dermabacter	s__Dermabacter hominis	Known	SAMPLE_125
+SMGC_34	2374123	142195	98.84	0	0	0	0	19	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Brevibacteriaceae	g__Brevibacterium	s__	Known	SAMPLE_125
+SMGC_35	2525333	29174	95.6	0.88	0	0	0	16	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__Corynebacterium sp001812805	Known	SAMPLE_133
+SMGC_36	2359221	168746	99.67	0	0	0	0	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Propionibacteriales	f__Propionibacteriaceae	g__Cutibacterium	s__Cutibacterium namnetense	Known	SAMPLE_137
+SMGC_37	3114433	18426	93.85	1.52	0	0	0	18	d__Bacteria	p__Proteobacteria	c__Alphaproteobacteria	o__Rhodobacterales	f__Rhodobacteraceae	g__Paracoccus	s__Paracoccus sp000967825	Known	SAMPLE_139
+SMGC_38	2564143	114248	99.78	0.8	0	0	0	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__	Novel	SAMPLE_141
+SMGC_39	2708837	205892	99.13	0.76	0	0	0	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Micrococcaceae	g__Nesterenkonia	s__	Known	SAMPLE_141
+SMGC_40	2139141	197117	99.03	0	0	0	0	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Microbacteriaceae	g__Pseudoclavibacter	s__Pseudoclavibacter alba	Known	SAMPLE_142
+SMGC_41	5177855	254649	99.81	0	0	0	0	19	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Enterobacterales	f__Enterobacteriaceae	g__Serratia	s__Serratia marcescens_I	Known	SAMPLE_142
+SMGC_42	2361591	143588	99.34	0	94.96	0	0	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Micrococcaceae	g__Rothia	s__	Novel	SAMPLE_142
+SMGC_43	2537573	16745	97.21	0.26	0	0	0	17	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__Corynebacterium matruchotii	Known	SAMPLE_149
+SMGC_44	1707177	9842	78.05	1.66	0	0	0	14	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Actinomycetaceae	g__Pauljensenia	s__Pauljensenia sp000185285	Known	SAMPLE_149
+SMGC_45	1961210	29123	95.28	0	92.44	0	0	19	d__Bacteria	p__Firmicutes_C	c__Negativicutes	o__Veillonellales	f__Veillonellaceae	g__Veillonella	s__Veillonella parvula_A	Known	SAMPLE_149
+SMGC_46	1569382	26684	96.99	1.29	0	0	0	12	d__Bacteria	p__Firmicutes	c__Bacilli	o__Lactobacillales	f__Aerococcaceae	g__Facklamia_A	s__Facklamia_A ignava	Known	SAMPLE_154
+SMGC_47	1194211	11021	86.77	0.71	0	0	0	11	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Peptostreptococcales	f__Anaerovoracaceae	g__Mogibacterium	s__	Known	SAMPLE_154
+SMGC_48	1351051	6589	76.58	0.79	0	0	0	19	d__Bacteria	p__Campylobacterota	c__Campylobacteria	o__Campylobacterales	f__Campylobacteraceae	g__Campylobacter_B	s__Campylobacter_B ureolyticus_A	Known	SAMPLE_154
+SMGC_49	2201726	36005	99.42	0.71	0	0	0	20	d__Bacteria	p__Bacteroidota	c__Bacteroidia	o__Bacteroidales	f__Porphyromonadaceae	g__Porphyromonas	s__Porphyromonas somerae	Known	SAMPLE_154
+SMGC_50	1111104	13044	84.04	0.35	0	0	0	6	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Peptostreptococcales	f__Anaerovoracaceae	g__S5-A14a	s__S5-A14a sp000758905	Known	SAMPLE_154
+SMGC_51	2344767	25497	93.54	0.97	0	0	0	19	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__Corynebacterium coyleae	Known	SAMPLE_154
+SMGC_52	2104734	15529	93.21	0.19	0	0	0	16	d__Bacteria	p__Bacteroidota	c__Bacteroidia	o__Bacteroidales	f__Bacteroidaceae	g__Prevotella	s__	Known	SAMPLE_154
+SMGC_53	2953748	24736	99.87	0.02	94.96	0	0	15	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Pseudomonadales	f__Moraxellaceae	g__Acinetobacter	s__Acinetobacter johnsonii	Known	SAMPLE_166
+SMGC_54	3605068	25350	99.26	1.21	0	0	0	16	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Pseudomonadales	f__Moraxellaceae	g__Acinetobacter	s__	Known	SAMPLE_166
+SMGC_55	1826191	13139	96.79	0.25	0	0	0	12	d__Bacteria	p__Firmicutes	c__Bacilli	o__Lactobacillales	f__Streptococcaceae	g__Streptococcus	s__	Novel	SAMPLE_170
+SMGC_56	2282264	54380	97.32	0	0	0	0	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__Corynebacterium afermentans	Known	SAMPLE_174
+SMGC_57	2251538	445042	99.45	0	94.96	0	0	18	d__Bacteria	p__Firmicutes	c__Bacilli	o__Staphylococcales	f__Staphylococcaceae	g__Staphylococcus	s__Staphylococcus auricularis	Known	SAMPLE_181
+SMGC_58	4487783	107600	99.97	0	0	0	0	18	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Enterobacterales	f__Aeromonadaceae	g__Aeromonas	s__Aeromonas rivipollensis	Known	SAMPLE_183
+SMGC_59	5783507	22844	76.14	0	0	0	0	14	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Pseudomonadales	f__Pseudomonadaceae	g__Pseudomonas_E	s__	Novel	SAMPLE_183
+SMGC_60	4792435	21418	98.12	0.67	65.55	0	0	16	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Gordonia	s__Gordonia sp002009645	Known	SAMPLE_190
+SMGC_61	6179466	56117	98.17	1.39	0	0	0	19	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Mycolicibacterium	s__Mycolicibacterium bacteremicum	Known	SAMPLE_190
+SMGC_62	3381304	7719	80.95	0.73	0	0	0	13	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Rhodococcus	s__Rhodococcus kroppenstedtii	Known	SAMPLE_190
+SMGC_63	3069853	10585	91.97	1.21	0	0	0	17	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Micrococcaceae	g__Kocuria	s__Kocuria sp002295155	Known	SAMPLE_190
+SMGC_64	3164606	23732	96.27	1.47	0	0	0	19	d__Bacteria	p__Proteobacteria	c__Alphaproteobacteria	o__Rhodobacterales	f__Rhodobacteraceae	g__Paracoccus	s__Paracoccus sphaerophysae	Known	SAMPLE_190
+SMGC_65	3776683	6799	89.71	1.55	0	0	0	15	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Enterobacterales	f__Enterobacteriaceae	g__Pantoea	s__Pantoea agglomerans	Known	SAMPLE_193
+SMGC_66	2883040	55105	98.96	0.33	0	0	0	19	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Micrococcaceae	g__Kocuria	s__Kocuria palustris	Known	SAMPLE_194
+SMGC_67	5560899	16616	98.67	0.95	NA	NA	NA	NA	d__Bacteria	p__Firmicutes	c__Bacilli	o__Bacillales	f__Bacillaceae_G	g__Bacillus_A	s__Bacillus_A thuringiensis_S	Known	SBCC_5
+SMGC_68	6120882	143991	99.53	0.47	NA	NA	NA	NA	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Burkholderiales	f__Burkholderiaceae	g__Achromobacter	s__Achromobacter sp002331005	Known	SBCC_15
+SMGC_69	3856234	43361	99.45	0	NA	NA	NA	NA	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Dermatophilaceae	g__Arsenicicoccus	s__Arsenicicoccus bolidensis	Known	SBCC_16
+SMGC_70	2243485	215158	99.84	1.42	NA	NA	NA	NA	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Actinomycetaceae	g__Winkia	s__Winkia sp002849225	Known	SBCC_18
+SMGC_71	3990344	210999	99.43	0.38	NA	NA	NA	NA	d__Bacteria	p__Firmicutes	c__Bacilli	o__Bacillales	f__Bacillaceae_H	g__Bacillus_C	s__Bacillus_C flexus	Known	SBCC_19
+SMGC_72	5276865	183880	100	0.27	NA	NA	NA	NA	d__Bacteria	p__Firmicutes_I	c__Bacilli_A	o__Brevibacillales	f__Brevibacillaceae	g__Brevibacillus_B	s__Brevibacillus_B laterosporus	Known	SBCC_20
+SMGC_73	2401409	177181	98.26	0	NA	NA	NA	NA	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Brevibacteriaceae	g__Brevibacterium	s__Brevibacterium ravenspurgense	Known	SBCC_21
+SMGC_74	4193192	49404	98.83	1.75	NA	NA	NA	NA	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Dermabacteraceae	g__Brachybacterium	s__	Novel	SBCC_23
+SMGC_75	2374479	119524	97.76	0.44	NA	NA	NA	NA	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__Corynebacterium afermentans	Known	SBCC_24
+SMGC_76	2472907	119739	97.54	0	NA	NA	NA	NA	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__	Novel	SBCC_29
+SMGC_77	2713094	127575	99.78	0	NA	NA	NA	NA	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__Corynebacterium aurimucosum_C	Known	SBCC_31
+SMGC_78	2801209	150160	99.78	0	NA	NA	NA	NA	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__Corynebacterium singulare	Known	SBCC_32
+SMGC_79	2586033	74180	99.34	0.05	NA	NA	NA	NA	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__Corynebacterium hadale	Known	SBCC_33
+SMGC_80	4505683	26264	98.84	0.67	NA	NA	NA	NA	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Cellulomonadaceae	g__Cellulomonas	s__	Novel	SBCC_36
+SMGC_81	2579372	205102	99.78	0.44	NA	NA	NA	NA	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__Corynebacterium imitans	Known	SBCC_37
+SMGC_82	2325744	126931	99.66	0.23	NA	NA	NA	NA	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__Corynebacterium sp001807485	Known	SBCC_38
+SMGC_83	2285889	260899	99.32	0.45	NA	NA	NA	NA	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__	Novel	SBCC_40
+SMGC_84	2415521	134325	99.78	0.44	NA	NA	NA	NA	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__	Known	SBCC_43
+SMGC_85	2642177	137232	99.78	0	NA	NA	NA	NA	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__Corynebacterium minutissimum	Known	SBCC_44
+SMGC_86	2541418	196090	99.22	0.15	NA	NA	NA	NA	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__Corynebacterium propinquum	Known	SBCC_47
+SMGC_87	2327991	240611	99.67	0	NA	NA	NA	NA	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__Corynebacterium pseudodiphtheriticum	Known	SBCC_48
+SMGC_88	2651581	213611	99.56	0.23	NA	NA	NA	NA	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__Corynebacterium simulans	Known	SBCC_49
+SMGC_89	2750853	205550	99.67	0.47	NA	NA	NA	NA	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__Corynebacterium striatum	Known	SBCC_50
+SMGC_90	2446751	142597	99.6	0	NA	NA	NA	NA	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__Corynebacterium pseudogenitalium	Known	SBCC_55
+SMGC_91	2361390	131993	99.21	0	NA	NA	NA	NA	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__	Novel	SBCC_62
+SMGC_92	2401486	138332	99.78	0.09	NA	NA	NA	NA	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__	Novel	SBCC_64
+SMGC_93	2788091	53175	99.4	0.79	NA	NA	NA	NA	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__Corynebacterium freneyi	Known	SBCC_67
+SMGC_94	2284556	145427	93.57	0.15	NA	NA	NA	NA	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Dermabacteraceae	g__Dermabacter_A	s__Dermabacter_A vaginalis	Known	SBCC_68
+SMGC_95	2506430	76482	98.25	0	NA	NA	NA	NA	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Dermabacteraceae	g__	s__	Novel	SBCC_70
+SMGC_96	2927215	93883	99.34	0.33	NA	NA	NA	NA	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Micrococcaceae	g__Kocuria	s__Kocuria indica	Known	SBCC_71
+SMGC_97	2845915	97549	98.36	0.33	NA	NA	NA	NA	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Micrococcaceae	g__Kocuria	s__Kocuria rhizophila_B	Known	SBCC_72
+SMGC_98	4576603	282087	99.34	0.33	NA	NA	NA	NA	d__Bacteria	p__Firmicutes	c__Bacilli	o__Bacillales_A	f__Planococcaceae	g__Lysinibacillus	s__Lysinibacillus fusiformis	Known	SBCC_73
+SMGC_99	3215460	65608	98.86	1.78	NA	NA	NA	NA	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Microbacteriaceae	g__Microbacterium	s__Microbacterium aurum	Known	SBCC_74
+SMGC_100	2387525	202139	95.58	2.03	NA	NA	NA	NA	d__Bacteria	p__Firmicutes	c__Bacilli	o__Staphylococcales	f__Staphylococcaceae	g__Macrococcus	s__Macrococcus epidermidis	Known	SBCC_75
+SMGC_101	2550201	19068	97.97	1.38	NA	NA	NA	NA	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Micrococcaceae	g__Micrococcus	s__	Novel	SBCC_76
+SMGC_102	2063942	23219	90.51	0.22	0	0	0	18	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__	Novel	SAMPLE_206
+SMGC_103	1853183	116619	95.44	0	0	0	0	17	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Lawsonella	s__	Known	SAMPLE_263
+SMGC_104	1163660	112171	90.2	0.68	94.96	33.03	51.86	20	d__Bacteria	p__Verrucomicrobiota_A	c__Chlamydiia	o__Parachlamydiales	f__Simkaniaceae	g__	s__	Known	SAMPLE_263
+SMGC_105	3450228	75138	97.18	0.12	0	0	0	17	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Burkholderiales	f__Burkholderiaceae	g__Aquabacterium	s__	Known	SAMPLE_264
+SMGC_106	1148406	1801	66.31	1.71	0	0	0	12	d__Bacteria	p__Bacteroidota	c__Bacteroidia	o__Flavobacteriales	f__Weeksellaceae	g__Bergeyella	s__Bergeyella zoohelcum	Known	SAMPLE_264
+SMGC_107	1076123	2811	74.79	1.91	0	0	0	13	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Microbacteriaceae	g__	s__	Novel	SAMPLE_264
+SMGC_108	1886195	21598	86.26	0.41	0	0	0	17	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Pseudomonadales	f__Moraxellaceae	g__Moraxella	s__	Novel	SAMPLE_264
+SMGC_109	1914182	72043	99.85	0	0	7.08	0	9	d__Bacteria	p__Firmicutes	c__Bacilli	o__Lactobacillales	f__Streptococcaceae	g__Streptococcus	s__Streptococcus canis	Known	SAMPLE_264
+SMGC_110	2131607	70488	91.79	0.41	0	0	0	20	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Pseudomonadales	f__Moraxellaceae	g__Moraxella	s__	Known	SAMPLE_264
+SMGC_111	917897	2524	54.02	0	0	0	0	6	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Pseudomonadales	f__Moraxellaceae	g__Moraxella	s__	Novel	SAMPLE_264
+SMGC_112	2397105	4267	50	0	0	0	0	10	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Dermatophilaceae	g__Branchiibius	s__	Novel	SAMPLE_264
+SMGC_113	1230959	2174	54.68	1.03	88.24	5.37	11.48	10	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Xanthomonadales	f__Xanthomonadaceae	g__Lysobacter_B	s__	Novel	SAMPLE_264
+SMGC_114	3074649	54597	98.96	0.69	94.96	11.28	0	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Propionibacteriales	f__Propionibacteriaceae	g__Granulicoccus	s__	Known	SAMPLE_267
+SMGC_115	2392473	126429	98.71	0	0	0	0	19	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__Corynebacterium resistens	Known	SAMPLE_267
+SMGC_116	5155575	43874	98.53	1.82	94.96	0	0	20	d__Bacteria	p__Proteobacteria	c__Alphaproteobacteria	o__Rhizobiales	f__Rhizobiaceae	g__Agrobacterium	s__	Known	SAMPLE_280
+SMGC_117	4208877	106445	99.39	0.51	0	0	0	20	d__Bacteria	p__Proteobacteria	c__Alphaproteobacteria	o__Rhodobacterales	f__Rhodobacteraceae	g__Haematobacter	s__Haematobacter missouriensis	Known	SAMPLE_282
+SMGC_118	6291400	270927	99.66	0.11	0	0	0	20	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Pseudomonadales	f__Pseudomonadaceae	g__Pseudomonas	s__Pseudomonas aeruginosa	Known	SAMPLE_284
+SMGC_119	3046288	128648	97.47	0.5	0	0	0	18	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Xanthomonadales	f__Xanthomonadaceae	g__Xanthomonas_B	s__	Known	SAMPLE_297
+SMGC_120	4770180	36339	98.33	0.48	95.8	0	0	17	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Enterobacterales	f__Enterobacteriaceae	g__Klebsiella	s__Klebsiella pneumoniae	Known	SAMPLE_297
+SMGC_121	1763748	45463	99.45	0.15	0	84.55	0	18	d__Bacteria	p__Firmicutes	c__Bacilli	o__Lactobacillales	f__Streptococcaceae	g__Streptococcus	s__Streptococcus thermophilus	Known	SAMPLE_298
+SMGC_122	2343151	449981	99.78	0	0	0	0	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__	Known	SAMPLE_299
+SMGC_123	1981766	110731	99.53	0.47	0	0	0	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Actinomycetaceae	g__Varibaculum	s__Varibaculum cambriense_B	Known	SAMPLE_306
+SMGC_124	2132632	86145	98.06	1.07	0	0	0	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Actinomycetaceae	g__Mobiluncus	s__	Known	SAMPLE_306
+SMGC_125	1211334	10136	88.11	3.5	0	0	0	7	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Tissierellales	f__Peptoniphilaceae	g__Peptoniphilus_A	s__Peptoniphilus_A lacrimalis	Known	SAMPLE_306
+SMGC_126	1861680	57985	99.78	0	0	0	50.49	19	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Actinomycetaceae	g__Trueperella	s__Trueperella bernardiae	Known	SAMPLE_306
+SMGC_127	1552903	125812	97.09	0.7	81.51	21.13	0	20	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Tissierellales	f__Ezakiellaceae	g__Ezakiella	s__	Known	SAMPLE_306
+SMGC_128	1905651	45399	99.24	0	0	0	0	15	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Tissierellales	f__Helcococcaceae	g__Anaerococcus	s__	Known	SAMPLE_306
+SMGC_129	1982462	14375	91.42	0.1	0	0	46.31	18	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Microbacteriaceae	g__	s__	Known	SAMPLE_306
+SMGC_130	1958363	18443	85.52	1.74	0	0	0	13	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Brevibacteriaceae	g__Brevibacterium	s__	Known	SAMPLE_306
+SMGC_131	1439999	13766	89.39	0	0	0	0	20	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Tissierellales	f__Ezakiellaceae	g__Ezakiella	s__Ezakiella coagulans	Known	SAMPLE_306
+SMGC_132	5048495	76271	99.48	1.14	0	0	0	20	d__Bacteria	p__Proteobacteria	c__Alphaproteobacteria	o__Sphingomonadales	f__Sphingomonadaceae	g__Novosphingobium	s__	Known	SAMPLE_312
+SMGC_133	5945179	150679	99.5	1.42	0	0	0	19	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Pseudomonadales	f__Pseudomonadaceae	g__Pseudomonas_E	s__Pseudomonas_E putida	Known	SAMPLE_312
+SMGC_134	3148655	40885	99.66	0.31	0	0	0	17	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Pseudomonadales	f__Moraxellaceae	g__Acinetobacter	s__Acinetobacter ursingii	Known	SAMPLE_312
+SMGC_135	3772211	9521	82.29	1.39	0	0	0	13	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Burkholderiales	f__Burkholderiaceae	g__Comamonas	s__Comamonas terrigena	Known	SAMPLE_327
+SMGC_136	3230635	5198	57.31	1.28	0	0	0	11	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Burkholderiales	f__Burkholderiaceae	g__Comamonas_B	s__Comamonas_B testosteroni	Known	SAMPLE_327
+SMGC_137	2865715	44610	98.66	0.19	0	0	0	16	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Lachnospirales	f__Lachnospiraceae	g__Eisenbergiella	s__Eisenbergiella sp900066775	Known	SAMPLE_360
+SMGC_138	1785844	35575	98.1	0.79	0	0	0	20	d__Bacteria	p__Firmicutes_C	c__Negativicutes	o__Veillonellales	f__Dialisteraceae	g__Dialister	s__Dialister invisus	Known	SAMPLE_360
+SMGC_139	1933425	25014	92.62	1.34	0	0	0	18	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Oscillospirales	f__Oscillospiraceae	g__CAG-83	s__CAG-83 sp000431575	Known	SAMPLE_360
+SMGC_140	4147056	69658	99.54	0.14	0	0	0	19	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Pseudomonadales	f__Pseudomonadaceae	g__Pseudomonas_E	s__Pseudomonas_E alcaligenes	Known	SAMPLE_384
+SMGC_141	2082430	1923	63.34	0.23	92.44	9.4	0	10	d__Bacteria	p__Bdellovibrionota	c__Bdellovibrionia	o__Bdellovibrionales	f__Bdellovibrionaceae	g__Bdellovibrio	s__	Novel	SAMPLE_403
+SMGC_142	2289199	65879	97.72	0.48	0	0	0	16	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__Corynebacterium sp001815935	Known	SAMPLE_406
+SMGC_143	2205195	197981	99.45	0	0	0	0	18	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Propionibacteriales	f__Propionibacteriaceae	g__Cutibacterium	s__Cutibacterium granulosum	Known	SAMPLE_442
+SMGC_144	4570962	21498	98.12	0.48	0	0	0	15	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Enterobacterales	f__Enterobacteriaceae	g__Erwinia	s__Erwinia sp002752575	Known	SAMPLE_444
+SMGC_145	5725991	36365	98.44	0.78	92.44	0	0	20	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Pseudomonadales	f__Pseudomonadaceae	g__Pseudomonas_E	s__Pseudomonas_E helleri	Known	SAMPLE_444
+SMGC_146	1039155	6992	63.42	0.3	0	0	0	9	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Tissierellales	f__Helcococcaceae	g__Anaerococcus	s__	Known	SAMPLE_470
+SMGC_147	1744254	25082	90.13	2.71	0	0	0	7	d__Bacteria	p__Firmicutes	c__Bacilli	o__Lactobacillales	f__Streptococcaceae	g__Streptococcus	s__	Known	SAMPLE_514
+SMGC_148	5071418	112510	99.33	0.3	0	0	0	19	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Pseudomonadales	f__Pseudomonadaceae	g__Pseudomonas_E	s__Pseudomonas_E sp002741105	Known	SAMPLE_524
+SMGC_149	3027100	21401	97.35	1.37	0	0	0	13	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Pseudomonadales	f__Moraxellaceae	g__Acinetobacter	s__Acinetobacter soli	Known	SAMPLE_524
+SMGC_150	3767222	9140	77.1	0.16	0	0	0	17	d__Bacteria	p__Bacteroidota	c__Bacteroidia	o__Sphingobacteriales	f__Sphingobacteriaceae	g__Sphingobacterium	s__Sphingobacterium sp001952815	Known	SAMPLE_524
+SMGC_151	2195980	224405	97.53	0	0	0	0	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__Corynebacterium massiliense	Known	SAMPLE_525
+SMGC_152	3647986	27281	96.85	1.73	0	0	0	20	d__Bacteria	p__Proteobacteria	c__Alphaproteobacteria	o__Caulobacterales	f__Caulobacteraceae	g__Brevundimonas	s__	Novel	SAMPLE_526
+SMGC_153	4058622	2712	85.57	2.85	0	0	0	15	d__Bacteria	p__Cyanobacteria	c__Cyanobacteriia	o__Cyanobacteriales	f__Phormidiaceae	g__Arthrospira	s__Arthrospira maxima	Known	SAMPLE_536
+SMGC_154	1592740	49487	96.74	0	0	0	0	15	d__Bacteria	p__Firmicutes	c__Bacilli	o__Lactobacillales	f__Carnobacteriaceae	g__Alloiococcus	s__Alloiococcus otitis	Known	SAMPLE_544
+SMGC_155	2400484	409216	96.96	0	0	0	0	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__	Known	SAMPLE_570
+SMGC_156	1247235	500630	95.89	0	0	0	0	20	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Burkholderiales	f__Neisseriaceae	g__QFNR01	s__	Known	SAMPLE_571
+SMGC_157	2261911	115962	99.32	0.68	0	0	0	19	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__	Known	SAMPLE_582
+SMGC_158	4180785	233562	99.17	0	0	0	0	20	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Burkholderiales	f__Rhodocyclaceae	g__Methyloversatilis	s__Methyloversatilis discipulorum_A	Known	SAMPLE_607
+SMGC_159	2399665	18287	93.86	0.08	0	0	0	17	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Micrococcaceae	g__Micrococcus	s__Micrococcus luteus_A	Known	SAMPLE_611
+SMGC_160	3933062	12533	92.78	1.8	0	0	0	10	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Pseudomonadales	f__Moraxellaceae	g__Acinetobacter	s__Acinetobacter bereziniae	Known	SAMPLE_613
+SMGC_161	2007602	8818	98.22	2.55	66.39	11.25	0	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Actinomycetaceae	g__Varibaculum	s__Varibaculum sp900106855	Known	SAMPLE_631
+SMGC_162	2030804	4387	80.21	1.22	94.96	99.79	98.63	17	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Micrococcaceae	g__Rothia	s__Rothia mucilaginosa	Known	SAMPLE_634
+SMGC_163	1033315	1611	56.18	3.13	94.12	99.83	99.67	18	d__Bacteria	p__Firmicutes	c__Bacilli	o__Lactobacillales	f__Streptococcaceae	g__Streptococcus	s__	Novel	SAMPLE_641
+SMGC_164	2502250	19781	97.83	1.41	0	0	0	18	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__Corynebacterium pyruviciproducens	Known	SAMPLE_657
+SMGC_165	2101175	10062	94.95	2.45	0	0	0	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Actinomycetaceae	g__Pauljensenia	s__Pauljensenia radingae	Known	SAMPLE_657
+SMGC_166	1625903	3123	68.52	1.5	0	0	0	9	d__Bacteria	p__Bacteroidota	c__Bacteroidia	o__Bacteroidales	f__Bacteroidaceae	g__Prevotella	s__Prevotella corporis	Known	SAMPLE_658
+SMGC_167	1748060	6471	91.48	2.09	0	0	0	18	d__Bacteria	p__Bacteroidota	c__Bacteroidia	o__Bacteroidales	f__Porphyromonadaceae	g__Porphyromonas	s__	Novel	SAMPLE_660
+SMGC_168	3054404	5236	73.15	3.19	0	0	0	12	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__Corynebacterium glyciniphilum	Known	SAMPLE_663
+SMGC_169	2784097	17338	89.52	0.9	0	0	0	14	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__Corynebacterium variabile	Known	SAMPLE_663
+SMGC_170	2796435	32798	99.71	0.1	94.96	99.59	71.82	20	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Pseudomonadales	f__Moraxellaceae	g__Moraxella_A	s__Moraxella_A aerosaccus	Known	SAMPLE_665
+SMGC_171	2720772	42627	99.45	0.55	0	87.59	99.67	8	d__Bacteria	p__Firmicutes	c__Bacilli	o__Staphylococcales	f__Staphylococcaceae	g__Staphylococcus	s__Staphylococcus simulans	Known	SAMPLE_670
+SMGC_172	1016114	1567	54.66	2.02	0	0	0	10	d__Bacteria	p__Bacteroidota	c__Bacteroidia	o__Bacteroidales	f__Rikenellaceae	g__Alistipes	s__Alistipes putredinis	Known	SAMPLE_672
+SMGC_173	2326926	7859	92.66	1.21	0	0	0	19	d__Bacteria	p__Bacteroidota	c__Bacteroidia	o__Bacteroidales	f__UBA932	g__RC9	s__RC9 sp000431015	Known	SAMPLE_672
+SMGC_174	1184028	2101	56.54	2.35	0	0	0	14	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__TANB77	f__CAG-508	g__CAG-269	s__CAG-269 sp003525075	Known	SAMPLE_672
+SMGC_175	2649867	10183	95.21	2.04	0	0	0	15	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Oscillospirales	f__Ruminococcaceae	g__Gemmiger	s__Gemmiger sp003476825	Known	SAMPLE_672
+SMGC_176	2597977	3786	87.97	4.31	94.12	0	0	16	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Christensenellales	f__CAG-74	g__UBA11524	s__UBA11524 sp000437595	Known	SAMPLE_672
+SMGC_177	2558590	18450	98.11	2.3	0	0	0	18	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__	Novel	SAMPLE_673
+SMGC_178	1563496	1804	54.52	0.94	94.96	5.64	0	12	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__Corynebacterium vitaeruminis_A	Known	SAMPLE_673
+SMGC_179	1309826	9785	77.31	2.73	92.44	0	0	9	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Tissierellales	f__Helcococcaceae	g__Anaerococcus	s__	Novel	SAMPLE_682
+SMGC_180	1372053	2448	64.79	1.49	0	11.01	0	13	d__Bacteria	p__Bacteroidota	c__Bacteroidia	o__Bacteroidales	f__Porphyromonadaceae	g__Porphyromonas	s__	Novel	SAMPLE_683
+SMGC_181	1383102	2371	72.64	2.81	0	0	0	14	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Burkholderiales	f__Neisseriaceae	g__Neisseria	s__Neisseria cinerea	Known	SAMPLE_683
+SMGC_182	2118906	35441	98.35	0.04	0	0	0	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__Corynebacterium ureicelerivorans	Known	SAMPLE_685
+SMGC_183	1972145	33032	96.1	0.63	0	0	59.95	19	d__Bacteria	p__Bacteroidota	c__Bacteroidia	o__Bacteroidales	f__Porphyromonadaceae	g__Porphyromonas	s__Porphyromonas sp001808555	Known	SAMPLE_701
+SMGC_184	3042170	17485	97.59	0.52	0	0	35.09	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Actinomycetaceae	g__Actinomyces	s__Actinomyces viscosus	Known	SAMPLE_703
+SMGC_185	996769	1577	50.56	3.05	0	0	0	5	d__Bacteria	p__Firmicutes	c__Bacilli	o__Lactobacillales	f__Streptococcaceae	g__Streptococcus	s__	Novel	SAMPLE_709
+SMGC_186	2852530	4640	80.11	2.89	0	0	0	18	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Dietzia	s__Dietzia maris	Known	SAMPLE_735
+SMGC_187	3140371	19638	97.84	1.82	0	0	0	19	d__Bacteria	p__Proteobacteria	c__Alphaproteobacteria	o__Caulobacterales	f__Caulobacteraceae	g__Brevundimonas	s__Brevundimonas nasdae	Known	SAMPLE_741
+SMGC_188	1223916	1834	66.8	3.29	0	99.28	0	14	d__Bacteria	p__Bacteroidota	c__Bacteroidia	o__Bacteroidales	f__Porphyromonadaceae	g__Porphyromonas	s__	Novel	SAMPLE_748
+SMGC_189	4017166	4551	82.81	1.41	93.28	10.84	0	18	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Gordonia	s__Gordonia jacobaea	Known	SAMPLE_751
+SMGC_190	1279013	6735	56.5	3.61	0	0	0	3	d__Bacteria	p__Firmicutes	c__Bacilli	o__Lactobacillales	f__Streptococcaceae	g__Streptococcus	s__	Novel	SAMPLE_764
+SMGC_191	1253025	2202	74.88	2.24	0	0	0	13	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Enterobacterales	f__Pasteurellaceae	g__Aggregatibacter	s__Aggregatibacter sp000466335	Known	SAMPLE_764
+SMGC_192	2904118	2090	76.46	3.1	95.8	99.83	79.58	14	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Enterobacterales	f__Enterobacteriaceae	g__Pantoea_B	s__Pantoea_B calida	Known	SAMPLE_772
+SMGC_193	1964354	1804	59.84	2.69	0	38.22	0	9	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Pseudomonadales	f__Moraxellaceae	g__Acinetobacter	s__Acinetobacter nosocomialis	Known	SAMPLE_772
+SMGC_194	1106926	1768	53.25	1.8	0	0	0	10	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Burkholderiales	f__Neisseriaceae	g__Neisseria	s__Neisseria sp000186165	Known	SAMPLE_777
+SMGC_195	4140630	13742	97.36	0.69	0	0	0	19	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Gordonia	s__Gordonia paraffinivorans	Known	SAMPLE_783
+SMGC_196	6115950	31175	70.53	0.47	0	0	0	17	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Burkholderiales	f__Burkholderiaceae	g__Achromobacter	s__Achromobacter xylosoxidans	Known	SAMPLE_818
+SMGC_197	2186552	43639	99.12	0.17	0	0	0	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__Corynebacterium appendicis	Known	SAMPLE_821
+SMGC_198	1141609	5123	62.33	0.14	0	0	0	9	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Pseudomonadales	f__Moraxellaceae	g__Moraxella	s__Moraxella catarrhalis	Known	SAMPLE_826
+SMGC_199	2067579	67393	95.81	0.73	0	0	0	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Micrococcaceae	g__Pseudoglutamicibacter	s__Pseudoglutamicibacter cumminsii	Known	SAMPLE_827
+SMGC_200	1602055	9450	87.2	0.35	0	0	0	10	d__Bacteria	p__Firmicutes	c__Bacilli	o__Lactobacillales	f__Streptococcaceae	g__Streptococcus	s__	Novel	SAMPLE_829
+SMGC_201	2195757	16077	93.44	0.67	0	99.45	0	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Micrococcaceae	g__Rothia	s__Rothia mucilaginosa	Known	SAMPLE_832
+SMGC_202	1602704	40959	97.2	0	0	0	0	20	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Tissierellales	f__Peptoniphilaceae	g__Peptoniphilus_C	s__Peptoniphilus_C coxii	Known	SAMPLE_836
+SMGC_203	1410835	6270	70.61	1.1	0	0	0	16	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Actinomycetaceae	g__Varibaculum	s__Varibaculum cambriense	Known	SAMPLE_836
+SMGC_204	2859184	59581	99.29	0	94.96	0	0	19	d__Bacteria	p__Bacteroidota	c__Bacteroidia	o__Bacteroidales	f__Bacteroidaceae	g__Prevotella	s__Prevotella timonensis	Known	SAMPLE_836
+SMGC_205	1498564	11423	84.44	0.73	0	0	0	10	d__Bacteria	p__Firmicutes	c__Bacilli	o__Lactobacillales	f__Lactobacillaceae	g__Lactobacillus	s__Lactobacillus delbrueckii	Known	SAMPLE_837
+SMGC_206	2601530	11732	95.2	2.6	0	0	0	16	d__Bacteria	p__Proteobacteria	c__Alphaproteobacteria	o__Caulobacterales	f__Caulobacteraceae	g__Brevundimonas	s__	Novel	SAMPLE_841
+SMGC_207	3731151	20648	96.11	2.93	0	0	0	19	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Microbacteriaceae	g__Microbacterium	s__Microbacterium sp001889265	Known	SAMPLE_841
+SMGC_208	4392424	8240	81.94	1.3	0	0	0	16	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Pseudomonadales	f__Pseudomonadaceae	g__Pseudomonas_E	s__Pseudomonas_E chengduensis	Known	SAMPLE_843
+SMGC_209	2862731	11251	92.28	1.43	0	0	0	18	d__Bacteria	p__Proteobacteria	c__Alphaproteobacteria	o__Caulobacterales	f__Caulobacteraceae	g__Brevundimonas	s__Brevundimonas sp003248925	Known	SAMPLE_844
+SMGC_210	1470473	5578	79.5	0.53	0	0	0	11	d__Bacteria	p__Firmicutes	c__Bacilli	o__Lactobacillales	f__Lactobacillaceae	g__Leuconostoc	s__Leuconostoc mesenteroides	Known	SAMPLE_844
+SMGC_211	2054147	11811	82.36	2.33	0	0	0	16	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Brevibacteriaceae	g__Brevibacterium	s__	Novel	SAMPLE_858
+SMGC_212	2234268	18856	95.64	0	0	0	0	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__Corynebacterium accolens	Known	SAMPLE_871
+SMGC_213	2362791	68056	99.78	0.11	0	0	0	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__	Novel	SAMPLE_875
+SMGC_214	1178560	29158	70.52	0	0	0	0	18	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Bifidobacteriaceae	g__Bifidobacterium	s__Bifidobacterium lacrimalis	Known	SAMPLE_880
+SMGC_215	2072627	22917	93.6	0.89	0	99.28	99.67	18	d__Bacteria	p__Bacteroidota	c__Bacteroidia	o__Bacteroidales	f__Porphyromonadaceae	g__Porphyromonas	s__Porphyromonas bennonis	Known	SAMPLE_881
+SMGC_216	2212716	6244	95.95	2.56	0	0	0	17	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Burkholderiales	f__Neisseriaceae	g__Conchiformibius	s__Conchiformibius steedae	Known	SAMPLE_882
+SMGC_217	5743266	163919	100	0.28	0	0	0	19	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Mycolicibacterium	s__Mycolicibacterium obuense	Known	SAMPLE_882
+SMGC_218	1576827	113565	95	0.59	94.96	99.73	21.72	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Lawsonella	s__Lawsonella clevelandensis_A	Known	SAMPLE_889
+SMGC_219	1446536	115645	100	2.19	0	80.38	57.4	20	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Burkholderiales	f__Neisseriaceae	g__QFNR01	s__QFNR01 sp003248485	Known	SAMPLE_889
+SMGC_220	1289560	49144	91.77	1.33	0	0	0	20	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Burkholderiales	f__Neisseriaceae	g__QFNR01	s__	Known	SAMPLE_892
+SMGC_221	1842411	10381	84.84	0.69	0	0	0	19	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Micrococcaceae	g__Micrococcus	s__Micrococcus luteus	Known	SAMPLE_892
+SMGC_222	2258307	92983	96.85	0.48	NA	NA	NA	NA	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Pseudomonadales	f__Moraxellaceae	g__Moraxella	s__Moraxella nonliquefaciens	Known	SBCC_77
+SMGC_223	3174818	79040	98.48	0.34	NA	NA	NA	NA	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Microbacteriaceae	g__Microbacterium	s__	Novel	SBCC_78
+SMGC_224	3943859	604889	98.75	0.63	NA	NA	NA	NA	d__Bacteria	p__Proteobacteria	c__Alphaproteobacteria	o__Rhizobiales	f__Beijerinckiaceae	g__Microvirga	s__	Novel	SBCC_79
+SMGC_225	6015031	584370	99.73	0	NA	NA	NA	NA	d__Bacteria	p__Firmicutes_I	c__Bacilli_A	o__Paenibacillales	f__Paenibacillaceae	g__Paenibacillus_B	s__	Novel	SBCC_80
+SMGC_226	2570282	561058	100	0	NA	NA	NA	NA	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Propionibacteriales	f__Propionibacteriaceae	g__Cutibacterium	s__Cutibacterium avidum	Known	SBCC_81
+SMGC_227	4692389	506866	100	0.08	NA	NA	NA	NA	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Enterobacterales	f__Enterobacteriaceae	g__Pantoea	s__Pantoea sp002389975	Known	SBCC_82
+SMGC_228	6725856	597812	99.85	0	NA	NA	NA	NA	d__Bacteria	p__Firmicutes_I	c__Bacilli_A	o__Paenibacillales	f__Paenibacillaceae	g__Paenibacillus	s__	Novel	SBCC_83
+SMGC_229	4720443	269347	98	1.86	NA	NA	NA	NA	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Pseudomonadales	f__Pseudomonadaceae	g__Pseudomonas_B	s__Pseudomonas_B luteola	Known	SBCC_84
+SMGC_230	4627867	162674	99.99	0.19	NA	NA	NA	NA	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Enterobacterales	f__Enterobacteriaceae	g__Pantoea	s__Pantoea sp002920175	Known	SBCC_85
+SMGC_231	6463713	514129	99.85	0.05	NA	NA	NA	NA	d__Bacteria	p__Firmicutes_I	c__Bacilli_A	o__Paenibacillales	f__Paenibacillaceae	g__Paenibacillus	s__Paenibacillus sp001426865	Known	SBCC_87
+SMGC_232	7223990	265577	100	0.42	NA	NA	NA	NA	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Burkholderiales	f__Burkholderiaceae	g__Caballeronia	s__Caballeronia zhejiangensis	Known	SBCC_88
+SMGC_233	5265439	79310	100	0	NA	NA	NA	NA	d__Bacteria	p__Proteobacteria	c__Alphaproteobacteria	o__Acetobacterales	f__Acetobacteraceae	g__Roseomonas	s__	Novel	SBCC_89
+SMGC_234	5088129	39212	100	0.5	NA	NA	NA	NA	d__Bacteria	p__Proteobacteria	c__Alphaproteobacteria	o__Acetobacterales	f__Acetobacteraceae	g__Roseomonas	s__Roseomonas mucosa	Known	SBCC_91
+SMGC_235	2741334	321027	99.65	0.36	NA	NA	NA	NA	d__Bacteria	p__Firmicutes	c__Bacilli	o__Staphylococcales	f__Staphylococcaceae	g__Staphylococcus	s__Staphylococcus argenteus	Known	SBCC_110
+SMGC_236	2702477	140382	99.81	0	NA	NA	NA	NA	d__Bacteria	p__Firmicutes	c__Bacilli	o__Staphylococcales	f__Staphylococcaceae	g__Staphylococcus	s__Staphylococcus caprae	Known	SBCC_124
+SMGC_237	2617953	115372	98.9	0	NA	NA	NA	NA	d__Bacteria	p__Firmicutes	c__Bacilli	o__Staphylococcales	f__Staphylococcaceae	g__Staphylococcus	s__Staphylococcus cohnii	Known	SBCC_125
+SMGC_238	1949123	320964	100	0	NA	NA	NA	NA	d__Bacteria	p__Firmicutes	c__Bacilli	o__Lactobacillales	f__Streptococcaceae	g__Streptococcus	s__Streptococcus cristatus	Known	SBCC_126
+SMGC_239	3709431	114028	99.51	1.78	NA	NA	NA	NA	d__Bacteria	p__Proteobacteria	c__Alphaproteobacteria	o__Sphingomonadales	f__Sphingomonadaceae	g__Sphingomonas	s__	Novel	SBCC_127
+SMGC_240	2459980	240111	98.81	0.65	NA	NA	NA	NA	d__Bacteria	p__Firmicutes	c__Bacilli	o__Staphylococcales	f__Staphylococcaceae	g__Staphylococcus	s__Staphylococcus devriesei_A	Known	SBCC_128
+SMGC_241	2557948	2462569	99.67	0	NA	NA	NA	NA	d__Bacteria	p__Firmicutes	c__Bacilli	o__Staphylococcales	f__Staphylococcaceae	g__Staphylococcus	s__Staphylococcus epidermidis	Known	SBCC_142
+SMGC_242	2936818	208016	99.45	0.28	NA	NA	NA	NA	d__Bacteria	p__Firmicutes	c__Bacilli	o__Staphylococcales	f__Staphylococcaceae	g__Staphylococcus	s__	Novel	SBCC_162
+SMGC_243	2491282	60608	99.51	0	NA	NA	NA	NA	d__Bacteria	p__Firmicutes	c__Bacilli	o__Staphylococcales	f__Staphylococcaceae	g__Staphylococcus	s__Staphylococcus haemolyticus	Known	SBCC_166
+SMGC_244	2270806	773651	99.38	0	NA	NA	NA	NA	d__Bacteria	p__Firmicutes	c__Bacilli	o__Staphylococcales	f__Staphylococcaceae	g__Staphylococcus	s__Staphylococcus hominis	Known	SBCC_190
+SMGC_245	2657050	445119	99.61	0	NA	NA	NA	NA	d__Bacteria	p__Firmicutes	c__Bacilli	o__Staphylococcales	f__Staphylococcaceae	g__Staphylococcus	s__Staphylococcus lugdunensis	Known	SBCC_223
+SMGC_246	4129918	265236	98.01	1.02	NA	NA	NA	NA	d__Bacteria	p__Firmicutes	c__Bacilli	o__Bacillales_A	f__Planococcaceae	g__Sporosarcina_B	s__	Novel	SBCC_237
+SMGC_247	2516293	280262	99.45	0.45	NA	NA	NA	NA	d__Bacteria	p__Firmicutes	c__Bacilli	o__Staphylococcales	f__Staphylococcaceae	g__Staphylococcus	s__Staphylococcus petrasii	Known	SBCC_238
+SMGC_248	2461033	202836	99.43	1.72	NA	NA	NA	NA	d__Bacteria	p__Firmicutes	c__Bacilli	o__Staphylococcales	f__Salinicoccaceae	g__Salinicoccus	s__Salinicoccus roseus	Known	SBCC_241
+SMGC_249	1373832	5459	65.79	1.1	0	0	0	18	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Xanthomonadales	f__Xanthomonadaceae	g__Lysobacter	s__	Novel	SAMPLE_902
+SMGC_250	5064109	10027	89.39	0.78	0	0	0	19	d__Bacteria	p__Proteobacteria	c__Alphaproteobacteria	o__Rhizobiales	f__Beijerinckiaceae	g__Methylobacterium	s__Methylobacterium brachiatum	Known	SAMPLE_907
+SMGC_251	3392236	26451	97.24	0.02	0	66.74	99.67	20	d__Bacteria	p__Bacteroidota	c__Bacteroidia	o__Flavobacteriales	f__Flavobacteriaceae	g__Flavobacterium	s__	Novel	SAMPLE_912
+SMGC_252	3077982	8843	74.43	2.41	0	0	0	18	d__Bacteria	p__Bdellovibrionota	c__Bacteriovoracia	o__Bacteriovoracales	f__Bacteriovoracaceae	g__Bacteriovorax	s__	Novel	SAMPLE_912
+SMGC_253	2359101	4870	58.47	0.97	95.8	16.68	0	13	d__Bacteria	p__Proteobacteria	c__Alphaproteobacteria	o__Caulobacterales	f__Hyphomonadaceae	g__Hyphomonas	s__	Novel	SAMPLE_914
+SMGC_254	3300904	14944	91.49	1.21	0	0	0	17	d__Bacteria	p__Proteobacteria	c__Alphaproteobacteria	o__Rhodobacterales	f__Rhodobacteraceae	g__Paracoccus	s__	Novel	SAMPLE_914
+SMGC_255	2115883	6406	66.96	1.35	0	0	0	10	d__Bacteria	p__Proteobacteria	c__Alphaproteobacteria	o__Caulobacterales	f__Caulobacteraceae	g__Brevundimonas	s__	Novel	SAMPLE_914
+SMGC_256	1987762	19240	94.63	0	0	0	0	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__	Novel	SAMPLE_914
+SMGC_257	2619371	15235	92.21	2.03	0	0	0	19	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Micrococcaceae	g__Micrococcus	s__Micrococcus terreus	Known	SAMPLE_914
+SMGC_258	2486934	7176	79.79	0.91	0	0	0	15	d__Bacteria	p__Proteobacteria	c__Alphaproteobacteria	o__Rhodobacterales	f__Rhodobacteraceae	g__Paracoccus	s__Paracoccus sanguinis	Known	SAMPLE_914
+SMGC_259	1786240	4605	70.11	0	0	0	0	13	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Pseudomonadales	f__Moraxellaceae	g__Acinetobacter	s__	Novel	SAMPLE_914
+SMGC_260	804323	10930	60.94	0	94.96	99.76	99.67	19	d__Bacteria	p__Patescibacteria	c__Paceibacteria	o__UBA9983_A	f__UBA2163	g__C7867-001	s__	Novel	SAMPLE_914
+SMGC_261	1948304	20453	95.17	0.46	0	0	0	19	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Micrococcaceae	g__Micrococcus	s__	Known	SAMPLE_956
+SMGC_262	1530538	3713	55.61	0	0	0	0	11	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__	Known	SAMPLE_963
+SMGC_263	2245914	199601	98.85	0	0	0	0	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__	Known	SAMPLE_967
+SMGC_264	2479199	131232	99.25	0	0	0	0	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__Corynebacterium glaucum	Known	SAMPLE_968
+SMGC_265	2395031	30874	99.71	0.1	0	0	0	19	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Pseudomonadales	f__Moraxellaceae	g__Moraxella_A	s__Moraxella_A osloensis	Known	SAMPLE_1204
+SMGC_266	4624353	54588	98.58	0.16	0	0	0	18	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Enterobacterales	f__Enterobacteriaceae	g__Enterobacter	s__Enterobacter himalayensis	Known	SAMPLE_1289
+SMGC_267	5473055	51617	99.7	0.15	0	0	0	16	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Enterobacterales	f__Enterobacteriaceae	g__Klebsiella_A	s__Klebsiella_A grimontii	Known	SAMPLE_1367
+SMGC_268	2702643	36642	99.49	0.68	94.96	16.24	77.89	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Microbacteriaceae	g__Microbacterium	s__	Known	SAMPLE_1368
+SMGC_269	1852383	37842	88.01	0.58	95.8	12.85	0	19	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Microbacteriaceae	g__Pseudoclavibacter	s__	Novel	SAMPLE_1431
+SMGC_270	2314810	40452	97.5	1.1	0	0	0	17	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__	Novel	SAMPLE_1431
+SMGC_271	2233086	44435	96	0.66	89.92	53.95	0	19	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__	Known	SAMPLE_1473
+SMGC_272	2162675	49063	98.65	0.45	0	0	0	19	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__	Novel	SAMPLE_1490
+SMGC_273	4677595	55979	100	0.05	88.24	0	0	20	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Xanthomonadales	f__Xanthomonadaceae	g__Stenotrophomonas	s__Stenotrophomonas maltophilia_F	Known	SAMPLE_1515
+SMGC_274	2017962	170189	95.47	0	94.96	11.56	0	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Propionibacteriales	f__Propionibacteriaceae	g__Propionimicrobium	s__	Novel	SAMPLE_1515
+SMGC_275	1583896	59780	56.83	0	0	0	0	12	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__	Novel	SAMPLE_1515
+SMGC_276	2462331	59043	97.83	0	0	0	0	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__	Novel	SAMPLE_1518
+SMGC_277	1863696	7590	79.03	0.95	0	0	0	13	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__	Known	SAMPLE_1523
+SMGC_278	2288167	6522	83.56	2.07	0	0	46.31	13	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Pseudomonadales	f__Nitrincolaceae	g__	s__	Novel	SAMPLE_1526
+SMGC_279	1840081	7963	86.82	1.56	0	0	0	10	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__	Novel	SAMPLE_1527
+SMGC_280	2354452	22007	95.93	0.78	92.44	13.95	0	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Brevibacteriaceae	g__Brevibacterium	s__	Novel	SAMPLE_1548
+SMGC_281	1596517	13879	91.13	0	0	0	0	19	d__Bacteria	p__Bacteroidota	c__Bacteroidia	o__Bacteroidales	f__Porphyromonadaceae	g__Porphyromonas	s__	Novel	SAMPLE_1548
+SMGC_282	2178033	66424	99.05	1.42	88.24	99.25	31.25	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Actinomycetaceae	g__Mobiluncus	s__	Novel	SAMPLE_1548
+SMGC_283	1124048	3996	55.71	1.23	0	0	0	5	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Burkholderiales	f__Burkholderiaceae	g__Pelistega	s__Pelistega indica	Known	SAMPLE_1548
+SMGC_284	1812413	8675	89.82	2.12	0	0	0	15	d__Bacteria	p__Bacteroidota	c__Bacteroidia	o__Bacteroidales	f__Porphyromonadaceae	g__Porphyromonas	s__Porphyromonas asaccharolytica	Known	SAMPLE_1548
+SMGC_285	1714443	97750	90.43	0	0	0	0	19	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Saccharofermentanales	f__DTU023	g__	s__	Novel	SAMPLE_1548
+SMGC_286	2298050	37159	96.71	0.08	0	0	0	20	d__Bacteria	p__Firmicutes	c__Bacilli	o__Staphylococcales	f__Staphylococcaceae	g__Staphylococcus	s__	Known	SAMPLE_1550
+SMGC_287	2210596	7914	80.53	4.09	95.8	0	0	16	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Micrococcaceae	g__Micrococcus	s__	Novel	SAMPLE_1552
+SMGC_288	1929730	42273	97.7	0.77	95.8	5.4	0	12	d__Bacteria	p__Firmicutes	c__Bacilli	o__Staphylococcales	f__Salinicoccaceae	g__Jeotgalicoccus	s__Jeotgalicoccus halophilus	Known	SAMPLE_1552
+SMGC_289	5081462	60875	99.51	0.16	95.8	33.26	0	18	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Enterobacterales	f__Enterobacteriaceae	g__Erwinia	s__	Novel	SAMPLE_1552
+SMGC_290	2430651	7084	70.69	0	0	0	0	13	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Micrococcaceae	g__Nesterenkonia	s__	Novel	SAMPLE_1552
+SMGC_291	1626297	30722	95.06	0.83	0	0	0	19	d__Bacteria	p__Firmicutes	c__Bacilli	o__Staphylococcales	f__Auricoccaceae	g__Auricoccus	s__Auricoccus indicus	Known	SAMPLE_1552
+SMGC_292	2657552	32628	94.73	1.8	88.24	99.25	48.34	18	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__Corynebacterium glucuronolyticum	Known	SAMPLE_1553
+SMGC_293	1363850	5322	70.82	0.8	0	99.28	99.67	16	d__Bacteria	p__Bacteroidota	c__Bacteroidia	o__Bacteroidales	f__Porphyromonadaceae	g__Porphyromonas	s__	Novel	SAMPLE_1566
+SMGC_294	2345036	66186	99.32	0.15	0	0	0	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__	Novel	SAMPLE_1574
+SMGC_295	2804691	46412	95.69	0	0	0	0	13	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Pseudomonadales	f__Moraxellaceae	g__Acinetobacter	s__Acinetobacter radioresistens	Known	SAMPLE_1613
+SMGC_296	3937611	109848	100	1.63	94.96	99.59	99.67	20	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Pseudomonadales	f__Moraxellaceae	g__Acinetobacter	s__Acinetobacter pittii	Known	SAMPLE_1613
+SMGC_297	1742546	5220	57.6	0.52	0	0	0	12	d__Bacteria	p__Proteobacteria	c__Alphaproteobacteria	o__Rhodobacterales	f__Rhodobacteraceae	g__Paracoccus	s__	Known	SAMPLE_1630
+SMGC_298	2203451	5023	53.94	0	0	0	0	15	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Antricoccaceae	g__Antricoccus	s__	Known	SAMPLE_1630
+SMGC_299	2504008	8793	86.98	1.13	92.44	32.82	0	17	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Dermatophilaceae	g__Janibacter	s__	Known	SAMPLE_1630
+SMGC_300	2635393	4525	51.39	0.81	0	0	0	14	d__Bacteria	p__Proteobacteria	c__Alphaproteobacteria	o__Rhizobiales	f__Beijerinckiaceae	g__	s__	Known	SAMPLE_1630
+SMGC_301	2196853	509187	99.55	0.45	93.28	0	0	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__Corynebacterium sp900232865	Known	SAMPLE_1635
+SMGC_302	1945766	7296	70.8	1.16	0	0	0	14	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Brevibacteriaceae	g__Brevibacterium	s__Brevibacterium ihuae	Known	SAMPLE_1636
+SMGC_303	2731819	7813	79.4	2.62	0	0	0	16	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Brevibacteriaceae	g__Brevibacterium	s__Brevibacterium casei	Known	SAMPLE_1636
+SMGC_304	2230349	121924	99.1	0.11	87.39	60.44	0	19	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__	Known	SAMPLE_1643
+SMGC_305	2261942	89724	99.71	0	0	0	0	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__Corynebacterium aurimucosum_E	Known	SAMPLE_1653
+SMGC_306	2529648	70947	98.95	0	0	0	0	20	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Pseudomonadales	f__Moraxellaceae	g__Moraxella_A	s__	Known	SAMPLE_1655
+SMGC_307	3260814	9402	83.61	0.8	0	0	0	19	d__Bacteria	p__Proteobacteria	c__Alphaproteobacteria	o__Rhodobacterales	f__Rhodobacteraceae	g__DSL-40	s__	Known	SAMPLE_1666
+SMGC_308	2235759	6377	68.97	0	0	0	0	17	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Dermatophilaceae	g__Tetrasphaera_A	s__	Known	SAMPLE_1671
+SMGC_309	3091366	23306	94.99	0.26	0	0	0	19	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Propionibacteriales	f__Propionibacteriaceae	g__Fen-668	s__	Known	SAMPLE_1671
+SMGC_310	2160447	14049	94.98	0.98	0	0	53.29	20	d__Bacteria	p__Proteobacteria	c__Alphaproteobacteria	o__Sphingomonadales	f__Sphingomonadaceae	g__	s__	Known	SAMPLE_1671
+SMGC_311	2250852	22647	97.78	0.54	0	0	0	19	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Dermatophilaceae	g__OKQN01	s__OKQN01 sp900289115	Known	SAMPLE_1671
+SMGC_312	3082792	15039	93.72	0	0	0	0	19	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Dermatophilaceae	g__Arsenicicoccus	s__	Known	SAMPLE_1672
+SMGC_313	5066457	25766	99.33	1.67	0	0	0	20	d__Bacteria	p__Cyanobacteria	c__Cyanobacteriia	o__Cyanobacteriales	f__Chroococcidiopsidaceae	g__	s__	Known	SAMPLE_1673
+SMGC_314	3208955	11760	88.35	1.85	0	0	0	18	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Dermabacteraceae	g__Brachybacterium	s__Brachybacterium paraconglomeratum	Known	SAMPLE_1683
+SMGC_315	3503940	47062	98.24	0	0	0	0	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Dietzia	s__	Novel	SAMPLE_1683
+SMGC_316	2986995	31427	99.42	0	0	0	20.74	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Brevibacteriaceae	g__Brevibacterium	s__	Known	SAMPLE_1683
+SMGC_317	3070624	9368	86.42	2.08	0	0	0	17	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Micrococcaceae	g__Micrococcus	s__	Novel	SAMPLE_1683
+SMGC_318	2988051	12206	88.47	0.81	0	0	21.4	18	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Dermatophilaceae	g__Janibacter	s__	Novel	SAMPLE_1683
+SMGC_319	1816676	86779	94.12	0	0	0	0	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Lawsonella	s__Lawsonella clevelandensis	Known	SAMPLE_1684
+SMGC_320	1792709	12530	86.54	1.9	0	0	21.4	11	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Tissierellales	f__Helcococcaceae	g__Anaerococcus	s__	Novel	SAMPLE_1684
+SMGC_321	2489879	7872	87.05	1.7	0	0	0	15	d__Bacteria	p__Bacteroidota	c__Bacteroidia	o__Bacteroidales	f__Bacteroidaceae	g__Prevotella	s__Prevotella buccalis	Known	SAMPLE_1684
+SMGC_322	2113506	12625	95.48	1.13	0	0	0	15	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Enterobacterales	f__Pasteurellaceae	g__Basfia	s__Basfia bettyae	Known	SAMPLE_1688
+SMGC_323	2444399	314882	97.41	0	0	0	0	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__Corynebacterium kroppenstedtii_B	Known	SAMPLE_1689
+SMGC_324	3051864	42320	98.05	0.65	0	0	0	20	d__Bacteria	p__Proteobacteria	c__Alphaproteobacteria	o__Caulobacterales	f__Caulobacteraceae	g__Brevundimonas	s__Brevundimonas sp003248455	Known	SAMPLE_1701
+SMGC_325	3975519	25558	96.7	0.91	0	0	0	18	d__Bacteria	p__Proteobacteria	c__Alphaproteobacteria	o__Rhodobacterales	f__Rhodobacteraceae	g__Haematobacter	s__Haematobacter massiliensis	Known	SAMPLE_1701
+SMGC_326	2982881	24290	98.83	0	95.8	99.62	0	19	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Dermabacteraceae	g__Brachybacterium	s__	Known	SAMPLE_1703
+SMGC_327	1355002	4662	51.21	0.05	0	0	22.96	13	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Micrococcaceae	g__Micrococcus	s__	Novel	SAMPLE_1703
+SMGC_328	1289309	4863	56.9	0	0	0	0	7	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Micrococcaceae	g__Kocuria	s__	Novel	SAMPLE_1703
+SMGC_329	3498958	16139	91.86	0	0	0	0	18	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Brevibacteriaceae	g__Brevibacterium	s__	Novel	SAMPLE_1703
+SMGC_330	1614553	16513	92.91	0.91	0	73.13	0	11	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Tissierellales	f__Helcococcaceae	g__Anaerococcus	s__	Known	SAMPLE_1705
+SMGC_331	1674902	36650	95.45	0	0	0	0	19	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Tissierellales	f__Peptoniphilaceae	g__Peptoniphilus_A	s__	Novel	SAMPLE_1945
+SMGC_332	2849962	1362	50.65	4.72	0	45.74	0	14	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Lawsonella	s__	Novel	SAMPLE_1950
+SMGC_333	3863021	18082	92.96	0.36	0	0	0	18	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Enterobacterales	f__Alteromonadaceae	g__Pararheinheimera	s__	Novel	SAMPLE_2371
+SMGC_334	842884	1621	50.6	1.34	0	99.83	53.29	13	d__Bacteria	p__Firmicutes	c__Bacilli	o__Lactobacillales	f__Streptococcaceae	g__Streptococcus	s__Streptococcus mitis_S	Known	SAMPLE_2507
+SMGC_335	4681187	496045	99.88	0.88	94.96	99.86	0	19	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Enterobacterales	f__Enterobacteriaceae	g__Citrobacter_B	s__Citrobacter_B koseri	Known	SAMPLE_2671
+SMGC_336	1994826	72561	99.74	0.28	0	0	0	14	d__Bacteria	p__Firmicutes	c__Bacilli	o__Lactobacillales	f__Streptococcaceae	g__Streptococcus	s__Streptococcus mitis_F	Known	SAMPLE_2672
+SMGC_337	2323084	26238	96.09	2.93	0	0	0	19	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__	Novel	SAMPLE_2672
+SMGC_338	2417454	192404	100	0	0	0	0	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__Corynebacterium amycolatum	Known	SAMPLE_2672
+SMGC_339	1880980	79576	99.67	0.48	0	0	0	14	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Enterobacterales	f__Pasteurellaceae	g__Haemophilus_D	s__Haemophilus_D sp001815355	Known	SAMPLE_2672
+SMGC_340	4499883	116465	99.76	0.05	0	0	0	19	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Enterobacterales	f__Enterobacteriaceae	g__Escherichia	s__Escherichia coli	Known	SAMPLE_2674
+SMGC_341	2760336	27060	97.32	0	0	0	0	15	d__Bacteria	p__Firmicutes	c__Bacilli	o__Lactobacillales	f__Enterococcaceae	g__Enterococcus	s__Enterococcus faecalis	Known	SAMPLE_2674
+SMGC_342	2426771	19747	96.81	0.43	0	0	0	15	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__Corynebacterium minutissimum_A	Known	SAMPLE_2676
+SMGC_343	2337165	190518	99.78	0	0	0	0	19	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__Corynebacterium kefirresidentii	Known	SAMPLE_2681
+SMGC_344	1838629	371854	98.26	0	0	0	0	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Actinomycetaceae	g__	s__	Novel	SAMPLE_2681
+SMGC_345	2466941	703383	100	0	0	0	0	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Propionibacteriales	f__Propionibacteriaceae	g__Cutibacterium	s__Cutibacterium acnes	Known	SAMPLE_2683
+SMGC_346	7242466	47290	99.24	1.36	92.44	0	0	19	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Pseudomonadales	f__Pseudomonadaceae	g__Pseudomonas_E	s__	Novel	SAMPLE_2684
+SMGC_347	2062950	88314	98.99	0	0	0	0	19	d__Bacteria	p__Bacteroidota	c__Bacteroidia	o__Bacteroidales	f__Bacteroidaceae	g__Prevotella	s__Prevotella bivia	Known	SAMPLE_2696
+SMGC_348	1774214	8142	85.08	0	0	0	99.74	17	d__Bacteria	p__Firmicutes_C	c__Negativicutes	o__Acidaminococcales	f__Acidaminococcaceae	g__Acidaminococcus	s__Acidaminococcus intestini	Known	SAMPLE_2696
+SMGC_349	3866781	62818	96.5	0.5	0	0	0	16	d__Bacteria	p__Bacteroidota	c__Bacteroidia	o__Bacteroidales	f__Bacteroidaceae	g__Bacteroides	s__Bacteroides uniformis	Known	SAMPLE_2697
+SMGC_350	3204823	33971	81.21	0	0	0	0	17	d__Bacteria	p__Bacteroidota	c__Bacteroidia	o__Bacteroidales	f__Bacteroidaceae	g__Bacteroides_B	s__Bacteroides_B massiliensis	Known	SAMPLE_2697
+SMGC_351	4209763	42227	67.41	0	0	0	0	17	d__Bacteria	p__Bacteroidota	c__Bacteroidia	o__Bacteroidales	f__Bacteroidaceae	g__Bacteroides	s__Bacteroides xylanisolvens	Known	SAMPLE_2697
+SMGC_352	1159912	5112	51.12	0.62	0	0	0	11	d__Bacteria	p__Firmicutes_C	c__Negativicutes	o__Veillonellales	f__Megasphaeraceae	g__Megasphaera	s__Megasphaera massiliensis	Known	SAMPLE_2697
+SMGC_353	2183408	17105	94.63	0.69	0	0	0	7	d__Bacteria	p__Firmicutes	c__Bacilli	o__Staphylococcales	f__Staphylococcaceae	g__Staphylococcus	s__Staphylococcus pettenkoferi	Known	SAMPLE_2699
+SMGC_354	2714351	723706	99.51	0.08	0	0	0	16	d__Bacteria	p__Firmicutes	c__Bacilli	o__Staphylococcales	f__Staphylococcaceae	g__Staphylococcus	s__Staphylococcus aureus	Known	SAMPLE_2703
+SMGC_355	4326180	309919	97.35	3.09	NA	NA	NA	NA	d__Bacteria	p__Firmicutes	c__Bacilli	o__Bacillales_A	f__Planococcaceae	g__Sporosarcina_C	s__	Novel	SBCC_242
+SMGC_356	2486190	411413	99.73	0	NA	NA	NA	NA	d__Bacteria	p__Firmicutes	c__Bacilli	o__Staphylococcales	f__Staphylococcaceae	g__Staphylococcus	s__Staphylococcus warneri	Known	SBCC_245
+SMGC_357	2553768	479222	99.73	0.11	NA	NA	NA	NA	d__Bacteria	p__Firmicutes	c__Bacilli	o__Staphylococcales	f__Staphylococcaceae	g__Staphylococcus	s__Staphylococcus warneri_A	Known	SBCC_251
+SMGC_358	3867624	8363	90.11	1.57	0	0	0	19	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Pseudomonadales	f__Pseudomonadaceae	g__Pseudomonas_E	s__Pseudomonas_E oleovorans	Known	SAMPLE_2725
+SMGC_359	1694522	20188	96.63	0.76	0	0	0	9	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Tissierellales	f__Helcococcaceae	g__Anaerococcus	s__	Novel	SAMPLE_2729
+SMGC_360	2417569	69365	97.18	0.04	0	0	0	16	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__	Known	SAMPLE_2729
+SMGC_361	6878286	127082	99.86	0.69	92.44	0	99.61	20	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Pseudomonadales	f__Pseudomonadaceae	g__Pseudomonas_E	s__Pseudomonas_E sp002742565	Known	SAMPLE_2729
+SMGC_362	2436875	10100	65.42	0	0	0	0	7	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__	Novel	SAMPLE_2729
+SMGC_363	1583948	8200	86.79	1.73	0	0	0	9	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Tissierellales	f__Helcococcaceae	g__Anaerococcus	s__Anaerococcus sp900128425	Known	SAMPLE_2729
+SMGC_364	2083736	5573	84.92	2.87	0	0	0	15	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Micrococcaceae	g__Nesterenkonia	s__	Novel	SAMPLE_2731
+SMGC_365	1990319	42516	97.23	0.35	0	0	0	7	d__Bacteria	p__Firmicutes	c__Bacilli	o__Lactobacillales	f__Streptococcaceae	g__Streptococcus	s__Streptococcus agalactiae	Known	SAMPLE_2731
+SMGC_366	2415443	25982	99	0	94.96	68.14	51.27	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Micrococcaceae	g__Rothia	s__Rothia sp001808955	Known	SAMPLE_2731
+SMGC_367	1948422	6830	88.51	1.53	0	0	0	17	d__Bacteria	p__Bacteroidota	c__Bacteroidia	o__Bacteroidales	f__Bacteroidaceae	g__F0040	s__	Novel	SAMPLE_2731
+SMGC_368	2660944	9023	90.91	2.97	94.96	10.6	0	15	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Micrococcaceae	g__Nesterenkonia	s__	Novel	SAMPLE_2731
+SMGC_369	2441575	64870	99.45	0	0	0	0	15	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Micrococcaceae	g__Rothia	s__Rothia xyli	Known	SAMPLE_2731
+SMGC_370	3817367	54183	100	0	0	0	0	20	d__Bacteria	p__Proteobacteria	c__Alphaproteobacteria	o__Acetobacterales	f__Acetobacteraceae	g__Acidocella	s__	Known	SAMPLE_2731
+SMGC_371	2094094	4850	81.75	2.38	0	0	0	19	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Actinomycetaceae	g__Pauljensenia	s__Pauljensenia sp000411415	Known	SAMPLE_2731
+SMGC_372	3310601	54715	99.32	0	0	0	0	17	d__Bacteria	p__Bacteroidota	c__Bacteroidia	o__Bacteroidales	f__Bacteroidaceae	g__Prevotella	s__Prevotella melaninogenica	Known	SAMPLE_2731
+SMGC_373	1974280	27918	98.46	1.53	0	0	0	8	d__Bacteria	p__Firmicutes	c__Bacilli	o__Lactobacillales	f__Aerococcaceae	g__Abiotrophia	s__Abiotrophia defectiva	Known	SAMPLE_2732
+SMGC_374	3030022	43370	100	0	0	0	0	20	d__Bacteria	p__Bacteroidota	c__Bacteroidia	o__Flavobacteriales	f__Weeksellaceae	g__Chryseobacterium_B	s__Chryseobacterium_B sp002391865	Known	SAMPLE_2732
+SMGC_375	1469744	90244	96.95	0	0	0	0	20	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Tissierellales	f__Helcococcaceae	g__Levyella	s__Levyella massiliensis	Known	SAMPLE_2732
+SMGC_376	1676885	11785	85.1	0.33	0	0	0	14	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Propionibacteriales	f__Propionibacteriaceae	g__Propionimicrobium	s__Propionimicrobium lymphophilum	Known	SAMPLE_2732
+SMGC_377	1486529	55301	79.02	0	94.12	8.96	32.62	10	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Tissierellales	f__Peptoniphilaceae	g__Peptoniphilus_B	s__Peptoniphilus_B duerdenii	Known	SAMPLE_2732
+SMGC_378	1018397	7439	56.18	1.99	0	0	0	5	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Tissierellales	f__Peptoniphilaceae	g__Peptoniphilus_C	s__Peptoniphilus_C sp900088125	Known	SAMPLE_2732
+SMGC_379	1565381	8558	94.92	1.69	0	0	0	19	d__Bacteria	p__Synergistota	c__Synergistia	o__Synergistales	f__Dethiosulfovibrionaceae	g__Jonquetella	s__Jonquetella anthropi	Known	SAMPLE_2732
+SMGC_380	1750335	7784	84.28	2.19	0	0	0	17	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Actinomycetaceae	g__Actinotignum	s__Actinotignum schaalii_A	Known	SAMPLE_2732
+SMGC_381	6684495	133906	98.62	2.03	0	0	0	18	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Pseudomonadales	f__Pseudomonadaceae	g__Pseudomonas	s__Pseudomonas nitroreducens_B	Known	SAMPLE_2732
+SMGC_382	1107408	17903	68.24	0.88	0	0	0	4	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Tissierellales	f__Ezakiellaceae	g__Fenollaria	s__	Known	SAMPLE_2732
+SMGC_383	2310476	31181	96.08	0	0	0	0	5	d__Bacteria	p__Firmicutes	c__Bacilli	o__Lactobacillales	f__Streptococcaceae	g__Streptococcus	s__Streptococcus sanguinis	Known	SAMPLE_2732
+SMGC_384	2742099	28584	98.05	1.87	94.12	99.62	0	20	d__Bacteria	p__Proteobacteria	c__Alphaproteobacteria	o__Caulobacterales	f__Caulobacteraceae	g__Brevundimonas	s__	Known	SAMPLE_2732
+SMGC_385	1393040	32399	92.82	0	0	0	0	8	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Tissierellales	f__Ezakiellaceae	g__Fenollaria	s__	Known	SAMPLE_2732
+SMGC_386	4377261	42719	95.68	0.47	0	0	0	17	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Xanthomonadales	f__Xanthomonadaceae	g__Pseudoxanthomonas_A	s__	Known	SAMPLE_2732
+SMGC_387	1399077	3751	60.97	1.86	0	0	0	7	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__	Novel	SAMPLE_2733
+SMGC_388	6723321	131263	95.06	2.62	93.28	0	0	17	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Pseudomonadales	f__Pseudomonadaceae	g__Pseudomonas	s__Pseudomonas nitroreducens	Known	SAMPLE_2733
+SMGC_389	1104048	7302	92.04	0.97	0	22.77	0	14	d__Bacteria	p__Firmicutes	c__Bacilli	o__Lactobacillales	f__Lactobacillaceae	g__Lactobacillus	s__Lactobacillus iners	Known	SAMPLE_2733
+SMGC_390	6093320	42628	99.34	1.15	0	0	0	20	d__Bacteria	p__Proteobacteria	c__Alphaproteobacteria	o__Rhizobiales	f__Rhizobiaceae	g__Agrobacterium	s__Agrobacterium pusense	Known	SAMPLE_2733
+SMGC_391	3611834	5013	90.57	2.65	0	0	27.79	16	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Burkholderiales	f__Burkholderiaceae	g__Lautropia	s__	Novel	SAMPLE_2733
+SMGC_392	6436519	102901	99.41	0.7	0	0	0	19	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Mycolicibacterium	s__Mycolicibacterium mucogenicum_A	Known	SAMPLE_2734
+SMGC_393	3882017	11295	92.54	0.25	0	0	0	14	d__Bacteria	p__Bacteroidota	c__Bacteroidia	o__Flavobacteriales	f__Weeksellaceae	g__Chryseobacterium	s__Chryseobacterium joostei	Known	SAMPLE_2734
+SMGC_394	3304809	3311	52.5	0.94	94.12	7.76	0	5	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Rhodococcus	s__Rhodococcus fascians	Known	SAMPLE_2734
+SMGC_395	2103309	33659	88.93	0.26	0	0	0	15	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__Corynebacterium sp001767255	Known	SAMPLE_2734
+SMGC_396	3964729	15133	92.84	0.54	0	0	0	13	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Enterobacterales	f__Alteromonadaceae	g__Pararheinheimera	s__Pararheinheimera sp001275035	Known	SAMPLE_2734
+SMGC_397	4405765	7698	94.46	0.95	0	0	0	16	d__Bacteria	p__Bacteroidota	c__Bacteroidia	o__Sphingobacteriales	f__Sphingobacteriaceae	g__Sphingobacterium	s__Sphingobacterium spiritivorum	Known	SAMPLE_2734
+SMGC_398	3348219	48722	100	0	0	0	0	18	d__Bacteria	p__Bacteroidota	c__Bacteroidia	o__Flavobacteriales	f__Weeksellaceae	g__Empedobacter	s__Empedobacter falsenii	Known	SAMPLE_2734
+SMGC_399	2709795	41300	99.03	0.05	0	0	0	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__	Novel	SAMPLE_2734
+SMGC_400	2283088	20025	98.86	0.69	89.08	0	0	14	d__Bacteria	p__Firmicutes	c__Bacilli	o__Lactobacillales	f__Streptococcaceae	g__Lactococcus	s__Lactococcus lactis	Known	SAMPLE_2734
+SMGC_401	1749449	3440	79.26	4.49	0	0	16.24	14	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Actinomycetaceae	g__	s__	Novel	SAMPLE_2735
+SMGC_402	4910679	100854	98.29	0.17	0	0	0	18	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Gordonia	s__Gordonia otitidis	Known	SAMPLE_2735
+SMGC_403	2267289	47198	97.08	0	94.96	0	0	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Micrococcaceae	g__Rothia	s__Rothia sp001683935	Known	SAMPLE_2741
+SMGC_404	2292269	3652	67.34	2.23	0	0	0	12	d__Bacteria	p__Proteobacteria	c__Alphaproteobacteria	o__Sphingomonadales	f__Sphingomonadaceae	g__UBA1936	s__	Novel	SAMPLE_2741
+SMGC_405	2118051	3241	84.05	1.81	94.12	0	0	10	d__Bacteria	p__Bacteroidota	c__Bacteroidia	o__Bacteroidales	f__Bacteroidaceae	g__Prevotella	s__Prevotella denticola	Known	SAMPLE_2741
+SMGC_406	3039930	1769	52.69	4.26	0	0	0	7	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Burkholderiales	f__Burkholderiaceae	g__Aquabacterium	s__	Novel	SAMPLE_2741
+SMGC_407	2827639	3441	59.83	0	93.28	0	0	8	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Pseudomonadales	f__Pseudomonadaceae	g__Pseudomonas_O	s__	Novel	SAMPLE_2741
+SMGC_408	2439486	4206	88.73	2.92	0	0	0	11	d__Bacteria	p__Bacteroidota	c__Bacteroidia	o__Bacteroidales	f__Bacteroidaceae	g__Prevotella	s__Prevotella nigrescens	Known	SAMPLE_2741
+SMGC_409	4548103	8514	89.64	0.99	0	0	0	12	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Enterobacterales	f__Enterobacteriaceae	g__Serratia	s__Serratia liquefaciens	Known	SAMPLE_2741
+SMGC_410	4696082	135526	97.83	0.43	0	0	0	19	d__Bacteria	p__Proteobacteria	c__Alphaproteobacteria	o__Rhizobiales	f__Rhizobiaceae	g__Ochrobactrum_A	s__Ochrobactrum_A pituitosum	Known	SAMPLE_2741
+SMGC_411	4198778	125822	100	0.26	0	0	0	19	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Burkholderiales	f__Burkholderiaceae	g__Rhodoferax	s__	Novel	SAMPLE_2743
+SMGC_412	2283619	14181	97.05	0.47	0	0	0	17	d__Bacteria	p__Bacteroidota	c__Bacteroidia	o__Bacteroidales	f__Porphyromonadaceae	g__Porphyromonas	s__Porphyromonas cangingivalis	Known	SAMPLE_2743
+SMGC_413	4940956	26371	95.24	0.43	0	0	0	20	d__Bacteria	p__Deinococcota	c__Deinococci	o__Deinococcales	f__Deinococcaceae	g__Deinococcus	s__	Novel	SAMPLE_2743
+SMGC_414	2554398	2031	58.81	1.63	0	0	0	11	d__Bacteria	p__Deinococcota	c__Deinococci	o__Deinococcales	f__Deinococcaceae	g__Deinococcus	s__	Novel	SAMPLE_2743
+SMGC_415	1036576	2259	57.08	0	0	0	0	4	d__Bacteria	p__Firmicutes	c__Bacilli	o__Lactobacillales	f__Streptococcaceae	g__Streptococcus	s__Streptococcus parasanguinis_B	Known	SAMPLE_2743
+SMGC_416	2302773	2286	70.16	2.3	0	0	0	17	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Burkholderiales	f__Burkholderiaceae	g__Lautropia	s__Lautropia mirabilis	Known	SAMPLE_2744
+SMGC_417	787299	12488	64.74	0.91	0	0	0	5	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Tissierellales	f__Helcococcaceae	g__Helcococcus	s__	Novel	SAMPLE_2747
+SMGC_418	1446784	6216	83.74	1.75	0	0	0	7	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Tissierellales	f__Peptoniphilaceae	g__Peptoniphilus_A	s__Peptoniphilus_A grossensis_B	Known	SAMPLE_2747
+SMGC_419	1702074	16506	97.87	0.34	94.12	10.74	0	20	d__Bacteria	p__Actinobacteriota	c__Coriobacteriia	o__Coriobacteriales	f__Atopobiaceae	g__Olegusella	s__Olegusella massiliensis	Known	SAMPLE_2747
+SMGC_420	1586770	5193	55.02	0	0	0	0	12	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Dermabacteraceae	g__Brachybacterium	s__Brachybacterium sp900258505	Known	SAMPLE_2747
+SMGC_421	2221656	179320	100	0	0	0	0	20	d__Bacteria	p__Bacteroidota	c__Bacteroidia	o__Flavobacteriales	f__Weeksellaceae	g__Weeksella	s__Weeksella virosa	Known	SAMPLE_2747
+SMGC_422	1845523	2645	69.78	1.96	94.96	8.51	20.35	12	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Propionibacteriales	f__Propionibacteriaceae	g__	s__	Novel	SAMPLE_2747
+SMGC_423	1906260	9058	59.06	0	0	0	0	13	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__Corynebacterium tuscaniense	Known	SAMPLE_2747
+SMGC_424	2350840	20584	96.72	0.17	0	0	0	13	d__Bacteria	p__Bacteroidota	c__Bacteroidia	o__Bacteroidales	f__Bacteroidaceae	g__Prevotella	s__	Novel	SAMPLE_2747
+SMGC_425	813192	2001	56.14	0.35	0	0	0	5	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Tissierellales	f__Helcococcaceae	g__W5053	s__	Novel	SAMPLE_2747
+SMGC_426	2112741	17735	95.22	0	0	0	0	17	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Burkholderiales	f__Burkholderiaceae	g__Oligella	s__Oligella urethralis	Known	SAMPLE_2747
+SMGC_427	1444408	4503	80.47	1.57	0	0	0	8	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Tissierellales	f__Peptoniphilaceae	g__Peptoniphilus_A	s__Peptoniphilus_A harei_A	Known	SAMPLE_2747
+SMGC_428	1593975	241857	100	0.08	0	0	0	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Bifidobacteriaceae	g__Bifidobacterium	s__Bifidobacterium vaginale_G	Known	SAMPLE_2747
+SMGC_429	1586568	17804	94.53	0	0	0	0	19	d__Bacteria	p__Firmicutes_C	c__Negativicutes	o__Veillonellales	f__Dialisteraceae	g__Dialister	s__	Known	SAMPLE_2747
+SMGC_430	1739841	6936	81.1	1.62	94.96	12.14	21.2	18	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Saccharofermentanales	f__DTU023	g__	s__	Novel	SAMPLE_2747
+SMGC_431	1596503	20918	74.3	0.88	0	0	0	9	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__	Known	SAMPLE_2747
+SMGC_432	1208885	2575	73.02	3.06	0	0	0	4	d__Bacteria	p__Firmicutes	c__Bacilli	o__Lactobacillales	f__Aerococcaceae	g__Facklamia	s__Facklamia hominis	Known	SAMPLE_2747
+SMGC_433	3914655	6262	87.31	2.04	0	0	0	19	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Xanthomonadales	f__Xanthomonadaceae	g__Stenotrophomonas	s__Stenotrophomonas maltophilia_AJ	Known	SAMPLE_2748
+SMGC_434	2256561	6606	82.8	2.74	0	0	0	4	d__Bacteria	p__Firmicutes	c__Bacilli	o__Staphylococcales	f__Staphylococcaceae	g__Staphylococcus	s__Staphylococcus saprophyticus	Known	SAMPLE_2748
+SMGC_435	1052355	2532	70.35	1.82	0	0	0	17	d__Bacteria	p__Firmicutes_C	c__Negativicutes	o__Veillonellales	f__Negativicoccaceae	g__Negativicoccus	s__	Known	SAMPLE_2749
+SMGC_436	1555850	6376	85.81	0.7	0	99.69	0	11	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Tissierellales	f__Helcococcaceae	g__Finegoldia	s__Finegoldia magna_F	Known	SAMPLE_2749
+SMGC_437	1395362	88716	97.81	1.37	0	0	34.44	13	d__Bacteria	p__Firmicutes	c__Bacilli	o__Lactobacillales	f__Aerococcaceae	g__Eremococcus	s__	Known	SAMPLE_2751
+SMGC_438	2108876	74318	93.57	0.29	94.12	0	0	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Dermabacteraceae	g__Helcobacillus	s__	Known	SAMPLE_2751
+SMGC_439	3169280	24097	97.87	0.78	0	0	0	19	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Brevibacteriaceae	g__Brevibacterium	s__Brevibacterium luteolum	Known	SAMPLE_2753
+SMGC_440	2072481	9552	91.58	0.9	0	0	0	13	d__Bacteria	p__Bacteroidota	c__Bacteroidia	o__Bacteroidales	f__Bacteroidaceae	g__Prevotella	s__Prevotella sp000758925	Known	SAMPLE_2754
+SMGC_441	1337543	18447	94.91	0.9	0	0	0	15	d__Bacteria	p__Firmicutes_C	c__Negativicutes	o__Veillonellales	f__Megasphaeraceae	g__28L	s__28L sp002892445	Known	SAMPLE_2754
+SMGC_442	2080463	6147	95.91	2.17	0	10.77	0	13	d__Bacteria	p__Bacteroidota	c__Bacteroidia	o__Bacteroidales	f__Porphyromonadaceae	g__Porphyromonas	s__Porphyromonas gulae	Known	SAMPLE_2754
+SMGC_443	2182433	2288	68.04	1.41	0	0	0	11	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Micrococcaceae	g__Haematomicrobium	s__Haematomicrobium sanguinis	Known	SAMPLE_2754
+SMGC_444	2405632	19191	96.17	0.04	94.96	8.48	0	18	d__Bacteria	p__Bacteroidota	c__Bacteroidia	o__Bacteroidales	f__Bacteroidaceae	g__Prevotella	s__	Novel	SAMPLE_2754
+SMGC_445	2218633	3923	94.32	3.67	94.12	47.45	0	18	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Actinomycetaceae	g__Mobiluncus	s__Mobiluncus mulieris	Known	SAMPLE_2754
+SMGC_446	1377336	28815	87.35	0.35	0	0	0	20	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Saccharofermentanales	f__Fastidiosipilaceae	g__KA00274	s__	Novel	SAMPLE_2754
+SMGC_447	1804246	17975	93.47	0.17	0	0	0	18	d__Bacteria	p__Bacteroidota	c__Bacteroidia	o__Bacteroidales	f__Bacteroidaceae	g__Prevotella	s__Prevotella amnii	Known	SAMPLE_2754
+SMGC_448	1409250	46877	100	0.81	0	0	0	19	d__Bacteria	p__Actinobacteriota	c__Coriobacteriia	o__Coriobacteriales	f__Atopobiaceae	g__Fannyhessea	s__	Novel	SAMPLE_2754
+SMGC_449	3478602	11591	97.44	1.3	0	0	0	19	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Propionibacteriales	f__Nocardioidaceae	g__Aeromicrobium	s__	Novel	SAMPLE_2754
+SMGC_450	800256	468834	84.48	3.04	0	99.69	99.74	20	d__Bacteria	p__Patescibacteria	c__Saccharimonadia	o__Saccharimonadales	f__Saccharimonadaceae	g__UBA1103	s__	Novel	SAMPLE_2754
+SMGC_451	5419154	29081	61.4	0	0	0	0	9	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Pseudomonadales	f__Pseudomonadaceae	g__Pseudomonas_E	s__Pseudomonas_E koreensis_C	Known	SAMPLE_2756
+SMGC_452	2042018	10923	78.72	0.68	0	0	0	8	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Pseudomonadales	f__Moraxellaceae	g__Acinetobacter	s__Acinetobacter sp002934695	Known	SAMPLE_2756
+SMGC_453	5845134	61022	97.45	1.09	0	0	0	15	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Pseudomonadales	f__Pseudomonadaceae	g__Pseudomonas_E	s__Pseudomonas_E sp002966775	Known	SAMPLE_2756
+SMGC_454	1354449	1724	55.84	1.64	0	0	0	11	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Micrococcaceae	g__Nesterenkonia	s__Nesterenkonia massiliensis	Known	SAMPLE_2756
+SMGC_455	1468193	2007	70.21	3.53	0	0	0	7	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Enterobacterales	f__Pasteurellaceae	g__Haemophilus_D	s__	Novel	SAMPLE_2757
+SMGC_456	3224033	3448	84.86	4.61	0	0	0	8	d__Bacteria	p__Firmicutes	c__Bacilli	o__Lactobacillales	f__Enterococcaceae	g__Enterococcus_D	s__Enterococcus_D sp002850555	Known	SAMPLE_2757
+SMGC_457	4184500	113559	99.59	0	0	0	0	12	d__Bacteria	p__Firmicutes	c__Bacilli	o__Bacillales	f__Bacillaceae	g__Bacillus	s__Bacillus paralicheniformis	Known	SAMPLE_2757
+SMGC_458	2001678	2356	76.31	0.95	0	0	0	6	d__Bacteria	p__Firmicutes	c__Bacilli	o__Exiguobacterales	f__Exiguobacteraceae	g__Exiguobacterium	s__	Novel	SAMPLE_2757
+SMGC_459	1992194	4812	71.9	2.55	0	0	0	11	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Micrococcaceae	g__Micrococcus	s__Micrococcus lylae	Known	SAMPLE_2758
+SMGC_460	5685277	8151	84.24	1.61	0	0	0	17	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Mycobacterium	s__Mycobacterium gordonae_B	Known	SAMPLE_2758
+SMGC_461	4894892	5273	88.43	4.17	0	0	0	18	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Pseudonocardiaceae	g__Pseudonocardia	s__	Novel	SAMPLE_2758
+SMGC_462	2182091	4411	78.1	3.01	0	0	0	12	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Micrococcaceae	g__Nesterenkonia	s__	Novel	SAMPLE_2758
+SMGC_463	2840593	2975	60.48	1.16	94.96	0	23.22	16	d__Bacteria	p__Proteobacteria	c__Alphaproteobacteria	o__Caulobacterales	f__Caulobacteraceae	g__Phenylobacterium	s__	Novel	SAMPLE_2758
+SMGC_464	1667632	7303	84.57	1.49	0	0	0	8	d__Bacteria	p__Firmicutes	c__Bacilli	o__Lactobacillales	f__Streptococcaceae	g__Streptococcus	s__Streptococcus oralis_S	Known	SAMPLE_2758
+SMGC_465	5844736	4220	92.67	2.19	0	0	0	18	d__Bacteria	p__Proteobacteria	c__Alphaproteobacteria	o__Rhizobiales	f__Beijerinckiaceae	g__Methylobacterium	s__Methylobacterium organophilum	Known	SAMPLE_2760
+SMGC_466	2335943	47269	98.86	0	94.96	0	0	4	d__Bacteria	p__Firmicutes	c__Bacilli	o__Staphylococcales	f__Staphylococcaceae	g__Staphylococcus	s__Staphylococcus schleiferi	Known	SAMPLE_2760
+SMGC_467	1867297	19047	95.84	0.87	0	0	0	14	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Enterobacterales	f__Pasteurellaceae	g__Haemophilus_D	s__Haemophilus_D parainfluenzae	Known	SAMPLE_2760
+SMGC_468	4225061	2264	82.78	2.97	0	0	0	12	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Pseudomonadales	f__Cellvibrionaceae	g__	s__	Novel	SAMPLE_2760
+SMGC_469	2511222	7059	93.03	4.3	95.8	11.25	0	17	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Micrococcaceae	g__Micrococcus	s__	Novel	SAMPLE_2761
+SMGC_470	2630928	57887	97.92	1.05	0	0	0	17	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__	Novel	SAMPLE_2761
+SMGC_471	2073254	3769	69.3	1.37	0	0	17.29	18	d__Bacteria	p__Proteobacteria	c__Alphaproteobacteria	o__Sphingomonadales	f__Sphingomonadaceae	g__Sphingomonas	s__	Novel	SAMPLE_2761
+SMGC_472	2135335	6838	69.85	1.64	0	0	0	11	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Lachnospirales	f__Lachnospiraceae	g__Fusicatenibacter	s__Fusicatenibacter saccharivorans	Known	SAMPLE_2761
+SMGC_473	2086601	16622	97.24	1.54	0	0	80.17	18	d__Bacteria	p__Bacteroidota	c__Bacteroidia	o__Bacteroidales	f__Porphyromonadaceae	g__Porphyromonas	s__Porphyromonas somerae_A	Known	SAMPLE_2762
+SMGC_474	1517806	14927	94.8	1.04	0	0	0	13	d__Bacteria	p__Firmicutes	c__Bacilli	o__Lactobacillales	f__Lactobacillaceae	g__Leuconostoc	s__	Novel	SAMPLE_2762
+SMGC_475	2619964	11544	93.68	1.37	0	38.29	24.85	18	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Micrococcaceae	g__Micrococcus	s__	Novel	SAMPLE_2762
+SMGC_476	1004085	140737	61.25	0.85	0	99.56	99.74	20	d__Bacteria	p__Patescibacteria	c__Saccharimonadia	o__Saccharimonadales	f__Saccharimonadaceae	g__Saccharimonas	s__	Novel	SAMPLE_2762
+SMGC_477	1509427	3379	85.29	3.43	95.8	0	0	11	d__Bacteria	p__Firmicutes	c__Bacilli	o__Staphylococcales	f__Staphylococcaceae	g__UBA6286	s__UBA6286 sp002438305	Known	SAMPLE_2762
+SMGC_478	713530	14102	64.36	0.85	0	99.56	72.8	18	d__Bacteria	p__Patescibacteria	c__Saccharimonadia	o__Saccharimonadales	f__Saccharimonadaceae	g__TM7x	s__	Novel	SAMPLE_2764
+SMGC_479	2087336	4555	88.77	3.23	0	0	0	16	d__Bacteria	p__Bacteroidota	c__Bacteroidia	o__Bacteroidales	f__Bacteroidaceae	g__F0040	s__	Novel	SAMPLE_2764
+SMGC_480	3363084	7217	93.28	3.53	0	43.49	0	19	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Xanthomonadales	f__Xanthomonadaceae	g__Luteimonas	s__	Novel	SAMPLE_2767
+SMGC_481	2520844	12613	94.45	1.2	0	0	0	15	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Actinomycetaceae	g__Actinomyces	s__Actinomyces sp000220835	Known	SAMPLE_2771
+SMGC_482	4002197	11152	88.43	2.93	88.24	0	0	16	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Xanthomonadales	f__Xanthomonadaceae	g__Stenotrophomonas	s__Stenotrophomonas maltophilia_N	Known	SAMPLE_2771
+SMGC_483	1712068	7820	84.58	1.06	0	0	0	5	d__Bacteria	p__Firmicutes	c__Bacilli	o__Lactobacillales	f__Streptococcaceae	g__Streptococcus	s__Streptococcus mutans	Known	SAMPLE_2771
+SMGC_484	3040947	48052	99.93	0.05	0	0	0	19	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Pseudomonadales	f__Moraxellaceae	g__Psychrobacter	s__Psychrobacter sp000213615	Known	SAMPLE_2771
+SMGC_485	1879271	3606	63.4	1.72	0	0	0	13	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Actinomycetaceae	g__Pauljensenia	s__Pauljensenia odontolyticus_A	Known	SAMPLE_2771
+SMGC_486	2056878	5701	92	1.53	0	0	0	16	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Actinomycetaceae	g__F0332	s__F0332 sp000466165	Known	SAMPLE_2771
+SMGC_487	5132122	74315	99.45	0.46	0	0	0	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Gordonia	s__Gordonia bronchialis	Known	SAMPLE_2771
+SMGC_488	2463298	50601	97.78	0	94.96	0	0	17	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Micrococcaceae	g__Rothia	s__Rothia kristinae	Known	SAMPLE_2771
+SMGC_489	986225	2385	60.87	2.74	93.28	0	0	6	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Enterobacterales	f__Pasteurellaceae	g__Haemophilus	s__Haemophilus sp002998595	Known	SAMPLE_2771
+SMGC_490	1903300	4789	85.96	1.11	95.8	99.62	79.71	17	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Micrococcaceae	g__Rothia	s__Rothia dentocariosa	Known	SAMPLE_2771
+SMGC_491	1000973	2525	50.29	1.54	94.12	10.91	0	4	d__Bacteria	p__Firmicutes	c__Bacilli	o__Lactobacillales	f__Aerococcaceae	g__Granulicatella	s__Granulicatella adiacens	Known	SAMPLE_2771
+SMGC_492	2415440	4004	60.35	3.08	88.24	8.58	0	13	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Actinomycetaceae	g__Actinomyces	s__Actinomyces massiliensis	Known	SAMPLE_2771
+SMGC_493	1294666	16166	72.6	0	0	0	0	19	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Lachnospirales	f__Lachnospiraceae	g__	s__	Novel	SAMPLE_2776
+SMGC_494	4268186	8877	95.68	1.91	0	0	23.55	16	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Xanthomonadales	f__Xanthomonadaceae	g__Stenotrophomonas	s__Stenotrophomonas maltophilia	Known	SAMPLE_2776
+SMGC_495	2770534	3315	87.25	3.46	0	0	0	14	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Pseudomonadales	f__Moraxellaceae	g__Psychrobacter	s__Psychrobacter sp001652315	Known	SAMPLE_2777
+SMGC_496	2686383	11884	94.78	0.56	0	0	0	10	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Pseudomonadales	f__Moraxellaceae	g__Acinetobacter	s__Acinetobacter fasciculus	Known	SAMPLE_2777
+SMGC_497	4140591	13835	71.03	0	0	0	0	12	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Xanthomonadales	f__Xanthomonadaceae	g__Stenotrophomonas	s__	Novel	SAMPLE_2777
+SMGC_498	1073982	4530	54.66	1.12	0	0	0	8	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Tissierellales	f__Helcococcaceae	g__Anaerococcus	s__	Novel	SAMPLE_2779
+SMGC_499	1127218	2454	60.33	1.22	0	0	0	4	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Tissierellales	f__Helcococcaceae	g__Anaerococcus	s__	Novel	SAMPLE_2779
+SMGC_500	1627398	83522	96.34	0.02	93.28	0	0	17	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Tissierellales	f__Helcococcaceae	g__Anaerococcus	s__	Known	SAMPLE_2779
+SMGC_501	2479753	8534	95.55	1.84	0	0	0	6	d__Bacteria	p__Firmicutes	c__Bacilli	o__Staphylococcales	f__Salinicoccaceae	g__Salinicoccus	s__Salinicoccus qingdaonensis	Known	SAMPLE_2782
+SMGC_502	1200961	4663	51.79	0	0	0	0	4	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Oscillospirales	f__Ruminococcaceae	g__Faecalibacterium	s__Faecalibacterium prausnitzii_G	Known	SAMPLE_2782
+SMGC_503	1841154	8410	77.42	2.27	0	0	0	7	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Enterobacterales	f__Pasteurellaceae	g__Basfia	s__	Novel	SAMPLE_2782
+SMGC_504	3936508	21868	97.7	0	0	0	0	15	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Lachnospirales	f__Lachnospiraceae	g__Blautia_A	s__Blautia_A wexlerae	Known	SAMPLE_2782
+SMGC_505	1842618	45171	96.2	0.49	0	0	0	18	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Microbacteriaceae	g__Gulosibacter	s__	Novel	SAMPLE_2782
+SMGC_506	5054830	117652	99.64	0.36	0	0	0	20	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Xanthomonadales	f__Xanthomonadaceae	g__Xanthomonas	s__Xanthomonas campestris	Known	SAMPLE_2782
+SMGC_507	2211511	82928	100	0.45	0	0	0	19	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__Corynebacterium jeikeium_A	Known	SAMPLE_2782
+SMGC_508	1895996	65823	99.33	1.01	92.44	0	0	18	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Oscillospirales	f__Acutalibacteraceae	g__Ruminococcus_E	s__Ruminococcus_E bromii_B	Known	SAMPLE_2782
+SMGC_509	2403263	3330	77.96	4.11	94.96	7.86	0	14	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Micrococcaceae	g__Micrococcus	s__	Novel	SAMPLE_2782
+SMGC_510	1825438	151661	95.97	0	91.6	10.63	0	19	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Oscillospirales	f__Acutalibacteraceae	g__CAG-217	s__CAG-217 sp000436335	Known	SAMPLE_2782
+SMGC_511	5075729	92123	99.25	0.75	0	0	0	20	d__Bacteria	p__Bacteroidota	c__Bacteroidia	o__Bacteroidales	f__Bacteroidaceae	g__Bacteroides_B	s__Bacteroides_B dorei	Known	SAMPLE_2782
+SMGC_512	3835188	16743	97	3.93	0	0	0	19	d__Bacteria	p__Proteobacteria	c__Alphaproteobacteria	o__Sphingomonadales	f__Sphingomonadaceae	g__Sphingomonas	s__Sphingomonas sp000980895	Known	SAMPLE_2782
+SMGC_513	3322758	152048	100	0	0	0	0	20	d__Bacteria	p__Bacteroidota	c__Bacteroidia	o__Bacteroidales	f__Rikenellaceae	g__Alistipes	s__Alistipes finegoldii	Known	SAMPLE_2782
+SMGC_514	1489339	25883	95.5	0.45	0	0	0	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Bifidobacteriaceae	g__Bifidobacterium	s__Bifidobacterium vaginale_A	Known	SAMPLE_2783
+SMGC_515	1002844	2751	54.37	1.51	0	0	0	4	d__Bacteria	p__Firmicutes	c__Bacilli	o__Lactobacillales	f__Streptococcaceae	g__Streptococcus	s__Streptococcus pseudopneumoniae_O	Known	SAMPLE_2783
+SMGC_516	766100	2139	56.32	1.09	0	0	0	2	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Burkholderiales	f__Neisseriaceae	g__QFNR01	s__	Novel	SAMPLE_2783
+SMGC_517	1469192	16618	96.42	0	0	0	0	18	d__Bacteria	p__Firmicutes_C	c__Negativicutes	o__Veillonellales	f__Megasphaeraceae	g__28L	s__28L sp000177555	Known	SAMPLE_2783
+SMGC_518	2077517	3901	52.41	2.05	0	0	0	10	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Burkholderiales	f__Burkholderiaceae	g__Massilia	s__Massilia alkalitolerans	Known	SAMPLE_2783
+SMGC_519	5091667	13737	93.29	4.2	0	0	0	15	d__Bacteria	p__Proteobacteria	c__Alphaproteobacteria	o__Rhizobiales	f__Rhizobiaceae	g__Neorhizobium	s__	Known	SAMPLE_2783
+SMGC_520	5231987	17543	94.93	2.4	0	0	0	19	d__Bacteria	p__Proteobacteria	c__Alphaproteobacteria	o__Sphingomonadales	f__Sphingomonadaceae	g__Sphingobium	s__Sphingobium yanoikuyae	Known	SAMPLE_2783
+SMGC_521	4488292	11070	94.31	2.59	0	0	0	13	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Enterobacterales	f__Enterobacteriaceae	g__Pantoea	s__Pantoea septica	Known	SAMPLE_2783
+SMGC_522	1869021	35619	98.99	0.78	0	0	0	14	d__Bacteria	p__Firmicutes	c__Bacilli	o__Lactobacillales	f__Lactobacillaceae	g__Lactobacillus	s__Lactobacillus gasseri	Known	SAMPLE_2784
+SMGC_523	2073386	85990	95.47	0	0	0	0	14	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__	Novel	SAMPLE_2784
+SMGC_524	3710208	37144	97.34	1.67	0	0	0	18	d__Bacteria	p__Proteobacteria	c__Alphaproteobacteria	o__Sphingomonadales	f__Sphingomonadaceae	g__Sphingomonas	s__	Novel	SAMPLE_2784
+SMGC_525	2108539	54441	95.04	0.29	0	0	0	18	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Micrococcaceae	g__Pseudoglutamicibacter	s__Pseudoglutamicibacter albus	Known	SAMPLE_2784
+SMGC_526	1449925	15604	77.66	0	0	0	0	20	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Saccharofermentanales	f__Fastidiosipilaceae	g__Fastidiosipila	s__Fastidiosipila sanguinis	Known	SAMPLE_2784
+SMGC_527	1652489	122837	100	0	0	0	0	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Bifidobacteriaceae	g__Bifidobacterium	s__Bifidobacterium vaginale	Known	SAMPLE_2784
+SMGC_528	3904809	25659	98.56	0.3	0	0	0	18	d__Bacteria	p__Proteobacteria	c__Alphaproteobacteria	o__Rhodobacterales	f__Rhodobacteraceae	g__Paracoccus	s__Paracoccus yeei	Known	SAMPLE_2784
+SMGC_529	2014134	13664	93.18	0.58	0	0	0	19	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Microbacteriaceae	g__	s__	Novel	SAMPLE_2784
+SMGC_530	1592023	2228	70.59	1.23	0	0	0	12	d__Bacteria	p__Bacteroidota	c__Bacteroidia	o__Flavobacteriales	f__Weeksellaceae	g__Cloacibacterium	s__	Novel	SAMPLE_2785
+SMGC_531	2386930	34579	92.34	1.03	0	0	0	11	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__	Known	SAMPLE_2785
+SMGC_532	2760202	39881	99.14	1.1	0	0	0	8	d__Bacteria	p__Firmicutes	c__Bacilli	o__Staphylococcales	f__Staphylococcaceae	g__Staphylococcus	s__Staphylococcus simulans_B	Known	SAMPLE_2786
+SMGC_533	5068230	2578	79.14	3.41	0	5.44	0	15	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Lachnospirales	f__Lachnospiraceae	g__COE1	s__COE1 sp000403215	Known	SAMPLE_2786
+SMGC_534	1953838	13049	89.96	3.21	0	0	0	5	d__Bacteria	p__Firmicutes	c__Bacilli	o__Lactobacillales	f__Streptococcaceae	g__Streptococcus	s__Streptococcus gordonii	Known	SAMPLE_2786
+SMGC_535	1306870	2386	70.85	1.82	0	0	0	12	d__Bacteria	p__Deferribacterota	c__Deferribacteres	o__Deferribacterales	f__Mucispirillaceae	g__Mucispirillum	s__Mucispirillum schaedleri	Known	SAMPLE_2786
+SMGC_536	2267074	14789	79.87	0.75	0	0	0	15	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__	Known	SAMPLE_2787
+SMGC_537	1154258	3178	62.73	1.29	0	0	0	2	d__Bacteria	p__Firmicutes	c__Bacilli	o__Staphylococcales	f__Salinicoccaceae	g__Aliicoccus	s__Aliicoccus persicus	Known	SAMPLE_2787
+SMGC_538	2038693	21105	99.03	0.09	0	0	0	16	d__Bacteria	p__Firmicutes	c__Bacilli	o__Lactobacillales	f__Lactobacillaceae	g__Lactobacillus	s__Lactobacillus crispatus	Known	SAMPLE_2788
+SMGC_539	2162589	68239	97.67	0.22	93.28	0	0	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Micrococcaceae	g__Rothia	s__Rothia mucilaginosa	Known	SAMPLE_2788
+SMGC_540	1670566	4720	83.08	2.81	0	0	0	6	d__Bacteria	p__Firmicutes	c__Bacilli	o__Lactobacillales	f__Streptococcaceae	g__Streptococcus	s__	Novel	SAMPLE_2788
+SMGC_541	1729007	7289	94.03	2.25	0	0	0	11	d__Bacteria	p__Firmicutes	c__Bacilli	o__Lactobacillales	f__Streptococcaceae	g__Streptococcus	s__Streptococcus mitis_Y	Known	SAMPLE_2788
+SMGC_542	2984599	14602	93.64	1.1	94.96	0	60.47	19	d__Bacteria	p__Bacteroidota	c__Bacteroidia	o__Bacteroidales	f__Bacteroidaceae	g__Prevotella	s__Prevotella copri	Known	SAMPLE_2790
+SMGC_543	2815658	49951	99.67	0.07	94.12	7.28	0	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Micrococcaceae	g__Rothia	s__	Known	SAMPLE_2790
+SMGC_544	2492993	6964	97.44	0.43	0	0	0	20	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Burkholderiales	f__Neisseriaceae	g__Neisseria	s__Neisseria sp000227275	Known	SAMPLE_2790
+SMGC_545	3009601	82668	99.46	0	0	0	0	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Dermatophilaceae	g__Dermacoccus	s__Dermacoccus nishinomiyaensis	Known	SAMPLE_2791
+SMGC_546	2493144	4298	59.38	0.02	0	0	0	14	d__Bacteria	p__Bacteroidota	c__Bacteroidia	o__Sphingobacteriales	f__Sphingobacteriaceae	g__Pedobacter	s__	Novel	SAMPLE_2791
+SMGC_547	1491579	3849	50.91	1.27	0	0	0	14	d__Bacteria	p__Bacteroidota	c__Bacteroidia	o__Flavobacteriales	f__Flavobacteriaceae	g__Flavobacterium	s__	Novel	SAMPLE_2791
+SMGC_548	4232962	169717	99.29	0	0	0	0	20	d__Bacteria	p__Bacteroidota	c__Bacteroidia	o__Flavobacteriales	f__Flavobacteriaceae	g__Flavobacterium	s__	Novel	SAMPLE_2791
+SMGC_549	3672498	94057	99.46	0.85	0	0	0	20	d__Bacteria	p__Proteobacteria	c__Alphaproteobacteria	o__Acetobacterales	f__Acetobacteraceae	g__	s__	Novel	SAMPLE_2791
+SMGC_550	870518	92987	64.51	1.85	0	5.13	0	20	d__Bacteria	p__Patescibacteria	c__Saccharimonadia	o__Saccharimonadales	f__Saccharimonadaceae	g__	s__	Novel	SAMPLE_2791
+SMGC_551	1882546	11460	91.95	0	0	0	0	20	d__Bacteria	p__Deinococcota	c__Deinococci	o__Deinococcales	f__Deinococcaceae	g__Deinococcus	s__	Known	SAMPLE_2792
+SMGC_552	1435477	31602	92	0.34	0	0	0	13	d__Bacteria	p__Firmicutes	c__Bacilli	o__Lactobacillales	f__Lactobacillaceae	g__Leuconostoc	s__Leuconostoc lactis_B	Known	SAMPLE_2793
+SMGC_553	2210308	2465	83.13	2.87	0	0	0	6	d__Bacteria	p__Firmicutes	c__Bacilli	o__Exiguobacterales	f__Exiguobacteraceae	g__Exiguobacterium_A	s__Exiguobacterium_A indicum	Known	SAMPLE_2793
+SMGC_554	1789238	2123	61.1	3.24	0	0	0	14	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Dermatophilaceae	g__Kytococcus	s__	Novel	SAMPLE_2793
+SMGC_555	2033978	16653	94.81	1.6	0	0	0	14	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Burkholderiales	f__Neisseriaceae	g__Neisseria	s__Neisseria subflava_A	Known	SAMPLE_2793
+SMGC_556	1743632	7525	68.76	0	0	0	0	3	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__Corynebacterium sp001807205	Known	SAMPLE_2793
+SMGC_557	4095353	14000	92.91	2.47	94.96	12.24	0	19	d__Bacteria	p__Proteobacteria	c__Alphaproteobacteria	o__Rhizobiales	f__Hyphomicrobiaceae	g__Hyphomicrobium	s__	Novel	SAMPLE_2793
+SMGC_558	2902883	3131	82.67	3.31	0	0	0	18	d__Bacteria	p__Proteobacteria	c__Alphaproteobacteria	o__Caulobacterales	f__Caulobacteraceae	g__Brevundimonas	s__	Novel	SAMPLE_2793
+SMGC_559	4447103	6202	94.57	4.09	0	0	0	18	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Pseudomonadales	f__Pseudomonadaceae	g__Pseudomonas_E	s__Pseudomonas_E fulva	Known	SAMPLE_2793
+SMGC_560	2911840	8518	93.79	1.06	0	0	0	19	d__Bacteria	p__Deinococcota	c__Deinococci	o__Deinococcales	f__Deinococcaceae	g__Deinococcus	s__Deinococcus wulumuqiensis	Known	SAMPLE_2793
+SMGC_561	1024871	4056	60.94	1.1	0	0	0	4	d__Bacteria	p__Firmicutes_C	c__Negativicutes	o__Veillonellales	f__Veillonellaceae	g__F0422	s__	Novel	SAMPLE_2793
+SMGC_562	2183915	3672	70.11	1.47	94.96	7.9	0	12	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Micrococcaceae	g__Micrococcus	s__	Novel	SAMPLE_2793
+SMGC_563	2223337	52536	91.64	0.88	0	0	0	11	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__Corynebacterium sp001831515	Known	SAMPLE_2793
+SMGC_564	2082278	4237	57.89	0	0	0	0	9	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Microbacteriaceae	g__Microbacterium	s__	Novel	SAMPLE_2793
+SMGC_565	1999589	2983	55.57	1.93	0	0	0	10	d__Bacteria	p__Deinococcota	c__Deinococci	o__Deinococcales	f__Deinococcaceae	g__Deinococcus	s__	Novel	SAMPLE_2793
+SMGC_566	902702	4737	52.44	2.86	0	22.91	20.48	18	d__Bacteria	p__Patescibacteria	c__Saccharimonadia	o__Saccharimonadales	f__Saccharimonadaceae	g__Saccharimonas	s__	Novel	SAMPLE_2793
+SMGC_567	2313116	44614	100	1.02	0	0	0	15	d__Bacteria	p__Bacteroidota	c__Bacteroidia	o__Flavobacteriales	f__Weeksellaceae	g__Chryseobacterium_D	s__Chryseobacterium_D taklimakanense	Known	SAMPLE_2793
+SMGC_568	1881225	2278	75.12	3.22	0	0	0	11	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Actinomycetaceae	g__Pauljensenia	s__Pauljensenia hongkongensis	Known	SAMPLE_2800
+SMGC_569	2486268	13870	95.2	0.88	0	0	0	10	d__Bacteria	p__Firmicutes	c__Bacilli	o__Bacillales_A	f__Planococcaceae	g__Kurthia	s__Kurthia sp001534765	Known	SAMPLE_2800
+SMGC_570	2885037	3248	54.41	2.72	0	0	0	14	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Williamsia_A	s__	Novel	SAMPLE_2800
+SMGC_571	4935360	36998	100	0	91.6	19.52	0	18	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Enterobacterales	f__Aeromonadaceae	g__Aeromonas	s__Aeromonas caviae	Known	SAMPLE_2800
+SMGC_572	3722185	5026	79.36	2.77	0	0	0	10	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Enterobacterales	f__Shewanellaceae	g__Shewanella	s__Shewanella bicestrii	Known	SAMPLE_2800
+SMGC_573	1675462	2823	67.48	1.66	95.8	0	0	12	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Micrococcaceae	g__Rothia	s__Rothia aeria	Known	SAMPLE_2800
+SMGC_574	4495708	78432	99.04	0.51	0	0	0	20	d__Bacteria	p__Bacteroidota	c__Bacteroidia	o__Bacteroidales	f__Tannerellaceae	g__Parabacteroides	s__Parabacteroides distasonis	Known	SAMPLE_2802
+SMGC_575	4186874	47143	93.06	0	0	0	0	17	d__Bacteria	p__Bacteroidota	c__Bacteroidia	o__Bacteroidales	f__Bacteroidaceae	g__Bacteroides	s__Bacteroides fragilis	Known	SAMPLE_2802
+SMGC_576	1040971	2630	69.27	1.53	0	0	0	12	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Burkholderiales	f__Burkholderiaceae	g__CAG-521	s__	Novel	SAMPLE_2802
+SMGC_577	1891119	4757	51.75	1.75	0	0	0	8	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Lachnospirales	f__Lachnospiraceae	g__Roseburia	s__Roseburia intestinalis	Known	SAMPLE_2802
+SMGC_578	2070971	23990	97.32	0	94.12	10.6	0	19	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Oscillospirales	f__Ruminococcaceae	g__Ruminococcus_C	s__Ruminococcus_C sp000433635	Known	SAMPLE_2802
+SMGC_579	1403403	10522	87.47	0.27	0	0	0	14	d__Bacteria	p__Firmicutes_C	c__Negativicutes	o__Veillonellales	f__Veillonellaceae	g__F0422	s__F0422 sp001553345	Known	SAMPLE_2802
+SMGC_580	1884478	1849	52.2	2.15	0	0	0	13	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Propionibacteriales	f__Propionibacteriaceae	g__Pseudopropionibacterium	s__	Novel	SAMPLE_2802
+SMGC_581	5590508	35884	93.88	0.59	94.96	0	0	18	d__Bacteria	p__Bacteroidota	c__Bacteroidia	o__Bacteroidales	f__Bacteroidaceae	g__Bacteroides	s__	Novel	SAMPLE_2802
+SMGC_582	2210807	14481	94.83	0	0	0	0	13	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Lachnospirales	f__Lachnospiraceae	g__Faecalicatena	s__Faecalicatena torques	Known	SAMPLE_2802
+SMGC_583	4978671	3062	57.41	1.97	0	0	0	9	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Mycobacterium	s__Mycobacterium gordonae	Known	SAMPLE_2805
+SMGC_584	3894009	2279	74.45	4.04	0	0	0	18	d__Bacteria	p__Proteobacteria	c__Alphaproteobacteria	o__Rhizobiales	f__Rhizobiaceae	g__Agrobacterium	s__	Novel	SAMPLE_2805
+SMGC_585	3825024	77861	98.83	0.71	0	0	0	20	d__Bacteria	p__Bacteroidota	c__Bacteroidia	o__Flavobacteriales	f__Flavobacteriaceae	g__Flavobacterium	s__	Novel	SAMPLE_2806
+SMGC_586	2455742	3707	83.96	3.3	95.8	11.38	21.66	16	d__Bacteria	p__Proteobacteria	c__Alphaproteobacteria	o__Micavibrionales	f__UBA2020	g__UBA2020	s__	Novel	SAMPLE_2806
+SMGC_587	2499662	37732	96.42	0.34	0	0	0	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Microbacteriaceae	g__Microbacterium	s__	Novel	SAMPLE_2806
+SMGC_588	1603396	1728	50.21	1.99	89.92	0	0	9	d__Bacteria	p__Proteobacteria	c__Alphaproteobacteria	o__Micavibrionales	f__Micavibrionaceae	g__Micavibrio_B	s__	Novel	SAMPLE_2806
+SMGC_589	6422199	45002	89.84	1.9	92.44	0	0	17	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Pseudomonadales	f__Pseudomonadaceae	g__Pseudomonas_E	s__	Novel	SAMPLE_2806
+SMGC_590	2196890	4110	83.8	1.08	0	0	0	19	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Dermatophilaceae	g__Kytococcus	s__Kytococcus sedentarius	Known	SAMPLE_2806
+SMGC_591	2164921	60451	97.72	0.22	0	0	0	16	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__Corynebacterium falsenii_A	Known	SAMPLE_2806
+SMGC_592	4655083	43118	97.94	1.2	0	0	0	19	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Xanthomonadales	f__Xanthomonadaceae	g__Stenotrophomonas	s__Stenotrophomonas sp003248565	Known	SAMPLE_2806
+SMGC_593	3042044	3499	69.48	1.29	0	87.76	72.8	9	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Enterobacterales	f__Shewanellaceae	g__Shewanella	s__Shewanella xiamenensis	Known	SAMPLE_2806
+SMGC_594	3325243	5958	93.19	3.3	0	0	0	17	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Burkholderiales	f__Burkholderiaceae	g__Comamonas	s__Comamonas aquatica	Known	SAMPLE_2806
+SMGC_595	4438665	2877	66.03	3.82	0	0	0	15	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Burkholderiales	f__Burkholderiaceae	g__Massilia	s__	Novel	SAMPLE_2806
+SMGC_596	1896614	2798	50.47	0.86	94.96	0	0	2	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Pseudomonadales	f__Moraxellaceae	g__Acinetobacter	s__Acinetobacter schindleri	Known	SAMPLE_2806
+SMGC_597	5780080	28449	59.65	0	0	0	0	18	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Pseudomonadales	f__Pseudomonadaceae	g__Pseudomonas_E	s__Pseudomonas_E sp001320525	Known	SAMPLE_2806
+SMGC_598	2614168	9188	93.87	2.33	0	0	8.68	18	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Xanthomonadales	f__Xanthomonadaceae	g__Pseudoxanthomonas_B	s__Pseudoxanthomonas_B suwonensis	Known	SAMPLE_2808
+SMGC_599	2431384	15700	93.62	1.17	0	0	0	15	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Actinomycetales	f__Dermabacteraceae	g__	s__	Novel	SAMPLE_2808
+SMGC_600	2093443	19297	97.87	0.09	0	0	0	8	d__Bacteria	p__Firmicutes	c__Bacilli	o__Lactobacillales	f__Streptococcaceae	g__Streptococcus	s__Streptococcus dysgalactiae	Known	SAMPLE_2809
+SMGC_601	2282408	2475	52.42	0	0	0	0	6	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__	Novel	SAMPLE_2809
+SMGC_602	1439355	60271	100	0	0	0	70.65	20	d__Bacteria	p__Actinobacteriota	c__Coriobacteriia	o__Coriobacteriales	f__Atopobiaceae	g__Fannyhessea	s__Fannyhessea vaginae	Known	SAMPLE_2811
+SMGC_603	961215	5823	55.81	1.44	0	0	0	6	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Tissierellales	f__Helcococcaceae	g__Anaerococcus	s__Anaerococcus prevotii_A	Known	SAMPLE_2811
+SMGC_604	842064	1839	53.81	1.88	0	0	0	16	d__Bacteria	p__Actinobacteriota	c__Coriobacteriia	o__Coriobacteriales	f__Eggerthellaceae	g__DNF00809	s__DNF00809 sp001552935	Known	SAMPLE_2811
+SMGC_605	1105551	2188	62.19	1.2	0	0	0	4	d__Bacteria	p__Bacteroidota	c__Bacteroidia	o__Bacteroidales	f__Porphyromonadaceae	g__Porphyromonas	s__	Novel	SAMPLE_2811
+SMGC_606	1764027	125397	99.46	1.9	0	0	0	18	d__Bacteria	p__Firmicutes	c__Bacilli	o__Lactobacillales	f__Carnobacteriaceae	g__Dolosigranulum	s__Dolosigranulum pigrum	Known	SAMPLE_2812
+SMGC_607	3344788	2481	79.44	2.81	0	0	0	13	d__Bacteria	p__Proteobacteria	c__Alphaproteobacteria	o__Rhodobacterales	f__Rhodobacteraceae	g__DSL-40	s__	Novel	SAMPLE_2815
+SMGC_608	3898676	23797	98.65	0.52	94.96	40.68	21.2	19	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Propionibacteriales	f__Nocardioidaceae	g__Marmoricola	s__	Novel	SAMPLE_2815
+SMGC_609	4078321	3304	84.62	3.36	0	0	0	11	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Pseudomonadales	f__Pseudomonadaceae	g__Pseudomonas_E	s__Pseudomonas_E weihenstephanensis	Known	SAMPLE_2816
+SMGC_610	2664893	9585	87.93	0.81	94.96	5.71	0	12	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__Corynebacterium glutamicum	Known	SAMPLE_2816
+SMGC_611	1374788	4253	78.26	1.3	0	0	0	5	d__Bacteria	p__Firmicutes	c__Bacilli	o__Lactobacillales	f__Aerococcaceae	g__Aerococcus	s__Aerococcus urinaeequi	Known	SAMPLE_2816
+SMGC_612	2528199	18399	91.96	2.5	94.96	0	0	12	d__Bacteria	p__Firmicutes	c__Bacilli	o__Staphylococcales	f__Staphylococcaceae	g__Staphylococcus	s__Staphylococcus xylosus	Known	SAMPLE_2816
+SMGC_613	2139736	7981	90.12	1.43	0	0	0	0	d__Bacteria	p__Firmicutes	c__Bacilli	o__Staphylococcales	f__Staphylococcaceae	g__Staphylococcus_A	s__Staphylococcus_A sciuri	Known	SAMPLE_2816
+SMGC_614	1520644	5040	57.43	1.6	94.96	0	0	3	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__Corynebacterium casei	Known	SAMPLE_2816
+SMGC_615	1047017	26558	91.46	0.43	0	0	0	20	d__Bacteria	p__Proteobacteria	c__Alphaproteobacteria	o__Rhizobiales	f__Rhizobiaceae	g__Bartonella	s__	Novel	SAMPLE_2816
+SMGC_616	2476518	166244	97.18	0	0	0	0	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__	Novel	SAMPLE_2817
+SMGC_617	2177530	1340988	99.66	0	0	0	0	20	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__	Novel	SAMPLE_2819
+SMGC_618	2597982	45109	88.78	0.83	95.8	0	0	8	d__Bacteria	p__Firmicutes	c__Bacilli	o__Staphylococcales	f__Staphylococcaceae	g__Staphylococcus	s__Staphylococcus succinus	Known	SAMPLE_2819
+SMGC_619	1457354	3160	58	2.44	0	0	0	6	d__Bacteria	p__Actinobacteriota	c__Actinobacteria	o__Mycobacteriales	f__Mycobacteriaceae	g__Corynebacterium	s__Corynebacterium genitalium	Known	SAMPLE_2819
+SMGC_620	2207350	5789	88.45	2.32	0	0	0	9	d__Bacteria	p__Proteobacteria	c__Gammaproteobacteria	o__Pseudomonadales	f__Moraxellaceae	g__Acinetobacter	s__Acinetobacter parvus	Known	SAMPLE_2822
+SMGC_621	1996747	23038	96.45	0	0	0	0	19	d__Bacteria	p__Bacteroidota	c__Bacteroidia	o__Bacteroidales	f__Porphyromonadaceae	g__Porphyromonas	s__	Novel	SAMPLE_2822
+SMGC_622	943182	1558	52.09	4.36	0	0	0	4	d__Bacteria	p__Firmicutes_A	c__Clostridia	o__Tissierellales	f__Helcococcaceae	g__Finegoldia	s__Finegoldia magna_H	Known	SAMPLE_2822

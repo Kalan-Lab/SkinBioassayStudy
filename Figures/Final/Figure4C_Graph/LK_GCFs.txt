@@ -1,1 +1,0 @@
-../BiG-SCAPE_Analyses/LK_GCFs.txt

@@ -1,8 +1,0 @@
-Moist_Na	#D53E4F
-Moist_Tw	#F46D43
-Moist_Um	#FDAE61
-Rarely_Moist_Af	#FEE08B
-Rarely_Moist_Vf	#E6F598
-Sebaceous_Al	#ABDDA4
-Sebaceous_Ba	#66C2A5
-Sebaceous_Oc	#3288BD
