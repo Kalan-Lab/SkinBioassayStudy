@@ -138,7 +138,87 @@ data_long <- data %>%
 
 # Merge with annotation dataframe
 data_merged <- data_long %>%
-  left_join(annotation, by = "Strain ID")
+  dplyr::left_join(annotation, by = "Strain ID")
+
+# Kocuria antifungal statistics
+kocuria_fungi<- data_merged %>%
+  filter(Pathogen_Type == "Fungal" & Genus == "Kocuria")
+print(unique(kocuria_fungi$`Strain ID`))
+kocuria_fungi_summary <- data_merged %>%
+  filter(Pathogen_Type == "Fungal" & Genus == "Kocuria") %>%
+  group_by(Pathogen_Name) %>%
+  summarise(total_strains = n(), 
+            partial_active = sum(Score %in% c(1)), 
+            complete_active = sum(Score %in% c(2)),
+            both_active = sum(Score %in% c(1,2)), 
+            percent_partial = (partial_active / total_strains) * 100,
+            percent_complete = (complete_active / total_strains) * 100,
+            percent_both= (both_active / total_strains) * 100)
+kocuria_body_summary <- data_merged %>%
+  filter(Pathogen_Type == "Fungal" & Genus == "Kocuria") %>%
+  group_by(`Body site`) %>%
+  summarise(total_strains = n(), 
+            partial_active = sum(Score %in% c(1)), 
+            complete_active = sum(Score %in% c(2)),
+            both_active = sum(Score %in% c(1,2)), 
+            percent_partial = (partial_active / total_strains) * 100,
+            percent_complete = (complete_active / total_strains) * 100,
+            percent_both= (both_active / total_strains) * 100)
+kocuria_fungi_body_summary <- data_merged %>%
+  filter(Pathogen_Type == "Fungal" & Genus == "Kocuria") %>%
+  group_by(Pathogen_Name, `Body site`) %>%
+  summarise(total_strains = n(), 
+            partial_active = sum(Score %in% c(1)), 
+            complete_active = sum(Score %in% c(2)),
+            both_active = sum(Score %in% c(1,2)), 
+            percent_partial = (partial_active / total_strains) * 100,
+            percent_complete = (complete_active / total_strains) * 100,
+            percent_both= (both_active / total_strains) * 100)
+
+# Micrococcus antifungal statistics
+micrococcus_fungi<- data_merged %>%
+  filter(Pathogen_Type == "Fungal" & Genus == "Micrococcus")
+print(unique(micrococcus_fungi$`Strain ID`))
+micrococcus_fungi_summary <- data_merged %>%
+  filter(Pathogen_Type == "Fungal" & Genus == "Micrococcus") %>%
+  group_by(Pathogen_Name) %>%
+  summarise(total_strains = n(), 
+            partial_active = sum(Score %in% c(1)), 
+            complete_active = sum(Score %in% c(2)),
+            both_active = sum(Score %in% c(1,2)), 
+            percent_partial = (partial_active / total_strains) * 100,
+            percent_complete = (complete_active / total_strains) * 100,
+            percent_both= (both_active / total_strains) * 100)
+micrococcus_body_summary <- data_merged %>%
+  filter(Pathogen_Type == "Fungal" & Genus == "Micrococcus") %>%
+  group_by(`Body site`) %>%
+  summarise(total_strains = n(), 
+            partial_active = sum(Score %in% c(1)), 
+            complete_active = sum(Score %in% c(2)),
+            both_active = sum(Score %in% c(1,2)), 
+            percent_partial = (partial_active / total_strains) * 100,
+            percent_complete = (complete_active / total_strains) * 100,
+            percent_both= (both_active / total_strains) * 100)
+micrococcus_fungi_body_summary <- data_merged %>%
+  filter(Pathogen_Type == "Fungal" & Genus == "Micrococcus") %>%
+  group_by(Pathogen_Name, `Body site`) %>%
+  summarise(total_strains = n(), 
+            partial_active = sum(Score %in% c(1)), 
+            complete_active = sum(Score %in% c(2)),
+            both_active = sum(Score %in% c(1,2)), 
+            percent_partial = (partial_active / total_strains) * 100,
+            percent_complete = (complete_active / total_strains) * 100,
+            percent_both= (both_active / total_strains) * 100)
+
+sheet_list <- list(
+  "kocuria_fungi" = kocuria_fungi_summary, 
+  "kocuria_body" = kocuria_body_summary, 
+  "kocuria_fungi_body" = kocuria_fungi_body_summary,
+  "micrococcus_fungi" = micrococcus_fungi_summary, 
+  "micrococcus_body" = micrococcus_body_summary,
+  "micrococcus_fungi_body" = micrococcus_fungi_body_summary
+)
+#writexl::write_xlsx(sheet_list, "/Users/thynguyen/Documents/GitHub/SkinBioassayStudy/Figures/Final/Figure3/Data/Kocuria_Micrococcus_Statistics.xlsx")
 
 # Plot by Body site
 p <- data_merged %>%
@@ -157,12 +237,18 @@ p <- data_merged %>%
   scale_fill_manual(values = Body_Site) +
   scale_color_manual(values = Body_Site) +
   theme_classic(base_size = 16) +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1), 
+  theme(axis.text.x = element_blank(),
+        #axis.text.x = element_text(angle = 45, hjust = 1), 
         legend.position = "none") +
   labs(x = NULL,
        y = "Average Antifungal Score", 
        title = "Complete") +
-  ylim(-0.09, 2.1)
+  ylim(-0.09, 2.1) + 
+  stat_compare_means(
+    method = "wilcox.test", 
+    ref.group = "Toe web space", 
+    label = "p.signif"
+  )
 
 # Plot by Body site just Micrococcaceae
 p1 <- data_merged %>%
@@ -181,12 +267,18 @@ p1 <- data_merged %>%
   scale_fill_manual(values = Body_Site) +
   scale_color_manual(values = Body_Site) +
   theme_classic(base_size = 16) +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1), 
+  theme(axis.text.x = element_blank(),
+        #axis.text.x = element_text(angle = 45, hjust = 1), 
         legend.position = "none") +
   labs(x = NULL,
        y = NULL, 
        title = "Micrococcaceae") +
-  ylim(-0.09, 2.1)
+  ylim(-0.09, 2.1) +
+  stat_compare_means(
+    method = "wilcox.test", 
+    ref.group = "Toe web space", 
+    label = "p.signif"
+  )
 
 p2 <- data_merged %>%
   filter(Family %in% c("Staphylococcaceae")) %>% 
@@ -204,12 +296,18 @@ p2 <- data_merged %>%
   scale_fill_manual(values = Body_Site) +
   scale_color_manual(values = Body_Site) +
   theme_classic(base_size = 16) +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1), 
+  theme(axis.text.x = element_blank(),
+        #axis.text.x = element_text(angle = 45, hjust = 1), 
         legend.position = "none") +
   labs(x = NULL,
        y = NULL, 
        title = "Staphylococcaceae") +
-  ylim(-0.09, 2.1)
+  ylim(-0.09, 2.1) +
+  stat_compare_means(
+    method = "wilcox.test", 
+    ref.group = "Toe web space", 
+    label = "p.signif"
+  )
 
 p3 <- data_merged %>%
   filter(Family %in% c("Corynebacteriaceae")) %>% 
@@ -227,12 +325,19 @@ p3 <- data_merged %>%
   scale_fill_manual(values = Body_Site) +
   scale_color_manual(values = Body_Site) +
   theme_classic(base_size = 16) +
-  theme(axis.text.x = element_text(angle = 45, hjust = 1), 
-        legend.position = "none") +
+  theme(axis.text.x = element_blank(),
+        #axis.text.x = element_text(angle = 45, hjust = 1), 
+        legend.position = "bottom"
+        ) +
   labs(x = NULL,
        y = NULL, 
        title = "Corynebacteriaceae") +
-  ylim(-0.09, 2.1)
+  ylim(-0.09, 2.1) +
+  stat_compare_means(
+    method = "wilcox.test", 
+    ref.group = "Toe web space", 
+    label = "p.signif"
+  )
 
 p | p1 | p2 | p3
 
