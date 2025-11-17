@@ -110,7 +110,7 @@ phylum_map <- c(
 
 ```{r Load datasets, include=FALSE}
 # Culture dataset ----
-culture <- read_excel("/Users/thynguyen/Documents/GitHub/SkinBioassayStudy/Figures/Final/FigureS1_CulturevMetagenome/Data/251010_SupTable2_Updated.xlsx")
+culture <- read_excel("/Users/thynguyen/Documents/GitHub/SkinBioassayStudy1/SkinBioassayStudy/Figures/Final/Extended_Data_Fig_1/Data/251010_SupTable2_Updated.xlsx")
 
 # Assign body and site types
 culture <- culture %>%
@@ -165,7 +165,7 @@ culture_final <- culture %>%
   select(dataset, genus, body_site, site_type, rel_abun)
 
 # Metagenome (Sylph and Kraken) ----
-metagenome <- read_csv("/Users/thynguyen/Documents/GitHub/SkinBioassayStudy/Figures/Final/FigureS1_CulturevMetagenome/Data/Sylph_Kraken_RelAbun 2.csv")
+metagenome <- read_csv("/Users/thynguyen/Documents/GitHub/SkinBioassayStudy1/SkinBioassayStudy/Figures/Final/Extended_Data_Fig_1/Data/Sylph_Kraken_RelAbun 2.csv")
 
 # Summarize metagenome data
 metagenome_final <- metagenome %>%
