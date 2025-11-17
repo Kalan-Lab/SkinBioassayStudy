@@ -18,18 +18,17 @@ library(tidyverse)
 
 ```{r }
 #import data
-LK952_metadata <- read_excel("~/Documents/GitHub/Kalan_Lab/scripts/ssandstrom/skin_bioassay_paper_files/fig_6(1)/abon_results/LK952_abon_results.xlsx", 
+LK952_metadata <- read_excel("/Users/thynguyen/Documents/GitHub/SkinBioassayStudy1/SkinBioassayStudy/Figures/Final/Figure_5/Figure_5DEF_New/Corynebacterium_ABON_Results.xlsx", 
     sheet = "Sample BGCome Overview")
-LK952_results <- read_excel("~/Documents/GitHub/Kalan_Lab/scripts/ssandstrom/skin_bioassay_paper_files/fig_6(1)/abon_results/LK952_abon_results.xlsx", 
+LK952_results <- read_excel("/Users/thynguyen/Documents/GitHub/SkinBioassayStudy1/SkinBioassayStudy/Figures/Final/Figure_5/Figure_5DEF_New/Corynebacterium_ABON_Results.xlsx", 
     sheet = "Similarity to Target Genomes")
-
-#NAs were replace with 0 in Excel
 
 #formating
 #pivot original file to long format
 LK952_long <- LK952_results %>%
+ dplyr::mutate(across(3:14, ~as.numeric(ifelse(. == "NA", "0", .)))) %>%
   pivot_longer(
-    cols = starts_with("LK952_"),
+    cols = starts_with(c("LK952_", "1_cluster", "10_cluster")),
     names_sep = "-",
     names_to = c("Region", "Parameter"))
 #pivot AAI and Proportion to wide format
@@ -43,18 +42,17 @@ LK952_data1 <- filter(LK952_data, LK952_data$` AAI` > 0 , LK952_data$` Proportio
 
 ```{r }
 #import data
-LK960_metadata <- read_excel("~/Documents/GitHub/Kalan_Lab/scripts/ssandstrom/skin_bioassay_paper_files/fig_6(1)/abon_results/LK960_abon_results.xlsx", 
+LK960_metadata <- read_excel("/Users/thynguyen/Documents/GitHub/SkinBioassayStudy1/SkinBioassayStudy/Figures/Final/Figure_5/Figure_5DEF_New/Kocuria_ABON_Results.xlsx", 
     sheet = "Sample BGCome Overview")
-LK960_results <- read_excel("~/Documents/GitHub/Kalan_Lab/scripts/ssandstrom/skin_bioassay_paper_files/fig_6(1)/abon_results/LK960_abon_results.xlsx", 
+LK960_results <- read_excel("/Users/thynguyen/Documents/GitHub/SkinBioassayStudy1/SkinBioassayStudy/Figures/Final/Figure_5/Figure_5DEF_New/Kocuria_ABON_Results.xlsx", 
     sheet = "Similarity to Target Genomes")
-
-#NAs were replace with 0 in Excel
 
 #formating
 #pivot original file to long format
 LK960_long <- LK960_results %>%
+  dplyr::mutate(across(3:12, ~as.numeric(ifelse(. == "NA", "0", .)))) %>%
   pivot_longer(
-    cols = starts_with("LK960_"),
+    cols = starts_with(c("LK960_", "29_cluster", "3_cluster")),
     names_sep = "-",
     names_to = c("Region", "Parameter"))
 #pivot AAI and Proportion to wide format
@@ -68,9 +66,9 @@ LK960_data1 <- filter(LK960_data, LK960_data$` AAI` > 0 , LK960_data$` Proportio
 
 ```{r }
 #import data
-LK1337_metadata <- read_excel("~/Documents/GitHub/Kalan_Lab/scripts/ssandstrom/skin_bioassay_paper_files/fig_6(1)/abon_results/LK1337_abon_results.xlsx", 
+LK1337_metadata <- read_excel("/Users/thynguyen/Documents/GitHub/SkinBioassayStudy1/SkinBioassayStudy/Figures/Final/Figure_5/Figure_5DEF_New/Brevibacterium_ABON_Results.xlsx", 
     sheet = "Sample BGCome Overview")
-LK1337_results <- read_excel("~/Documents/GitHub/Kalan_Lab/scripts/ssandstrom/skin_bioassay_paper_files/fig_6(1)/abon_results/LK1337_abon_results.xlsx", 
+LK1337_results <- read_excel("/Users/thynguyen/Documents/GitHub/SkinBioassayStudy1/SkinBioassayStudy/Figures/Final/Figure_5/Figure_5DEF_New/Brevibacterium_ABON_Results.xlsx", 
     sheet = "Similarity to Target Genomes")
 
 #NAs were replace with 0 in Excel
@@ -78,6 +76,7 @@ LK1337_results <- read_excel("~/Documents/GitHub/Kalan_Lab/scripts/ssandstrom/sk
 #formating
 #pivot original file to long format
 LK1337_long <- LK1337_results %>%
+  dplyr::mutate(across(3:8, ~as.numeric(ifelse(. == "NA", "0", .)))) %>%
   pivot_longer(
     cols = starts_with("LK1337_"),
     names_sep = "-",
@@ -93,9 +92,9 @@ LK1337_data1 <- filter(LK1337_data, LK1337_data$` AAI` > 0 , LK1337_data$` Propo
 
 ```{r }
 #import data
-LK1188_metadata <- read_excel("~/Documents/GitHub/Kalan_Lab/scripts/ssandstrom/skin_bioassay_paper_files/fig_6(1)/abon_results/LK1188_abon_results.xlsx", 
+LK1188_metadata <- read_excel("/Users/thynguyen/Documents/GitHub/SkinBioassayStudy1/SkinBioassayStudy/Figures/Final/Figure_5/Figure_5DEF_New/Aestuariimicrobium_ABON_Results.xlsx", 
     sheet = "Sample BGCome Overview")
-LK1188_results <- read_excel("~/Documents/GitHub/Kalan_Lab/scripts/ssandstrom/skin_bioassay_paper_files/fig_6(1)/abon_results/LK1188_abon_results.xlsx", 
+LK1188_results <- read_excel("/Users/thynguyen/Documents/GitHub/SkinBioassayStudy1/SkinBioassayStudy/Figures/Final/Figure_5/Figure_5DEF_New/Aestuariimicrobium_ABON_Results.xlsx", 
     sheet = "Similarity to Target Genomes")
 
 #NAs were replace with 0 in Excel
@@ -103,8 +102,9 @@ LK1188_results <- read_excel("~/Documents/GitHub/Kalan_Lab/scripts/ssandstrom/sk
 #formating
 #pivot original file to long format
 LK1188_long <- LK1188_results %>%
+  dplyr::mutate(across(3:6, ~as.numeric(ifelse(. == "NA", "0", .)))) %>%
   pivot_longer(
-    cols = starts_with("LK1188_"),
+    cols = starts_with(c("LK1188_", "1_cluster")),
     names_sep = "-",
     names_to = c("Region", "Parameter"))
 #pivot AAI and Proportion to wide format
@@ -124,7 +124,7 @@ ggplot(LK952_data1, aes(x = ` AAI`, y = ` Proportion Shared Genes`)) +
   geom_vline(xintercept=95, linetype=3) +
   scale_x_continuous(limits = c(40, 100)) +
   scale_y_continuous(limits = c(0.4, 1)) +
-  scale_fill_manual(name = "BGC Type", labels=c('Terpene', 'T1PKS', 'Betalactone', 'RiPP-like'), values=c("#99B898", "#FECEAB" ,"#FF847C", "#E84A5F")) +
+  scale_fill_manual(name = "BGC Type", labels=c('Unknown', 'Polyketide','Terpene', 'T1PKS', 'Betalactone', 'RiPP-like'), values=c("#646165","#62B6CB","#99B898", "#FECEAB" ,"#FF847C", "#E84A5F")) +
   guides(fill=guide_legend(title="BGC Type")) +
   labs(x = "Average Amino Acid Identity", 
        y = "Proportion Shared Genes", 
@@ -138,7 +138,7 @@ ggplot(LK960_data1, aes(x = ` AAI`, y = ` Proportion Shared Genes`)) +
   geom_vline(xintercept=95, linetype=3) +
   scale_x_continuous(limits = c(40, 100)) +
   scale_y_continuous(limits = c(0.4, 1)) +
-  scale_fill_manual(name = "BGC Type", labels=c('Siderophore', 'Terpene', 'Arylpolyene'), values=c("#F8B195", "#C06C84" ,"#355C7D")) +
+  scale_fill_manual(name = "BGC Type", labels=c('Unknown', 'Terpene','Siderophore', 'Terpene', 'Arylpolyene'), values=c("#4F3824","#77ACA2","#F8B195", "#C06C84" ,"#355C7D")) +
   guides(fill=guide_legend(title="BGC Type")) +
   labs(x = "Average Amino Acid Identity", 
        y = "Proportion Shared Genes", 
