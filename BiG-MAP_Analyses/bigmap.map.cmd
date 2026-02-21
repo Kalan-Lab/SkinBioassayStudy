@@ -1,0 +1,1 @@
+python3 /home/conda_envs/BiG-MAP/BiG-MAP/src/BiG-MAP.map.py -b Updated_MetaInfo.txt -I1 soft_links_to_metagenomes/*_pass_1.fastq.gz -I2 soft_links_to_metagenomes/*_pass_2.fastq.gz -O BiG-MAP_Map_Results/ -F BiG-MAP_Family_Results/ -th 30
