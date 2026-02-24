@@ -12,13 +12,14 @@ library(ggplot2)
 #install.packages("pals")
 require(pals)
 library(readxl)
+library(here)
 ```
 
 ```{r load data, include=FALSE}
-LK952_SRAmetadata <- read.csv("~/Documents/GitHub/Kalan_Lab/scripts/ssandstrom/skin_bioassay_paper_files/fig_6(1)/novel_species_SRA_results/LK952_SRAmetadata.csv")
-LK960_SRAmetadata <- read.csv("~/Documents/GitHub/Kalan_Lab/scripts/ssandstrom/skin_bioassay_paper_files/fig_6(1)/novel_species_SRA_results/LK960_SRAmetadata.csv")
-LK1337_SRAmetadata <- read.csv("~/Documents/GitHub/Kalan_Lab/scripts/ssandstrom/skin_bioassay_paper_files/fig_6(1)/novel_species_SRA_results/LK1337_SRAmetadata.csv")
-LK1188_SRAmetadata <- read.csv("~/Documents/GitHub/Kalan_Lab/scripts/ssandstrom/skin_bioassay_paper_files/fig_6(1)/novel_species_SRA_results/LK1188_SRAmetadata.csv")
+LK952_SRAmetadata <- read.csv(here::here("Data","novel_species_SRA_results", "LK952_SRAmetadata.csv"))
+LK960_SRAmetadata <- read.csv(here::here("Data","novel_species_SRA_results", "LK960_SRAmetadata.csv"))
+LK1337_SRAmetadata <- read.csv(here::here("Data","novel_species_SRA_results", "LK1337_SRAmetadata.csv"))
+LK1188_SRAmetadata <- read.csv(here::here("Data","novel_species_SRA_results", "LK1188_SRAmetadata.csv"))
 ```
 
 
@@ -56,7 +57,7 @@ combine$Strain[combine$Strain == "4"] <- "LK1188"
 ```
 
 ```{r added category manually and re-import}
-category <- read_excel("~/Documents/GitHub/Kalan_Lab/scripts/ssandstrom/skin_bioassay_paper_files/fig_6(1)/novel_species_SRA_results/novel_species_SRA_type.xlsx")
+category <- read_excel(here::here("Data","novel_species_SRA_results", "novel_species_SRA_type.xlsx"))
 ```
 
 ## Including Plots
