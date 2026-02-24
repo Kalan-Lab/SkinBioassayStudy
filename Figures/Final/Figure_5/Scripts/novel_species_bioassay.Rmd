@@ -14,14 +14,15 @@ library(pheatmap)
 require(pals)
 #install.packages("RColorBrewer")
 library(RColorBrewer)
+library(here)
 ```
 
 
 ```{r load data}
-data <- read_excel("~/Documents/GitHub/Kalan_Lab/scripts/ssandstrom/skin_bioassay_paper_files/fig_6(1)/novel_species_bioassay_121823.xlsx", 
+data <- read_excel(here::here("Data", "novel_species_bioassay_121823.xlsx"), 
     col_types = c("text", "text", "text", 
         "text", "numeric", "numeric", "text"))
-genera_scores <- read.delim("~/Documents/GitHub/Kalan_Lab/scripts/ssandstrom/skin_bioassay_paper_files/fig_6(1)/Boxplot_Input.txt")
+genera_scores <- read.delim(here::here("Data", "Boxplot_Input.txt"))
 genera_scores <- as.tibble(genera_scores)
 #changing columns to factor and numeric
 data$Strain <- as.factor(data$Strain)
@@ -229,7 +230,7 @@ g + geom_dotplot(binaxis = 'y', stackdir = 'center',fill = "lightgray", dotsize 
   theme(axis.text.x = element_text(angle = 51, hjust=1, vjust=1), panel.background = element_rect(colour = "black", linewidth = 0.5), strip.text = element_text(size = 14, face = "bold"))
 ```
 
-```{r formatting for heatmap, echo=FALSE}
+```{r formatting for heatmap, echo=FALSE, include=FALSE, eval=FALSE}
 #do not use
 #extracting median
 data1 <- data %>% 
@@ -242,7 +243,7 @@ wide.data <- spread(data1, Strain, Median)
 wide.data$Pathogen_Type <- gsub('Fungi', 'Fungal', wide.data$Pathogen_Type)
 ```
 
-```{r plotting heatmap, echo=FALSE}
+```{r plotting heatmap, echo=FALSE, include=FALSE, eval=FALSE}
 #do not use
 paths <- factor(wide.data$Pathogen_Name, level=c("Staphylococcus aureus",
 "Bacillus cereus",
