@@ -11,6 +11,7 @@ library(plyr)
 library(ggplot2)
 library(readxl)
 library(tidyverse)
+library(here)
 ```
 
 
@@ -18,9 +19,9 @@ library(tidyverse)
 
 ```{r }
 #import data
-LK952_metadata <- read_excel("/Users/thynguyen/Documents/GitHub/SkinBioassayStudy1/SkinBioassayStudy/Figures/Final/Figure_5/Figure_5DEF_New/Corynebacterium_ABON_Results.xlsx", 
+LK952_metadata <- read_excel(here::here("Figure_5DEF", "Corynebacterium_ABON_Results.xlsx"), 
     sheet = "Sample BGCome Overview")
-LK952_results <- read_excel("/Users/thynguyen/Documents/GitHub/SkinBioassayStudy1/SkinBioassayStudy/Figures/Final/Figure_5/Figure_5DEF_New/Corynebacterium_ABON_Results.xlsx", 
+LK952_results <- read_excel(here::here("Figure_5DEF", "Corynebacterium_ABON_Results.xlsx"), 
     sheet = "Similarity to Target Genomes")
 
 #formating
@@ -42,9 +43,9 @@ LK952_data1 <- filter(LK952_data, LK952_data$` AAI` > 0 , LK952_data$` Proportio
 
 ```{r }
 #import data
-LK960_metadata <- read_excel("/Users/thynguyen/Documents/GitHub/SkinBioassayStudy1/SkinBioassayStudy/Figures/Final/Figure_5/Figure_5DEF_New/Kocuria_ABON_Results.xlsx", 
+LK960_metadata <- read_excel(here::here("Figure_5DEF", "Kocuria_ABON_Results.xlsx"), 
     sheet = "Sample BGCome Overview")
-LK960_results <- read_excel("/Users/thynguyen/Documents/GitHub/SkinBioassayStudy1/SkinBioassayStudy/Figures/Final/Figure_5/Figure_5DEF_New/Kocuria_ABON_Results.xlsx", 
+LK960_results <- read_excel(here::here("Figure_5DEF", "Kocuria_ABON_Results.xlsx"), 
     sheet = "Similarity to Target Genomes")
 
 #formating
@@ -66,9 +67,9 @@ LK960_data1 <- filter(LK960_data, LK960_data$` AAI` > 0 , LK960_data$` Proportio
 
 ```{r }
 #import data
-LK1337_metadata <- read_excel("/Users/thynguyen/Documents/GitHub/SkinBioassayStudy1/SkinBioassayStudy/Figures/Final/Figure_5/Figure_5DEF_New/Brevibacterium_ABON_Results.xlsx", 
+LK1337_metadata <- read_excel(here::here("Figure_5DEF", "Brevibacterium_ABON_Results.xlsx"), 
     sheet = "Sample BGCome Overview")
-LK1337_results <- read_excel("/Users/thynguyen/Documents/GitHub/SkinBioassayStudy1/SkinBioassayStudy/Figures/Final/Figure_5/Figure_5DEF_New/Brevibacterium_ABON_Results.xlsx", 
+LK1337_results <- read_excel(here::here("Figure_5DEF", "Brevibacterium_ABON_Results.xlsx"), 
     sheet = "Similarity to Target Genomes")
 
 #NAs were replace with 0 in Excel
@@ -92,9 +93,9 @@ LK1337_data1 <- filter(LK1337_data, LK1337_data$` AAI` > 0 , LK1337_data$` Propo
 
 ```{r }
 #import data
-LK1188_metadata <- read_excel("/Users/thynguyen/Documents/GitHub/SkinBioassayStudy1/SkinBioassayStudy/Figures/Final/Figure_5/Figure_5DEF_New/Aestuariimicrobium_ABON_Results.xlsx", 
+LK1188_metadata <- read_excel(here::here("Figure_5DEF", "Aestuariimicrobium_ABON_Results.xlsx"), 
     sheet = "Sample BGCome Overview")
-LK1188_results <- read_excel("/Users/thynguyen/Documents/GitHub/SkinBioassayStudy1/SkinBioassayStudy/Figures/Final/Figure_5/Figure_5DEF_New/Aestuariimicrobium_ABON_Results.xlsx", 
+LK1188_results <- read_excel(here::here("Figure_5DEF", "Aestuariimicrobium_ABON_Results.xlsx"), 
     sheet = "Similarity to Target Genomes")
 
 #NAs were replace with 0 in Excel
