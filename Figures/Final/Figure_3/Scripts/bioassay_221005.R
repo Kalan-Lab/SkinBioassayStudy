@@ -2,7 +2,8 @@ library(pheatmap)
 library(RColorBrewer)
 library(dplyr)
 library(writexl)
-data = read.csv("/Users/thynguyen/Documents/GitHub/SkinBioassayStudy/Figures/Final/Figure3/Data/bioassay_data_new_wide_updated.csv")
+library(here)
+data = read.csv(here::here("Data", "bioassay_data_new_wide_updated.csv"))
 #genera <- data$Genus
 #site <- data$Body.Site
 
@@ -31,9 +32,9 @@ theatmap <- theatmap %>% select(all_of(paths1)) #this code also works for the sa
 
 #export heatmap data
 #make rowname first row
-theatmap1 <- cbind(" "=rownames(theatmap), theatmap)
+#theatmap1 <- cbind(" "=rownames(theatmap), theatmap)
 #merge annotations
-theatmap2 <- merge(theatmap, annotation_rows, by=0)
+#theatmap2 <- merge(theatmap, annotation_rows, by=0)
 #export to excel sheet
 #write_xlsx(theatmap2, "~/Desktop/bioassay_all.xlsx")
 
@@ -43,7 +44,7 @@ rownames(annotation_col) = annotation_col$Pathogen_Name
 annotation_col <- select(annotation_col, -2)
 
 #row annotaions body_site
-annotation_row = read.csv('/Users/thynguyen/Documents/GitHub/SkinBioassayStudy/Figures/Final/Figure3/Data/row_annotation.csv')
+annotation_row = read.csv(here::here("Data", "row_annotation.csv"))
 annotation_row = annotation_row[!duplicated(annotation_row$Strain_ID),]
 strains <- annotation_row$Strain_ID
 tax <- annotation_row$Genus
@@ -117,8 +118,7 @@ hm = pheatmap(theatmap, show_rownames = F,fontsize_col=14,
               height = 10,
               cluster_rows = T,
               cluster_cols = FALSE,
-              angle_col = 90,
+              angle_col = 45,
               legend_breaks = c(-.66,.15,.85,1.66),
               legend_labels=c("no data","no inhibition","zone of inhibition","full inhibition"),annotation_legend = T)
 hm
-ggsave(file="/Users/thynguyen/Documents/GitHub/SkinBioassayStudy/Figures/Final/Figure3/Figures/bioassay_heatmap_100925.pdf", width=10, height=7, dpi=300)

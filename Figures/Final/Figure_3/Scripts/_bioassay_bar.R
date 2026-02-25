@@ -1,11 +1,13 @@
 library(ggplot2)
 library(reshape2)
+library(tidyr)
+library(here)
 
 #data = read.csv("/Users/thynguyen/Documents/GitHub/SkinBioassayStudy/Figures/Final/Figure4/Data/stacked_bar_bioassay.csv")
 #dm = melt(data)
 #data$Inhibition <- factor(data$Inhibition,levels=c("None","Partial","Complete"))
 
-data <- read.csv("/Users/thynguyen/Documents/GitHub/SkinBioassayStudy/Figures/Final/Figure3/Data/bioassay_data_new_wide_updated.csv")
+data <- read.csv(here::here("Data", "bioassay_data_new_wide_updated.csv"))
 
 data_transformed <- data %>%
   pivot_longer(cols = starts_with("LK"), names_to = "LK", values_to = "Score") %>%

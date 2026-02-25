@@ -1,13 +1,15 @@
 library(pheatmap)
 library(RColorBrewer)
 library(dplyr)
-library(writexl)
 library(tidyverse)
 library(patchwork)
 library(readxl)
-data = read.csv("/Users/thynguyen/Documents/GitHub/SkinBioassayStudy/Figures/Final/Figure3/Data/bioassay_data_new_wide_updated.csv")
+library(ggpubr)
+library(here)
+
+data = read.csv(here::here("Data", "bioassay_data_new_wide_updated.csv"))
 # row annotaions body_site
-annotation_row = read.csv('/Users/thynguyen/Documents/GitHub/SkinBioassayStudy/Figures/Final/Figure3/Data/row_annotation.csv')
+annotation_row = read.csv(here::here("Data", "row_annotation.csv"))
 
 Body_Site = c("Nares"="#D53E4F",
               "Toe web space"="#F46D43",
@@ -120,7 +122,7 @@ site_mapping <- c(
 )
 
 # Import updated Supp Table 2
-annotation <- read_excel("~/Documents/GitHub/SkinBioassayStudy/Figures/Final/Figure3/Data/250925_SupTable2_Updated.xlsx")
+annotation <- read_excel(here::here("Data", "250925_SupTable2_Updated.xlsx"))
 annotation <- annotation %>%
   select(`Strain ID`, `Body site`, Genus, Species)
 # Apply the mappings
@@ -218,7 +220,6 @@ sheet_list <- list(
   "micrococcus_body" = micrococcus_body_summary,
   "micrococcus_fungi_body" = micrococcus_fungi_body_summary
 )
-#writexl::write_xlsx(sheet_list, "/Users/thynguyen/Documents/GitHub/SkinBioassayStudy/Figures/Final/Figure3/Data/Kocuria_Micrococcus_Statistics.xlsx")
 
 # Plot by Body site
 p <- data_merged %>%
@@ -341,6 +342,7 @@ p3 <- data_merged %>%
 
 p | p1 | p2 | p3
 
+# Extra plots
 # Plot by Family 
 data_merged %>%
   filter(Family %in% c("Corynebacteriaceae","Micrococcaceae", "Staphylococcaceae")) %>% 
