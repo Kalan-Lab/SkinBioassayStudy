@@ -5,31 +5,25 @@ This folder contains scripts for generating Extended Data Figure 2, which visual
 ## Files
 
 ### Scripts
-- **`Scripts/fungal_bioassay_upset_updated.R`**: R script that creates an upset plot visualization for fungal bioassay results. This script:
+- **`Scripts/fungal_bioassay_upset_updated.R`**: R script that creates an upset plot visualization for fungal bioassay results. 
+This script:
   - Loads fungal bioassay data
   - Processes data for upset plot format
   - Generates visualization showing intersections of antifungal activity patterns
-  - Creates publication-ready figures
 
 ## Usage
 
-To regenerate Extended Data Figure 2:
-
-1. Ensure the required data files are available
-2. Update file paths in the script if necessary
-3. Load required R packages (check script for dependencies)
-4. Run the script:
-   ```r
-   source("Scripts/fungal_bioassay_upset_updated.R")
-   ```
+1. Clone this repository
+2. Open `Extended_Data_Fig_2.Rproj`
+3. Install required packages
+4. Run the main scripts .R files - all paths use the `here` package and will work automatically from the project root. 
 
 ## Dependencies
 
-- R packages: Check the script for specific package requirements (likely includes `ComplexUpset`, `ggplot2`, `dplyr`, and related packages)
+- R packages: `ComplexUpset`, `ggplot2 (v3.5.2)`, `dplyr`, `tidyverse`, `readxl`, `here`, `extraoperators`
 
 ## Output
 
 The script generates upset plot visualizations showing:
 - Patterns of antifungal activity across different fungal pathogens
 - Intersections between different activity profiles
-- Publication-ready figure outputs

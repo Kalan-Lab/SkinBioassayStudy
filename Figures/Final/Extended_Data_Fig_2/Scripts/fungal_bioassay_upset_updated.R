@@ -4,13 +4,14 @@ library(extraoperators)
 library(ggplot2)
 library(readxl)
 library(ComplexUpset)
+library(here)
 
 # import bioassay data
-bioassay_data_new_wide <- read.csv("/Users/thynguyen/Documents/GitHub/SkinBioassayStudy/Figures/Final/FigureS2_Upset/Data/bioassay_data_new_wide_updated.csv")
+bioassay_data_new_wide <- read.csv(here::here("Data", "bioassay_data_new_wide_updated.csv"))
 # import updated, dereplicated strain list 
-row_annotation <- read.csv("/Users/thynguyen/Documents/GitHub/SkinBioassayStudy/Figures/Final/FigureS2_Upset/Data/row_annotation.csv")
+row_annotation <- read.csv(here::here("Data", "row_annotation.csv"))
 # Import color dataframe
-color_genus <- read_excel("/Users/thynguyen/Documents/GitHub/SkinBioassayStudy/Figures/Final/FigureS2_Upset/Data/complete_skin_bioassay_isolate_list_092922.xlsx", 
+color_genus <- read_excel(here::here("Data", "complete_skin_bioassay_isolate_list_092922.xlsx"), 
                           sheet = "internal - Colors for Species_T")
 
 transpose_df <- function(df) {
@@ -69,6 +70,7 @@ colors_genus <- setNames(color_genus$Hex, color_genus$Genus)
 wide.data.annotation <- data.frame(Strain_ID = rownames(df_transposed, df_transposed))
 annotation <- merge(wide.data.annotation, row_annotation, by="Strain_ID")
 
+# Extended Data Figure 2
 upset(upset_input_fungi, 
       fungi,
       base_annotations = list(
@@ -91,6 +93,7 @@ upset(upset_input_fungi,
       min_size = 1,
       width_ratio = 0.1) 
 
+# Extra plot
 upset(upset_input_fungi, 
       fungi,
       base_annotations = list(
