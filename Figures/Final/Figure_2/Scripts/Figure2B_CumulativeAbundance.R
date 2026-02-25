@@ -4,14 +4,13 @@ library(readr)
 library(ggplot2)
 library(dplyr)
 library(janitor)
-library(ComplexUpset)
 library(ggpubr)
 library(ggrepel)
 library(RColorBrewer)
 library(ggbreak)
 
 # Culture dataset ----
-culture <- read_excel("/Users/thynguyen/Documents/GitHub/SkinBioassayStudy1/SkinBioassayStudy/Figures/Final/Extended_Data_Fig_1/Data/251010_SupTable2_Updated.xlsx")
+culture <- read_excel(here::here("Data", "251010_SupTable2_Updated.xlsx"))
 
 # Assign body and site types
 culture <- culture %>%
@@ -66,7 +65,7 @@ culture_final <- culture %>%
   select(dataset, genus, body_site, site_type, rel_abun)
 
 # Species ----
-metagenome_species <- read_csv("/Users/thynguyen/Documents/GitHub/SkinBioassayStudy/Figures/Final/FigureS1_CulturevMetagenome/Data/Kraken_RelAbun_Species.csv")
+metagenome_species <- read_csv(here::here("Data", "Kraken_RelAbun_Species.csv"))
 
 # Summarize data - calculate cumulative relative abundance
 metagenome_species_cumsum <- metagenome_species %>%

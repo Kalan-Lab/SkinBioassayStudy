@@ -6,9 +6,10 @@ library(ggplot2)
 library(dplyr)
 library(janitor)
 library(ggpubr)
+library(here)
 
 # Load data
-culture <- read_excel("/Users/thynguyen/Documents/GitHub/SkinBioassayStudy/Figures/Final/FigureS1_CulturevMetagenome/Data/251010_SupTable2_Updated.xlsx")
+culture <- read_excel(here::here("Data", "251010_SupTable2_Updated.xlsx"))
 
 # Assign body and site types
 culture <- culture %>%
