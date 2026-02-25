@@ -7,35 +7,32 @@ This folder contains scripts for generating Extended Data Figure 1, which compar
 ### Scripts
 - **`Scripts/Sylph_Kraken_CultureComparison_V1.Rmd`**: R Markdown script that performs comprehensive comparison between:
   - Culture-based isolation methods
-  - Sylph metagenomic analysis
+  - Sylph taxonomic classification (not shown in final figure)
   - Kraken taxonomic classification
   
   This script:
   - Loads and processes data from multiple sources
   - Performs comparative analyses between methods
   - Generates visualizations showing overlap and differences
-  - Creates upset plots and other comparative visualizations
+  - Creates upset plots and other comparative visualizations (not shown)
   - Produces HTML reports with detailed results
 
 ## Usage
 
 To regenerate Extended Data Figure 1:
 
-1. Ensure all required data files are available (check file paths in the script)
-2. Update file paths in the R Markdown script if necessary
-3. Render the R Markdown file:
-   ```r
-   rmarkdown::render("Scripts/Sylph_Kraken_CultureComparison_V1.Rmd")
-   ```
+1. Clone this repository
+2. Open `Extended_Data_Fig_1.Rproj`
+3. Install required packages
+4. Run the main markdown file `Scripts/Sylph_Kraken_CultureComparison_V1.Rmd` - all paths use the `here` package and will work automatically from the project root. 
 
 ## Dependencies
 
-- R packages: `tidyverse`, `readxl`, `readr`, `ggplot2`, `dplyr`, `janitor`, `ComplexUpset`, `ggpubr`
+- R packages: `tidyverse`, `readxl`, `readr`, `ggplot2`, `dplyr`, `janitor`, `ComplexUpset`, `ggpubr`, `here`
 
 ## Output
 
 The script generates an HTML report containing:
 - Comparative visualizations between culture, Sylph, and Kraken methods
-- Upset plots showing overlaps
-- Statistical comparisons
-- Detailed analysis results
+- Upset plots showing overlaps (not shown)
+- Statistical comparisons using Spearman's rank correlation

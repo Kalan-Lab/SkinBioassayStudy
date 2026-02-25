@@ -14,8 +14,7 @@ library(dplyr)
 library(janitor)
 library(ComplexUpset)
 library(ggpubr)
-
-setwd("/Users/thynguyen/Documents/GitHub/SkinBioassayStudy/Figures/Final/FigureS1_CulturevMetagenome")
+library(here)
 
 colors <- c("#b1728f","#c89cb0","#dfc6d2","#efe2e8",
             "#E69138","#edb273","#f5d3af","#fae9d7",
@@ -110,7 +109,7 @@ phylum_map <- c(
 
 ```{r Load datasets, include=FALSE}
 # Culture dataset ----
-culture <- read_excel("/Users/thynguyen/Documents/GitHub/SkinBioassayStudy1/SkinBioassayStudy/Figures/Final/Extended_Data_Fig_1/Data/251010_SupTable2_Updated.xlsx")
+culture <- read_excel(here::here("Data", "251010_SupTable2_Updated.xlsx"))
 
 # Assign body and site types
 culture <- culture %>%
@@ -165,7 +164,7 @@ culture_final <- culture %>%
   select(dataset, genus, body_site, site_type, rel_abun)
 
 # Metagenome (Sylph and Kraken) ----
-metagenome <- read_csv("/Users/thynguyen/Documents/GitHub/SkinBioassayStudy1/SkinBioassayStudy/Figures/Final/Extended_Data_Fig_1/Data/Sylph_Kraken_RelAbun 2.csv")
+metagenome <- read_csv(here::here("Data", "Sylph_Kraken_RelAbun 2.csv"))
 
 # Summarize metagenome data
 metagenome_final <- metagenome %>%
@@ -273,7 +272,7 @@ intersection_data_genus <- intersection_data_genus %>%
 
 ## Plots
 
-```{r Upset Plot}
+```{r Prepare data}
 # Input data for upset plot
 # By genus, body_site, site_type ----
 upset_presence <- combined %>%
@@ -409,6 +408,9 @@ upset_data1 <- upset_data %>%
 #  )
 #)
 
+```
+
+```{r Upset Plot, include=FALSE, eval=FALSE}
 # Kraken - 100 overlapping taxa
 upset(
   upset_data1, 
