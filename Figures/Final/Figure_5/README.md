@@ -50,8 +50,6 @@ Files in `Figure_5DEF/` are progress logs and ABON resulting spreadsheets. ABON 
 
 To regenerate Figure 5 components:
 
-## Getting started
-
 1. Clone this repository
 2. Open `Figure_5.Rproj`
 3. Install required packages: 
