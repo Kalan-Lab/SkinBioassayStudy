@@ -1,20 +1,18 @@
 # Extended Data Figure 1 - Culture vs Metagenomic Comparison
 
-This folder contains scripts for generating Extended Data Figure 1, which compares culture-based isolation with metagenomic sequencing approaches (Sylph and Kraken).
+This folder contains scripts for generating Extended Data Figure 1, which compares culture-based isolation with metagenomic sequencing approach (Kraken).
 
 ## Files
 
 ### Scripts
-- **`Scripts/Sylph_Kraken_CultureComparison_V1.Rmd`**: R Markdown script that performs comprehensive comparison between:
+- **`Scripts/Kraken_CultureComparison.Rmd`**: R Markdown script that performs comprehensive comparison between:
   - Culture-based isolation methods
-  - Sylph taxonomic classification (not shown in final figure)
   - Kraken taxonomic classification
   
   This script:
   - Loads and processes data from multiple sources
   - Performs comparative analyses between methods
   - Generates visualizations showing overlap and differences
-  - Creates upset plots and other comparative visualizations (not shown)
   - Produces HTML reports with detailed results
 
 ## Usage
@@ -24,7 +22,7 @@ To regenerate Extended Data Figure 1:
 1. Clone this repository
 2. Open `Extended_Data_Fig_1.Rproj`
 3. Install required packages
-4. Run the main markdown file `Scripts/Sylph_Kraken_CultureComparison_V1.Rmd` - all paths use the `here` package and will work automatically from the project root. 
+4. Run the main markdown file `Scripts/Kraken_CultureComparison.Rmd` - all paths use the `here` package and will work automatically from the project root. 
 
 ## Dependencies
 
@@ -33,6 +31,5 @@ To regenerate Extended Data Figure 1:
 ## Output
 
 The script generates an HTML report containing:
-- Comparative visualizations between culture, Sylph, and Kraken methods
-- Upset plots showing overlaps (not shown)
+- Comparative visualizations between culture and Kraken methods
 - Statistical comparisons using Spearman's rank correlation
