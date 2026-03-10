@@ -10,7 +10,7 @@ BiG-MAP uses BiG-SCAPE GCF definitions and antiSMASH GenBank files to profile BG
 
 ### Command files
 - **`bigmap.fam.cmd`**  
-  Example command used to run BiG-MAP in family mode. It:
+  Command used to run BiG-MAP in family mode. Options provided include:
   - antiSMASH output as input (`-D`)
   - Output directory (`-O`)
   - References to BiG-SCAPE program and directory with Pfam-A DB (`-b`, `-pf`)
@@ -18,14 +18,19 @@ BiG-MAP uses BiG-SCAPE GCF definitions and antiSMASH GenBank files to profile BG
   Paths are environment-specific and must be updated for your setup.
 
 - **`bigmap.map.cmd`**
-  Example command used to run BiG-MAP in map mode. It:
+  Command used to run BiG-MAP in map mode. Options provided include:
   - Info on EPIC metagenomic samples (`-b`) 
   - Read FASTQ files (paired) for EPIC metagenomes (`-I1`/`-I2`) 
   - BiG-MAP.family results directory (`-F`)
   - Output directory (`-O`) 
   - Uses `-th 30` threads
 
-- **`bigmap.map.cmd`
+- **`bigmap.analyze.cmds`**
+   Commands used to run BiG-MAP in analyze mode. Options provided include:
+  - `-B` with results from BiG-MAP `BiG-MAP_Map_Results/biom-results/BiG-MAP.mapcore.metacore.dec.biom` (_core genes_) or `BiG-MAP_Map_Results/biom-results/BiG-MAP.map.meta.dec.biom` (_full BGC_)
+  - `--explore` argument to specify explore mode
+  - `-T metagenomic` to specify dataset we are working on is metagenomic
+  - `-M SkinSite` to specify the meta-data variable to categorize samples using
 
 ### Python scripts
 - **`getGCFidsOfReps.py`**  
