@@ -51,7 +51,7 @@ BiG-MAP uses BiG-SCAPE GCF definitions and antiSMASH GenBank files to profile BG
   Core filtered table: same structure, restricted to core set (and optionally filtered by `filterCoreForThoseMeetingFullFilters.py`).
 
 - **`total_read_counts_per_sample.txt`**  
-  Total read counts per metagenomic sample (used for normalization).
+  Total read counts per metagenomic sample.
 
 - **`Top_Genera_per_Sample.txt`**  
   Top genera per sample (e.g. for context or filtering).
