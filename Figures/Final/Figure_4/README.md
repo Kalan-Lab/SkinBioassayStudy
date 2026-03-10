@@ -48,7 +48,7 @@ This folder contains scripts and data for generating Figure 4, which analyzes bi
 - `All_BGC_Genbanks.txt`: All BGC GenBank information
 - `pie.txt`: Pie chart data
 
-### Figure_4d - Rarefaction Analysis
+### Figure_4d - BiG-MAP Based Rarefaction Analysis
 - **`plotRarefaction.R`**: R script that creates rarefaction curves
 - **`plotRarefactionPermutation.R`**: R script for rarefaction with permutation analysis
 - **`performRarefaction.py`**: Python script that performs rarefaction analysis
