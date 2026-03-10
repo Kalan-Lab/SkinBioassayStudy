@@ -100,4 +100,4 @@ for mg in mgs:
     print('\t'.join([mg[0], mg[1], mg[2], '6. EPIC + EPIC-MAGs', data8[mg[0]]]))
     print('\t'.join([mg[0], mg[1], mg[2], '1. EPIC', data4[mg[0]]]))
     print('\t'.join([mg[0], mg[1], mg[2], '3. EPIC + C. acnes ATCC 6919', data6[mg[0]]]))
-    print('\t'.join([mg[0], mg[1], mg[2], '7. EPIC + SMGC + EPIC-MAGs', data7[mg[0]]]))
+    print('\t'.join([mg[0], mg[1], mg[2], '7. EPIC + EPIC-MAGs + SMGC', data7[mg[0]]]))
