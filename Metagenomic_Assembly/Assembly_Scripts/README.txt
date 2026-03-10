@@ -1,1 +1,1 @@
-pigz compression was used for compression of one sample's reads (LKMB002-1-85_S84) but most were compressed using gzip. Rerunning assembly with LKMB002-1-85_S84 with gzip-compressed reads  Rerunning metagenomic assembly with gzipped files instead produced 
+Note, MetaWrap was run twice for two metagenomic samples. For one sample, MetaWrap produced identical results whereas for the other sample binning results exhibited very slight differences. This suggests there is a non-deterministic aspect to MetaWrap.
