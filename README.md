@@ -10,7 +10,7 @@ Sardina JA, Ludwikoski I, Rybolt M, Wan H, Carlson CM, Ferro J, McArthur O,
 Suh WS, Zarnowski R, Andes DR, Currie CR, Kalan LR
 ```
 
-Most relevant files can be found under: [Figures/Final](https://github.com/Kalan-Lab/SkinBioassayStudy/tree/main/Figures/Final). Each folder, corresponding to a Figure or Extended Data Figure, has a `README.md` describing the contents. While AI was not used for the analyses themselves, we did use AI to draft these README files which we then manually edited as necessary. The term "LK" appears in some files and is an alias used to describe isolates/genomes in EPIC.
+Most relevant files can be found under: [Figures/Final/](https://github.com/Kalan-Lab/SkinBioassayStudy/tree/main/Figures/Final). Each folder, corresponding to a Figure or Extended Data Figure, has a `README.md` describing the contents. While AI was not used for the analyses themselves, we did use AI to draft these README files which we then manually edited as necessary. The term "LK" appears in some files and is an alias used to describe isolates/genomes in EPIC.
 
 Key software (and their versions) used for analyses include:
 
@@ -33,3 +33,5 @@ Key software (and their versions) used for analyses include:
 * Branchwater (accessed in October 2023)
 * MetaSPAdes (v4.2.0)
 * MetaWrap (v1.3.2)
+
+Additional details on dependency versions can be found in exports of conda environments used for analyses at: [Conda_Envs/](https://github.com/Kalan-Lab/SkinBioassayStudy/tree/main/Conda_Envs)
