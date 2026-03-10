@@ -5,6 +5,9 @@ This folder contains scripts, commands, and summary tables for the **metagenomic
 - Binning and bin refinement using MetaWrap
 - Scripts for MAG extraction, quality assessment, taxonomic classification, and consolidation of results into a single table
 
+> [!IMPORTANT]
+> Metagenomic assemblies and MAGs can be found in FASTA format on Zenodo: https://zenodo.org/records/18882798
+
 ### Directory structure
 
 - `Assembly_Scripts/`: Scripts and notes for assembly, binning, bin refinement, and MAG extraction.
