@@ -1,0 +1,12 @@
+[2026-02-25 22:20:22] INFO: GTDB-Tk v1.7.0
+[2026-02-25 22:20:22] INFO: gtdbtk classify --genome_dir /workspace/local/rauf/skin_metagenomes/assembly/GTDBtk_R202_Results/genomes/ --align_dir /workspace/local/rauf/skin_metagenomes/assembly/GTDBtk_R202_Results/align/ --out_dir /workspace/local/rauf/skin_metagenomes/assembly/GTDBtk_R202_Results/classify/ -x gz --cpus 1
+[2026-02-25 22:20:22] INFO: Using GTDB-Tk reference data version r202: /workspace/lab/kalanlab/software/gtdbtk_v1.7.0/share/gtdbtk-1.7.0/db/
+[2026-02-25 22:20:23] TASK: Placing 226 bacterial genomes into reference tree with pplacer using 1 CPUs (be patient).
+[2026-02-25 22:20:23] INFO: pplacer version: dev
+[2026-02-26 00:32:36] INFO: Calculating RED values based on reference tree.
+[2026-02-26 00:32:47] TASK: Traversing tree to determine classification method.
+[2026-02-26 00:32:47] INFO: Completed 226 genomes in 0.29 seconds (784.80 genomes/second).
+[2026-02-26 00:33:02] TASK: Calculating average nucleotide identity using FastANI (v1.34).
+[2026-02-26 04:32:02] INFO: Completed 20,260 comparisons in 238.97 minutes (84.78 comparisons/minute).
+[2026-02-26 04:32:03] INFO: 157 genome(s) have been classified using FastANI and pplacer.
+[2026-02-26 04:32:03] INFO: Done.

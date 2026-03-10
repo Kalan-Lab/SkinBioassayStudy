@@ -5,7 +5,7 @@ read_dir = os.path.abspath('../FastqPair_Sorted_Processed_Reads/') + '/'
 results_dir = os.path.abspath(sys.argv[1]) + '/'
 
 bowtie2_reference = sys.argv[2]
-bowtie2_cpus = 40
+bowtie2_cpus = 50
 
 for f in os.listdir(read_dir):
     if f.endswith('_R1.fastq.paired.fq.gz'):
@@ -16,6 +16,7 @@ for f in os.listdir(read_dir):
             res_file = results_dir + s + '.txt'
             sam_file = results_dir + s + '.sam'
 
+            #if os.path.isfile(res_file): continue
             bowtie2_cmd = ['bowtie2', '--very-sensitive-local', '--no-unal', '-a', '-x', bowtie2_reference, '-U', r1 + ',' + r2, '-S', sam_file, '-p', str(bowtie2_cpus), '&>', res_file]
             rm_cmd = ['rm', '-f', sam_file]
             

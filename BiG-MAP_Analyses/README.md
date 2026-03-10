@@ -25,6 +25,8 @@ BiG-MAP uses BiG-SCAPE GCF definitions and antiSMASH GenBank files to profile BG
   - Output directory (`-O`) 
   - Uses `-th 30` threads
 
+- **`bigmap.map.cmd`
+
 ### Python scripts
 - **`getGCFidsOfReps.py`**  
   Maps BiG-MAP family representative IDs to independent BiG-SCAPE GCF IDs.  
@@ -65,4 +67,4 @@ BiG-MAP uses BiG-SCAPE GCF definitions and antiSMASH GenBank files to profile BG
 
 1. Run BiG-MAP family module using (or adapting) `bigmap.fam.cmd`.
 2. Run BiG-MAP map module using (or adapting) `bigmap.map.cmd`.
-3. Run BiG-MAP analyze module (or adapting) `bigmap.map.cmd`.
+3. Run BiG-MAP analyze module (or adapting) `bigmap.analyze.cmds`. Note, there is potential for some slight non-deterministic behavior (e.g. very similar numbers).

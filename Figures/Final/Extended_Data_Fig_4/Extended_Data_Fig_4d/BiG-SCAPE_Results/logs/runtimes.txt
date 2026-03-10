@@ -1,0 +1,13 @@
+launch_hmmalign took 125.393 seconds
+generate_network took 248.600 seconds
+generate_network took 55.314 seconds
+generate_network took 21.871 seconds
+generate_network took 9.831 seconds
+generate_network took 21.389 seconds
+generate_network took 101.796 seconds
+generate_network took 31.064 seconds
+generate_network took 16.386 seconds
+generate_network took 14.562 seconds
+
+
+	Main function took 6616.036 s

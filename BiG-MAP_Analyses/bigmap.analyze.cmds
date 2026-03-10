@@ -1,0 +1,2 @@
+python3 /workspace/lab/kalanlab/salamzar/skin_bioassay_paper/conda_envs/BiG-MAP/src/BiG-MAP.analyse.py --explore -B BiG-MAP_Map_Results/biom-results/BiG-MAP.mapcore.metacore.dec.biom -T metagenomic -M SkinSite -O test_core/
+python3 /workspace/lab/kalanlab/salamzar/skin_bioassay_paper/conda_envs/BiG-MAP/src/BiG-MAP.analyse.py --explore -B BiG-MAP_Map_Results/biom-results/BiG-MAP.map.meta.dec.biom -T metagenomic -M SkinSite -O test_full/

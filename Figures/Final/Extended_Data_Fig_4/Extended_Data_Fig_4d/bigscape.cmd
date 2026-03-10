@@ -1,0 +1,1 @@
+python /workspace/lab/kalanlab/salamzar/skin_bioassay_paper/conda_envs/BiG-SCAPE/bigscape.py -i antiSMASH_Results/ -o BiG-SCAPE_Results/ --pfam_dir Pfam/ --mibig -c 50 --include_singletons --mix

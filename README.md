@@ -30,4 +30,6 @@ Key software (and their versions) used for analyses include:
 * GECCO (v0.9.6)
 * PyHMMER (v0.11.0)
 * RGI (v6.0.1)
-* Branchwater (accessed in October 2023).
+* Branchwater (accessed in October 2023)
+* MetaSPAdes (v4.2.0)
+* MetaWrap (v1.3.2)
