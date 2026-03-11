@@ -39,7 +39,6 @@ To regenerate each panel:
    - First run Python scripts to process data:
      ```python
      python generateInputForGiantHeatmap.py
-     python recreateGenusInfoFileForPlot.py
      ```
    - Then generate visualizations:
      ```r
