@@ -12,6 +12,7 @@ library(ggplot2)
 #install.packages("pals")
 require(pals)
 library(readxl)
+library(legendry)
 library(here)
 ```
 
@@ -27,24 +28,48 @@ LK1188_SRAmetadata <- read.csv(here::here("Data","novel_species_SRA_results", "L
 LK952 <- LK952_SRAmetadata %>%
   filter(cANI > 0.95) %>%
   filter(containment > 0.50) %>%
+  mutate(organism = case_when(
+    biosample_link == "https://www.ncbi.nlm.nih.gov/biosample/SAMEA9990011" ~ "human gut metagenome", 
+    TRUE ~ organism
+  )) %>%
   select(10) %>%
   count()
 
 LK960 <- LK960_SRAmetadata %>%
   filter(cANI > 0.95) %>%
   filter(containment > 0.50) %>%
+  mutate(organism = case_when(
+    biosample_link == "https://www.ncbi.nlm.nih.gov/biosample/SAMN17617272" ~ "human skin metagenome", 
+    biosample_link == "https://www.ncbi.nlm.nih.gov/biosample/SAMN18793001" ~ "environmental metagenome", 
+    biosample_link == "https://www.ncbi.nlm.nih.gov/biosample/SAMEA7776923" ~ "human skin metagenome", 
+    biosample_link == "https://www.ncbi.nlm.nih.gov/biosample/SAMN17617316" ~ "human skin metagenome",
+    biosample_link == "https://www.ncbi.nlm.nih.gov/biosample/SAMN18793004" ~ "environmental metagenome",
+    biosample_link == "https://www.ncbi.nlm.nih.gov/biosample/SAMEA5927897" ~ "environmental metagenome",
+    biosample_link == "https://www.ncbi.nlm.nih.gov/biosample/SAMN18793000" ~ "environmental metagenome",
+    organism == "skin metagenome" ~ "human skin metagenome", 
+    TRUE ~ organism
+  )) %>%
   select(10) %>%
   count()
 
 LK1337 <- LK1337_SRAmetadata %>%
   filter(cANI > 0.95) %>%
   filter(containment > 0.50) %>%
+  mutate(organism = case_when(
+    biosample_link == "https://www.ncbi.nlm.nih.gov/biosample/SAMEA5410257" ~ "environmental metagenome", 
+    organism == "skin metagenome" ~ "human skin metagenome",
+    TRUE ~ organism
+  )) %>%
   select(10) %>%
   count()
 
 LK1188 <- LK1188_SRAmetadata %>%
   filter(cANI > 0.95) %>%
   filter(containment > 0.50) %>%
+  mutate(organism = case_when(
+    biosample_link == "https://www.ncbi.nlm.nih.gov/biosample/SAMEA5927927" ~ "environmental metagenome", 
+    TRUE ~ organism
+  )) %>%
   select(10) %>%
   count()
 
@@ -56,29 +81,48 @@ combine$Strain[combine$Strain == "3"] <- "LK1337"
 combine$Strain[combine$Strain == "4"] <- "LK1188"
 ```
 
-```{r added category manually and re-import}
-category <- read_excel(here::here("Data","novel_species_SRA_results", "novel_species_SRA_type.xlsx"))
+```{r Add category }
+category <- combine %>%
+  mutate(category = case_when(
+    organism == "human skin metagenome" ~ "Skin", 
+    organism %in% c("gut metagenome", "human gut metagenome", "human metagenome") ~ "Human", 
+    TRUE ~ "Other"
+  ))
 ```
 
 ## Including Plots
 
 ```{r stacked bar chart}
-cols <- c("#b1728f","#c89cb0","#dfc6d2","#efe2e8","#E69138","#edb273","#f5d3af","#fae9d7","#bc3e47","#d0777e","#e4b1b5","#f1d8da","#CBA92B","#dac26a","#eadcaa","#f4edd4","#38761d","#739f60","#afc8a4","#d7e3d1")
+#cols <- c("#b1728f","#c89cb0","#dfc6d2","#efe2e8","#E69138","#edb273","#f5d3af","#fae9d7","#bc3e47","#d0777e","#e4b1b5","#f1d8da","#CBA92B","#dac26a","#eadcaa","#f4edd4","#38761d","#739f60","#afc8a4","#d7e3d1")
 
-cols <- c("#b1728f","#c89cb0","#E69138","#edb273","#f5d3af","#bc3e47","#d0777e","#e4b1b5","#f1d8da","#CBA92B","#dac26a","#eadcaa","#f4edd4","#38761d","#739f60","#afc8a4","#d7e3d1","#073763")
+cols <- c("#b1728f","#E69138","#edb273","#f5d3af","#bc3e47","#d0777e","#e4b1b5","#f1d8da","#CBA92B","#dac26a","#eadcaa","#f4edd4","#38761d","#739f60","#afc8a4","#d7e3d1")
 
-ggplot(combine, aes(x = factor(Strain, levels = c("LK952", "LK960", "LK1337", "LK1188")), y = freq, fill = factor(organism, levels = c("human skin metagenome", "skin metagenome", "gut metagenome", "human gut metagenome", "human metagenome", "Homo sapiens", "indoor metagenome", "money metagenome", "aerosol metagenome", "air metagenome", "food metagenome","marine metagenome", "metagenome", "soil metagenome", "subsurface metagenome","wastewater metagenome","bovine metagenome","terrestrial metagenome")))) +
+category %>%
+  mutate(category = factor(category, levels = c("Skin", "Human", "Other"))) %>%
+  mutate(organism = factor(organism, levels = c("human skin metagenome", "gut metagenome", "human gut metagenome", "human metagenome", "aerosol metagenome", "air metagenome", "bovine metagenome", "environmental metagenome","food metagenome","indoor metagenome","marine metagenome", "money metagenome", "soil metagenome", "subsurface metagenome","terrestrial metagenome", "wastewater metagenome"))) %>%
+  mutate(fill_var = factor(paste(category, organism), 
+                           levels = paste(category, organism) %>% 
+                             unique() %>% 
+                             .[order(match(sub(" .*", "", .), c("Skin", "Human", "Other")))])) %>%
+  ggplot(aes(x = factor(Strain, levels = c("LK952", "LK960", "LK1337", "LK1188")), y = freq, fill = fill_var)) +
   geom_col(colour = "black") +
   scale_fill_manual(values=cols) + 
   labs(x = "", 
-       y = "Counts") +
-  guides(fill=guide_legend(title="Category")) +
+       y = "Counts", 
+       fill = NULL) +
+  guides(fill = "legend_group") +
   theme_classic() +
-  theme(axis.text = element_text(size = 16), panel.background = element_rect(colour = "black", linewidth = 0.5), strip.text = element_text(size = 14, face = "bold"), axis.title.y = element_text(size = 16))
+  theme(axis.text = element_text(size = 16), 
+        panel.background = element_rect(colour = "black", linewidth = 0.5), 
+        strip.text = element_text(size = 14, face = "bold"), 
+        axis.title.y = element_text(size = 16), 
+        legend.title = element_text(size = 16), 
+        legend.text = element_text(size = 14),
+        axis.text.x = element_text(size = 16, face = "bold"))
 ```
 
 ```{r stacked bar chart by category}
-ggplot(category, aes(x = factor(Strain, levels = c("LK952", "LK960", "LK1337")), y = freq, fill = factor(category, levels = c("skin metagenome", "other human metagenome", "other")))) +
+ggplot(category, aes(x = factor(Strain, levels = c("LK952", "LK960", "LK1337", "LK1188")), y = freq, fill = factor(category, levels = c("Skin Metagenome", "Human Metagenome", "Other")))) +
   geom_col(colour = "black") +
   scale_fill_manual(values=c("#FC9D9A", "#F9CDAD" ,"#83AF9B")) +
   guides(fill=guide_legend(title="Category")) +
