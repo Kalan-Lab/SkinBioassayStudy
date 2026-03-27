@@ -140,6 +140,7 @@ intersection_species_cumsum1 %>%
   geom_point(aes(color = prevalence_percent, size = prevalence_percent)) +
   geom_text_repel(data = intersection_species_cumsum1 %>% distinct(Species, .keep_all = TRUE),
                   aes(label = Species), 
+                  fontface = "italic",
                   segment.color = "gray", 
                   segment.linetype = "dotted", 
                   segment.size = 0.7,
