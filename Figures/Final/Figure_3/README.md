@@ -42,7 +42,7 @@ Bioassay data files are located in the `Data/` directory and include:
 
 ## Dependencies
 
-- R packages: `pheatmap`, `RColorBrewer`, `dplyr`, `readxl`, `ggplot2`, `ggpubr`,`here`, `patchwork`, `tidyverse`, `reshape2`, `tidyr`
+- R packages: `pheatmap`, `RColorBrewer`, `dplyr`, `readxl`, `ggplot2`, `rstatix`,`ggpubr`,`here`, `patchwork`, `tidyverse`, `reshape2`, `tidyr`, `ggtext`
 - Python packages: Standard libraries plus any data processing libraries as needed
 
 ## Output

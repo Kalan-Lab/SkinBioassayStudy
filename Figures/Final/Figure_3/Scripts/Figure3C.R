@@ -5,6 +5,7 @@ library(tidyverse)
 library(patchwork)
 library(readxl)
 library(ggpubr)
+library(rstatix)
 library(here)
 library(ggtext)
 
@@ -234,16 +235,29 @@ labels <- setNames(
   all$`Body site`
 )
 
-# Plot by Body site
-p <- data_merged %>%
-  #filter(Family %in% c("Corynebacteriaceae","Micrococcaceae", "Staphylococcaceae")) %>% 
-  filter(Score != -1) %>%
+# Filter for fungal data
+fungal_data <- data_merged %>% 
+  filter(Score != -1) %>% 
   filter(Pathogen_Type == "Fungal") %>%
-  group_by(`Strain ID`, `Body site`, Site_Type, Family, Pathogen_Type) %>%
+  rename(Body_site = `Body site`) %>%
+  mutate(Body_site = factor(Body_site, levels =  c("Nares","Toe web space","Umbilicus","Antecubital fossa",
+                                                       "Volar forearm","Alar crease","Back","Occiput")))
+
+# Perform statistical test
+stat.test <- fungal_data %>%
+  wilcox_test(Score ~ Body_site, ref.group = "Toe web space", p.adjust.method = "BH", exact = TRUE) %>%
+  #adjust_pvalue(method = "BH") %>%
+  add_significance() %>%
+  add_xy_position(x = "Body_site")
+
+# Correct p.adj placement
+stat.test$xmin <- stat.test$xmax
+
+# Plot by Body site
+p <- fungal_data %>%
+  group_by(`Strain ID`, Body_site, Site_Type, Family, Pathogen_Type) %>%
   dplyr::summarise(Score = mean(Score, na.rm = T), .groups="drop") %>%
-  mutate(`Body site` = factor(`Body site`, levels =  c("Nares","Toe web space","Umbilicus","Antecubital fossa",
-                                                       "Volar forearm","Alar crease","Back","Occiput"))) %>%
-  ggplot(aes(x = `Body site`, y = Score, fill = `Body site`, color = `Body site`)) + 
+  ggplot(aes(x = Body_site, y = Score, fill = Body_site, color = Body_site)) + 
   geom_boxplot(outlier.shape = NA, alpha = 0.7) +
   geom_point(position = position_jitter(width = 0.2), alpha = 0.5, size = 1) +
   #facet_wrap(~ Family, nrow = 1) +
@@ -257,10 +271,12 @@ p <- data_merged %>%
        y = "Average Antifungal Score", 
        title = "Complete") +
   ylim(-0.09, 2.1) + 
-  stat_compare_means(
-    method = "wilcox.test", 
-    ref.group = "Toe web space", 
-    label = "p.signif"
+  stat_pvalue_manual(
+    stat.test,
+    label = "p.adj.signif",
+    tip.length = 0,
+    bracket.size = 0, 
+    size = 6
   ) +
   scale_x_discrete(labels = labels) 
 
@@ -277,16 +293,30 @@ labels <- setNames(
   micro$`Body site`
 )
 
-# Plot by Body site just Micrococcaceae
-p1 <- data_merged %>%
+# Filter for fungal data
+micro_fungal_data <- data_merged %>% 
   filter(Family %in% c("Micrococcaceae")) %>% 
-  filter(Score != -1) %>%
+  filter(Score != -1) %>% 
   filter(Pathogen_Type == "Fungal") %>%
-  group_by(`Strain ID`, `Body site`, Site_Type, Family, Pathogen_Type) %>%
+  rename(Body_site = `Body site`) %>%
+  mutate(Body_site = factor(Body_site, levels =  c("Nares","Toe web space","Umbilicus","Antecubital fossa",
+                                                   "Volar forearm","Alar crease","Back","Occiput")))
+
+# Perform statistical test
+stat.test <- micro_fungal_data %>%
+  wilcox_test(Score ~ Body_site, ref.group = "Toe web space", p.adjust.method = "BH", exact = TRUE) %>%
+  #adjust_pvalue(method = "BH") %>%
+  add_significance() %>%
+  add_xy_position(x = "Body_site")
+
+# Correct p.adj placement
+stat.test$xmin <- stat.test$xmax
+
+# Plot by Body site just Micrococcaceae
+p1 <- micro_fungal_data %>%
+  group_by(`Strain ID`, Body_site, Site_Type, Family, Pathogen_Type) %>%
   dplyr::summarise(Score = mean(Score, na.rm = T), .groups="drop") %>%
-  mutate(`Body site` = factor(`Body site`, levels =  c("Nares","Toe web space","Umbilicus","Antecubital fossa",
-                                                       "Volar forearm","Alar crease","Back","Occiput"))) %>%
-  ggplot(aes(x = `Body site`, y = Score, fill = `Body site`, color = `Body site`)) + 
+  ggplot(aes(x = Body_site, y = Score, fill = Body_site, color = Body_site)) + 
   geom_boxplot(outlier.shape = NA, alpha = 0.7) +
   geom_point(position = position_jitter(width = 0.2), alpha = 0.5, size = 1) +
   #facet_wrap(~ Family, nrow = 1) +
@@ -300,10 +330,12 @@ p1 <- data_merged %>%
        y = NULL, 
        title = "Micrococcaceae") +
   ylim(-0.09, 2.1) +
-  stat_compare_means(
-    method = "wilcox.test", 
-    ref.group = "Toe web space", 
-    label = "p.signif"
+  stat_pvalue_manual(
+    stat.test,
+    label = "p.adj.signif",
+    tip.length = 0,
+    bracket.size = 0, 
+    size = 6
   ) +
   scale_x_discrete(labels = labels) 
 
@@ -320,16 +352,30 @@ labels <- setNames(
   staph$`Body site`
 )
 
-# Plot by Body site just Staphylococcaceae
-p2 <- data_merged %>%
+# Filter for fungal data
+staph_fungal_data <- data_merged %>% 
   filter(Family %in% c("Staphylococcaceae")) %>% 
-  filter(Score != -1) %>%
+  filter(Score != -1) %>% 
   filter(Pathogen_Type == "Fungal") %>%
-  group_by(`Strain ID`, `Body site`, Site_Type, Family, Pathogen_Type) %>%
+  rename(Body_site = `Body site`) %>%
+  mutate(Body_site = factor(Body_site, levels =  c("Nares","Toe web space","Umbilicus","Antecubital fossa",
+                                                   "Volar forearm","Alar crease","Back","Occiput")))
+
+# Perform statistical test
+stat.test <- staph_fungal_data %>%
+  wilcox_test(Score ~ Body_site, ref.group = "Toe web space", p.adjust.method = "BH", exact = TRUE) %>%
+  #adjust_pvalue(method = "BH") %>%
+  add_significance() %>%
+  add_xy_position(x = "Body_site")
+
+# Correct p.adj placement
+stat.test$xmin <- stat.test$xmax
+
+# Plot by Body site just Staphylococcaceae
+p2 <- staph_fungal_data %>%
+  group_by(`Strain ID`, Body_site, Site_Type, Family, Pathogen_Type) %>%
   dplyr::summarise(Score = mean(Score, na.rm = T), .groups="drop") %>%
-  mutate(`Body site` = factor(`Body site`, levels =  c("Nares","Toe web space","Umbilicus","Antecubital fossa",
-                                                       "Volar forearm","Alar crease","Back","Occiput"))) %>%
-  ggplot(aes(x = `Body site`, y = Score, fill = `Body site`, color = `Body site`)) + 
+  ggplot(aes(x = Body_site, y = Score, fill = Body_site, color = Body_site)) + 
   geom_boxplot(outlier.shape = NA, alpha = 0.7) +
   geom_point(position = position_jitter(width = 0.2), alpha = 0.5, size = 1) +
   #facet_wrap(~ Family, nrow = 1) +
@@ -343,10 +389,12 @@ p2 <- data_merged %>%
        y = NULL, 
        title = "Staphylococcaceae") +
   ylim(-0.09, 2.1) +
-  stat_compare_means(
-    method = "wilcox.test", 
-    ref.group = "Toe web space", 
-    label = "p.signif"
+  stat_pvalue_manual(
+    stat.test,
+    label = "p.adj.signif",
+    tip.length = 0,
+    bracket.size = 0, 
+    size = 6
   ) +
   scale_x_discrete(labels = labels) 
 
@@ -363,16 +411,31 @@ labels <- setNames(
   coryne$`Body site`
 )
 
-# Plot by Body site just Corynebacteriaceae
-p3 <- data_merged %>%
+# Filter for fungal data
+coryne_fungal_data <- data_merged %>% 
   filter(Family %in% c("Corynebacteriaceae")) %>% 
-  filter(Score != -1) %>%
+  filter(Score != -1) %>% 
   filter(Pathogen_Type == "Fungal") %>%
-  group_by(`Strain ID`, `Body site`, Site_Type, Family, Pathogen_Type) %>%
+  rename(Body_site = `Body site`) %>%
+  mutate(Body_site = factor(Body_site, levels =  c("Nares","Toe web space","Umbilicus","Antecubital fossa",
+                                                   "Volar forearm","Alar crease","Back")))
+
+# Perform statistical test
+stat.test <- coryne_fungal_data %>%
+  wilcox_test(Score ~ Body_site, ref.group = "Toe web space", p.adjust.method = "BH", exact = TRUE) %>%
+  #adjust_pvalue(method = "BH") %>%
+  add_significance() %>%
+  add_xy_position(x = "Body_site")
+
+# Correct p.adj placement
+stat.test$xmin <- stat.test$xmax
+stat.test$y.position <- 2
+
+# Plot by Body site just Corynebacteriaceae
+p3 <- coryne_fungal_data %>%
+  group_by(`Strain ID`, Body_site, Site_Type, Family, Pathogen_Type) %>%
   dplyr::summarise(Score = mean(Score, na.rm = T), .groups="drop") %>%
-  mutate(`Body site` = factor(`Body site`, levels =  c("Nares","Toe web space","Umbilicus","Antecubital fossa",
-                                                       "Volar forearm","Alar crease","Back","Occiput"))) %>%
-  ggplot(aes(x = `Body site`, y = Score, fill = `Body site`, color = `Body site`)) + 
+  ggplot(aes(x = Body_site, y = Score, fill = Body_site, color = Body_site)) + 
   geom_boxplot(outlier.shape = NA, alpha = 0.7) +
   geom_point(position = position_jitter(width = 0.2), alpha = 0.5, size = 1) +
   #facet_wrap(~ Family, nrow = 1) +
@@ -387,10 +450,12 @@ p3 <- data_merged %>%
        y = NULL, 
        title = "Corynebacteriaceae") +
   ylim(-0.09, 2.1) +
-  stat_compare_means(
-    method = "wilcox.test", 
-    ref.group = "Toe web space", 
-    label = "p.signif"
+  stat_pvalue_manual(
+    stat.test,
+    label = "p.adj.signif",
+    tip.length = 0,
+    bracket.size = 0, 
+    size = 6
   ) +
   scale_x_discrete(labels = labels) 
 
