@@ -6,6 +6,7 @@ library(patchwork)
 library(readxl)
 library(ggpubr)
 library(here)
+library(ggtext)
 
 data = read.csv(here::here("Data", "bioassay_data_new_wide_updated.csv"))
 # row annotaions body_site
@@ -221,6 +222,18 @@ sheet_list <- list(
   "micrococcus_fungi_body" = micrococcus_fungi_body_summary
 )
 
+# Count n-value for each body site
+all <- data_merged %>% 
+  filter(Score != -1) %>% 
+  filter(Pathogen_Type == "Fungal") %>% 
+  group_by(`Body site`) %>% 
+  summarise(count = n())
+
+labels <- setNames(
+  paste0("*n*=", all$count, ""),
+  all$`Body site`
+)
+
 # Plot by Body site
 p <- data_merged %>%
   #filter(Family %in% c("Corynebacteriaceae","Micrococcaceae", "Staphylococcaceae")) %>% 
@@ -238,8 +251,7 @@ p <- data_merged %>%
   scale_fill_manual(values = Body_Site) +
   scale_color_manual(values = Body_Site) +
   theme_classic(base_size = 16) +
-  theme(axis.text.x = element_blank(),
-        #axis.text.x = element_text(angle = 45, hjust = 1), 
+  theme(axis.text.x = element_markdown(angle = 45, hjust =1, size = 18), 
         legend.position = "none") +
   labs(x = NULL,
        y = "Average Antifungal Score", 
@@ -249,7 +261,21 @@ p <- data_merged %>%
     method = "wilcox.test", 
     ref.group = "Toe web space", 
     label = "p.signif"
-  )
+  ) +
+  scale_x_discrete(labels = labels) 
+
+# Count n-value for each body site
+micro <- data_merged %>% 
+  filter(Family %in% c("Micrococcaceae")) %>% 
+  filter(Score != -1) %>% 
+  filter(Pathogen_Type == "Fungal") %>% 
+  group_by(`Body site`) %>% 
+  summarise(count = n())
+
+labels <- setNames(
+  paste0("*n*=", micro$count, ""),
+  micro$`Body site`
+)
 
 # Plot by Body site just Micrococcaceae
 p1 <- data_merged %>%
@@ -268,8 +294,7 @@ p1 <- data_merged %>%
   scale_fill_manual(values = Body_Site) +
   scale_color_manual(values = Body_Site) +
   theme_classic(base_size = 16) +
-  theme(axis.text.x = element_blank(),
-        #axis.text.x = element_text(angle = 45, hjust = 1), 
+  theme(axis.text.x = element_markdown(angle = 45, hjust =1, size = 18),
         legend.position = "none") +
   labs(x = NULL,
        y = NULL, 
@@ -279,8 +304,23 @@ p1 <- data_merged %>%
     method = "wilcox.test", 
     ref.group = "Toe web space", 
     label = "p.signif"
-  )
+  ) +
+  scale_x_discrete(labels = labels) 
 
+# Count n-value for each body site
+staph <- data_merged %>% 
+  filter(Family %in% c("Staphylococcaceae")) %>% 
+  filter(Score != -1) %>% 
+  filter(Pathogen_Type == "Fungal") %>% 
+  group_by(`Body site`) %>% 
+  summarise(count = n())
+
+labels <- setNames(
+  paste0("*n*=", staph$count, ""),
+  staph$`Body site`
+)
+
+# Plot by Body site just Staphylococcaceae
 p2 <- data_merged %>%
   filter(Family %in% c("Staphylococcaceae")) %>% 
   filter(Score != -1) %>%
@@ -297,8 +337,7 @@ p2 <- data_merged %>%
   scale_fill_manual(values = Body_Site) +
   scale_color_manual(values = Body_Site) +
   theme_classic(base_size = 16) +
-  theme(axis.text.x = element_blank(),
-        #axis.text.x = element_text(angle = 45, hjust = 1), 
+  theme(axis.text.x = element_markdown(angle = 45, hjust =1, size = 18),
         legend.position = "none") +
   labs(x = NULL,
        y = NULL, 
@@ -308,8 +347,23 @@ p2 <- data_merged %>%
     method = "wilcox.test", 
     ref.group = "Toe web space", 
     label = "p.signif"
-  )
+  ) +
+  scale_x_discrete(labels = labels) 
 
+# Count n-value for each body site
+coryne <- data_merged %>% 
+  filter(Family %in% c("Corynebacteriaceae")) %>% 
+  filter(Score != -1) %>% 
+  filter(Pathogen_Type == "Fungal") %>% 
+  group_by(`Body site`) %>% 
+  summarise(count = n())
+
+labels <- setNames(
+  paste0("*n*=", coryne$count, ""),
+  coryne$`Body site`
+)
+
+# Plot by Body site just Corynebacteriaceae
 p3 <- data_merged %>%
   filter(Family %in% c("Corynebacteriaceae")) %>% 
   filter(Score != -1) %>%
@@ -326,9 +380,8 @@ p3 <- data_merged %>%
   scale_fill_manual(values = Body_Site) +
   scale_color_manual(values = Body_Site) +
   theme_classic(base_size = 16) +
-  theme(axis.text.x = element_blank(),
-        #axis.text.x = element_text(angle = 45, hjust = 1), 
-        legend.position = "bottom"
+  theme(axis.text.x = element_markdown(angle = 45, hjust =1, size = 18),
+        legend.position = "none"
         ) +
   labs(x = NULL,
        y = NULL, 
@@ -338,7 +391,8 @@ p3 <- data_merged %>%
     method = "wilcox.test", 
     ref.group = "Toe web space", 
     label = "p.signif"
-  )
+  ) +
+  scale_x_discrete(labels = labels) 
 
 p | p1 | p2 | p3
 

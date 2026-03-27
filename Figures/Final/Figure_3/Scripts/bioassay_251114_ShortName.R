@@ -120,8 +120,12 @@ annotation_rows$Genus <- factor(annotation_rows$Genus, levels = c(
 
 
 cols = c("#808080","#e6d8df","#b48a9f","#833d60")
+
+italic_labels <- lapply(colnames(theatmap), function(x) bquote(italic(.(x))))
+italic_labels <- do.call(expression, italic_labels)
+
 #heatmap
-hm = pheatmap(theatmap, show_rownames = F,fontsize_col=14,
+hm = pheatmap(theatmap, show_rownames = F,fontsize_col=16,
               annotation_col = annotation_col,
               annotation_row = annotation_rows,
               annotation_colors = ann_colors,
@@ -133,5 +137,8 @@ hm = pheatmap(theatmap, show_rownames = F,fontsize_col=14,
               cluster_cols = FALSE,
               angle_col = 45,
               legend_breaks = c(-.66,.15,.85,1.66),
-              legend_labels=c("no data","no inhibition","zone of inhibition","full inhibition"),annotation_legend = T)
-hm
+              legend_labels=c("no data","no inhibition","zone of inhibition","full inhibition"),
+              annotation_legend = T,
+              labels_col = italic_labels, 
+              fontsize = 16)
+
