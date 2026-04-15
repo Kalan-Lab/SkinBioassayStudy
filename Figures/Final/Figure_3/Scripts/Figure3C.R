@@ -124,7 +124,7 @@ site_mapping <- c(
 )
 
 # Import updated Supp Table 2
-annotation <- read_excel(here::here("Data", "250925_SupTable2_Updated.xlsx"))
+annotation <- read_excel(here::here("Data", "251010_SupTable2_Updated.xlsx"))
 annotation <- annotation %>%
   select(`Strain ID`, `Body site`, Genus, Species)
 # Apply the mappings
