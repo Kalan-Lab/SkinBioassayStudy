@@ -1,6 +1,6 @@
-# Extended Data Figure 1 - Culture vs Metagenomic Comparison
+# Supplementary Figure 1 - Culture vs Metagenomic Comparison
 
-This folder contains scripts for generating Extended Data Figure 1, which compares culture-based isolation with metagenomic sequencing approach (Kraken).
+This folder contains scripts for generating Supplementary Figure 1, which compares culture-based isolation with metagenomic sequencing approach (Kraken).
 
 ## Files
 
@@ -17,7 +17,7 @@ This folder contains scripts for generating Extended Data Figure 1, which compar
 
 ## Usage
 
-To regenerate Extended Data Figure 1:
+To regenerate Supplementary Figure 1:
 
 1. Clone this repository
 2. Open `Extended_Data_Fig_1.Rproj`

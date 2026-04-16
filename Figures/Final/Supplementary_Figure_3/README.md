@@ -1,25 +1,25 @@
-# Extended Data Figure 3 - BGC Distance Analysis and HAD Enrichment
+# Supplementary Figure 3 - BGC Distance Analysis and HAD Enrichment
 
-This folder contains scripts for generating Extended Data Figure 3, which includes multiple panels analyzing biosynthetic gene cluster (BGC) relationships, antibiotic resistance prevalence, and HADA (Haloacid Dehalogenase) enrichment.
+This folder contains scripts for generating Supplementary Figure 3, which includes multiple panels analyzing biosynthetic gene cluster (BGC) relationships, antibiotic resistance prevalence, and HADA (Haloacid Dehalogenase) enrichment.
 
 ## Directory Structure
 
-- **`Extended_Data_Fig_3a/`**: Panel 3a - Distance analysis to closest cataloged GCFs in BiG-FAM using BiG-SLICE.
-- **`Extended_Data_Figs_3b_and_4a/`**: Panel 3b - Antibiotic resistance prevalence heatmap amongst isolates and metagenomes.
-- **`Extended_Data_Figs_3cd/`**: Panels 3c and 3d - Host-associated domain enrichment analyses.
+- **`Supplementary_Figure_3a/`**: Panel 3a - Distance analysis to closest cataloged GCFs in BiG-FAM using BiG-SLICE.
+- **`Supplementary_Figures_3b_and_4a/`**: Panel 3b - Antibiotic resistance prevalence heatmap amongst isolates and metagenomes.
+- **`Supplementary_Figures_3cd/`**: Panels 3c and 3d - Host-associated domain enrichment analyses.
 
 ## Scripts by Panel
 
-### Extended_Data_Fig_3a - Distance to Closest GCFs
+### Supplementary_Figure_3a - Distance to Closest GCFs
 - **`autoRunBiGSLICEQuery.py`**: Python script that automates BiG-SLICE queries to find closest GCFs for each BGC from EPIC isolate genomes.
 - **`extractDistancesToClosestGCFsInBiGFAM.py`**: Python script that extracts distance metrics to closest GCFs in BiG-FAM database.
 - **`getTheLowestMembershipValueAndProcessNames.py`**: Python script that processes membership values and GCF names.
 - **`plotDistanceHistogram.R`**: R script that creates histogram visualizations of distance distributions.
 
-### Extended_Data_Figs_3b_and_4a - Antibiotic Resistance Prevalence
+### Supplementary_Figures_3b_and_4a - Antibiotic Resistance Prevalence
 - **`Scripts/AntibioticResistancePrevelenceHeatmap.R`**: R script that generates heatmap showing antibiotic resistance gene prevalence across samples
 
-### Extended_Data_Figs_3cd - HADA Enrichment Analysis
+### Supplementary_Figures_3cd - HADA Enrichment Analysis
 - **`plot.R`**: R script that creates visualizations for HADA enrichment analysis
 - **`runPyhmmer.py`**: Python script that runs pyHMMER searches to identify HADA proteins
 - **`determineIDsOfBGCProteins.py`**: Python script that identifies proteins within BGCs
@@ -37,8 +37,8 @@ To regenerate each panel:
    - Generate histogram with R script.
 
 2. **Panel 3b**:
-   ```r
-   source("Extended_Data_Figs_3b_and_4a/Scripts/AntibioticResistancePrevelenceHeatmap.R")
+   ```bash 
+   Rscript Supplementary_Figures_3b_and_4a/Scripts/AntibioticResistancePrevelenceHeatmap.R
    ```
 
 3. **Panels 3c-3d**:

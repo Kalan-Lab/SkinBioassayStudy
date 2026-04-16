@@ -1,6 +1,6 @@
-# Extended Data Figure 2 - Fungal Bioassay Upset Plot
+# Supplementary Figure 2 - Fungal Bioassay Upset Plot
 
-This folder contains scripts for generating Extended Data Figure 2, which visualizes fungal bioassay results using an upset plot format.
+This folder contains scripts for generating Supplementary Figure 2, which visualizes fungal bioassay results using an upset plot format.
 
 ## Files
 

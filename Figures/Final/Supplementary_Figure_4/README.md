@@ -1,24 +1,24 @@
-# Extended Data Figure 4 - Additional Analyses
+# Supplementary Figure 4 - Additional Analyses
 
-This folder contains scripts for generating Extended Data Figure 4, which includes additional analyses complementing the main figures.
+This folder contains scripts for generating Supplementary Figure 4, which includes additional analyses complementing the main figures.
 
 ## Directory Structure
 
-- **`Extended_Data_Fig_4b/`**: Panel 4b - Histograms informing on value distributions from BiG-MAP analysis
-- **`Extended_Data_Fig_4c/`**: Panel 4c - Heatmap and bar plot analyses of GCF detection across metagenomes using BiG-MAP
-- **`Extended_Data_Fig_4d/`**: Panel 4d - Rarefaction analysis of GCF discovery based on antiSMASH calling on metagenomic assemblies followed by BiG-SCAPE clustering
+- **`Supplementary_Figure_4b/`**: Panel 4b - Histograms informing on value distributions from BiG-MAP analysis
+- **`Supplementary_Figure_4c/`**: Panel 4c - Heatmap and bar plot analyses of GCF detection across metagenomes using BiG-MAP
+- **`Supplementary_Figure_4d/`**: Panel 4d - Rarefaction analysis of GCF discovery based on antiSMASH calling on metagenomic assemblies followed by BiG-SCAPE clustering
 
 ## Scripts by Panel
 
-### Extended_Data_Fig_4b - Histograms
+### Supplementary_Figure_4b - Histograms
 - **`plotHistogramsOfData.R`**: R script that generates histogram visualizations of various data distributions
 
-### Extended_Data_Fig_4c - Heatmap and Bar Plots
+### Supplementary_Figure_4c - Heatmap and Bar Plots
 - **`heatmapAndBarTop.R`**: R script that creates combined heatmap and bar plot visualizations
 - **`generateInputForGiantHeatmap.py`**: Python script that processes data to generate input files for large-scale heatmap visualizations
 - **`recreateGenusInfoFileForPlot.py`**: Python script that recreates genus information files needed for plotting
 
-### Extended_Data_Fig_4d - Rarefaction of GCF Discovery based on Metagenomic Analysis
+### Supplementary_Figure_4d - Rarefaction of GCF Discovery based on Metagenomic Analysis
 - **`runAntiSMASH.py`**: Python script (run externally) used to annotate assembled metagenomes with antiSMASH prior to BiG-SCAPE/BiG-MAP-based rarefaction.
 - **`bigscape.cmd`**: Command used to run BiG-SCAPE on antiSMASH results for the metagenomic assemblies.
 - **`performRarefaction.py`**: Python script that performs rarefaction analysis across metagenomic assemblies, taking GCF presence/absence and sequencing depth as input.
@@ -31,8 +31,8 @@ This folder contains scripts for generating Extended Data Figure 4, which includ
 To regenerate each panel:
 
 1. **Panel 4b**:
-   ```r
-   source("Extended_Data_Fig_4b/plotHistogramsOfData.R")
+   ```bash
+   Rscript Supplementary_Figure_4b/plotHistogramsOfData.R
    ```
 
 2. **Panel 4c**:
@@ -42,7 +42,7 @@ To regenerate each panel:
      ```
    - Then generate visualizations:
      ```r
-     source("Extended_Data_Fig_4c/heatmapAndBarTop.R")
+     Rscript Supplementary_Figure_4c/heatmapAndBarTop.R
      ```
 
 3. **Panel 4d**:
@@ -52,8 +52,8 @@ To regenerate each panel:
      python performRarefaction.py
      ```
    - Plot the resulting curves:
-     ```r
-     source("Extended_Data_Fig_4d/plotRarefaction.R")
+     ```bash 
+     Rscript Supplementary_Figure_4d/plotRarefaction.R
      ```
 
 ## Dependencies
