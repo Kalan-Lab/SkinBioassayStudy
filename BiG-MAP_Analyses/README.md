@@ -4,7 +4,7 @@ This folder contains scripts, commands, and results for **BiG-MAP** analyses. Bi
 
 ## Overview
 
-BiG-MAP uses BiG-SCAPE GCF definitions and antiSMASH GenBank files to profile BGC abundance across skin metagenomes. This directory holds the run command, helper scripts for filtering and mapping GCF IDs, and downstream result tables used in the paper. Additional scripts and data for Extended Data Figure 4 can be found in `Figures/Extended_Data_Fig_4`.
+BiG-MAP uses BiG-SCAPE GCF definitions and antiSMASH GenBank files to profile BGC abundance across skin metagenomes. This directory holds the run command, helper scripts for filtering and mapping GCF IDs, and downstream result tables used in the paper. Additional scripts and data for Supplementary Figure 4 can be found in `Figures/Supplementary_Figure_4`.
 
 ## Files and Scripts
 
